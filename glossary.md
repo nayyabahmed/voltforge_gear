@@ -1,14 +1,14 @@
 ---
 title: "Glossary"
 project: "RC Buggy Engineering Handbook"
-scope: "Seeded from Chapters 01-10"
+scope: "Seeded from Chapters 01-10, growing with each new chapter (currently through Chapter 11)"
 version: "0.1"
 status: "Draft (living document)"
 ---
 
 # Glossary
 
-This glossary collects the engineering terms introduced in Chapters 01–10.
+This glossary collects the engineering terms introduced in the chapters written so far.
 
 It is a living document. New terms should be added as later chapters are written.
 
@@ -39,6 +39,14 @@ A measurement can be precise without being accurate.
 The measured size of a real part.
 
 This may differ slightly from its nominal size.
+
+---
+
+### Additive Manufacturing
+
+Making a part by adding material layer by layer instead of cutting it away.
+
+3D printing is the most common example.
 
 ---
 
@@ -145,6 +153,14 @@ A material behaviour where failure happens with little visible bending or stretc
 ### Buckling
 
 Sudden sideways bending of a long, thin part under compression.
+
+---
+
+### Build Plate
+
+The flat surface a 3D print is built on, often heated to help the first layer stick.
+
+Also called the bed.
 
 ---
 
@@ -522,7 +538,7 @@ A battery stores electrical energy.
 A repeating process of:
 
 ```text
-Think → Design → Build → Test → Learn → Improve
+Think -> Design -> Build -> Test -> Learn -> Improve
 ```
 
 ---
@@ -565,6 +581,12 @@ An assembly view showing parts separated along their assembly direction.
 
 ---
 
+### Extruder
+
+The motor mechanism in a 3D printer that grips the filament and pushes it into the hot end.
+
+---
+
 ## F
 
 ### Fatigue
@@ -575,9 +597,21 @@ A part may fail from many small load cycles even if one cycle does not break it.
 
 ---
 
+### FDM (Fused Deposition Modelling)
+
+A 3D printing method that melts plastic filament and lays it down in fused layers.
+
+---
+
 ### Feedback
 
 Information about a result that is used to decide what to do next.
+
+---
+
+### Filament
+
+The raw material for FDM printing: a long plastic strand, usually 1.75 mm thick, wound onto a spool.
 
 ---
 
@@ -647,6 +681,12 @@ A requirement describing what a design must do.
 
 ## G
 
+### G-code
+
+The list of simple move-and-extrude instructions a 3D printer follows, produced by the slicer.
+
+---
+
 ### Gear Ratio
 
 A comparison between the sizes or tooth counts of connected gears.
@@ -654,7 +694,7 @@ A comparison between the sizes or tooth counts of connected gears.
 For a simple gear pair:
 
 ```text
-Gear ratio = Driven gear teeth ÷ Driving gear teeth
+Gear ratio = Driven gear teeth / Driving gear teeth
 ```
 
 ---
@@ -679,6 +719,14 @@ Diagonal lines used in a section view to show cut material.
 
 ---
 
+### Hazard
+
+Something that could cause harm, such as a sharp blade or a hot tool.
+
+The hazard stays the same; the situation decides the risk.
+
+---
+
 ### Hidden Line
 
 A dashed drawing line showing an edge or feature hidden behind a visible surface.
@@ -693,6 +741,18 @@ Drawing text describing a hole's:
 - depth
 - quantity
 - type
+
+---
+
+### Hot End
+
+The heated part of a 3D printer that melts the filament before it leaves the nozzle.
+
+---
+
+### Hot Zone
+
+The agreed bench area where hot tools and parts are allowed to be while they cool.
 
 ---
 
@@ -719,6 +779,14 @@ The factor deliberately changed during a test.
 ### Inertia
 
 An object's resistance to a change in motion.
+
+---
+
+### Infill
+
+The internal pattern that partly fills a 3D printed part, chosen as a percentage.
+
+20-40% suits most buggy parts.
 
 ---
 
@@ -787,6 +855,14 @@ One pass through the design-build-test-improve cycle.
 ---
 
 ## L
+
+### Layer Height
+
+The thickness of each printed layer.
+
+A typical value is 0.2 mm.
+
+---
 
 ### Lead-In
 
@@ -921,6 +997,14 @@ A device that converts electrical energy into rotation.
 
 ## N
 
+### Near Miss
+
+An event that could have caused harm but did not.
+
+Near misses are free lessons and should be recorded.
+
+---
+
 ### Nominal Size
 
 The named or target size of a part.
@@ -932,6 +1016,12 @@ The actual measured size may differ.
 ### Non-Destructive Test
 
 A test that leaves the part usable.
+
+---
+
+### Nozzle
+
+The small metal tip (usually 0.4 mm) where melted plastic leaves a printer's hot end.
 
 ---
 
@@ -968,6 +1058,14 @@ Examples:
 ### Outside Diameter
 
 The diameter measured across the outside of a round part.
+
+---
+
+### Overhang
+
+A part of a 3D model that leans out with nothing below it to build on.
+
+Beyond about 45 degrees it usually needs support material.
 
 ---
 
@@ -1034,7 +1132,7 @@ Feedback that makes a change grow larger.
 Example:
 
 ```text
-Loose wheel → more wobble → even looser wheel
+Loose wheel -> more wobble -> even looser wheel
 ```
 
 ---
@@ -1042,6 +1140,14 @@ Loose wheel → more wobble → even looser wheel
 ### Power
 
 How quickly energy is transferred or work is done.
+
+---
+
+### PPE
+
+Personal protective equipment.
+
+Things worn to reduce harm, such as safety glasses and closed shoes.
 
 ---
 
@@ -1128,7 +1234,7 @@ A force acting sideways across a shaft.
 The distance from the centre of a circle to its edge.
 
 ```text
-Radius = Diameter ÷ 2
+Radius = Diameter / 2
 ```
 
 ---
@@ -1202,6 +1308,8 @@ A thin supporting wall added to increase stiffness.
 ### Risk
 
 Something uncertain that could cause trouble.
+
+In safety, risk means how likely harm is and how serious it would be. The same hazard can be low risk or high risk depending on the situation.
 
 ---
 
@@ -1313,6 +1421,12 @@ Digits that meaningfully describe a measurement.
 
 ---
 
+### Slicer
+
+Software that cuts a 3D model into layers and plans the printer's path and settings.
+
+---
+
 ### Sliding Fit
 
 A fit designed for controlled sliding with limited wobble.
@@ -1355,6 +1469,14 @@ Resistance to bending, stretching, or twisting.
 
 ---
 
+### STL
+
+A file format describing a part's outer surface as many small triangles.
+
+It is the usual handover from CAD to slicer.
+
+---
+
 ### Strain
 
 The amount a material changes shape compared with its original shape.
@@ -1376,7 +1498,7 @@ How concentrated a load is inside a material.
 A simple idea is:
 
 ```text
-Stress = Force ÷ Area
+Stress = Force / Area
 ```
 
 ---
@@ -1398,6 +1520,12 @@ Common causes include:
 ### Subsystem
 
 A smaller system inside a larger system.
+
+---
+
+### Support Material
+
+Sacrificial scaffolding printed under overhangs and removed after printing.
 
 ---
 
@@ -1507,6 +1635,14 @@ Accumulation of dimensional variation across several parts.
 
 ---
 
+### Tool Path
+
+The space a tool or moving part travels through.
+
+Keep hands and body parts out of it.
+
+---
+
 ### Top View
 
 An orthographic view looking down on an object.
@@ -1591,6 +1727,12 @@ Checking that a design works for its real purpose.
 
 ---
 
+### Ventilation
+
+Replacing stale or contaminated air with cleaner air.
+
+---
+
 ### Verification
 
 Checking that a design meets a stated requirement.
@@ -1618,6 +1760,14 @@ A solid drawing line showing an edge that can be seen.
 ---
 
 ## W
+
+### Warping
+
+Corners of a print curling upward as the plastic cools and shrinks unevenly.
+
+It is worst on large flat parts.
+
+---
 
 ### Weight
 
