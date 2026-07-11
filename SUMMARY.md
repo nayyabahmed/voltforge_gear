@@ -2,7 +2,7 @@
 
 The full chapter plan for the VoltForge Gear RC Buggy Engineering Handbook, with writing progress.
 
-**Legend:** ✅ written · ✍️ next up · 📋 planned
+**Legend:** 📋 planned · ✍️ in progress · 🟡 v0.1 Draft · 🔵 v0.2 Reviewed · 🟠 v0.3 Prototype-tested · 🟢 v1.0 Released — see [VERSIONING.md](VERSIONING.md)
 
 ---
 
@@ -12,17 +12,17 @@ The full chapter plan for the VoltForge Gear RC Buggy Engineering Handbook, with
 
 | # | Chapter | Status |
 | --- | --- | --- |
-| 00 | [How to Use This Handbook](Part-1-Engineering-Mindset/00-How-to-Use-This-Handbook.md) | ✅ |
-| 01 | [What Are We Building?](Part-1-Engineering-Mindset/01-What-Are-We-Building.md) | ✅ |
-| 02 | [Systems Thinking](Part-1-Engineering-Mindset/02-Systems-Thinking.md) | ✅ |
-| 03 | [How Machines Move](Part-1-Engineering-Mindset/03-How-Machines-Move.md) | ✅ |
-| 04 | [Forces and Why Parts Break](Part-1-Engineering-Mindset/04-Forces-and-Why-Parts-Break.md) | ✅ |
-| 05 | [Measurement](Part-1-Engineering-Mindset/05-Measurement.md) | ✅ |
-| 06 | [Accuracy, Precision and Error](Part-1-Engineering-Mindset/06-Accuracy-Precision-and-Error.md) | ✅ |
-| 07 | [Tolerances and Fits](Part-1-Engineering-Mindset/07-Tolerances-and-Fits.md) | ✅ |
-| 08 | [Engineering Drawings](Part-1-Engineering-Mindset/08-Engineering-Drawings.md) | ✅ |
-| 09 | [The Engineering Design Process](Part-1-Engineering-Mindset/09-The-Engineering-Design-Process.md) | ✅ |
-| 10 | [First Engineering Challenge](Part-1-Engineering-Mindset/10-First-Engineering-Challenge.md) | ✅ |
+| 00 | [How to Use This Handbook](Part-1-Engineering-Mindset/00-How-to-Use-This-Handbook.md) | 🟡 v0.1 |
+| 01 | [What Are We Building?](Part-1-Engineering-Mindset/01-What-Are-We-Building.md) | 🟡 v0.1 |
+| 02 | [Systems Thinking](Part-1-Engineering-Mindset/02-Systems-Thinking.md) | 🟡 v0.1 |
+| 03 | [How Machines Move](Part-1-Engineering-Mindset/03-How-Machines-Move.md) | 🟡 v0.1 |
+| 04 | [Forces and Why Parts Break](Part-1-Engineering-Mindset/04-Forces-and-Why-Parts-Break.md) | 🟡 v0.1 |
+| 05 | [Measurement](Part-1-Engineering-Mindset/05-Measurement.md) | 🟡 v0.1 |
+| 06 | [Accuracy, Precision and Error](Part-1-Engineering-Mindset/06-Accuracy-Precision-and-Error.md) | 🟡 v0.1 |
+| 07 | [Tolerances and Fits](Part-1-Engineering-Mindset/07-Tolerances-and-Fits.md) | 🟡 v0.1 |
+| 08 | [Engineering Drawings](Part-1-Engineering-Mindset/08-Engineering-Drawings.md) | 🟡 v0.1 |
+| 09 | [The Engineering Design Process](Part-1-Engineering-Mindset/09-The-Engineering-Design-Process.md) | 🟡 v0.1 |
+| 10 | [First Engineering Challenge](Part-1-Engineering-Mindset/10-First-Engineering-Challenge.md) | 🟡 v0.1 |
 | — | Part 1 Review Quiz | 📋 |
 
 ## Part 2 — Workshop Skills
@@ -90,7 +90,7 @@ The full chapter plan for the VoltForge Gear RC Buggy Engineering Handbook, with
 
 | Document | Status |
 | --- | --- |
-| [Glossary](glossary.md) | ✅ seeded from Chapters 01–10, grows with each chapter |
+| [Glossary](glossary.md) | 🟡 v0.1 — seeded from Chapters 01–10, grows with each chapter |
 | Bill of Materials (BOM) | 📋 |
 | Troubleshooting Guide | 📋 |
 | Maintenance Guide | 📋 |

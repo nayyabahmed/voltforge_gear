@@ -2,6 +2,8 @@
 title: "Chapter 02 - Systems Thinking"
 part: "Part 1 - Engineering Mindset"
 chapter: 2
+version: "0.1"
+status: "Draft"
 difficulty: Beginner
 estimated_time: "60-90 minutes"
 prerequisites:

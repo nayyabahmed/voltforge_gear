@@ -2,6 +2,8 @@
 title: "Chapter 03 - How Machines Move"
 part: "Part 1 - Engineering Mindset"
 chapter: 3
+version: "0.1"
+status: "Draft"
 difficulty: Beginner
 estimated_time: "75-100 minutes"
 prerequisites:

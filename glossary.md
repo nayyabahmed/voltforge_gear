@@ -2,7 +2,8 @@
 title: "Glossary"
 project: "RC Buggy Engineering Handbook"
 scope: "Seeded from Chapters 01-10"
-status: "Living document"
+version: "0.1"
+status: "Draft (living document)"
 ---
 
 # Glossary

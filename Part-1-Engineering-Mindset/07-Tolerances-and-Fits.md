@@ -2,6 +2,8 @@
 title: "Chapter 07 - Tolerances and Fits"
 part: "Part 1 - Engineering Mindset"
 chapter: 7
+version: "0.1"
+status: "Draft"
 difficulty: Beginner
 estimated_time: "100-130 minutes"
 prerequisites:

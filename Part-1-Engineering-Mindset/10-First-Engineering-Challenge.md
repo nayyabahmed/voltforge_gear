@@ -2,6 +2,8 @@
 title: "Chapter 10 - First Engineering Challenge"
 part: "Part 1 - Engineering Mindset"
 chapter: 10
+version: "0.1"
+status: "Draft"
 difficulty: Beginner
 estimated_time: "2-4 hours"
 prerequisites:

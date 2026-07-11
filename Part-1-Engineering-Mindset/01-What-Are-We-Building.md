@@ -2,6 +2,8 @@
 title: "Chapter 01 - What Are We Building?"
 part: "Part 1 - Engineering Mindset"
 chapter: 1
+version: "0.1"
+status: "Draft"
 difficulty: Beginner
 estimated_time: "45-60 minutes"
 prerequisites:

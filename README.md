@@ -64,6 +64,7 @@ rc-buggy-handbook/
 │
 ├── README.md              ← you are here
 ├── SUMMARY.md             ← full table of contents & progress tracker
+├── VERSIONING.md          ← the document lifecycle: Draft → Reviewed → Prototype-Tested → Released
 ├── glossary.md            ← every term, defined once, in one place
 │
 ├── Part-1-Engineering-Mindset/    chapters 00–10
@@ -100,6 +101,7 @@ The handbook is written in **sprints**, one part at a time, so each part is cohe
 Working conventions:
 
 - **One file = one complete chapter**, self-contained and ready to commit.
+- **Every document has a version and status** in its front matter and matures through a fixed lifecycle — v0.1 Draft → v0.2 Reviewed → v0.3 Prototype-Tested → v1.0 Released. See [VERSIONING.md](VERSIONING.md).
 - Plain GitHub-flavoured Markdown throughout; all diagrams are Mermaid so they render directly on GitHub with no build step.
 - Chapters are reviewed, versioned and improved over time — the handbook is maintained like a software project, not published once.
 

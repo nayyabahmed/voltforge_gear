@@ -2,6 +2,8 @@
 title: "Chapter 00 - How to Use This Handbook"
 part: "Part 1 - Engineering Mindset"
 chapter: 0
+version: "0.1"
+status: "Draft"
 difficulty: Beginner
 estimated_time: "20-30 minutes"
 prerequisites: []

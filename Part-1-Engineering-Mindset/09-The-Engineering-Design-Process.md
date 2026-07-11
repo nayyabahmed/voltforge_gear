@@ -2,6 +2,8 @@
 title: "Chapter 09 - The Engineering Design Process"
 part: "Part 1 - Engineering Mindset"
 chapter: 9
+version: "0.1"
+status: "Draft"
 difficulty: Beginner
 estimated_time: "100-140 minutes"
 prerequisites:

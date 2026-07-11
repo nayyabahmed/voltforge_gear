@@ -2,6 +2,8 @@
 title: "Chapter 06 - Accuracy, Precision and Error"
 part: "Part 1 - Engineering Mindset"
 chapter: 6
+version: "0.1"
+status: "Draft"
 difficulty: Beginner
 estimated_time: "90-120 minutes"
 prerequisites:

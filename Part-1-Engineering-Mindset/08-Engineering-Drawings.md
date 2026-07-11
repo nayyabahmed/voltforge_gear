@@ -2,6 +2,8 @@
 title: "Chapter 08 - Engineering Drawings"
 part: "Part 1 - Engineering Mindset"
 chapter: 8
+version: "0.1"
+status: "Draft"
 difficulty: Beginner
 estimated_time: "100-130 minutes"
 prerequisites:
