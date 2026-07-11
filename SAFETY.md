@@ -1,0 +1,78 @@
+---
+title: "Safety Reference"
+project: "RC Buggy Engineering Handbook"
+version: "0.1"
+status: "Draft (general rules from Chapter 10; grows with each hazard's chapter)"
+---
+
+# Safety Reference
+
+The quick-reference card for the whole project. Chapter 10 (Workshop Safety
+and Setup) *teaches* safe working; this page *summarises* the rules so any
+chapter can link to them. If a chapter's safety box and this page ever
+disagree, tell an adult and trust the stricter rule.
+
+> **The one rule above all others**
+>
+> If you are not sure whether something is safe: stop, and ask an adult.
+> Every activity in this handbook assumes adult supervision is available.
+
+---
+
+## General Workshop (taught in Chapter 10)
+
+- **Pause, Plan, Protect** before every task: spot the hazards, choose the
+  safe method, prepare the space.
+- Clear space, good light, stable table, no food or drinks near the work.
+- Tie back long hair; no dangling cords, jewellery or loose gloves near
+  anything that spins.
+- Safety glasses for drilling, cutting rigid material and clipping wire.
+  PPE is the last line of defence, not a substitute for a safe method.
+- Clamp the work before drilling - never hold a small part in your fingers.
+- Power off is the default: disconnect the battery before touching gears,
+  wheels or wiring. Do not trust the transmitter switch alone.
+- Stop work if a tool sounds wrong, anything smokes, a blade slips twice,
+  or you feel tired, frustrated or unsure. Stopping is a skilled decision.
+- End every session with the tidy routine: power off, hot tools cooling,
+  blades covered, batteries stored, next step written down.
+
+## Hot Tools - 3D Printer and Soldering Iron
+
+- A printer nozzle runs at 200-250 °C and stays hot after it stops.
+- The printer bed can reach 60-85 °C.
+- Keep hands out of a moving printer. Print in a ventilated room.
+- Soldering rules arrive with Chapter 18.
+
+*(expanded with Chapters 11 and 18)*
+
+## Cutting and Drilling
+
+*(completed with Chapter 17)*
+
+## Electricity
+
+- Our project voltages are low, but shorts can make heat, sparks and fire.
+- Battery rules are strict enough to get their own section below.
+
+*(expanded with Chapters 20-21)*
+
+## LiPo Batteries
+
+LiPo batteries store a lot of energy and are the most serious hazard in this
+hobby. The full rules arrive with Chapter 22 (Batteries and Battery Safety).
+The non-negotiables:
+
+- Charge only with the correct charger and settings, only supervised, and
+  only in a LiPo-safe bag or container.
+- Never charge, use or keep a damaged, swollen ("puffed") or crashed pack -
+  ask an adult to dispose of it properly.
+- Never leave a charging battery unattended.
+
+---
+
+## Maintenance Rules
+
+1. Every chapter safety box should link here; this page links back to the
+   chapter that teaches the full detail.
+2. New hazard category = new section here, added with its chapter.
+3. Review this page whenever a chapter reaches v0.3 Prototype-tested.
