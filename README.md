@@ -45,7 +45,7 @@ A growing [`glossary.md`](glossary.md) collects every term the moment it is form
 
 | Part | Theme | Status |
 | --- | --- | --- |
-| **Part 1 — Engineering Mindset** | Systems thinking, motion, forces, measurement, tolerances, drawings, the design process | 🚧 In progress (chapters 00–09 written) |
+| **Part 1 — Engineering Mindset** | Systems thinking, motion, forces, measurement, tolerances, drawings, the design process | ✅ Chapters 00–10 written (review quiz pending) |
 | **Part 2 — Workshop Skills** | 3D printing, CAD, fasteners, bearings, materials, tools and safety | 📋 Planned |
 | **Part 3 — RC Car Systems** | Electronics, brushless motors, ESCs, batteries, gearing, suspension, steering | 📋 Planned |
 | **Part 4 — Design & Build** | Planning, chassis design, printing, assembly, testing, tuning, iteration | 📋 Planned |
@@ -103,7 +103,7 @@ The finished handbook is expected to reach roughly **300–500 pages** across **
 
 ## How to Read It
 
-Start at [Chapter 00 — How to Use This Handbook](00-How-to-Use-This-Handbook.md) and read in order. The chapters deliberately build on each other: each one assumes the experiments, vocabulary and checklists of the ones before it. Keep an **engineering notebook** from day one — the chapters will tell you what to put in it.
+Start at [Chapter 00 — How to Use This Handbook](Part-1-Engineering-Mindset/00-How-to-Use-This-Handbook.md) and read in order. The chapters deliberately build on each other: each one assumes the experiments, vocabulary and checklists of the ones before it. Keep an **engineering notebook** from day one — the chapters will tell you what to put in it.
 
 ## Contributing & Feedback
 
