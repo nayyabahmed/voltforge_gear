@@ -49,11 +49,11 @@ A growing [`glossary.md`](glossary.md) collects every term the moment it is form
 
 | Part | Theme | Status |
 | --- | --- | --- |
-| **Part 1 — Engineering Mindset** | Systems thinking, motion, forces, measurement, tolerances, drawings, the design process | ✅ Chapters 00–10 written (review quiz pending) |
-| **Part 2 — Workshop Skills** | 3D printing, CAD, fasteners, bearings, materials, tools and safety | 📋 Planned |
-| **Part 3 — RC Car Systems** | Electronics, brushless motors, ESCs, batteries, gearing, suspension, steering | 📋 Planned |
-| **Part 4 — Design & Build** | Planning, chassis design, printing, assembly, testing, tuning, iteration | 📋 Planned |
-| **Part 5 — Advanced Topics** | Engineering materials (nylon, CF), aerodynamics & CFD, telemetry, autonomy | 📋 Planned |
+| **Part 1 — Engineering Mindset** | Systems thinking, motion, forces, measurement, tolerances, drawings, the design process | ✅ Chapters 00–09 + capstone written (review quiz pending) |
+| **Part 2 — Workshop Skills** | Workshop safety, 3D printing, slicers, CAD, materials, hand tools, soldering | ✍️ In progress (Chapter 11 drafted) |
+| **Part 3 — RC Systems** | Electricity basics, batteries, radio, servos, ESCs, motors, drivetrain, steering, suspension | 📋 Planned |
+| **Part 4 — Design and Build** | From cardboard mock-up to driving buggy, one working stage at a time | 📋 Planned |
+| **Part 5 — Advanced Topics** | Maintenance, sensors & telemetry, advanced materials, design your own variant | 📋 Planned |
 
 See [`SUMMARY.md`](SUMMARY.md) for the full chapter-by-chapter table of contents and progress.
 
@@ -65,23 +65,28 @@ rc-buggy-handbook/
 ├── README.md              ← you are here
 ├── SUMMARY.md             ← full table of contents & progress tracker
 ├── VERSIONING.md          ← the document lifecycle: Draft → Reviewed → Prototype-Tested → Released
+├── CONTRIBUTING.md        ← how to help
+├── style-guides-principles/
+│   ├── STYLE-GUIDE.md         how chapters are written (voice, template, conventions)
+│   ├── GUIDING-PRINCIPLES.md  the project's engineering philosophy
+│   └── improvement-suggestions.md  the readability review backlog
 ├── glossary.md            ← every term, defined once, in one place
+├── BOM.md                 ← bill of materials, grown stage by stage
+├── COST-LEDGER.md         ← what was actually spent, purchase by purchase
+├── TOOLS.md               ← every tool, when it's first needed, and fallbacks
+├── SAFETY.md              ← the quick-reference safety card for the whole project
+├── TROUBLESHOOTING.md     ← symptoms → causes → fixes, grown during the build
 │
-├── Part-1-Engineering-Mindset/    chapters 00–10
-├── Part-2-Workshop-Skills/        chapters 11–19
-├── Part-3-RC-Car-Systems/         chapters 20–29
+├── Part-1-Engineering-Mindset/    chapters 00–09 + capstone
+├── Part-2-Workshop-Skills/        chapters 10–19
+├── Part-3-RC-Systems/             chapters 20–29
 ├── Part-4-Design-and-Build/       chapters 30–39
-├── Part-5-Advanced-Topics/        chapters 40–49
+├── Part-5-Advanced-Topics/        chapters 40–43
 │
 ├── assets/                diagrams, photos and images used by chapters
 ├── activities/            printable worksheets and checklists
-├── experiments/           stand-alone hands-on exercise sheets
-├── design-notes/          the evolving design story of the buggy itself
-├── CAD/                   CAD sources, links and screenshots
-├── STL/                   printable part files
-├── BOM/                   bill of materials, suppliers and costs
-├── teacher-notes/         optional extensions and challenges for older readers
-└── troubleshooting.md     symptoms → causes → fixes, grown during the build
+├── posters/               printable posters
+└── teacher-notes/         optional extensions and challenges for older readers
 ```
 
 > Directories are created as their first content lands — the layout above is the target shape of the finished handbook.
@@ -113,7 +118,7 @@ Start at [Chapter 00 — How to Use This Handbook](Part-1-Engineering-Mindset/00
 
 ## Contributing & Feedback
 
-Spotted an error, an unclear explanation, or an experiment that didn't work? Open an issue or a pull request. Clarity fixes and better analogies are just as valuable as technical corrections — the target reader is 11 years old.
+Spotted an error, an unclear explanation, or an experiment that didn't work? Open an issue or a pull request — see [CONTRIBUTING.md](CONTRIBUTING.md) for the conventions. Clarity fixes and better analogies are just as valuable as technical corrections — the target reader is 11 years old.
 
 ## License
 

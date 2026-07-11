@@ -1,7 +1,7 @@
 ---
-title: "Chapter 10 - First Engineering Challenge"
+title: "Part 1 Capstone - First Engineering Challenge"
 part: "Part 1 - Engineering Mindset"
-chapter: 10
+chapter: capstone
 version: "0.1"
 status: "Draft"
 difficulty: Beginner
@@ -27,7 +27,7 @@ learning_objectives:
   - Review the result and prepare for Part 2.
 ---
 
-# Chapter 10 — First Engineering Challenge
+# Part 1 Capstone - First Engineering Challenge
 
 > **"The best way to learn engineering is to use it."**
 
@@ -191,7 +191,7 @@ For the easiest first project, choose a receiver or small rectangular object.
 
 ---
 
-# Step 1 — Define the User
+# Step 1 - Define the User
 
 Write down who will use the holder.
 
@@ -214,7 +214,7 @@ Now answer:
 
 ---
 
-# Step 2 — Write the Problem Statement
+# Step 2 - Write the Problem Statement
 
 Use this pattern:
 
@@ -242,7 +242,7 @@ This assumes the answer before ideas are explored.
 
 ---
 
-# Step 3 — Define the System Boundary
+# Step 3 - Define the System Boundary
 
 Decide what belongs inside this design problem.
 
@@ -275,7 +275,7 @@ A clear boundary prevents the project from becoming too large.
 
 ---
 
-# Step 4 — Identify Inputs and Outputs
+# Step 4 - Identify Inputs and Outputs
 
 Even a simple holder is a system.
 
@@ -313,7 +313,7 @@ flowchart LR
 
 ---
 
-# Step 5 — Inspect Before Measuring
+# Step 5 - Inspect Before Measuring
 
 Look carefully at the component.
 
@@ -334,7 +334,7 @@ Make a rough sketch before taking measurements.
 
 ---
 
-# Step 6 — Create a Measurement Plan
+# Step 6 - Create a Measurement Plan
 
 List the measurements needed.
 
@@ -369,7 +369,7 @@ Spend the most care on critical dimensions.
 
 ---
 
-# Step 7 — Measure the Component
+# Step 7 - Measure the Component
 
 Use the techniques from Chapters 05 and 06.
 
@@ -394,7 +394,7 @@ Example table:
 
 ---
 
-# Step 8 — Draw the Packaging Envelope
+# Step 8 - Draw the Packaging Envelope
 
 The packaging envelope is larger than the solid component.
 
@@ -431,7 +431,7 @@ Label:
 
 ---
 
-# Step 9 — Identify Interfaces
+# Step 9 - Identify Interfaces
 
 List everything the holder must connect to.
 
@@ -464,7 +464,7 @@ Example:
 
 ---
 
-# Step 10 — Write Requirements
+# Step 10 - Write Requirements
 
 Create at least six requirements.
 
@@ -485,7 +485,7 @@ Requirements should be testable.
 
 ---
 
-# Step 11 — Write Constraints
+# Step 11 - Write Constraints
 
 Create at least six constraints.
 
@@ -507,7 +507,7 @@ Example:
 
 | Constraint | Type |
 |---|---|
-| Must fit on 220 × 220 mm printer bed | Hard |
+| Must fit on 220 x 220 mm printer bed | Hard |
 | Use M3 hardware already available | Hard |
 | Print in under 2 hours | Soft |
 | Avoid support material | Soft |
@@ -515,7 +515,7 @@ Example:
 
 ---
 
-# Step 12 — Define Success Before Designing
+# Step 12 - Define Success Before Designing
 
 Write a definition of done.
 
@@ -536,7 +536,7 @@ This prevents endless redesign.
 
 ---
 
-# Step 13 — Generate at Least Three Concepts
+# Step 13 - Generate at Least Three Concepts
 
 Do not begin CAD after the first idea.
 
@@ -544,31 +544,31 @@ Create at least three different concepts.
 
 Possible holder concepts:
 
-## Concept A — Open Tray With Strap
+## Concept A - Open Tray With Strap
 
 - simple base
 - side walls
 - hook-and-loop strap
 
-## Concept B — Clip-In Cage
+## Concept B - Clip-In Cage
 
 - flexible side clips
 - open top
 - quick removal
 
-## Concept C — Two-Piece Box
+## Concept C - Two-Piece Box
 
 - lower tray
 - removable lid
 - screw or snap retention
 
-## Concept D — Foam-Pad Platform
+## Concept D - Foam-Pad Platform
 
 - flat base
 - foam tape
 - cable guide
 
-## Concept E — Sliding Cassette
+## Concept E - Sliding Cassette
 
 - component sits in removable carrier
 - carrier slides into base
@@ -577,7 +577,7 @@ Sketch each concept.
 
 ---
 
-# Step 14 — Create Concept Cards
+# Step 14 - Create Concept Cards
 
 For each concept, record:
 
@@ -614,7 +614,7 @@ Where should the wire opening go?
 
 ---
 
-# Step 15 — Compare Concepts
+# Step 15 - Compare Concepts
 
 Choose criteria connected to the requirements.
 
@@ -647,7 +647,7 @@ Do not hide uncertainty.
 
 ---
 
-# Step 16 — Identify Risks and Assumptions
+# Step 16 - Identify Risks and Assumptions
 
 Create a risk table.
 
@@ -662,7 +662,7 @@ This turns surprises into planned questions.
 
 ---
 
-# Step 17 — Build a Low-Cost Prototype
+# Step 17 - Build a Low-Cost Prototype
 
 Use cardboard or another easy material first.
 
@@ -705,13 +705,13 @@ A prototype is useful when its limitations are understood.
 
 ---
 
-# Step 18 — Test the Prototype
+# Step 18 - Test the Prototype
 
 Create a written test plan.
 
 Example:
 
-## Test 1 — Installation
+## Test 1 - Installation
 
 Purpose:
 
@@ -731,7 +731,7 @@ Pass condition:
 - no wire pinching
 - no excessive force
 
-## Test 2 — Removal
+## Test 2 - Removal
 
 Pass condition:
 
@@ -739,7 +739,7 @@ Pass condition:
 - no tools beyond those allowed
 - no damage
 
-## Test 3 — Gentle Shake
+## Test 3 - Gentle Shake
 
 Pass condition:
 
@@ -747,7 +747,7 @@ Pass condition:
 - movement below chosen limit
 - no connector impact
 
-## Test 4 — Access
+## Test 4 - Access
 
 Pass condition:
 
@@ -755,7 +755,7 @@ Pass condition:
 
 ---
 
-# Step 19 — Record Results
+# Step 19 - Record Results
 
 Use a table.
 
@@ -776,7 +776,7 @@ Record:
 
 ---
 
-# Step 20 — Identify the Root Problem
+# Step 20 - Identify the Root Problem
 
 Suppose the shake test fails.
 
@@ -800,7 +800,7 @@ Do not simply make every wall thicker.
 
 ---
 
-# Step 21 — Make One Main Revision
+# Step 21 - Make One Main Revision
 
 Choose the smallest useful change.
 
@@ -818,7 +818,7 @@ Because the next test can show whether the strap solved the problem.
 
 ---
 
-# Step 22 — Retest
+# Step 22 - Retest
 
 Repeat the same test conditions.
 
@@ -833,7 +833,7 @@ Now you have evidence.
 
 ---
 
-# Step 23 — Create an Engineering Drawing
+# Step 23 - Create an Engineering Drawing
 
 Create a drawing of the improved concept.
 
@@ -868,14 +868,14 @@ Scale: NTS
 
 ---
 
-# Step 24 — Add a Bill of Materials
+# Step 24 - Add a Bill of Materials
 
 Example:
 
 | Item | Part | Quantity | Notes |
 |---|---|---:|---|
 | 1 | Receiver holder | 1 | Prototype |
-| 2 | M3 × 12 screw | 2 | Planned final assembly |
+| 2 | M3 x 12 screw | 2 | Planned final assembly |
 | 3 | M3 washer | 2 | Planned |
 | 4 | M3 locknut | 2 | Planned |
 | 5 | Soft foam pad | 1 | Optional |
@@ -883,7 +883,7 @@ Example:
 
 ---
 
-# Step 25 — Write Revision Notes
+# Step 25 - Write Revision Notes
 
 Example:
 
@@ -901,7 +901,7 @@ Revision notes should tell the design story.
 
 ---
 
-# Step 26 — Conduct a Design Review
+# Step 26 - Conduct a Design Review
 
 Ask these questions.
 
@@ -944,7 +944,7 @@ Ask these questions.
 
 ---
 
-# Step 27 — Decide What Comes Next
+# Step 27 - Decide What Comes Next
 
 Possible next decisions:
 
@@ -1016,16 +1016,16 @@ Store the challenge files like this:
 
 ```text
 activities/
-└── first-engineering-challenge/
-    ├── README.md
-    ├── requirements.md
-    ├── measurements.md
-    ├── concepts.md
-    ├── test-plan.md
-    ├── test-results.md
-    ├── design-review.md
-    ├── drawings/
-    └── images/
++-- first-engineering-challenge/
+    +-- README.md
+    +-- requirements.md
+    +-- measurements.md
+    +-- concepts.md
+    +-- test-plan.md
+    +-- test-results.md
+    +-- design-review.md
+    +-- drawings/
+    +-- images/
 ```
 
 This prepares you for working like a real project team.
@@ -1070,7 +1070,7 @@ A beautiful prototype that teaches nothing is decoration.
 
 # Common Beginner Mistakes
 
-## Mistake 1 — Choosing a Project That Is Too Large
+## Mistake 1 - Choosing a Project That Is Too Large
 
 Do not design the entire chassis for this challenge.
 
@@ -1078,61 +1078,61 @@ Choose one small holder.
 
 ---
 
-## Mistake 2 — Skipping the Problem Statement
+## Mistake 2 - Skipping the Problem Statement
 
 A solution without a clear need is difficult to judge.
 
 ---
 
-## Mistake 3 — Measuring Only the Component Body
+## Mistake 3 - Measuring Only the Component Body
 
 Include wires, connectors, access and removal.
 
 ---
 
-## Mistake 4 — Starting With One Final Idea
+## Mistake 4 - Starting With One Final Idea
 
 Generate at least three concepts.
 
 ---
 
-## Mistake 5 — Building Before Defining Success
+## Mistake 5 - Building Before Defining Success
 
 Write requirements and pass criteria first.
 
 ---
 
-## Mistake 6 — Making the Prototype Too Detailed
+## Mistake 6 - Making the Prototype Too Detailed
 
 Build the simplest version that answers the question.
 
 ---
 
-## Mistake 7 — Testing Without Recording
+## Mistake 7 - Testing Without Recording
 
 A forgotten result cannot guide the next revision.
 
 ---
 
-## Mistake 8 — Changing Everything After a Failure
+## Mistake 8 - Changing Everything After a Failure
 
 Change one main variable where possible.
 
 ---
 
-## Mistake 9 — Treating Cardboard Strength as Final Strength
+## Mistake 9 - Treating Cardboard Strength as Final Strength
 
 Cardboard tests shape and access, not final material performance.
 
 ---
 
-## Mistake 10 — Calling It Finished Without Documentation
+## Mistake 10 - Calling It Finished Without Documentation
 
 The report, drawing and revision notes are part of the engineering work.
 
 ---
 
-# Optional Extension 1 — Create a CAD Block Model
+# Optional Extension 1 - Create a CAD Block Model
 
 If you already know basic CAD:
 
@@ -1147,7 +1147,7 @@ This is a packaging model, not a final production design.
 
 ---
 
-# Optional Extension 2 — Print a Fit Coupon
+# Optional Extension 2 - Print a Fit Coupon
 
 Before printing the full holder, test:
 
@@ -1163,7 +1163,7 @@ Record the best result in your fit library.
 
 ---
 
-# Optional Extension 3 — Compare Two Materials
+# Optional Extension 3 - Compare Two Materials
 
 Build the same simple prototype in:
 
@@ -1183,7 +1183,7 @@ Do not compare final strength unless the tests are fair and safe.
 
 ---
 
-# Optional Extension 4 — Peer Review
+# Optional Extension 4 - Peer Review
 
 Give your drawing and instructions to another person.
 

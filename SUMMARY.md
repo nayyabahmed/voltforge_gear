@@ -22,58 +22,59 @@ The full chapter plan for the VoltForge Gear RC Buggy Engineering Handbook, with
 | 07 | [Tolerances and Fits](Part-1-Engineering-Mindset/07-Tolerances-and-Fits.md) | 🟡 v0.1 |
 | 08 | [Engineering Drawings](Part-1-Engineering-Mindset/08-Engineering-Drawings.md) | 🟡 v0.1 |
 | 09 | [The Engineering Design Process](Part-1-Engineering-Mindset/09-The-Engineering-Design-Process.md) | 🟡 v0.1 |
-| 10 | [First Engineering Challenge](Part-1-Engineering-Mindset/10-First-Engineering-Challenge.md) | 🟡 v0.1 |
+| — | [Part 1 Capstone: First Engineering Challenge](Part-1-Engineering-Mindset/Part-1-Capstone-First-Engineering-Challenge.md) | 🟡 v0.1 |
 | — | Part 1 Review Quiz | 📋 |
 
 ## Part 2 — Workshop Skills
 
-*The tools and techniques used to turn designs into physical parts.*
+*The tools and techniques used to turn designs into physical parts. Safety first, then printing, CAD, tools and soldering.*
 
 | # | Chapter | Status |
 | --- | --- | --- |
-| 11 | 3D Printing Fundamentals | 📋 |
-| 12 | Introduction to CAD | 📋 |
-| 13 | Fasteners and Threaded Connections | 📋 |
-| 14 | Bearings and Rotating Parts | 📋 |
-| 15 | Materials and Their Properties | 📋 |
-| 16 | Workshop Tools and Safety | 📋 |
-| 17 | Designing Parts for 3D Printing | 📋 |
-| 18 | Test Prints and Fit Checks | 📋 |
-| 19 | Workshop Challenge | 📋 |
+| 10 | [Workshop Safety and Setup](Part-2-Workshop-Skills/10-Workshop-Safety-and-Setup.md) | 🟡 v0.1 |
+| 11 | [3D Printing Fundamentals](Part-2-Workshop-Skills/11-3D-Printing-Fundamentals.md) | 🟡 v0.1 |
+| 12 | Slicer Software and First Prints | 📋 |
+| 13 | CAD Fundamentals | 📋 |
+| 14 | Designing Simple Parts | 📋 |
+| 15 | 3D Printing Materials | 📋 |
+| 16 | Hand Tools and Fasteners | 📋 |
+| 17 | Cutting, Drilling and Finishing | 📋 |
+| 18 | Soldering and Wire Connections | 📋 |
+| 19 | Workshop Skills Challenge | 📋 |
 
-## Part 3 — RC Car Systems
+## Part 3 — RC Systems
 
 *Every subsystem of the buggy, one at a time: what it does, how it works, how to choose one.*
 
 | # | Chapter | Status |
 | --- | --- | --- |
-| 20 | RC Electronics Overview | 📋 |
-| 21 | Brushless Motors | 📋 |
-| 22 | Electronic Speed Controllers | 📋 |
-| 23 | Batteries and Power | 📋 |
-| 24 | Radio, Receiver and Servos | 📋 |
-| 25 | Gearing and Drivetrain | 📋 |
-| 26 | Suspension | 📋 |
-| 27 | Steering Geometry | 📋 |
-| 28 | Wheels and Tyres | 📋 |
-| 29 | Systems Integration Challenge | 📋 |
+| 20 | Meet the RC Electronics | 📋 |
+| 21 | Voltage, Current, Resistance and Power | 📋 |
+| 22 | Batteries and Battery Safety | 📋 |
+| 23 | Radio Transmitters and Receivers | 📋 |
+| 24 | Steering Servos | 📋 |
+| 25 | Electronic Speed Controllers | 📋 |
+| 26 | Brushed and Brushless Motors | 📋 |
+| 27 | Gears and the Drivetrain | 📋 |
+| 28 | Steering Systems | 📋 |
+| 29 | Suspension, Wheels and Grip | 📋 |
 
-## Part 4 — Design & Build
+## Part 4 — Design and Build
 
-*The main event: designing, printing, assembling, testing and tuning the buggy.*
+*The main event: from cardboard mock-up to driving buggy, one working stage at a time.*
 
 | # | Chapter | Status |
 | --- | --- | --- |
-| 30 | Planning the Build | 📋 |
-| 31 | Chassis Design | 📋 |
-| 32 | Suspension and Steering Design | 📋 |
-| 33 | Drivetrain Design | 📋 |
-| 34 | Printing the Parts | 📋 |
-| 35 | Assembly | 📋 |
-| 36 | Electronics Installation and Wiring | 📋 |
-| 37 | First Drive and Shakedown Testing | 📋 |
-| 38 | Tuning and Iteration | 📋 |
-| 39 | Design Review and Rebuild Challenge | 📋 |
+| 30 | Build Strategy and Cost Plan | 📋 |
+| 31 | Paper and Cardboard Layout | 📋 |
+| 32 | Rolling Cardboard Chassis | 📋 |
+| 33 | Low-Power Wire-Frame Car | 📋 |
+| 34 | Radio-Controlled Prototype | 📋 |
+| 35 | Choosing and Measuring Donor Parts | 📋 |
+| 36 | Modular Printed Chassis | 📋 |
+| 37 | Final Mechanical Assembly | 📋 |
+| 38 | Electronics Installation | 📋 |
+| 39 | Testing, Debugging and Version 1 | 📋 |
 
 ## Part 5 — Advanced Topics
 
@@ -81,19 +82,22 @@ The full chapter plan for the VoltForge Gear RC Buggy Engineering Handbook, with
 
 | # | Chapter | Status |
 | --- | --- | --- |
-| 40 | Engineering Plastics: Nylon and Carbon Fibre | 📋 |
-| 41 | Aerodynamics and CFD | 📋 |
-| 42 | Telemetry and Data Logging | 📋 |
-| 43 | Towards an Autonomous Buggy | 📋 |
+| 40 | Maintenance, Repairs and Spare Parts | 📋 |
+| 41 | Sensors, Telemetry and Data Logging | 📋 |
+| 42 | Advanced Materials and Performance Tuning | 📋 |
+| 43 | Design Your Own Variant | 📋 |
 
 ## Reference
 
 | Document | Status |
 | --- | --- |
-| [Glossary](glossary.md) | 🟡 v0.1 — seeded from Chapters 01–10, grows with each chapter |
-| Bill of Materials (BOM) | 📋 |
-| Troubleshooting Guide | 📋 |
-| Maintenance Guide | 📋 |
+| [Glossary](glossary.md) | 🟡 v0.1 — seeded from Part 1, grows with each chapter |
+| [Bill of Materials](BOM.md) | ✍️ stub — grows with Part 4 |
+| [Cost Ledger](COST-LEDGER.md) | ✍️ stub — grows with real purchases |
+| [Tools](TOOLS.md) | ✍️ stub — grows with Part 2 |
+| [Safety Reference](SAFETY.md) | ✍️ stub — completed alongside Chapter 10 |
+| [Troubleshooting Guide](TROUBLESHOOTING.md) | ✍️ stub — grows during the build |
+| Maintenance Guide | 📋 may merge into Chapter 40 |
 | Printable Worksheets & Checklists | 📋 |
 | Teacher Notes | 📋 optional |
 
