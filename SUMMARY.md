@@ -1,0 +1,102 @@
+# Table of Contents
+
+The full chapter plan for the RC Buggy Engineering Handbook, with writing progress.
+
+**Legend:** ✅ written · ✍️ next up · 📋 planned
+
+---
+
+## Part 1 — Engineering Mindset
+
+*How engineers see the world: systems, motion, forces, measurement and the design process.*
+
+| # | Chapter | Status |
+| --- | --- | --- |
+| 00 | [How to Use This Handbook](00-How-to-Use-This-Handbook.md) | ✅ |
+| 01 | [What Are We Building?](01-What-Are-We-Building.md) | ✅ |
+| 02 | [Systems Thinking](02-Systems-Thinking.md) | ✅ |
+| 03 | [How Machines Move](03-How-Machines-Move.md) | ✅ |
+| 04 | [Forces and Why Parts Break](04-Forces-and-Why-Parts-Break.md) | ✅ |
+| 05 | [Measurement](05-Measurement.md) | ✅ |
+| 06 | [Accuracy, Precision and Error](06-Accuracy-Precision-and-Error.md) | ✅ |
+| 07 | [Tolerances and Fits](07-Tolerances-and-Fits.md) | ✅ |
+| 08 | [Engineering Drawings](08-Engineering-Drawings.md) | ✅ |
+| 09 | [The Engineering Design Process](09-The-Engineering-Design-Process.md) | ✅ |
+| 10 | First Engineering Challenge | ✍️ |
+| — | Part 1 Review Quiz | 📋 |
+
+## Part 2 — Workshop Skills
+
+*The tools and techniques used to turn designs into physical parts.*
+
+| # | Chapter | Status |
+| --- | --- | --- |
+| 11 | 3D Printing Fundamentals | 📋 |
+| 12 | Introduction to CAD | 📋 |
+| 13 | Fasteners and Threaded Connections | 📋 |
+| 14 | Bearings and Rotating Parts | 📋 |
+| 15 | Materials and Their Properties | 📋 |
+| 16 | Workshop Tools and Safety | 📋 |
+| 17 | Designing Parts for 3D Printing | 📋 |
+| 18 | Test Prints and Fit Checks | 📋 |
+| 19 | Workshop Challenge | 📋 |
+
+## Part 3 — RC Car Systems
+
+*Every subsystem of the buggy, one at a time: what it does, how it works, how to choose one.*
+
+| # | Chapter | Status |
+| --- | --- | --- |
+| 20 | RC Electronics Overview | 📋 |
+| 21 | Brushless Motors | 📋 |
+| 22 | Electronic Speed Controllers | 📋 |
+| 23 | Batteries and Power | 📋 |
+| 24 | Radio, Receiver and Servos | 📋 |
+| 25 | Gearing and Drivetrain | 📋 |
+| 26 | Suspension | 📋 |
+| 27 | Steering Geometry | 📋 |
+| 28 | Wheels and Tyres | 📋 |
+| 29 | Systems Integration Challenge | 📋 |
+
+## Part 4 — Design & Build
+
+*The main event: designing, printing, assembling, testing and tuning the buggy.*
+
+| # | Chapter | Status |
+| --- | --- | --- |
+| 30 | Planning the Build | 📋 |
+| 31 | Chassis Design | 📋 |
+| 32 | Suspension and Steering Design | 📋 |
+| 33 | Drivetrain Design | 📋 |
+| 34 | Printing the Parts | 📋 |
+| 35 | Assembly | 📋 |
+| 36 | Electronics Installation and Wiring | 📋 |
+| 37 | First Drive and Shakedown Testing | 📋 |
+| 38 | Tuning and Iteration | 📋 |
+| 39 | Design Review and Rebuild Challenge | 📋 |
+
+## Part 5 — Advanced Topics
+
+*For readers who want to go further.*
+
+| # | Chapter | Status |
+| --- | --- | --- |
+| 40 | Engineering Plastics: Nylon and Carbon Fibre | 📋 |
+| 41 | Aerodynamics and CFD | 📋 |
+| 42 | Telemetry and Data Logging | 📋 |
+| 43 | Towards an Autonomous Buggy | 📋 |
+
+## Reference
+
+| Document | Status |
+| --- | --- |
+| Glossary | 📋 grows with each chapter |
+| Bill of Materials (BOM) | 📋 |
+| Troubleshooting Guide | 📋 |
+| Maintenance Guide | 📋 |
+| Printable Worksheets & Checklists | 📋 |
+| Teacher Notes | 📋 optional |
+
+---
+
+*Planned chapter titles beyond Part 1 are provisional and will be refined as each sprint begins.*
