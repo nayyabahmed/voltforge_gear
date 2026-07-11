@@ -1,13 +1,17 @@
-# RC Buggy Engineering Handbook
+# ⚡ VoltForge Gear — The RC Buggy Engineering Handbook
 
-**Learn real engineering by designing, building and racing your own 3D printed brushless RC buggy.**
+**Design it. Print it. Wire it. Race it.**
 
-This is not a build manual and not a school textbook. It is a project-based engineering handbook: every concept — forces, tolerances, gearing, electronics, CAD — is introduced exactly when the buggy project needs it, explained first through stories and hands-on experiments, and only then given its proper engineering name.
+Somewhere in your future there is a fast, 3D printed, brushless RC buggy — and *you* designed every part of it. You chose the motor. You worked out the gearing. You made the suspension survive the jump that broke version one. This handbook is the path from "I've never built anything" to that buggy.
+
+And here's the secret: the buggy is just the beginning. **VoltForge Gear** is about everything that runs on *volts* and moves with *gears*. The same skills you forge building the buggy — designing parts, reading drawings, choosing motors, debugging electronics, testing and iterating — are the skills behind drones, robots, e-bikes, RC boats and planes, and machines nobody has invented yet. Finish the buggy and you won't just own a fast RC car; you'll know how to build the *next* thing.
 
 > **Who is this for?**
 > Curious builders aged about **11 and up** (and any adult who wants to learn alongside them).
 > You do **not** need to know engineering, own a 3D printer, or have built an RC car before.
 > You only need curiosity and the willingness to build, test and learn.
+
+This is not a build manual and not a school textbook. It is a project-based engineering handbook: every concept — forces, tolerances, gearing, electronics, CAD — is introduced exactly when the buggy project needs it, explained first through stories and hands-on experiments, and only then given its proper engineering name.
 
 ---
 

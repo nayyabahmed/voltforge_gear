@@ -1,6 +1,6 @@
 # Table of Contents
 
-The full chapter plan for the RC Buggy Engineering Handbook, with writing progress.
+The full chapter plan for the VoltForge Gear RC Buggy Engineering Handbook, with writing progress.
 
 **Legend:** ✅ written · ✍️ next up · 📋 planned
 
