@@ -13,7 +13,7 @@ learning_objectives:
   - Set up your engineering notebook.
 ---
 
-# Chapter 00 — How to Use This Handbook
+# Chapter 00 - How to Use This Handbook
 
 > **Target Audience**
 >
@@ -26,6 +26,17 @@ learning_objectives:
 > You do **not** need to have built an RC car before.
 >
 > You only need curiosity and the willingness to build, test and learn.
+
+---
+
+# Learning Objectives
+
+By the end of this chapter you will be able to:
+
+- Explain who this handbook is for and what you will build.
+- Describe the engineering cycle and why it never finishes.
+- Follow the five workshop rules.
+- Set up your own engineering notebook.
 
 ---
 
@@ -98,8 +109,8 @@ Our finished buggy will look something like this.
 ```mermaid
 flowchart LR
 
-Driver --> Radio
-Radio --> Receiver
+Driver --> RadioController["Radio Controller"]
+RadioController --> Receiver
 Receiver --> ESC
 ESC --> Motor
 Motor --> Gearbox
@@ -318,41 +329,16 @@ Now we begin thinking like designers.
 
 Each chapter follows the same pattern.
 
-```text
-Goal
-
-↓
-
-Story
-
-↓
-
-Simple Explanation
-
-↓
-
-New Words
-
-↓
-
-Engineering Explanation
-
-↓
-
-Experiment
-
-↓
-
-Challenge
-
-↓
-
-Checklist
-
-↓
-
-Preview
-```
+1. **Learning Objectives** - what you will be able to do.
+2. **Before We Begin** - a short story to set the scene.
+3. **Simple Explanations** - the ideas, one small step at a time.
+4. **Hands-On Activities** - experiments you can try yourself.
+5. **Engineering Challenge** - a bigger task to test your new skills.
+6. **Chapter Summary** - the key ideas in one place.
+7. **New Words** - the vocabulary you have learned.
+8. **Review Questions** - check your understanding.
+9. **Chapter Checklist** - tick off what you completed.
+10. **Looking Ahead** - a preview of the next chapter.
 
 This means every chapter builds naturally on the previous one.
 
@@ -420,56 +406,6 @@ You have just started thinking like an engineer.
 
 ---
 
-# New Words
-
-## Machine
-
-A machine is something made from parts working together to do useful work.
-
-Examples:
-
-- bicycle
-- clock
-- drill
-- washing machine
-- RC buggy
-
----
-
-## Engineer
-
-An engineer is someone who designs, improves and understands how things work.
-
-An engineer does not need to know every answer.
-
-They simply know how to discover answers.
-
----
-
-## Design
-
-A design is a plan for building something.
-
-Think of it as a recipe.
-
-Recipes tell you how to bake a cake.
-
-Designs tell you how to build a machine.
-
----
-
-## Prototype
-
-A prototype is a practice version.
-
-Its job is not to be perfect.
-
-Its job is to teach us something.
-
-Many successful products go through dozens of prototypes.
-
----
-
 # Remember This
 
 The goal of this handbook is **not** to build a perfect RC buggy.
@@ -493,7 +429,29 @@ You have learned that:
 
 ---
 
-# Checklist
+# New Words
+
+| Word | Meaning |
+|---|---|
+| Machine | Something made from parts working together to do useful work, such as a bicycle, a clock or an RC buggy. |
+| Engineer | Someone who designs, improves and understands how things work. They do not know every answer, but they know how to discover answers. |
+| Design | A plan for building something. Recipes tell you how to bake a cake; designs tell you how to build a machine. |
+| Prototype | A practice version. Its job is not to be perfect. Its job is to teach us something. |
+
+---
+
+# Review Questions
+
+1. What is the goal of this handbook?
+2. What are the six steps of the engineering cycle?
+3. Why is there no Finish box in the engineering cycle?
+4. Why do engineers change only one thing at a time when testing?
+5. What should you record in your engineering notebook after every experiment?
+6. Why are failures useful to an engineer?
+
+---
+
+# Chapter Checklist
 
 - [ ] I understand what this handbook is trying to teach.
 - [ ] I know the engineering cycle.
@@ -504,10 +462,12 @@ You have learned that:
 
 ---
 
-# Coming Next
+# Looking Ahead
 
-In the next chapter we discover one of the most important ideas in engineering.
+In the next chapter we answer a simple question:
 
-It is called **Systems Thinking**.
+**What are we actually building?**
 
-Once you understand systems, you will never look at a machine the same way again.
+We will open up the RC buggy and discover that it is not one machine at all.
+
+It is a team of smaller systems, each with its own job.

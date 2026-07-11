@@ -22,7 +22,7 @@ learning_objectives:
   - Build a simple measurement-checking process for RC parts.
 ---
 
-# Chapter 06 — Accuracy, Precision and Error
+# Chapter 06 - Accuracy, Precision and Error
 
 > **"A number can look exact and still be wrong."**
 
@@ -567,7 +567,7 @@ Use enough detail for the task.
 For a body shell:
 
 ```text
-Width ≈ 180 mm
+Width approx. 180 mm
 ```
 
 may be enough.
@@ -583,7 +583,7 @@ may be appropriate.
 For a rough cardboard mock-up:
 
 ```text
-Length ≈ 140 mm
+Length approx. 140 mm
 ```
 
 may be all that is needed.
@@ -652,7 +652,7 @@ Suppose you record:
 Average:
 
 ```text
-(10.02 + 10.01 + 10.03) ÷ 3
+(10.02 + 10.01 + 10.03) / 3
 = 10.02 mm
 ```
 
@@ -983,7 +983,7 @@ The consequence determines the needed accuracy.
 
 ---
 
-# Hands-On Activity 1 — Dartboard Accuracy Model
+# Hands-On Activity 1 - Dartboard Accuracy Model
 
 Draw four targets on paper.
 
@@ -1002,7 +1002,7 @@ Then write one measurement example for each.
 
 ---
 
-# Hands-On Activity 2 — Repeated Measurement Test
+# Hands-On Activity 2 - Repeated Measurement Test
 
 Choose one rigid object.
 
@@ -1033,7 +1033,7 @@ Ask:
 
 ---
 
-# Hands-On Activity 3 — Zero Error Experiment
+# Hands-On Activity 3 - Zero Error Experiment
 
 With digital calipers:
 
@@ -1054,7 +1054,7 @@ Ask:
 
 ---
 
-# Hands-On Activity 4 — Two-Person Measurement
+# Hands-On Activity 4 - Two-Person Measurement
 
 Ask another person to measure the same object.
 
@@ -1074,7 +1074,7 @@ This tests reproducibility.
 
 ---
 
-# Engineering Challenge — Build a Measurement Confidence Sheet
+# Engineering Challenge - Build a Measurement Confidence Sheet
 
 Choose one critical component dimension.
 
@@ -1169,7 +1169,7 @@ Measure each factor and look for patterns.
 
 # Common Beginner Mistakes
 
-## Mistake 1 — Treating Precision as Accuracy
+## Mistake 1 - Treating Precision as Accuracy
 
 Repeated wrong readings can be very precise.
 
@@ -1177,7 +1177,7 @@ Check the tool and method.
 
 ---
 
-## Mistake 2 — Believing the Display
+## Mistake 2 - Believing the Display
 
 A digital display can show a confident-looking wrong answer.
 
@@ -1185,7 +1185,7 @@ Verify zero and references.
 
 ---
 
-## Mistake 3 — Averaging Systematic Error
+## Mistake 3 - Averaging Systematic Error
 
 Averaging helps random variation.
 
@@ -1193,7 +1193,7 @@ It does not correct a constant bias.
 
 ---
 
-## Mistake 4 — Deleting Outliers Without Investigation
+## Mistake 4 - Deleting Outliers Without Investigation
 
 An outlier may reveal a real problem.
 
@@ -1201,13 +1201,13 @@ Find the cause first.
 
 ---
 
-## Mistake 5 — Reporting Too Many Decimal Places
+## Mistake 5 - Reporting Too Many Decimal Places
 
 Do not pretend to know more than the tool and method support.
 
 ---
 
-## Mistake 6 — Using Different Methods Without Recording Them
+## Mistake 6 - Using Different Methods Without Recording Them
 
 Changing pressure, orientation or tool changes the measurement process.
 
@@ -1215,19 +1215,19 @@ Record the method.
 
 ---
 
-## Mistake 7 — Measuring Only the Easy Dimensions
+## Mistake 7 - Measuring Only the Easy Dimensions
 
 Critical interfaces deserve the most careful work.
 
 ---
 
-## Mistake 8 — Confusing Verification and Validation
+## Mistake 8 - Confusing Verification and Validation
 
 A part can meet its drawing and still fail in real use.
 
 ---
 
-## Mistake 9 — Seeking Perfect Measurement
+## Mistake 9 - Seeking Perfect Measurement
 
 Perfect measurement is impossible.
 
@@ -1235,7 +1235,7 @@ Seek enough confidence for the requirement.
 
 ---
 
-# Optional Challenge — Detect a Hidden Bias
+# Optional Challenge - Detect a Hidden Bias
 
 Measure the same object with two different tools.
 
@@ -1262,7 +1262,7 @@ Do not assume which tool is correct without evidence.
 
 ---
 
-# Optional Challenge — Accuracy for Different Jobs
+# Optional Challenge - Accuracy for Different Jobs
 
 Choose these three features:
 

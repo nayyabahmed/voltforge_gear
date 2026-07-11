@@ -20,7 +20,7 @@ learning_objectives:
   - Draw simple force diagrams for buggy parts.
 ---
 
-# Chapter 04 — Forces and Why Parts Break
+# Chapter 04 - Forces and Why Parts Break
 
 > **"Parts do not break because they are unlucky.  
 > They break because forces found a path through them."**
@@ -465,7 +465,7 @@ In a material, **stress** describes how concentrated the load is.
 A simple idea is:
 
 ```text
-Stress = Force ÷ Area
+Stress = Force / Area
 ```
 
 You do not need to calculate it yet.
@@ -1231,8 +1231,8 @@ It does not need to be beautiful.
 Example: a simple suspension arm.
 
 ```text
-Chassis pin ●================● Wheel hub
-            ↑                ↑
+Chassis pin *================* Wheel hub
+            ^                ^
          support          ground force
 ```
 
@@ -1248,7 +1248,7 @@ The purpose is to make invisible forces visible.
 
 ---
 
-# Hands-On Activity 1 — Paper Beam Test
+# Hands-On Activity 1 - Paper Beam Test
 
 You need:
 
@@ -1279,7 +1279,7 @@ Record:
 
 ---
 
-# Hands-On Activity 2 — Tension and Compression
+# Hands-On Activity 2 - Tension and Compression
 
 You need:
 
@@ -1303,7 +1303,7 @@ Write one sentence explaining each observation.
 
 ---
 
-# Hands-On Activity 3 — Find Stress Concentrations
+# Hands-On Activity 3 - Find Stress Concentrations
 
 Look at three household objects.
 
@@ -1333,7 +1333,7 @@ Ask:
 
 ---
 
-# Hands-On Activity 4 — Paperclip Fatigue
+# Hands-On Activity 4 - Paperclip Fatigue
 
 You need:
 
@@ -1359,7 +1359,7 @@ Record:
 
 ---
 
-# Engineering Challenge — Suspension Arm Force Map
+# Engineering Challenge - Suspension Arm Force Map
 
 Draw a simple suspension arm.
 
@@ -1434,7 +1434,7 @@ It may be your best teacher.
 
 # Common Beginner Mistakes
 
-## Mistake 1 — Making Everything Solid
+## Mistake 1 - Making Everything Solid
 
 Solid parts are not automatically best.
 
@@ -1449,7 +1449,7 @@ Good geometry often beats extra material.
 
 ---
 
-## Mistake 2 — Adding Ribs Everywhere
+## Mistake 2 - Adding Ribs Everywhere
 
 A rib should support a real load path.
 
@@ -1457,7 +1457,7 @@ Random ribs may add weight without solving the weak point.
 
 ---
 
-## Mistake 3 — Using Sharp Inside Corners
+## Mistake 3 - Using Sharp Inside Corners
 
 Sharp corners can concentrate stress.
 
@@ -1465,7 +1465,7 @@ Use smooth transitions where appropriate.
 
 ---
 
-## Mistake 4 — Ignoring Print Direction
+## Mistake 4 - Ignoring Print Direction
 
 A shape that looks strong in CAD may split along print layers.
 
@@ -1473,7 +1473,7 @@ Consider force direction before choosing print orientation.
 
 ---
 
-## Mistake 5 — Confusing Stiffness With Strength
+## Mistake 5 - Confusing Stiffness With Strength
 
 A stiff part can still break suddenly.
 
@@ -1483,7 +1483,7 @@ Choose the behaviour needed for the job.
 
 ---
 
-## Mistake 6 — Designing Only for Normal Driving
+## Mistake 6 - Designing Only for Normal Driving
 
 Crashes, jumps and wheel impacts create much larger loads.
 
@@ -1491,7 +1491,7 @@ Consider abnormal but likely events.
 
 ---
 
-## Mistake 7 — Ignoring Repeated Loading
+## Mistake 7 - Ignoring Repeated Loading
 
 A part that survives one test may fail after many cycles.
 
@@ -1499,7 +1499,7 @@ Durability matters.
 
 ---
 
-## Mistake 8 — Reinforcing the Symptom
+## Mistake 8 - Reinforcing the Symptom
 
 A break at one location may be caused by a load elsewhere.
 
@@ -1507,7 +1507,7 @@ Trace the full load path before redesigning.
 
 ---
 
-# Optional Challenge — Compare Beam Shapes
+# Optional Challenge - Compare Beam Shapes
 
 Create paper beams with these shapes:
 
@@ -1533,7 +1533,7 @@ Explain why some shapes perform better.
 
 ---
 
-# Optional Challenge — Controlled Weak Point
+# Optional Challenge - Controlled Weak Point
 
 Imagine the buggy hits a wall.
 

@@ -14,7 +14,7 @@ learning_objectives:
   - Learn why engineers study the whole machine before designing parts.
 ---
 
-# Chapter 01 — What Are We Building?
+# Chapter 01 - What Are We Building?
 
 > **"To understand a machine, don't start with the smallest part.
 > Start by asking what job the whole machine is trying to do."**
@@ -230,7 +230,7 @@ Let's meet them one by one.
 
 ---
 
-# System 1 — The Brain
+# System 1 - The Brain
 
 Imagine riding a bicycle.
 
@@ -263,7 +263,7 @@ For now just remember:
 
 ---
 
-# System 2 — The Muscles
+# System 2 - The Muscles
 
 Your muscles move your body.
 
@@ -281,7 +281,7 @@ nothing moves.
 
 ---
 
-# System 3 — The Skeleton
+# System 3 - The Skeleton
 
 Stand up.
 
@@ -305,11 +305,11 @@ The chassis holds everything together.
 
 ```text
 Motor
-   │
+   |
 Battery
-   │
+   |
 Receiver
-   │
+   |
 Servo
 
 All mounted onto
@@ -323,7 +323,7 @@ Think of the chassis as the backbone of the entire machine.
 
 ---
 
-# System 4 — The Joints
+# System 4 - The Joints
 
 Your knees bend.
 
@@ -343,7 +343,7 @@ every bump would launch the buggy into the air.
 
 ---
 
-# System 5 — The Feet
+# System 5 - The Feet
 
 Imagine trying to run while wearing socks on an ice rink.
 
@@ -365,7 +365,7 @@ The tyres create movement by pushing against the ground.
 
 ---
 
-# System 6 — The Food Supply
+# System 6 - The Food Supply
 
 Imagine running a race without breakfast.
 
@@ -574,38 +574,6 @@ The names become easy once the ideas make sense.
 
 ---
 
-# Summary
-
-In this chapter we discovered that an RC buggy is **not one machine.**
-
-It is a collection of smaller systems.
-
-Each system performs one job.
-
-Together they allow the buggy to move exactly where the driver wants.
-
-This idea might seem simple.
-
-But almost every engineering project begins in exactly this way.
-
-Before solving problems...
-
-understand the system.
-
----
-
-# New Words
-
-| Word | Meaning |
-|-------|---------|
-| Machine | Something built from parts that performs useful work. |
-| System | A group of parts working together. |
-| Chassis | The main structural frame of the buggy. |
-| Motor | Converts electrical energy into spinning motion. |
-| Suspension | Allows the wheels to move over bumps while keeping control. |
-
----
-
 # Chapter Challenge
 
 Draw your own RC buggy.
@@ -631,7 +599,50 @@ This drawing will become better every time you learn something new.
 
 ---
 
-# Checklist
+# Chapter Summary
+
+In this chapter we discovered that an RC buggy is **not one machine.**
+
+It is a collection of smaller systems.
+
+Each system performs one job.
+
+Together they allow the buggy to move exactly where the driver wants.
+
+This idea might seem simple.
+
+But almost every engineering project begins in exactly this way.
+
+Before solving problems...
+
+understand the system.
+
+---
+
+# New Words
+
+| Word | Meaning |
+|---|---|
+| Machine | Something built from parts that performs useful work. |
+| System | A group of parts working together to perform one job. |
+| Chassis | The main structural frame of the buggy. |
+| Motor | Converts electrical energy into spinning motion. |
+| Suspension | Allows the wheels to move over bumps while keeping control. |
+
+---
+
+# Review Questions
+
+1. What is the main job of an RC buggy?
+2. In your own words, what is a system?
+3. Name three systems inside the RC buggy and the job each one does.
+4. Why do engineers break big machines into smaller systems?
+5. The motor only spins. What else is needed before the buggy actually moves?
+6. What systems can you find in a bicycle?
+
+---
+
+# Chapter Checklist
 
 - [ ] I know the main job of an RC buggy.
 - [ ] I understand what a system is.

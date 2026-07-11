@@ -19,7 +19,7 @@ learning_objectives:
   - Build a simple force-flow diagram for the RC buggy.
 ---
 
-# Chapter 03 — How Machines Move
+# Chapter 03 - How Machines Move
 
 > **"The motor does not push the buggy forward.  
 > It starts a chain of motion that ends at the ground."**
@@ -313,7 +313,7 @@ Let us look at each step.
 
 ---
 
-# Step 1 — The Motor Turns
+# Step 1 - The Motor Turns
 
 The brushless motor converts electrical energy into rotation.
 
@@ -327,7 +327,7 @@ That small gear is called the **pinion gear**.
 
 ---
 
-# Step 2 — The Pinion Turns the Spur Gear
+# Step 2 - The Pinion Turns the Spur Gear
 
 The pinion gear touches a larger gear.
 
@@ -346,7 +346,7 @@ The gears change the relationship between speed and torque.
 
 ---
 
-# Step 3 — The Differential Shares the Motion
+# Step 3 - The Differential Shares the Motion
 
 The spur gear sends motion into the differential.
 
@@ -375,7 +375,7 @@ Without a differential, the tyres would scrub and fight each other during turns.
 
 ---
 
-# Step 4 — Driveshafts Carry the Rotation
+# Step 4 - Driveshafts Carry the Rotation
 
 The differential turns the driveshafts.
 
@@ -389,7 +389,7 @@ It carries it.
 
 ---
 
-# Step 5 — Axles Turn the Wheels
+# Step 5 - Axles Turn the Wheels
 
 The driveshafts connect to the wheel axles.
 
@@ -401,7 +401,7 @@ Now the rotating motion has reached the ground.
 
 ---
 
-# Step 6 — The Tyres Push on the Ground
+# Step 6 - The Tyres Push on the Ground
 
 This is the final and most important step.
 
@@ -504,7 +504,7 @@ The small gear must turn four times to make the large gear turn once.
 Small gear: 10 teeth
 Large gear: 40 teeth
 
-40 ÷ 10 = 4
+40 / 10 = 4
 ```
 
 This is a **4 to 1 ratio**.
@@ -533,7 +533,7 @@ A **gear ratio** compares the sizes of connected gears.
 For a simple pair:
 
 ```text
-Gear ratio = driven gear teeth ÷ driving gear teeth
+Gear ratio = driven gear teeth / driving gear teeth
 ```
 
 The driving gear is the gear providing motion.
@@ -551,7 +551,7 @@ Example:
 Spur gear = 60 teeth
 Pinion gear = 20 teeth
 
-60 ÷ 20 = 3
+60 / 20 = 3
 
 Gear ratio = 3:1
 ```
@@ -632,8 +632,8 @@ The output turns about four times slower, ignoring losses.
 This is a trade-off.
 
 ```text
-More torque ↔ less speed
-More speed ↔ less torque
+More torque <-> less speed
+More speed <-> less torque
 ```
 
 This relationship is one reason engineers choose gear ratios carefully.
@@ -991,7 +991,7 @@ If braking force is too strong, the buggy may become unstable.
 
 ---
 
-# Hands-On Activity 1 — Pencil Driveshaft
+# Hands-On Activity 1 - Pencil Driveshaft
 
 You need:
 
@@ -1016,7 +1016,7 @@ The pencil is acting like a simple shaft.
 
 ---
 
-# Hands-On Activity 2 — Door Torque Test
+# Hands-On Activity 2 - Door Torque Test
 
 Use a normal door.
 
@@ -1035,7 +1035,7 @@ This activity makes torque concrete.
 
 ---
 
-# Hands-On Activity 3 — Simple Gear Model
+# Hands-On Activity 3 - Simple Gear Model
 
 Use two round objects of different sizes.
 
@@ -1060,7 +1060,7 @@ This is not a perfect gear model, but it helps you see the idea.
 
 ---
 
-# Hands-On Activity 4 — Friction Test
+# Hands-On Activity 4 - Friction Test
 
 You need:
 
@@ -1085,7 +1085,7 @@ Some energy became heat and deformation.
 
 ---
 
-# Engineering Challenge — Draw the Complete Motion Path
+# Engineering Challenge - Draw the Complete Motion Path
 
 Draw a diagram containing:
 
@@ -1176,7 +1176,7 @@ The cause may be elsewhere in the system.
 
 # Common Beginner Mistakes
 
-## Mistake 1 — Confusing Speed with Torque
+## Mistake 1 - Confusing Speed with Torque
 
 A fast-spinning motor does not always have enough torque for the load.
 
@@ -1184,7 +1184,7 @@ Speed and torque are different properties.
 
 ---
 
-## Mistake 2 — Thinking Bigger Gears Always Mean More Speed
+## Mistake 2 - Thinking Bigger Gears Always Mean More Speed
 
 The result depends on which gear is driving and which is driven.
 
@@ -1194,7 +1194,7 @@ A larger pinion usually raises vehicle gearing.
 
 ---
 
-## Mistake 3 — Ignoring Friction
+## Mistake 3 - Ignoring Friction
 
 A drivetrain that feels slightly tight by hand can waste significant energy at high speed.
 
@@ -1202,7 +1202,7 @@ Check free movement before adding more power.
 
 ---
 
-## Mistake 4 — Believing Wheelspin Means Strong Acceleration
+## Mistake 4 - Believing Wheelspin Means Strong Acceleration
 
 Wheelspin looks dramatic.
 
@@ -1210,7 +1210,7 @@ But slipping tyres often produce less useful acceleration than gripping tyres.
 
 ---
 
-## Mistake 5 — Strengthening Only One Part
+## Mistake 5 - Strengthening Only One Part
 
 A stronger motor may break the next weakest drivetrain part.
 
@@ -1218,7 +1218,7 @@ Power upgrades should be considered as system changes.
 
 ---
 
-## Mistake 6 — Forgetting the Ground
+## Mistake 6 - Forgetting the Ground
 
 The buggy cannot accelerate without a force from the ground.
 
@@ -1226,7 +1226,7 @@ Tyres and surface conditions are part of the motion system.
 
 ---
 
-# Optional Challenge — Compare Two Gear Ratios
+# Optional Challenge - Compare Two Gear Ratios
 
 Calculate these simple ratios.
 
@@ -1255,15 +1255,15 @@ Questions:
 Answers:
 
 ```text
-Setup A: 60 ÷ 20 = 3:1
-Setup B: 60 ÷ 15 = 4:1
+Setup A: 60 / 20 = 3:1
+Setup B: 60 / 15 = 4:1
 ```
 
 Setup B gives more torque multiplication and lower wheel speed.
 
 ---
 
-# Optional Challenge — Find the Broken Motion Path
+# Optional Challenge - Find the Broken Motion Path
 
 Imagine this sequence:
 

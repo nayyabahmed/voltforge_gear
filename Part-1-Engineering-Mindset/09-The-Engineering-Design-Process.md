@@ -25,7 +25,7 @@ learning_objectives:
   - Record evidence and improve a design one change at a time.
 ---
 
-# Chapter 09 — The Engineering Design Process
+# Chapter 09 - The Engineering Design Process
 
 > **"A good engineer does not begin with an answer.  
 > A good engineer begins with a clear question."**
@@ -110,7 +110,7 @@ It is part of the process.
 
 ---
 
-# Step 1 — Define the Problem
+# Step 1 - Define the Problem
 
 Suppose someone says:
 
@@ -186,7 +186,7 @@ Keep them separate at the beginning.
 
 ---
 
-# Step 2 — Understand the User
+# Step 2 - Understand the User
 
 A design can be technically clever and still be unpleasant to use.
 
@@ -229,7 +229,7 @@ User needs may become requirements.
 
 ---
 
-# Step 3 — Write Requirements
+# Step 3 - Write Requirements
 
 A requirement describes what the design must do.
 
@@ -259,9 +259,9 @@ using no tools.
 
 In formal engineering, words such as these are useful:
 
-- **shall** — required
-- **should** — preferred
-- **may** — optional
+- **shall** - required
+- **should** - preferred
+- **may** - optional
 
 Example:
 
@@ -339,7 +339,7 @@ Safety is not an optional extra.
 
 ---
 
-# Step 4 — Identify Constraints
+# Step 4 - Identify Constraints
 
 A constraint limits the solution.
 
@@ -390,7 +390,7 @@ Knowing which constraints are hard prevents wasted effort.
 
 ---
 
-# Step 5 — Research What Already Exists
+# Step 5 - Research What Already Exists
 
 Before designing, look at:
 
@@ -431,7 +431,7 @@ Benchmarking turns vague impressions into structured observations.
 
 ---
 
-# Step 6 — Break the Problem Into Smaller Problems
+# Step 6 - Break the Problem Into Smaller Problems
 
 Suppose we are designing a servo mount.
 
@@ -452,7 +452,7 @@ This is decomposition.
 
 ---
 
-# Step 7 — Generate Several Ideas
+# Step 7 - Generate Several Ideas
 
 The first idea is rarely the only possible idea.
 
@@ -571,7 +571,7 @@ Concept cards make comparison easier.
 
 ---
 
-# Step 8 — Compare Ideas Fairly
+# Step 8 - Compare Ideas Fairly
 
 Do not choose only because:
 
@@ -637,7 +637,7 @@ Appearance weight = 1
 Then multiply:
 
 ```text
-Score × Weight
+Score x Weight
 ```
 
 This better reflects project priorities.
@@ -663,7 +663,7 @@ It does not replace judgement.
 
 ---
 
-# Step 9 — Identify Risks
+# Step 9 - Identify Risks
 
 A **risk** is something uncertain that could cause trouble.
 
@@ -725,7 +725,7 @@ Hidden assumptions cause surprises.
 
 ---
 
-# Step 10 — Build a Prototype
+# Step 10 - Build a Prototype
 
 A **prototype** is a learning tool.
 
@@ -851,7 +851,7 @@ Specific questions produce useful answers.
 
 ---
 
-# Step 11 — Write a Test Plan
+# Step 11 - Write a Test Plan
 
 A **test plan** describes:
 
@@ -1052,7 +1052,7 @@ Use safe procedures and adult supervision.
 
 ---
 
-# Step 12 — Record Results
+# Step 12 - Record Results
 
 A good test record includes:
 
@@ -1084,7 +1084,7 @@ This table tells a design story.
 
 ---
 
-# Step 13 — Learn From Failure
+# Step 13 - Learn From Failure
 
 A failed test answers a question.
 
@@ -1162,7 +1162,7 @@ Ask until the cause is actionable.
 
 ---
 
-# Step 14 — Improve One Thing at a Time
+# Step 14 - Improve One Thing at a Time
 
 Suppose a mount fails.
 
@@ -1193,9 +1193,9 @@ An **iteration** is one pass through the design-build-test-improve cycle.
 Example:
 
 ```text
-Revision A → test → learn
-Revision B → test → learn
-Revision C → test → learn
+Revision A -> test -> learn
+Revision B -> test -> learn
+Revision C -> test -> learn
 ```
 
 Each iteration should answer a question.
@@ -1436,7 +1436,7 @@ Battery is difficult to remove because wires catch on the chassis.
 
 ## Constraints
 
-- 220 × 220 mm printer bed
+- 220 x 220 mm printer bed
 - PETG
 - M3 hardware
 - no metal machining
@@ -1505,7 +1505,7 @@ This turns guessing into evidence.
 
 ---
 
-# Hands-On Activity 1 — Rewrite a Vague Problem
+# Hands-On Activity 1 - Rewrite a Vague Problem
 
 Rewrite each vague statement.
 
@@ -1538,7 +1538,7 @@ Include:
 
 ---
 
-# Hands-On Activity 2 — Requirements and Constraints
+# Hands-On Activity 2 - Requirements and Constraints
 
 Choose one part:
 
@@ -1562,7 +1562,7 @@ Mark each as:
 
 ---
 
-# Hands-On Activity 3 — Generate Ten Ideas
+# Hands-On Activity 3 - Generate Ten Ideas
 
 Choose one design problem.
 
@@ -1581,7 +1581,7 @@ Afterward, circle the three most promising ideas.
 
 ---
 
-# Hands-On Activity 4 — Decision Matrix
+# Hands-On Activity 4 - Decision Matrix
 
 Create a decision matrix for the three ideas.
 
@@ -1598,7 +1598,7 @@ Then ask:
 
 ---
 
-# Engineering Challenge — Design a Simple Bumper
+# Engineering Challenge - Design a Simple Bumper
 
 Use the full process.
 
@@ -1667,7 +1667,7 @@ The quality of the next question determines the quality of the next design.
 
 # Common Beginner Mistakes
 
-## Mistake 1 — Starting With CAD
+## Mistake 1 - Starting With CAD
 
 CAD is not the first step.
 
@@ -1675,7 +1675,7 @@ Define the problem first.
 
 ---
 
-## Mistake 2 — Falling in Love With the First Idea
+## Mistake 2 - Falling in Love With the First Idea
 
 Generate alternatives.
 
@@ -1683,13 +1683,13 @@ Your first idea may still win, but it should earn that place.
 
 ---
 
-## Mistake 3 — Using Vague Requirements
+## Mistake 3 - Using Vague Requirements
 
 "Strong" and "easy" need measurable meaning.
 
 ---
 
-## Mistake 4 — Testing Everything at Once
+## Mistake 4 - Testing Everything at Once
 
 A complicated test can hide the cause.
 
@@ -1697,31 +1697,31 @@ Test one question at a time.
 
 ---
 
-## Mistake 5 — Changing Many Variables
+## Mistake 5 - Changing Many Variables
 
 You may not know what solved the problem.
 
 ---
 
-## Mistake 6 — Ignoring Failed Tests
+## Mistake 6 - Ignoring Failed Tests
 
 A failure is useful only if recorded and studied.
 
 ---
 
-## Mistake 7 — Forgetting the User
+## Mistake 7 - Forgetting the User
 
 A technically impressive design may be difficult to assemble or repair.
 
 ---
 
-## Mistake 8 — Adding Features Forever
+## Mistake 8 - Adding Features Forever
 
 Protect the current project scope.
 
 ---
 
-## Mistake 9 — Calling a Prototype Final
+## Mistake 9 - Calling a Prototype Final
 
 A prototype teaches.
 
@@ -1729,13 +1729,13 @@ A final design must also be documented, repeatable and maintainable.
 
 ---
 
-## Mistake 10 — No Definition of Done
+## Mistake 10 - No Definition of Done
 
 Without a finish condition, tasks continue forever.
 
 ---
 
-# Optional Challenge — Failure Investigation
+# Optional Challenge - Failure Investigation
 
 Choose a broken household object or imagine a failed buggy part.
 
@@ -1752,7 +1752,7 @@ Do not jump directly to a final redesign.
 
 ---
 
-# Optional Challenge — Requirements Traceability
+# Optional Challenge - Requirements Traceability
 
 Create a table linking requirements to tests.
 

@@ -23,7 +23,7 @@ learning_objectives:
   - Create and test a simple fit-coupon before designing a full RC part.
 ---
 
-# Chapter 07 — Tolerances and Fits
+# Chapter 07 - Tolerances and Fits
 
 > **"Two parts can both be made correctly and still fail to fit together."**
 
@@ -592,7 +592,7 @@ Total diameter clearance:
 Clearance per side:
 
 ```text
-0.40 ÷ 2 = 0.20 mm
+0.40 / 2 = 0.20 mm
 ```
 
 This distinction matters.
@@ -1397,7 +1397,7 @@ Measure before changing CAD.
 
 ---
 
-# Hands-On Activity 1 — Everyday Fits
+# Hands-On Activity 1 - Everyday Fits
 
 Find examples of:
 
@@ -1427,7 +1427,7 @@ For each, record:
 
 ---
 
-# Hands-On Activity 2 — Paper Tolerance Game
+# Hands-On Activity 2 - Paper Tolerance Game
 
 Draw a target dimension:
 
@@ -1455,7 +1455,7 @@ This makes tolerance concrete.
 
 ---
 
-# Hands-On Activity 3 — Design a Fit Coupon
+# Hands-On Activity 3 - Design a Fit Coupon
 
 Create a CAD sketch or paper design for a fit coupon.
 
@@ -1478,7 +1478,7 @@ Test the actual shaft.
 
 ---
 
-# Hands-On Activity 4 — Stack-Up Experiment
+# Hands-On Activity 4 - Stack-Up Experiment
 
 Use three or more small objects, such as:
 
@@ -1505,7 +1505,7 @@ Discuss why they may differ.
 
 ---
 
-# Engineering Challenge — Build a Fit Library
+# Engineering Challenge - Build a Fit Library
 
 Create a project file called:
 
@@ -1563,7 +1563,7 @@ Over time, this becomes a valuable design reference.
 
 # Common Beginner Mistakes
 
-## Mistake 1 — Making Connected Parts the Same CAD Size
+## Mistake 1 - Making Connected Parts the Same CAD Size
 
 A 5 mm shaft and 5 mm hole may not assemble.
 
@@ -1571,13 +1571,13 @@ Design the intended fit.
 
 ---
 
-## Mistake 2 — Using One Clearance Everywhere
+## Mistake 2 - Using One Clearance Everywhere
 
 Moving, locating, pressing and loose parts need different fits.
 
 ---
 
-## Mistake 3 — Ignoring Printer-Specific Behaviour
+## Mistake 3 - Ignoring Printer-Specific Behaviour
 
 A fit that works on one printer may fail on another.
 
@@ -1585,13 +1585,13 @@ Test your process.
 
 ---
 
-## Mistake 4 — Confusing Total and Per-Side Clearance
+## Mistake 4 - Confusing Total and Per-Side Clearance
 
 State clearly how clearance is measured.
 
 ---
 
-## Mistake 5 — Making Press Fits Too Aggressive
+## Mistake 5 - Making Press Fits Too Aggressive
 
 Printed housings can crack or distort bearings.
 
@@ -1599,25 +1599,25 @@ Start conservatively and test.
 
 ---
 
-## Mistake 6 — Ignoring Dirt and Temperature
+## Mistake 6 - Ignoring Dirt and Temperature
 
 Outdoor parts need more real-world allowance than clean desk models.
 
 ---
 
-## Mistake 7 — Changing a Large Part to Test One Hole
+## Mistake 7 - Changing a Large Part to Test One Hole
 
 Use a small coupon.
 
 ---
 
-## Mistake 8 — Forgetting Chamfers
+## Mistake 8 - Forgetting Chamfers
 
 A small lead-in can turn a difficult assembly into an easy one.
 
 ---
 
-## Mistake 9 — Measuring Only Nominal Sizes
+## Mistake 9 - Measuring Only Nominal Sizes
 
 Actual parts vary.
 
@@ -1625,13 +1625,13 @@ Measure the real hardware.
 
 ---
 
-## Mistake 10 — Ignoring Tolerance Stack-Up
+## Mistake 10 - Ignoring Tolerance Stack-Up
 
 Several small errors can create one large assembly error.
 
 ---
 
-# Optional Challenge — Worst-Case Battery Tray
+# Optional Challenge - Worst-Case Battery Tray
 
 Suppose:
 
@@ -1670,7 +1670,7 @@ The tray should be wider.
 
 ---
 
-# Optional Challenge — Common Datum Layout
+# Optional Challenge - Common Datum Layout
 
 Draw a chassis centreline.
 
@@ -1681,16 +1681,16 @@ Create two dimension plans:
 ## Chain Plan
 
 ```text
-Hole 1 → Hole 2 → Hole 3 → Hole 4
+Hole 1 -> Hole 2 -> Hole 3 -> Hole 4
 ```
 
 ## Baseline Plan
 
 ```text
-Centreline → Hole 1
-Centreline → Hole 2
-Centreline → Hole 3
-Centreline → Hole 4
+Centreline -> Hole 1
+Centreline -> Hole 2
+Centreline -> Hole 3
+Centreline -> Hole 4
 ```
 
 Explain which plan better controls each hole's position relative to the centreline.

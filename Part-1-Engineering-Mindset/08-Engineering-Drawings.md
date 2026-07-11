@@ -24,7 +24,7 @@ learning_objectives:
   - Create a simple engineering drawing for an RC component.
 ---
 
-# Chapter 08 — Engineering Drawings
+# Chapter 08 - Engineering Drawings
 
 > **"A good drawing lets another person build the same part without asking what you meant."**
 
@@ -261,14 +261,14 @@ A hole in the front view should line up with the same hole in the top or side vi
 
 ```text
         TOP VIEW
-     ┌─────────────┐
-     │      ○      │
-     └─────────────┘
+     +-------------+
+     |      o      |
+     +-------------+
 
 FRONT VIEW           SIDE VIEW
-┌─────────────┐      ┌─────┐
-│      ○      │      │  ○  │
-└─────────────┘      └─────┘
++-------------+      +-----+
+|      o      |      |  o  |
++-------------+      +-----+
 ```
 
 Alignment helps the reader understand that the views describe one object.
@@ -301,7 +301,7 @@ Visible edges are drawn with solid lines.
 These show edges you can see from that view.
 
 ```text
-────────────
+------------
 ```
 
 Use clear, consistent line weight.
@@ -338,7 +338,7 @@ A **centre line** marks the centre of a circular or symmetrical feature.
 It is usually drawn using a long-short pattern.
 
 ```text
-— — · — — · — —
+- - . - - . - -
 ```
 
 Centre lines help show:
@@ -1155,7 +1155,7 @@ A clear drawing may include:
 
 ---
 
-# Hands-On Activity 1 — Three Views of a Box
+# Hands-On Activity 1 - Three Views of a Box
 
 Choose a simple object:
 
@@ -1182,7 +1182,7 @@ The goal is clarity, not artistic perfection.
 
 ---
 
-# Hands-On Activity 2 — Hidden Feature
+# Hands-On Activity 2 - Hidden Feature
 
 Use a small box with a hole, recess or lid.
 
@@ -1196,7 +1196,7 @@ Compare which is easier to understand.
 
 ---
 
-# Hands-On Activity 3 — Dimension a Washer
+# Hands-On Activity 3 - Dimension a Washer
 
 Draw a washer using:
 
@@ -1220,7 +1220,7 @@ Thickness = 1 mm
 
 ---
 
-# Hands-On Activity 4 — Create a Title Block
+# Hands-On Activity 4 - Create a Title Block
 
 Make a reusable title block template containing:
 
@@ -1238,7 +1238,7 @@ Save it for future drawings.
 
 ---
 
-# Engineering Challenge — Draw a Servo Mount
+# Engineering Challenge - Draw a Servo Mount
 
 Create a simple engineering drawing for a servo mount.
 
@@ -1306,7 +1306,7 @@ Good communication is part of engineering.
 
 # Common Beginner Mistakes
 
-## Mistake 1 — Using Only an Isometric View
+## Mistake 1 - Using Only an Isometric View
 
 A 3D-looking view is helpful, but it may hide exact geometry.
 
@@ -1314,7 +1314,7 @@ Add orthographic views.
 
 ---
 
-## Mistake 2 — Dimensioning Every Line
+## Mistake 2 - Dimensioning Every Line
 
 Too many dimensions create clutter and contradictions.
 
@@ -1322,43 +1322,43 @@ Dimension what is needed.
 
 ---
 
-## Mistake 3 — Repeating Dimensions
+## Mistake 3 - Repeating Dimensions
 
 One feature should have one controlling dimension.
 
 ---
 
-## Mistake 4 — Dimensioning From Random Edges
+## Mistake 4 - Dimensioning From Random Edges
 
 Use functional datums.
 
 ---
 
-## Mistake 5 — Hiding Important Features
+## Mistake 5 - Hiding Important Features
 
 Use a section or detail view.
 
 ---
 
-## Mistake 6 — Forgetting Units
+## Mistake 6 - Forgetting Units
 
 State units clearly in the title block or notes.
 
 ---
 
-## Mistake 7 — Forgetting Material
+## Mistake 7 - Forgetting Material
 
 Material affects how the part behaves.
 
 ---
 
-## Mistake 8 — Leaving Out Revision
+## Mistake 8 - Leaving Out Revision
 
 Old drawings can produce old parts.
 
 ---
 
-## Mistake 9 — Trusting Scale Instead of Dimensions
+## Mistake 9 - Trusting Scale Instead of Dimensions
 
 Do not measure a screen or resized printout.
 
@@ -1366,13 +1366,13 @@ Read the dimension values.
 
 ---
 
-## Mistake 10 — Drawing Shape Without Intent
+## Mistake 10 - Drawing Shape Without Intent
 
 Explain critical fits, interfaces and post-processing.
 
 ---
 
-# Optional Challenge — Reverse-Engineer a Simple Part
+# Optional Challenge - Reverse-Engineer a Simple Part
 
 Choose a simple real part:
 
@@ -1399,7 +1399,7 @@ If they are confused, improve the drawing.
 
 ---
 
-# Optional Challenge — Assembly Drawing
+# Optional Challenge - Assembly Drawing
 
 Create a simple assembly drawing for:
 

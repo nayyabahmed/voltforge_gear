@@ -16,7 +16,7 @@ learning_objectives:
   - Draw simple system diagrams before designing physical parts.
 ---
 
-# Chapter 02 — Systems Thinking
+# Chapter 02 - Systems Thinking
 
 > **"A pile of parts is not a machine.  
 > The relationships between the parts are what make the machine work."**
@@ -174,7 +174,7 @@ It could be:
 
 ---
 
-# Example 1 — A Toaster
+# Example 1 - A Toaster
 
 A toaster is simple enough to study.
 
@@ -212,7 +212,7 @@ Notice that one system can have several inputs and several outputs.
 
 ---
 
-# Example 2 — The RC Buggy
+# Example 2 - The RC Buggy
 
 Our buggy also has inputs, processes and outputs.
 
@@ -889,7 +889,7 @@ We use the system diagram before detailed CAD because it helps us understand wha
 
 ---
 
-# Hands-On Activity 1 — Analyse a Torch
+# Hands-On Activity 1 - Analyse a Torch
 
 Find a battery-powered torch.
 
@@ -921,14 +921,14 @@ Examples:
 Then draw:
 
 ```text
-Input → Process → Output
+Input -> Process -> Output
 ```
 
 Add a system boundary around the parts that belong to the torch.
 
 ---
 
-# Hands-On Activity 2 — Follow One Change
+# Hands-On Activity 2 - Follow One Change
 
 Choose one of these changes:
 
@@ -945,13 +945,13 @@ Example:
 
 ```text
 Larger tyres
-    ↓
+    v
 More distance travelled per wheel turn
-    ↓
+    v
 Higher possible speed
-    ↓
+    v
 Motor works harder
-    ↓
+    v
 More heat may be produced
 ```
 
@@ -961,7 +961,7 @@ The goal is to practise following connections.
 
 ---
 
-# Hands-On Activity 3 — Draw the First Buggy System Map
+# Hands-On Activity 3 - Draw the First Buggy System Map
 
 Draw these six boxes:
 
@@ -1015,7 +1015,7 @@ Systems thinking prevents us from replacing good parts because of a bad guess.
 
 # Common Beginner Mistakes
 
-## Mistake 1 — Looking at Only One Part
+## Mistake 1 - Looking at Only One Part
 
 A hot motor does not always mean the motor is faulty.
 
@@ -1031,7 +1031,7 @@ Look at the connected system.
 
 ---
 
-## Mistake 2 — Forgetting Unwanted Outputs
+## Mistake 2 - Forgetting Unwanted Outputs
 
 Heat, sound, vibration and wear are outputs too.
 
@@ -1039,7 +1039,7 @@ Ignoring them can create later failures.
 
 ---
 
-## Mistake 3 — Making a Diagram Too Detailed
+## Mistake 3 - Making a Diagram Too Detailed
 
 A useful first diagram may contain only six boxes.
 
@@ -1049,7 +1049,7 @@ Add detail only when it helps answer a question.
 
 ---
 
-## Mistake 4 — Believing One Improvement Helps Everything
+## Mistake 4 - Believing One Improvement Helps Everything
 
 A faster motor may reduce run time.
 
@@ -1061,7 +1061,7 @@ Expect trade-offs.
 
 ---
 
-## Mistake 5 — Ignoring Interfaces
+## Mistake 5 - Ignoring Interfaces
 
 Many build problems happen where two parts meet.
 
@@ -1069,7 +1069,7 @@ Check mounting holes, connectors, shaft sizes and clearances early.
 
 ---
 
-# Optional Challenge — The Slow Buggy Mystery
+# Optional Challenge - The Slow Buggy Mystery
 
 Imagine the buggy is slower than expected.
 

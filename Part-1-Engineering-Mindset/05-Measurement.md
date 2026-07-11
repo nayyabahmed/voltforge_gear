@@ -21,7 +21,7 @@ learning_objectives:
   - Build a simple measurement record for an RC component.
 ---
 
-# Chapter 05 — Measurement
+# Chapter 05 - Measurement
 
 > **"A part that is almost the right size is often completely useless."**
 
@@ -315,7 +315,7 @@ A **radius** is the distance from the centre of a circle to its edge.
 The radius is half the diameter.
 
 ```text
-Radius = Diameter ÷ 2
+Radius = Diameter / 2
 ```
 
 Example:
@@ -353,7 +353,7 @@ flowchart TD
 A bearing might be described as:
 
 ```text
-5 × 11 × 4 mm
+5 x 11 x 4 mm
 ```
 
 This often means:
@@ -394,7 +394,7 @@ For mounting holes, engineers often measure:
 That means from the centre of one hole to the centre of another.
 
 ```text
-Hole centre ●--------● Hole centre
+Hole centre *--------* Hole centre
             < 20 mm >
 ```
 
@@ -718,17 +718,17 @@ Centre-to-centre spacing can be difficult to measure directly.
 
 There are several methods.
 
-## Method 1 — Same-Size Holes
+## Method 1 - Same-Size Holes
 
 Measure from the same edge of one hole to the same edge of the other.
 
 For equal-size holes, this equals centre-to-centre spacing.
 
 ```text
-Left edge of hole A → left edge of hole B
+Left edge of hole A -> left edge of hole B
 ```
 
-## Method 2 — Outside and Inside Measurements
+## Method 2 - Outside and Inside Measurements
 
 For two equal holes:
 
@@ -740,7 +740,7 @@ For two equal holes:
 Centre spacing = outside distance - hole diameter
 ```
 
-## Method 3 — Use Pins or Screws
+## Method 3 - Use Pins or Screws
 
 Insert matching pins into the holes.
 
@@ -1011,7 +1011,7 @@ Add them:
 Divide by three:
 
 ```text
-30.06 ÷ 3 = 10.02 mm
+30.06 / 3 = 10.02 mm
 ```
 
 Average:
@@ -1419,7 +1419,7 @@ Length measurements and trigonometry can also be used later.
 
 ---
 
-# Hands-On Activity 1 — Ruler Practice
+# Hands-On Activity 1 - Ruler Practice
 
 Choose five household objects.
 
@@ -1445,7 +1445,7 @@ Compare your readings.
 
 ---
 
-# Hands-On Activity 2 — Caliper Practice
+# Hands-On Activity 2 - Caliper Practice
 
 With adult supervision where needed, measure:
 
@@ -1465,7 +1465,7 @@ For each measurement:
 
 ---
 
-# Hands-On Activity 3 — Bearing Record
+# Hands-On Activity 3 - Bearing Record
 
 If you have a bearing, create a record.
 
@@ -1486,7 +1486,7 @@ If you do not have a bearing, use a washer or small ring-shaped part.
 
 ---
 
-# Hands-On Activity 4 — Packaging Envelope
+# Hands-On Activity 4 - Packaging Envelope
 
 Choose one component such as:
 
@@ -1522,7 +1522,7 @@ flowchart TD
 
 ---
 
-# Engineering Challenge — Create a Component Measurement Sheet
+# Engineering Challenge - Create a Component Measurement Sheet
 
 Choose one real component that may be used in the buggy.
 
@@ -1596,7 +1596,7 @@ Measurement turns a complaint into a solvable problem.
 
 # Common Beginner Mistakes
 
-## Mistake 1 — Forgetting Units
+## Mistake 1 - Forgetting Units
 
 Writing:
 
@@ -1614,7 +1614,7 @@ Width = 47 mm
 
 ---
 
-## Mistake 2 — Measuring Only Once
+## Mistake 2 - Measuring Only Once
 
 One reading may contain an error.
 
@@ -1622,7 +1622,7 @@ Repeat critical measurements.
 
 ---
 
-## Mistake 3 — Squeezing the Calipers
+## Mistake 3 - Squeezing the Calipers
 
 Too much force can deform plastic, rubber and thin parts.
 
@@ -1630,7 +1630,7 @@ Use gentle contact.
 
 ---
 
-## Mistake 4 — Measuring at an Angle
+## Mistake 4 - Measuring at an Angle
 
 Tilted calipers often give a larger or smaller reading.
 
@@ -1638,7 +1638,7 @@ Keep the jaws square.
 
 ---
 
-## Mistake 5 — Trusting Too Many Decimal Places
+## Mistake 5 - Trusting Too Many Decimal Places
 
 A display showing 0.01 mm does not make every measurement truly accurate to 0.01 mm.
 
@@ -1646,7 +1646,7 @@ Record sensible precision.
 
 ---
 
-## Mistake 6 — Measuring the Wrong Feature
+## Mistake 6 - Measuring the Wrong Feature
 
 Outside diameter and inside diameter are not interchangeable.
 
@@ -1656,7 +1656,7 @@ Label the feature clearly.
 
 ---
 
-## Mistake 7 — Ignoring Wires and Movement
+## Mistake 7 - Ignoring Wires and Movement
 
 A component body may fit while its wires, connector or moving horn do not.
 
@@ -1664,7 +1664,7 @@ Measure the full packaging envelope.
 
 ---
 
-## Mistake 8 — Using Only Supplier Dimensions
+## Mistake 8 - Using Only Supplier Dimensions
 
 Supplier data is valuable, but the actual delivered part may differ.
 
@@ -1672,7 +1672,7 @@ Verify critical dimensions.
 
 ---
 
-## Mistake 9 — Measuring a Hot Print
+## Mistake 9 - Measuring a Hot Print
 
 Plastic changes size as it cools.
 
@@ -1680,7 +1680,7 @@ Wait before making critical measurements.
 
 ---
 
-## Mistake 10 — Designing Directly From Memory
+## Mistake 10 - Designing Directly From Memory
 
 Even simple parts are easy to remember incorrectly.
 
@@ -1688,7 +1688,7 @@ Measure and record.
 
 ---
 
-# Optional Challenge — Measure an Irregular Object
+# Optional Challenge - Measure an Irregular Object
 
 Choose an object that is not a simple box.
 
@@ -1715,7 +1715,7 @@ The goal is to capture the dimensions needed for function.
 
 ---
 
-# Optional Challenge — Compare Tools
+# Optional Challenge - Compare Tools
 
 Measure the same object using:
 
