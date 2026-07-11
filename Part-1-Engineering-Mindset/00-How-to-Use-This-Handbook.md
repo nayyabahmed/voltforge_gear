@@ -2,8 +2,8 @@
 title: "Chapter 00 - How to Use This Handbook"
 part: "Part 1 - Engineering Mindset"
 chapter: 0
-version: "0.1"
-status: "Draft"
+version: "0.2"
+status: "Reviewed"
 difficulty: Beginner
 estimated_time: "20-30 minutes"
 prerequisites: []
@@ -44,17 +44,9 @@ By the end of this chapter you will be able to:
 
 Welcome!
 
-Over the next few months you are going to become an engineer.
+Over the next few months you are going to become an engineer. Not because someone gives you a certificate, and not because you read lots of books - but because you will learn to look at problems differently.
 
-Not because someone gives you a certificate.
-
-Not because you read lots of books.
-
-But because you will learn to look at problems differently.
-
-By the end of this handbook you will have designed and built your own 3D printed brushless RC buggy.
-
-Along the way you will also learn ideas used by real engineers who design:
+By the end of this handbook you will have designed and built your own 3D printed brushless RC buggy. Along the way you will also learn ideas used by real engineers who design:
 
 - Formula One cars
 - Mars rovers
@@ -69,36 +61,13 @@ The buggy is simply our classroom.
 
 # This Is Not Just About RC Cars
 
-Imagine someone teaches you to bake one cake.
+Imagine someone teaches you to bake one cake. You can make that cake - but what happens when someone asks for cookies, or bread, or pizza? You might not know where to start.
 
-You can make that cake.
-
-But what happens if someone asks you to bake cookies?
-
-Or bread?
-
-Or pizza?
-
-You might not know where to start.
-
-Now imagine instead someone teaches you:
-
-- ingredients
-- mixing
-- measuring
-- cooking
-- timing
-- temperature
-
-Now you can make hundreds of recipes.
+Now imagine instead someone teaches you ingredients, mixing, measuring, cooking, timing and temperature. Suddenly you can make hundreds of recipes.
 
 Engineering is exactly the same.
 
-We are **not** learning how to copy one RC car.
-
-We are learning how machines work.
-
-Once you understand the ideas, you can build almost anything.
+We are **not** learning how to copy one RC car. We are learning how machines work - and once you understand the ideas, you can build almost anything.
 
 ---
 
@@ -155,21 +124,9 @@ Every version teaches us something.
 
 Many beginners think engineering is about getting everything right the first time.
 
-It isn't.
+It isn't. Real engineers expect mistakes.
 
-Real engineers expect mistakes.
-
-Imagine learning to ride a bicycle.
-
-The first time you try you wobble.
-
-Maybe you fall over.
-
-That doesn't mean you failed.
-
-It means your brain has collected new information.
-
-The next attempt is better.
+Imagine learning to ride a bicycle. The first time you try, you wobble - maybe you even fall over. That doesn't mean you failed. It means your brain has collected new information, and the next attempt is better.
 
 Engineering works exactly the same way.
 

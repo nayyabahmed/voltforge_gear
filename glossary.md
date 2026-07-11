@@ -623,6 +623,14 @@ Fillets can reduce stress concentration.
 
 ---
 
+### First-Angle and Third-Angle Projection
+
+Two standard ways of arranging the views in an orthographic drawing.
+
+Different countries prefer different systems, so a drawing should state which one it uses.
+
+---
+
 ### Fit
 
 The relationship between two connected parts.

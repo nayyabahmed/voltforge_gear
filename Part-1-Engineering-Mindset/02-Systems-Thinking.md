@@ -2,8 +2,8 @@
 title: "Chapter 02 - Systems Thinking"
 part: "Part 1 - Engineering Mindset"
 chapter: 2
-version: "0.1"
-status: "Draft"
+version: "0.2"
+status: "Reviewed"
 difficulty: Beginner
 estimated_time: "60-90 minutes"
 prerequisites:
@@ -49,30 +49,14 @@ Imagine placing these items on a table:
 
 Do you have a bicycle?
 
-Not yet.
-
-You have the correct parts, but they are not connected.
-
-Now imagine connecting the handlebars to the seat and the pedals to the front wheel.
-
-You still do not have a useful bicycle.
-
-The parts must be connected in the **right way**.
+Not yet. You have the correct parts, but they are not connected. Now imagine connecting the handlebars to the seat and the pedals to the front wheel. You still do not have a useful bicycle, because the parts must be connected in the **right way**.
 
 This gives us an important engineering idea:
 
 > A machine is not only made from parts.  
 > It is also made from relationships.
 
-A relationship tells us how one part affects another.
-
-The motor affects the gears.
-
-The gears affect the wheels.
-
-The wheels affect the ground.
-
-The ground affects the movement of the buggy.
+A relationship tells us how one part affects another. In our buggy, the motor affects the gears, the gears affect the wheels, the wheels affect the ground, and the ground affects the movement of the whole machine.
 
 Systems thinking is the skill of seeing those relationships.
 
@@ -121,6 +105,8 @@ It means asking:
 # A New Engineering Phrase
 
 ## Systems Thinking
+
+The bath, the tap and the drain worked together. Our buggy is exactly the same: the battery, motor, gears and wheels only make sense together. Engineers have a name for seeing machines this way.
 
 **Systems thinking** means:
 
@@ -227,7 +213,7 @@ Our buggy also has inputs, processes and outputs.
 ## Processes
 
 - The receiver reads radio commands.
-- The ESC controls electrical power.
+- The ESC (the motor's electronic speed controller - Chapter 25) controls electrical power.
 - The motor converts electrical energy into rotation.
 - The gearbox changes speed and twisting force.
 - The steering system changes wheel direction.
@@ -383,6 +369,8 @@ For example, the drive system may contain:
 - axles
 - wheels
 
+Do not worry if some of those part names are new - we will meet them all properly in Chapter 3.
+
 This kind of smaller system inside a larger system is called a **subsystem**.
 
 ```mermaid
@@ -401,6 +389,10 @@ flowchart TD
     Drive --> Differential
     Drive --> Driveshafts
 ```
+
+> **[Sketch: photo or labelled drawing of the real buggy with the six
+> subsystems annotated - control, power, drive, steering, suspension,
+> structure - so the abstract tree above maps onto a real object]**
 
 We can keep dividing until we reach individual parts.
 
@@ -431,7 +423,7 @@ It is a connection that carries electrical energy.
 
 Consider the driveshaft.
 
-It is a connection that carries rotation and torque.
+It is a connection that carries rotation and torque (twisting force - Chapter 3 explains it properly).
 
 Consider the radio signal.
 

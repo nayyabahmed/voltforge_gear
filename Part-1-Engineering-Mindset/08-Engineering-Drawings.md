@@ -2,8 +2,8 @@
 title: "Chapter 08 - Engineering Drawings"
 part: "Part 1 - Engineering Mindset"
 chapter: 8
-version: "0.1"
-status: "Draft"
+version: "0.2"
+status: "Reviewed"
 difficulty: Beginner
 estimated_time: "100-130 minutes"
 prerequisites:
@@ -88,8 +88,14 @@ A good drawing helps someone:
 - make the part
 - inspect the part
 - assemble the part
-- understand interfaces
+- understand interfaces (the places where parts connect - remember Chapter 2)
 - compare the result with the design
+
+The best drawings do one more thing: they capture **design intent** - *why* a
+feature is the size and shape it is. A hole is not just "5.3 mm"; it is
+"5.3 mm so the 5 mm pin can spin freely". We will return to design intent near
+the end of this chapter, but keep the idea in mind as you read: a drawing
+records reasons, not just sizes.
 
 ---
 
@@ -204,6 +210,11 @@ flowchart TD
 
 Each view shows two dimensions clearly.
 
+> **Learn more**
+>
+> - BBC Bitesize (KS3 Design and Technology) - search "isometric and
+>   orthographic drawing" for worked examples of the views in this chapter
+
 ---
 
 # Front View
@@ -259,38 +270,26 @@ Views are arranged so features align.
 
 A hole in the front view should line up with the same hole in the top or side view.
 
-```text
-        TOP VIEW
-     +-------------+
-     |      o      |
-     +-------------+
+> **[Sketch: three aligned views of a simple plate with one hole - top view
+> directly above the front view, side view directly to its right, with thin
+> vertical and horizontal construction lines showing the hole and the plate
+> edges lining up exactly between all three views]**
 
-FRONT VIEW           SIDE VIEW
-+-------------+      +-----+
-|      o      |      |  o  |
-+-------------+      +-----+
-```
-
-Alignment helps the reader understand that the views describe one object.
+Alignment helps the reader understand that the views describe one object. If a
+feature does not line up between views, one of the views is wrong.
 
 ---
 
 # First-Angle and Third-Angle Projection
 
-Different countries and industries arrange views differently.
+Different countries and industries arrange the views around the front view in
+two different orders, called **first-angle** and **third-angle projection**.
+You will meet them properly when you use professional CAD - do not worry about
+the difference now.
 
-Two common systems are:
+For this handbook the rule is simple:
 
-- first-angle projection
-- third-angle projection
-
-For a beginner handbook, the important point is:
-
-> State which projection system is being used and keep it consistent.
-
-For this project, you may choose one system for the repository and use it throughout.
-
-A title block can record the chosen projection.
+> Pick one system, write it in the title block, and keep it consistent.
 
 ---
 

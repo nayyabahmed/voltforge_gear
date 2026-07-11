@@ -2,8 +2,8 @@
 title: "Chapter 06 - Accuracy, Precision and Error"
 part: "Part 1 - Engineering Mindset"
 chapter: 6
-version: "0.1"
-status: "Draft"
+version: "0.2"
+status: "Reviewed"
 difficulty: Beginner
 estimated_time: "90-120 minutes"
 prerequisites:
@@ -44,27 +44,17 @@ By the end of this chapter you will be able to:
 
 # Before We Begin
 
-Imagine throwing darts at a dartboard.
+Imagine throwing five darts at a dartboard. Four different things can happen. Your darts might land in a tight cluster right on the bullseye, or in a tight cluster off in a corner. They might spread loosely around the centre, or scatter all over the board.
 
-There are four possible results.
+Every one of those patterns has a name in engineering, and every measuring tool you will ever use behaves like one of them. A tight cluster on the bullseye is accurate and precise. A tight cluster in the corner is precise but inaccurate - consistent, and consistently wrong. A loose spread around the centre is accurate on average but not precise. A scatter everywhere is neither.
 
-1. The darts land close to the centre and close to each other.
-2. The darts land close to each other, but far from the centre.
-3. The darts spread around the centre.
-4. The darts spread everywhere and miss the centre.
+> **[Sketch: four dartboards in a 2x2 grid - top-left "accurate AND precise"
+> (tight cluster on the bullseye), top-right "precise, not accurate" (tight
+> cluster near the edge), bottom-left "accurate on average, not precise"
+> (loose spread around the centre), bottom-right "neither" (darts scattered
+> everywhere)]**
 
-These patterns help explain accuracy and precision.
-
-```mermaid
-flowchart TD
-    Results["Measurement results"]
-    Results --> AP["Accurate and precise"]
-    Results --> P["Precise but inaccurate"]
-    Results --> A["Accurate on average, not precise"]
-    Results --> Neither["Neither accurate nor precise"]
-```
-
-A measuring tool can behave like any of these dart patterns.
+Keep this picture in your head for the whole chapter. It is the signature image of measurement quality.
 
 ---
 
@@ -124,18 +114,16 @@ This gives us an important lesson:
 
 > Precision does not guarantee accuracy.
 
+> **Learn more**
+>
+> - BBC Bitesize (KS3 Science): search "accuracy and precision" - the same dartboard idea, with practice questions
+> - BBC Bitesize (KS3 Science): search "errors in measurement"
+
 ---
 
 # Accuracy and Precision Together
 
-A good measurement process should aim for both.
-
-```mermaid
-flowchart TD
-    Measurement["Good measurement"]
-    Measurement --> Accuracy["Close to true value"]
-    Measurement --> Precision["Repeatable"]
-```
+A good measurement process aims for both: close to the true value, and repeatable.
 
 But different jobs need different levels.
 
@@ -225,15 +213,7 @@ In measurement, **error** means:
 
 > The difference between a measured value and the true value.
 
-Error does not always mean someone made a careless mistake.
-
-Some error is unavoidable.
-
-The goal is to:
-
-- reduce it
-- understand it
-- report it honestly
+Error does not always mean someone made a careless mistake - some error is unavoidable in every real measurement. The goal is to reduce it, understand it, and report it honestly.
 
 ---
 
@@ -329,6 +309,10 @@ You must find and correct the cause.
 This distinction is extremely important.
 
 Averaging many wrong measurements does not make them right.
+
+> **[Sketch: two dot-strips above a number line marked with the true value -
+> "random error" dots scattered evenly around the true value, "systematic
+> error" dots clustered tightly but shifted to one side of it]**
 
 ---
 
