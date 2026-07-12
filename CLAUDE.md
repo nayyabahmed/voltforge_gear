@@ -27,8 +27,20 @@ Read these before writing or editing any chapter:
   philosophy (buy precision / build structure, spend progressively, staged
   builds, modularity). Chapter content must not contradict it; Part 4's
   chapter sequence mirrors its build stages.
-- `style-guides-principles/improvement-suggestions.md` - the readability
-  review backlog for the original Part 1 chapters, with per-chapter items.
+- `style-guides-principles/improvement-suggestions.md` - the original
+  readability review of the Part 1 chapters (2026-07-11), kept frozen as a
+  record. The WORKING copies live in `backlog/`: `backlog/PLAN.md` is the
+  phased implementation plan (per-chapter loop with research pass),
+  `backlog/chapter-NN.md` files hold the live per-chapter items, and
+  `backlog/TRACKER.md` is the at-a-glance status board (done / in
+  progress / planned per chapter and activity). Check TRACKER.md first
+  when asked about review status, and keep its rows and "Last updated"
+  date current whenever chapter work starts or finishes.
+  `backlog/WRITING-TRACKER.md` is the equivalent board for AUTHORING new
+  chapters (12 onwards): it tracks each in-flight chapter through the
+  research -> draft -> mini project -> glossary -> reference docs ->
+  publish pipeline, while `SUMMARY.md` remains the single source of truth
+  for numbering and published status.
 
 ## Non-Negotiable Conventions
 

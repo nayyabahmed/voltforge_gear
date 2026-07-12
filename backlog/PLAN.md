@@ -14,6 +14,9 @@ here as they are applied.
 
 ## Current State (as of 2026-07-12)
 
+> Live status now lives in [TRACKER.md](TRACKER.md) - the table below is
+> the state when this plan was written and is not updated.
+
 | Chapter | File | Status | Backlog file |
 | --- | --- | --- | --- |
 | 00 How to Use This Handbook | `00-...md` | v0.2 done (dd772e8) | none (not in review scope) |
@@ -86,7 +89,9 @@ For each chapter, in this order:
 6. Set frontmatter `version: "0.2"` / `status: "Reviewed"` (only now).
 7. Tick the chapter's items in its backlog file (and in book-wide.md where
    relevant).
-8. Update the chapter's row in `SUMMARY.md` (v0.1 yellow -> v0.2 blue).
+8. Update the chapter's row in `SUMMARY.md` (v0.1 yellow -> v0.2 blue) and
+   in `TRACKER.md` (the at-a-glance status board - also bump its
+   "Last updated" date).
 9. Commit: one chapter per commit, message like
    `Apply Part 1 review to Chapter 05 (v0.2)`.
 
