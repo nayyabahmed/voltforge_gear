@@ -2,16 +2,17 @@
 title: "Chapter 01 - What Are We Building?"
 part: "Part 1 - Engineering Mindset"
 chapter: 1
-version: "0.1"
-status: "Draft"
+version: "0.2"
+status: "Reviewed"
 difficulty: Beginner
 estimated_time: "45-60 minutes"
 prerequisites:
   - Chapter 00 - How to Use This Handbook
 learning_objectives:
-  - Understand that machines are made from smaller systems.
-  - Recognise the major systems in an RC buggy.
-  - Learn why engineers study the whole machine before designing parts.
+  - Explain the main purpose of an RC buggy.
+  - Identify the major systems inside the buggy.
+  - Understand why engineers divide complex machines into smaller pieces.
+  - Begin looking at everyday objects as collections of systems.
 ---
 
 # Chapter 01 - What Are We Building?
@@ -34,53 +35,27 @@ By the end of this chapter you will be able to:
 
 # Before We Begin
 
-Imagine somebody hands you a cardboard box.
-
-Inside the box are **1,200 LEGO pieces.**
-
-There are wheels.
-
-Windows.
-
-Doors.
-
-Axles.
-
-Tiny coloured bricks.
-
-Long beams.
-
-Pins.
-
-Nothing is assembled.
+Imagine somebody hands you a cardboard box. Inside are **1,200 LEGO
+pieces**: wheels, windows, doors, axles, tiny coloured bricks, long beams
+and pins. Nothing is assembled.
 
 Now imagine they ask you:
 
 > "Can you build the castle?"
 
-Most people would immediately start looking for instructions.
+Most people would immediately start looking for instructions. Why? Because a
+castle is **too complicated to think about all at once**. Instead we
+naturally divide it into smaller jobs: first the walls, then the towers,
+then the gates, then the roof, and finally the decorations.
 
-Why?
-
-Because a castle is **too complicated to think about all at once.**
-
-Instead we naturally divide it into smaller jobs.
-
-First the walls.
-
-Then the towers.
-
-Then the gates.
-
-Then the roof.
-
-Finally the decorations.
-
-Without even realising it, you have used one of the most important engineering ideas.
+Without even realising it, you have used one of the most important
+engineering ideas.
 
 > **Break a big problem into smaller problems.**
 
-This chapter is all about learning that skill.
+This chapter is about learning that skill, and our RC buggy is the perfect
+machine to practise on - because, as we are about to see, it is really six
+smaller machines working together.
 
 ---
 
@@ -90,27 +65,19 @@ Before we can build one, we should answer a simple question.
 
 ## What is its job?
 
-Take a minute before reading further.
-
-Really think about it.
-
-What does an RC buggy actually do?
+Take a minute before reading further and really think about it. What does an
+RC buggy actually do?
 
 You might answer:
 
 > "It drives."
 
-That is true.
-
-But engineers like more precise answers.
-
-A better answer is:
+That is true, but engineers like more precise answers. A better answer is:
 
 > **An RC buggy converts electrical energy into controlled movement.**
 
-Don't worry if that sentence sounds complicated.
-
-We are going to unpack every part of it.
+Don't worry if that sentence sounds complicated. We are going to unpack
+every part of it.
 
 ---
 
@@ -125,23 +92,15 @@ You decide:
 - when it stops
 - when it turns
 
-You are controlling movement.
-
-An RC buggy does exactly the same thing.
-
-The only difference is that your hands are replaced by a radio controller.
+You are controlling movement. An RC buggy does exactly the same thing - the
+only difference is that your hands are replaced by a radio controller.
 
 ---
 
 # One Big Job
 
-Every machine has **one main purpose**.
-
-A toaster heats bread.
-
-A washing machine cleans clothes.
-
-A drill makes holes.
+Every machine has **one main purpose**. A toaster heats bread, a washing
+machine cleans clothes, a drill makes holes.
 
 An RC buggy's purpose is simple:
 
@@ -153,33 +112,14 @@ Everything else exists to help achieve that goal.
 
 # The Ice Cream Shop
 
-Let's imagine something completely different.
+Let's imagine something completely different. Suppose you own an ice cream
+shop where many different people work. One person serves customers, one
+makes the ice cream, one cleans the shop, one orders ingredients, and one
+takes payments.
 
-Suppose you own an ice cream shop.
-
-Many different people work there.
-
-One person serves customers.
-
-One person makes the ice cream.
-
-One person cleans the shop.
-
-One person orders ingredients.
-
-One person takes payments.
-
-If everybody tried to do every job...
-
-...the shop would become chaos.
-
-Instead each person has a specific responsibility.
-
-Machines work exactly the same way.
-
-Instead of people...
-
-they have **systems**.
+If everybody tried to do every job, the shop would become chaos. Instead,
+each person has a specific responsibility. Machines work exactly the same
+way - but instead of people, they have **systems**.
 
 ---
 
@@ -191,25 +131,14 @@ A **system** is simply:
 
 > **A group of parts working together to perform one job.**
 
-That's all.
-
-Nothing mysterious.
-
-Your body is a system.
-
-Your school is a system.
-
-Your computer is a system.
-
-An RC buggy is also a system.
+That's all - nothing mysterious. Your body is a system. So is your school,
+and so is your computer. An RC buggy is also a system.
 
 ---
 
 # Looking Inside the Buggy
 
-Instead of seeing one machine...
-
-let's imagine opening it up.
+Instead of seeing one machine, let's imagine opening it up.
 
 ```mermaid
 flowchart TD
@@ -224,38 +153,23 @@ Buggy --> Suspension["Suspension System"]
 Buggy --> Structure["Structure"]
 ```
 
-Each box has one important job.
-
-Let's meet them one by one.
+Each box has one important job. Let's meet them one by one.
 
 ---
 
 # System 1 - The Brain
 
-Imagine riding a bicycle.
+Imagine riding a bicycle. Your brain decides: go faster, slow down, turn
+left, stop. Your muscles then carry out those instructions.
 
-Your brain decides:
-
-- Go faster.
-- Slow down.
-- Turn left.
-- Stop.
-
-Your muscles then carry out those instructions.
-
-The buggy also has a brain.
-
-Not a thinking brain like yours.
-
-A control brain.
-
-Its job is to receive commands from the radio controller.
+The buggy also has a brain - not a thinking brain like yours, but a control
+brain. Its job is to receive commands from the radio controller.
 
 Later we will discover this system contains:
 
-- radio receiver
-- ESC
-- servo
+- a radio receiver (the part that hears the controller's signals - Chapter 23)
+- an ESC (the motor's electronic speed controller - Chapter 25)
+- a servo (a small motor that turns the steering - Chapter 24)
 
 For now just remember:
 
@@ -265,59 +179,26 @@ For now just remember:
 
 # System 2 - The Muscles
 
-Your muscles move your body.
+Your muscles move your body, and the buggy has muscles too. Those muscles
+are called the **motor**. The motor spins, and that spinning motion
+eventually turns the wheels.
 
-The buggy has muscles too.
-
-Those muscles are called the **motor**.
-
-The motor spins.
-
-That spinning motion eventually turns the wheels.
-
-Without muscles...
-
-nothing moves.
+Without muscles, nothing moves.
 
 ---
 
 # System 3 - The Skeleton
 
-Stand up.
+Stand up and feel your back, your shoulders, your arms. Your bones keep
+everything in the correct place. Without bones, your muscles would have
+nothing to pull against.
 
-Feel your back.
+The buggy also has bones. Engineers call this the **chassis**, and it holds
+everything together.
 
-Feel your shoulders.
-
-Feel your arms.
-
-Your bones keep everything in the correct place.
-
-Without bones...
-
-your muscles would have nothing to pull against.
-
-The buggy also has bones.
-
-Engineers call this the **chassis**.
-
-The chassis holds everything together.
-
-```text
-Motor
-   |
-Battery
-   |
-Receiver
-   |
-Servo
-
-All mounted onto
-
-====================
-      CHASSIS
-====================
-```
+> **[Sketch: side view of a flat chassis plate with the motor, battery,
+> receiver and servo mounted on top, each part labelled, showing one
+> structural part holding everything in place]**
 
 Think of the chassis as the backbone of the entire machine.
 
@@ -325,61 +206,34 @@ Think of the chassis as the backbone of the entire machine.
 
 # System 4 - The Joints
 
-Your knees bend.
+Your knees, elbows and ankles bend. These joints allow movement while still
+keeping everything connected.
 
-Your elbows bend.
-
-Your ankles bend.
-
-These joints allow movement while still keeping everything connected.
-
-The buggy needs something similar.
-
-Its suspension allows the wheels to move up and down while keeping them attached to the car.
-
-Without suspension...
-
+The buggy needs something similar. Its suspension allows the wheels to move
+up and down while keeping them attached to the car. Without suspension,
 every bump would launch the buggy into the air.
 
 ---
 
 # System 5 - The Feet
 
-Imagine trying to run while wearing socks on an ice rink.
+Imagine trying to run while wearing socks on an ice rink. It wouldn't work
+very well, because your shoes are what grip the ground. The buggy's tyres
+perform the same job.
 
-It wouldn't work very well.
+This is an important idea:
 
-Your shoes grip the ground.
-
-The buggy's tyres perform the same job.
-
-The motor never actually pushes against the road.
-
-The tyres do.
-
-This is an important idea.
-
-The motor only spins.
-
-The tyres create movement by pushing against the ground.
+> The motor never actually pushes against the road.
+> The motor only spins.
+> The tyres create movement by pushing against the ground.
 
 ---
 
 # System 6 - The Food Supply
 
-Imagine running a race without breakfast.
-
-Eventually you become tired.
-
-Machines also need energy.
-
-Instead of food...
-
-our buggy eats electricity.
-
-That electricity comes from a battery.
-
-The battery stores energy until we need it.
+Imagine running a race without breakfast - eventually you become tired.
+Machines also need energy. Instead of food, our buggy eats electricity,
+which comes from a battery. The battery stores energy until we need it.
 
 ---
 
@@ -406,41 +260,30 @@ Gearbox --> Wheels
 Wheels --> Ground
 ```
 
-Don't worry if some of those words are unfamiliar.
+Don't worry if some of those words are unfamiliar. Each one will have its
+own chapter later.
 
-Each one will have its own chapter later.
+> **Good place to pause.** Stretch, get a drink, or look at a machine near
+> you and guess what its systems are. The next section starts a new idea.
 
 ---
 
 # Why Engineers Divide Machines Into Systems
 
-Imagine your television stops working.
-
-Would you replace:
-
-- the screen
-- the speakers
-- the remote
-- the power cable
-- every circuit board
-
-Probably not.
-
-Instead you first ask:
+Imagine your television stops working. Would you replace the screen, the
+speakers, the remote, the power cable and every circuit board all at once?
+Probably not. Instead you first ask:
 
 > Which system has failed?
 
-Engineers do exactly this.
-
-Breaking a machine into systems makes solving problems much easier.
+Engineers do exactly this. Breaking a machine into systems makes solving
+problems much easier.
 
 ---
 
 # Everyday Systems
 
-Let's practise.
-
-Can you identify the systems inside these objects?
+Let's practise. Can you identify the systems inside these objects?
 
 ## Bicycle
 
@@ -448,11 +291,10 @@ Possible systems:
 
 - steering
 - brakes
-- drivetrain
+- drivetrain (the chain and gears that carry your pedalling to the back
+  wheel - Chapter 3 meets the buggy's version)
 - frame
 - wheels
-
----
 
 ## Computer
 
@@ -465,8 +307,6 @@ Possible systems:
 - display
 - keyboard
 
----
-
 ## Human Body
 
 Possible systems:
@@ -477,13 +317,15 @@ Possible systems:
 - digestive system
 - breathing system
 
-Notice something?
+Notice something? Very different machines, very similar idea: everything is
+built from systems.
 
-Very different machines.
-
-Very similar idea.
-
-Everything is built from systems.
+> **Learn more**
+>
+> - BBC Bitesize (KS2 Design and Technology): search "mechanisms" - everyday
+>   machines broken into simple parts that each do one job
+> - Explain That Stuff: search "tools and machines" - friendly explanations
+>   of how familiar machines work inside
 
 ---
 
@@ -493,31 +335,28 @@ From now on, whenever you see a machine, ask yourself:
 
 > What systems can I find?
 
-This simple question is one of the biggest differences between an engineer and everyone else.
+This simple question is one of the biggest differences between an engineer
+and everyone else.
 
-Most people see:
-
-"A bicycle."
-
-An engineer sees:
+Most people see "a bicycle". An engineer sees:
 
 - frame
 - steering
 - drivetrain
 - brakes
 - wheels
-- bearings
-- fasteners
+- bearings (smooth rings that let the wheels spin freely)
+- fasteners (the screws and bolts holding it all together)
 
 The engineer sees the hidden structure.
 
 ---
 
-# Mini Investigation
+# Hands-On Activity 1 - Systems Hunt
 
-Choose one object nearby.
+No equipment needed - just your eyes and your engineering notebook.
 
-It could be:
+Choose one object nearby. It could be:
 
 - headphones
 - office chair
@@ -538,51 +377,12 @@ Write your answers in your engineering notebook.
 
 ---
 
-# Common Beginner Mistakes
+# Hands-On Activity 2 - Draw Your Buggy as Six Boxes
 
-## Mistake 1
+No equipment needed - just paper and a pencil.
 
-"I need to understand every part before I start."
-
-No.
-
-Understand the big picture first.
-
-The details come later.
-
----
-
-## Mistake 2
-
-Thinking the motor "moves the buggy."
-
-The motor only spins.
-
-Many other systems are needed before the buggy actually moves.
-
----
-
-## Mistake 3
-
-Trying to memorise names.
-
-Don't memorise.
-
-Understand.
-
-The names become easy once the ideas make sense.
-
----
-
-# Chapter Challenge
-
-Draw your own RC buggy.
-
-It does **not** have to be accurate.
-
-Instead, draw six boxes.
-
-Label them:
+Draw your own RC buggy. It does **not** have to be accurate. Instead, draw
+six boxes and label them:
 
 - Brain
 - Muscles
@@ -591,31 +391,39 @@ Label them:
 - Feet
 - Food Supply
 
-Draw arrows showing how they work together.
+Draw arrows showing how they work together. Don't worry about getting it
+perfect - this drawing will become better every time you learn something
+new.
 
-Don't worry about getting it perfect.
+---
 
-This drawing will become better every time you learn something new.
+# Common Beginner Mistakes
+
+## Mistake 1 - Trying to understand every part first
+
+"I need to understand every part before I start." No - understand the big
+picture first. The details come later.
+
+## Mistake 2 - Thinking the motor moves the buggy
+
+The motor only spins. Many other systems are needed before the buggy
+actually moves.
+
+## Mistake 3 - Memorising names instead of ideas
+
+Don't memorise - understand. The names become easy once the ideas make
+sense.
 
 ---
 
 # Chapter Summary
 
-In this chapter we discovered that an RC buggy is **not one machine.**
+In this chapter we discovered that an RC buggy is **not one machine**. It is
+a collection of smaller systems, and each system performs one job. Together
+they allow the buggy to move exactly where the driver wants.
 
-It is a collection of smaller systems.
-
-Each system performs one job.
-
-Together they allow the buggy to move exactly where the driver wants.
-
-This idea might seem simple.
-
-But almost every engineering project begins in exactly this way.
-
-Before solving problems...
-
-understand the system.
+This idea might seem simple, but almost every engineering project begins in
+exactly this way. Before solving problems, understand the system.
 
 ---
 
@@ -639,6 +447,14 @@ understand the system.
 4. Why do engineers break big machines into smaller systems?
 5. The motor only spins. What else is needed before the buggy actually moves?
 6. What systems can you find in a bicycle?
+7. The chapter compares the chassis to your bones. Why is that a good
+   comparison? What would happen to the buggy without it?
+8. Your buggy switches on, but the wheels do not turn when you steer with
+   the controller. Which system would you check first, and why?
+9. A friend says: "The battery makes the buggy move, so the battery is the
+   most important system." Do you agree? Explain your answer.
+10. Pick a machine in your home. What is its one main purpose, and which
+    systems help it do that job?
 
 ---
 
@@ -647,18 +463,15 @@ understand the system.
 - [ ] I know the main job of an RC buggy.
 - [ ] I understand what a system is.
 - [ ] I can identify the major systems inside the buggy.
-- [ ] I completed the investigation activity.
-- [ ] I drew my first system diagram.
+- [ ] I completed the Systems Hunt activity.
+- [ ] I drew my buggy as six labelled boxes.
 - [ ] I added notes to my engineering notebook.
 
 ---
 
 # Looking Ahead
 
-In the next chapter we will learn a new way of seeing machines.
-
-Instead of looking at individual parts...
-
-we will learn to see **connections**.
-
-This is called **Systems Thinking**, and it is one of the most powerful tools used by engineers.
+In the next chapter, **Chapter 2 - Systems Thinking**, we will learn a new
+way of seeing machines. Instead of looking at individual parts, we will
+learn to see **connections** - one of the most powerful tools used by
+engineers.

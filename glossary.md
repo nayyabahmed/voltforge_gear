@@ -1549,6 +1549,14 @@ The full space occupied by a part as it moves.
 
 ---
 
+### Suspension
+
+The system that lets the wheels move up and down over bumps while staying attached to the car.
+
+It keeps the tyres pressed against the ground so the buggy stays controllable.
+
+---
+
 ### System
 
 A group of parts working together to perform one job.
