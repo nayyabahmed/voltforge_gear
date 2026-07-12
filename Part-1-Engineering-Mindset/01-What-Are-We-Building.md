@@ -5,7 +5,7 @@ chapter: 1
 version: "0.2"
 status: "Reviewed"
 difficulty: Beginner
-estimated_time: "45-60 minutes"
+estimated_time: "60-90 minutes"
 prerequisites:
   - Chapter 00 - How to Use This Handbook
 learning_objectives:
@@ -210,8 +210,24 @@ Your knees, elbows and ankles bend. These joints allow movement while still
 keeping everything connected.
 
 The buggy needs something similar. Its suspension allows the wheels to move
-up and down while keeping them attached to the car. Without suspension,
-every bump would launch the buggy into the air.
+up and down while keeping them attached to the car.
+
+> **Think about it.** Jump off a low step and land with stiff, straight
+> legs. Now jump again and land with bent knees. Which landing felt
+> softer - and where did the "thump" go?
+
+When a wheel hits a bump, the bump gives the wheel a sharp push upwards,
+and that push has to go somewhere. With suspension, the wheel rides up over
+the bump on its own while a spring soaks up the push - just like your bent
+knees - and the body of the buggy barely moves. Without suspension, the
+whole buggy takes the hit at once: the push flings the entire car upwards,
+the tyres leave the ground, and a buggy in the air cannot steer or brake.
+
+> **[Sketch: two side-by-side views of the buggy hitting the same bump -
+> left "no suspension": the whole buggy pitched into the air, all four
+> tyres off the ground; right "with suspension": one wheel riding up over
+> the bump while the body stays level and the other tyres stay pressed on
+> the ground]**
 
 ---
 
@@ -322,8 +338,9 @@ built from systems.
 
 > **Learn more**
 >
-> - BBC Bitesize (KS2 Design and Technology): search "mechanisms" - everyday
->   machines broken into simple parts that each do one job
+> - BBC Bitesize (KS2 Design and Technology): search "mechanical systems" -
+>   levers, gears and pulleys: everyday machines broken into simple parts
+>   that each do one job
 > - Explain That Stuff: search "tools and machines" - friendly explanations
 >   of how familiar machines work inside
 
@@ -397,6 +414,65 @@ new.
 
 ---
 
+# Chapter Mini Project - The Cotton Reel Crawler
+
+Time to build a machine you can keep. This one is nearly a hundred years
+old - children were building it from scraps during the Second World War -
+and it contains the same systems you have just met.
+
+You will need:
+
+- an empty thread spool (a "cotton reel") - a short, stiff cardboard tube
+  works too
+- a rubber band a little longer than the spool
+- a paper clip or used matchstick
+- a pencil (or a lolly stick)
+- a thin slice of candle with a hole through it, a metal washer, or a dab
+  of solid soap
+- sticky tape and scissors
+
+> **SAFETY**
+>
+> Ask an adult to cut the candle slice and make its hole. Scissors cut
+> card and fingers equally well - cut away from yourself, on a table.
+
+Build steps:
+
+1. Push the rubber band all the way through the hole in the spool.
+2. At one end, slip the paper clip through the loop and tape it flat
+   against the spool, so the band cannot turn at that end.
+3. At the other end, thread the band through the candle slice (or washer),
+   then slip the pencil through the loop.
+4. Wind the pencil round and round - 20 to 40 turns - so the band twists up
+   tight inside the spool.
+5. Put the crawler on the floor, pencil trailing behind, and let go.
+
+If the spool spins without moving, it needs grip: stretch a spare rubber
+band around each rim as a tyre. If it stops instantly, the pencil may be
+jamming - the candle slice is there to let it slide smoothly.
+
+Now the engineering part. Your crawler is a complete machine, so find its
+systems:
+
+- Where is the energy stored? The twisted rubber band is its battery.
+- What are its muscles? The band untwisting is its motor.
+- What is its skeleton? The spool holds everything together.
+- What are its feet? The rims - and the tyre bands, if you added them,
+  grip just like the buggy's tyres.
+- What does the trailing pencil do? It presses against the floor so the
+  twisting force turns the spool instead of spinning the pencil - it is
+  part of how the muscle power reaches the feet.
+
+And one system is missing. There is no brain: **you** are the control
+system, deciding how many turns to wind. In Part 3 we will give our buggy
+a real control system, so the driver's commands arrive by radio instead.
+
+Put the crawler somewhere safe - a shelf, a windowsill, a box lid. It is
+the first machine in your engineering showcase, and by the end of this
+book it will have plenty of company.
+
+---
+
 # Common Beginner Mistakes
 
 ## Mistake 1 - Trying to understand every part first
@@ -465,6 +541,8 @@ exactly this way. Before solving problems, understand the system.
 - [ ] I can identify the major systems inside the buggy.
 - [ ] I completed the Systems Hunt activity.
 - [ ] I drew my buggy as six labelled boxes.
+- [ ] I built the cotton reel crawler and found each of its systems.
+- [ ] My crawler is on my showcase shelf.
 - [ ] I added notes to my engineering notebook.
 
 ---

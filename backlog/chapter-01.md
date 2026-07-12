@@ -46,14 +46,31 @@ reference, [S] structure.
 - [x] Final pass: ASCII check clean, glosses verified against SUMMARY.md,
   frontmatter bumped to v0.2 "Reviewed", SUMMARY.md row updated.
 
+## Reader-feedback round (2026-07-12)
+
+Two inline comments from the user, applied after the v0.2 sweep:
+
+- [x] Joints section: add a thinking moment on WHY a bump launches an
+  unsuspended buggy - added a "Think about it" stiff-legs vs bent-knees
+  jump prompt, a short where-does-the-push-go explanation, and a
+  two-panel bump sketch placeholder.
+- [x] Learn More box: Bitesize search term corrected from "mechanisms" to
+  "mechanical systems" (the KS2 D&T national-curriculum wording).
+- [x] Chapter Mini Project added (new book-wide "learning by doing"
+  convention, STYLE-GUIDE section 3): the cotton reel crawler - classic
+  rubber-band-through-spool build, web-verified (Instructables "Cotton
+  reel tanks"; minieco.co.uk), with safety callout, troubleshooting lines,
+  find-the-systems reflection and the missing-brain punchline. Chapter
+  checklist and estimated_time (45-60 -> 60-90 min) updated to match.
+
 ## Research notes
 
 The chapter was swept before the research pass was added to PLAN.md, so
 retro-verification is still owed:
 
 - [ ] Verify the two Learn More search terms surface the intended pages
-  (BBC Bitesize KS2 D&T "mechanisms"; Explain That Stuff "tools and
-  machines"). Both sources are on the approved list; the specific search
-  terms have not been web-checked yet.
+  (BBC Bitesize KS2 D&T "mechanical systems"; Explain That Stuff "tools
+  and machines"). Both sources are on the approved list; the specific
+  search terms have not been web-checked yet.
 - No technical facts, temperatures or safety claims appear in this chapter,
   so nothing else needs verifying.
