@@ -108,6 +108,11 @@ shelf.
   ("your crawler has no control system - you are its brain").
 - Prefer proven classic builds, verified in the research pass, over
   invented ones; adapt the framing to the buggy story.
+- Include a **Watch the build** box (same format and rules as Learn More,
+  max 3 links, verified, search-form) with at least one photo tutorial or
+  video, so the reader can SEE the materials and method before building.
+  Place it after the safety callout, before the build steps. YouTube
+  entries say "with an adult".
 - Anything sharp or hot in the build gets a safety callout BEFORE the
   steps, per section 9.
 - Close by telling the reader to keep the artifact: the showcase shelf is
@@ -146,14 +151,31 @@ shelf.
 - When an older chapter used a different word, bridge explicitly: "the gearbox
   from Chapter 2 is part of what engineers call the drivetrain."
 
-## 6. Characters
+## 6. Characters and Emoji
 
-- ASCII only, with two exceptions:
-  1. Inside ```mermaid blocks, any character is allowed.
-  2. Real engineering notation is kept: `Ø` (diameter), `±` (tolerance),
-     `°` (degrees), and `×` inside drawing callouts (e.g. `4 × Ø3.2 THRU`).
-- Everywhere else: `-` for dashes, `->` for arrows, `/` for division,
-  `x` for multiplication, `+--` trees, `+---+` boxes.
+Unicode is welcome (decision 2026-07-12, replacing the old ASCII-only
+rule): the book should look lively and presentable on GitHub. Emoji are
+purposeful markers, not confetti.
+
+- **Fixed callout markers** (book-wide, never vary):
+  - `> **⚠️ SAFETY**`
+  - `> **🤔 Think about it.**`
+  - `> **📚 Learn more**`
+  - `> **🎬 Watch the build**`
+  - `> **☕ Good place to pause.**`
+- **Template headings** carry a fixed emoji at the END of the heading:
+  Learning Objectives 🎯, Chapter Mini Project 🛠️, Common Beginner
+  Mistakes ❌, Chapter Summary 📝, New Words 📖, Review Questions ❓,
+  Chapter Checklist ✅, Looking Ahead 🔭.
+- **Content headings**: at most one emoji, at the end, meaningfully chosen
+  ("# System 1 - The Brain 🧠"). Not every heading needs one.
+- **Body prose stays emoji-light**: an emoji earns its place by marking
+  something (a warning, a milestone 🏆), not decorating sentences.
+- Tables, code blocks, file names and frontmatter stay emoji-free.
+- Real engineering notation is used freely: `Ø` (diameter), `±`
+  (tolerance), `°` (degrees), `×` (e.g. `4 × Ø3.2 THRU`).
+- Plain `-` and `->` remain fine in prose; `→` is also allowed.
+- Inside ```mermaid blocks, any character is allowed (unchanged).
 
 ## 7. Visuals Policy
 
@@ -234,10 +256,11 @@ Chapter 9), the procedure, and a pass/fail condition.
 2. Add New Words to `glossary.md`.
 3. Update the chapter's row in `SUMMARY.md` (planned -> v0.1 Draft) and link
    the file.
-4. Check: no non-ASCII outside mermaid/notation, Looking Ahead points to the
-   real next chapter, every activity has a no-equipment variant, every
-   not-yet-taught term is glossed, and the mini project builds from
-   household materials and ends with its reflection step.
+4. Check: emoji follow the section 6 registry (fixed callout markers, one
+   per heading max), Looking Ahead points to the real next chapter, every
+   activity has a no-equipment variant, every not-yet-taught term is
+   glossed, and the mini project builds from household materials and ends
+   with its reflection step.
 5. Teaching check: concrete example before each formal term, an analogy for
    each abstract idea, a worked example for any maths, one signature visual
    for the hardest idea, a "Think about it" prompt at the chapter's most

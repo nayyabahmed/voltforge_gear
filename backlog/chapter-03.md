@@ -44,5 +44,7 @@ Friction.
   count the small gear's turns (the ratio made visible), then feel which
   gear is harder to stop (the torque trade).
 - [ ] Break marker at the seam listed above.
-- [ ] Final pass: verify checklist (PLAN.md step 4), bump to v0.2, tick rows
+- [ ] Emoji pass per STYLE-GUIDE section 6 (fixed callout markers, one
+  meaningful emoji on content headings that earn one).
+- [ ] Final pass: verify checklist (PLAN.md step 5), bump to v0.2, tick rows
   here, update SUMMARY.md.

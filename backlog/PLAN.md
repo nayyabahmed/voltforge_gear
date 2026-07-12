@@ -78,9 +78,11 @@ For each chapter, in this order:
    (STYLE-GUIDE section 3 "learning by doing" rules) - correcting any
    facts the research pass flagged.
 4. Apply any book-wide items that touch this chapter (see book-wide.md).
-5. Verify: `rg -n '[^\x00-\x7F]'` is clean outside mermaid/notation,
-   every gloss chapter number matches `SUMMARY.md`, "Looking Ahead" names
-   the real next chapter, New Words entries exist in `glossary.md`.
+5. Verify: emoji and characters follow STYLE-GUIDE section 6 (fixed
+   callout markers, at most one emoji per heading, emoji-free tables and
+   frontmatter), every gloss chapter number matches `SUMMARY.md`,
+   "Looking Ahead" names the real next chapter, New Words entries exist
+   in `glossary.md`.
 6. Set frontmatter `version: "0.2"` / `status: "Reviewed"` (only now).
 7. Tick the chapter's items in its backlog file (and in book-wide.md where
    relevant).

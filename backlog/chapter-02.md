@@ -42,5 +42,7 @@ seam before Hands-On Activity 1 (~line 892).
   cause-and-effect chain on paper - the chapter's two key ideas made
   physical.
 - [ ] Break markers at both seams listed above.
-- [ ] Final pass: verify checklist (PLAN.md step 4), tick rows here, update
+- [ ] Emoji pass per STYLE-GUIDE section 6 (fixed callout markers, one
+  meaningful emoji on content headings that earn one).
+- [ ] Final pass: verify checklist (PLAN.md step 5), tick rows here, update
   SUMMARY.md.

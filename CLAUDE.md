@@ -32,10 +32,12 @@ Read these before writing or editing any chapter:
 
 ## Non-Negotiable Conventions
 
-- **ASCII only**, with exactly two exceptions: anything inside ```mermaid
-  blocks, and real engineering notation (`Ø`, `±`, `°`, and `×` inside
-  drawing callouts like `4 × Ø3.2 THRU`). Check with:
-  `rg -n '[^\x00-\x7F]' <file>` (expect only mermaid lines and notation).
+- **Rich characters welcome** (decision 2026-07-12, replacing the old
+  ASCII-only rule): emoji and Unicode are encouraged where they make the
+  book more presentable, following the emoji registry in STYLE-GUIDE.md
+  section 6 - fixed callout markers, at most one emoji per heading, body
+  prose kept emoji-light. Engineering notation (`Ø`, `±`, `°`, `×`) is
+  used freely.
 - **British English** (tyres, organised, colour).
 - **First-use gloss**: any term not yet taught gets a bracket gloss plus its
   home-chapter pointer. Chapter numbers in glosses must match `SUMMARY.md`.
@@ -55,8 +57,9 @@ Read these before writing or editing any chapter:
    entries under `## Letter` headings, plain-language style).
 3. Update the chapter's row in `SUMMARY.md` (planned 📋 -> 🟡 v0.1, link the
    file).
-4. Verify: ASCII check, "Looking Ahead" names the real next chapter, every
-   activity has a no-equipment variant, glosses present.
+4. Verify: emoji follow the STYLE-GUIDE section 6 registry, "Looking Ahead"
+   names the real next chapter, every activity has a no-equipment variant,
+   glosses present.
 
 Reference docs at the root grow alongside chapters rather than being written
 once: `SAFETY.md`, `TOOLS.md`, `TROUBLESHOOTING.md`, `BOM.md`,
