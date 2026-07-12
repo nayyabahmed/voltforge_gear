@@ -15,14 +15,14 @@ learning_objectives:
   - Begin looking at everyday objects as collections of systems.
 ---
 
-# Chapter 01 - What Are We Building?
+# Chapter 01 - What Are We Building? 🏎️
 
 > **"To understand a machine, don't start with the smallest part.
 > Start by asking what job the whole machine is trying to do."**
 
 ---
 
-# Learning Objectives
+# Learning Objectives 🎯
 
 By the end of this chapter you will be able to:
 
@@ -33,7 +33,7 @@ By the end of this chapter you will be able to:
 
 ---
 
-# Before We Begin
+# Before We Begin 🧱
 
 Imagine somebody hands you a cardboard box. Inside are **1,200 LEGO
 pieces**: wheels, windows, doors, axles, tiny coloured bricks, long beams
@@ -81,7 +81,7 @@ every part of it.
 
 ---
 
-# A Simpler Explanation
+# A Simpler Explanation 🛒
 
 Imagine pushing a shopping trolley.
 
@@ -110,7 +110,7 @@ Everything else exists to help achieve that goal.
 
 ---
 
-# The Ice Cream Shop
+# The Ice Cream Shop 🍦
 
 Let's imagine something completely different. Suppose you own an ice cream
 shop where many different people work. One person serves customers, one
@@ -136,7 +136,7 @@ and so is your computer. An RC buggy is also a system.
 
 ---
 
-# Looking Inside the Buggy
+# Looking Inside the Buggy 🔍
 
 Instead of seeing one machine, let's imagine opening it up.
 
@@ -157,7 +157,7 @@ Each box has one important job. Let's meet them one by one.
 
 ---
 
-# System 1 - The Brain
+# System 1 - The Brain 🧠
 
 Imagine riding a bicycle. Your brain decides: go faster, slow down, turn
 left, stop. Your muscles then carry out those instructions.
@@ -177,7 +177,7 @@ For now just remember:
 
 ---
 
-# System 2 - The Muscles
+# System 2 - The Muscles 💪
 
 Your muscles move your body, and the buggy has muscles too. Those muscles
 are called the **motor**. The motor spins, and that spinning motion
@@ -187,7 +187,7 @@ Without muscles, nothing moves.
 
 ---
 
-# System 3 - The Skeleton
+# System 3 - The Skeleton 🦴
 
 Stand up and feel your back, your shoulders, your arms. Your bones keep
 everything in the correct place. Without bones, your muscles would have
@@ -204,7 +204,7 @@ Think of the chassis as the backbone of the entire machine.
 
 ---
 
-# System 4 - The Joints
+# System 4 - The Joints 🦵
 
 Your knees, elbows and ankles bend. These joints allow movement while still
 keeping everything connected.
@@ -212,7 +212,7 @@ keeping everything connected.
 The buggy needs something similar. Its suspension allows the wheels to move
 up and down while keeping them attached to the car.
 
-> **Think about it.** Jump off a low step and land with stiff, straight
+> **🤔 Think about it.** Jump off a low step and land with stiff, straight
 > legs. Now jump again and land with bent knees. Which landing felt
 > softer - and where did the "thump" go?
 
@@ -231,7 +231,7 @@ the tyres leave the ground, and a buggy in the air cannot steer or brake.
 
 ---
 
-# System 5 - The Feet
+# System 5 - The Feet 👟
 
 Imagine trying to run while wearing socks on an ice rink. It wouldn't work
 very well, because your shoes are what grip the ground. The buggy's tyres
@@ -245,7 +245,7 @@ This is an important idea:
 
 ---
 
-# System 6 - The Food Supply
+# System 6 - The Food Supply 🔋
 
 Imagine running a race without breakfast - eventually you become tired.
 Machines also need energy. Instead of food, our buggy eats electricity,
@@ -253,7 +253,7 @@ which comes from a battery. The battery stores energy until we need it.
 
 ---
 
-# Putting Everything Together
+# Putting Everything Together 🧩
 
 Now we can draw the complete picture.
 
@@ -279,8 +279,9 @@ Wheels --> Ground
 Don't worry if some of those words are unfamiliar. Each one will have its
 own chapter later.
 
-> **Good place to pause.** Stretch, get a drink, or look at a machine near
-> you and guess what its systems are. The next section starts a new idea.
+> **☕ Good place to pause.** Stretch, get a drink, or look at a machine
+> near you and guess what its systems are. The next section starts a new
+> idea.
 
 ---
 
@@ -297,7 +298,7 @@ problems much easier.
 
 ---
 
-# Everyday Systems
+# Everyday Systems 🚲
 
 Let's practise. Can you identify the systems inside these objects?
 
@@ -336,7 +337,7 @@ Possible systems:
 Notice something? Very different machines, very similar idea: everything is
 built from systems.
 
-> **Learn more**
+> **📚 Learn more**
 >
 > - BBC Bitesize (KS2 Design and Technology): search "mechanical systems" -
 >   levers, gears and pulleys: everyday machines broken into simple parts
@@ -369,7 +370,7 @@ The engineer sees the hidden structure.
 
 ---
 
-# Hands-On Activity 1 - Systems Hunt
+# Hands-On Activity 1 - Systems Hunt 🔎
 
 No equipment needed - just your eyes and your engineering notebook.
 
@@ -394,7 +395,7 @@ Write your answers in your engineering notebook.
 
 ---
 
-# Hands-On Activity 2 - Draw Your Buggy as Six Boxes
+# Hands-On Activity 2 - Draw Your Buggy as Six Boxes ✏️
 
 No equipment needed - just paper and a pencil.
 
@@ -414,7 +415,7 @@ new.
 
 ---
 
-# Chapter Mini Project - The Cotton Reel Crawler
+# Chapter Mini Project - The Cotton Reel Crawler 🛠️
 
 Time to build a machine you can keep. This one is nearly a hundred years
 old - children were building it from scraps during the Second World War -
@@ -431,10 +432,22 @@ You will need:
   of solid soap
 - sticky tape and scissors
 
-> **SAFETY**
+> **⚠️ SAFETY**
 >
 > Ask an adult to cut the candle slice and make its hole. Scissors cut
 > card and fingers equally well - cut away from yourself, on a table.
+
+If you would like to see the build before trying it:
+
+> **🎬 Watch the build**
+>
+> - Instructables (instructables.com): search "cotton reel tanks" - a
+>   seven-step photo build of exactly this machine
+> - YouTube: search "cotton reel tank" with an adult - short videos showing
+>   the winding and the crawl
+> - Minieco (minieco.co.uk): search "cotton reel tanks" - photos of
+>   finished tanks, plus a trick: notch the rims and it climbs over
+>   obstacles
 
 Build steps:
 
@@ -468,12 +481,12 @@ system, deciding how many turns to wind. In Part 3 we will give our buggy
 a real control system, so the driver's commands arrive by radio instead.
 
 Put the crawler somewhere safe - a shelf, a windowsill, a box lid. It is
-the first machine in your engineering showcase, and by the end of this
+the first machine in your engineering showcase 🏆, and by the end of this
 book it will have plenty of company.
 
 ---
 
-# Common Beginner Mistakes
+# Common Beginner Mistakes ❌
 
 ## Mistake 1 - Trying to understand every part first
 
@@ -492,7 +505,7 @@ sense.
 
 ---
 
-# Chapter Summary
+# Chapter Summary 📝
 
 In this chapter we discovered that an RC buggy is **not one machine**. It is
 a collection of smaller systems, and each system performs one job. Together
@@ -503,7 +516,7 @@ exactly this way. Before solving problems, understand the system.
 
 ---
 
-# New Words
+# New Words 📖
 
 | Word | Meaning |
 |---|---|
@@ -515,7 +528,7 @@ exactly this way. Before solving problems, understand the system.
 
 ---
 
-# Review Questions
+# Review Questions ❓
 
 1. What is the main job of an RC buggy?
 2. In your own words, what is a system?
@@ -534,7 +547,7 @@ exactly this way. Before solving problems, understand the system.
 
 ---
 
-# Chapter Checklist
+# Chapter Checklist ✅
 
 - [ ] I know the main job of an RC buggy.
 - [ ] I understand what a system is.
@@ -547,7 +560,7 @@ exactly this way. Before solving problems, understand the system.
 
 ---
 
-# Looking Ahead
+# Looking Ahead 🔭
 
 In the next chapter, **Chapter 2 - Systems Thinking**, we will learn a new
 way of seeing machines. Instead of looking at individual parts, we will

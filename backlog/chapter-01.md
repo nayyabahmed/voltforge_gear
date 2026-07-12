@@ -62,6 +62,17 @@ Two inline comments from the user, applied after the v0.2 sweep:
   reel tanks"; minieco.co.uk), with safety callout, troubleshooting lines,
   find-the-systems reflection and the missing-brain punchline. Chapter
   checklist and estimated_time (45-60 -> 60-90 min) updated to match.
+- [x] Emoji pass (2026-07-12, after the ASCII-only rule was dropped
+  project-wide): fixed callout markers (⚠️ 🤔 📚 🎬 ☕), template-heading
+  emoji (🎯 🛠️ ❌ 📝 📖 ❓ ✅ 🔭), meaningful content-heading emoji
+  (🧠 💪 🦴 🦵 👟 🔋 for the six systems, etc.), one 🏆 in the showcase
+  line. Tables and frontmatter left emoji-free per STYLE-GUIDE section 6.
+- [x] "Watch the build" box added to the mini project (reader request,
+  2026-07-12; now a STYLE-GUIDE section 3 rule for all mini projects).
+  Fetched and verified 2026-07-12: Instructables "Cotton Reel Tanks" is a
+  live 7-step build; minieco.co.uk has finished-product photos and the
+  notched-rim climbing variant (described as such, not as a tutorial);
+  YouTube entry uses search form with "with an adult" wording.
 
 ## Research notes
 
