@@ -623,6 +623,14 @@ Fillets can reduce stress concentration.
 
 ---
 
+### First-Angle and Third-Angle Projection
+
+Two standard ways of arranging the views in an orthographic drawing.
+
+Different countries prefer different systems, so a drawing should state which one it uses.
+
+---
+
 ### Fit
 
 The relationship between two connected parts.
@@ -1538,6 +1546,14 @@ The route forces follow from the ground through the structure.
 ### Swept Volume
 
 The full space occupied by a part as it moves.
+
+---
+
+### Suspension
+
+The system that lets the wheels move up and down over bumps while staying attached to the car.
+
+It keeps the tyres pressed against the ground so the buggy stays controllable.
 
 ---
 

@@ -13,7 +13,7 @@ The full chapter plan for the VoltForge Gear RC Buggy Engineering Handbook, with
 | # | Chapter | Status |
 | --- | --- | --- |
 | 00 | [How to Use This Handbook](Part-1-Engineering-Mindset/00-How-to-Use-This-Handbook.md) | 🟡 v0.1 |
-| 01 | [What Are We Building?](Part-1-Engineering-Mindset/01-What-Are-We-Building.md) | 🟡 v0.1 |
+| 01 | [What Are We Building?](Part-1-Engineering-Mindset/01-What-Are-We-Building.md) | 🔵 v0.2 |
 | 02 | [Systems Thinking](Part-1-Engineering-Mindset/02-Systems-Thinking.md) | 🟡 v0.1 |
 | 03 | [How Machines Move](Part-1-Engineering-Mindset/03-How-Machines-Move.md) | 🟡 v0.1 |
 | 04 | [Forces and Why Parts Break](Part-1-Engineering-Mindset/04-Forces-and-Why-Parts-Break.md) | 🟡 v0.1 |

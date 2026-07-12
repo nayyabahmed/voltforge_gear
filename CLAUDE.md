@@ -27,15 +27,29 @@ Read these before writing or editing any chapter:
   philosophy (buy precision / build structure, spend progressively, staged
   builds, modularity). Chapter content must not contradict it; Part 4's
   chapter sequence mirrors its build stages.
-- `style-guides-principles/improvement-suggestions.md` - the readability
-  review backlog for the original Part 1 chapters, with per-chapter items.
+- `style-guides-principles/improvement-suggestions.md` - the original
+  readability review of the Part 1 chapters (2026-07-11), kept frozen as a
+  record. The WORKING copies live in `backlog/`: `backlog/PLAN.md` is the
+  phased implementation plan (per-chapter loop with research pass),
+  `backlog/chapter-NN.md` files hold the live per-chapter items, and
+  `backlog/TRACKER.md` is the at-a-glance status board (done / in
+  progress / planned per chapter and activity). Check TRACKER.md first
+  when asked about review status, and keep its rows and "Last updated"
+  date current whenever chapter work starts or finishes.
+  `backlog/WRITING-TRACKER.md` is the equivalent board for AUTHORING new
+  chapters (12 onwards): it tracks each in-flight chapter through the
+  research -> draft -> mini project -> glossary -> reference docs ->
+  publish pipeline, while `SUMMARY.md` remains the single source of truth
+  for numbering and published status.
 
 ## Non-Negotiable Conventions
 
-- **ASCII only**, with exactly two exceptions: anything inside ```mermaid
-  blocks, and real engineering notation (`Ø`, `±`, `°`, and `×` inside
-  drawing callouts like `4 × Ø3.2 THRU`). Check with:
-  `rg -n '[^\x00-\x7F]' <file>` (expect only mermaid lines and notation).
+- **Rich characters welcome** (decision 2026-07-12, replacing the old
+  ASCII-only rule): emoji and Unicode are encouraged where they make the
+  book more presentable, following the emoji registry in STYLE-GUIDE.md
+  section 6 - fixed callout markers, at most one emoji per heading, body
+  prose kept emoji-light. Engineering notation (`Ø`, `±`, `°`, `×`) is
+  used freely.
 - **British English** (tyres, organised, colour).
 - **First-use gloss**: any term not yet taught gets a bracket gloss plus its
   home-chapter pointer. Chapter numbers in glosses must match `SUMMARY.md`.
@@ -55,12 +69,19 @@ Read these before writing or editing any chapter:
    entries under `## Letter` headings, plain-language style).
 3. Update the chapter's row in `SUMMARY.md` (planned 📋 -> 🟡 v0.1, link the
    file).
-4. Verify: ASCII check, "Looking Ahead" names the real next chapter, every
-   activity has a no-equipment variant, glosses present.
+4. Verify: emoji follow the STYLE-GUIDE section 6 registry, "Looking Ahead"
+   names the real next chapter, every activity has a no-equipment variant,
+   glosses present.
 
 Reference docs at the root grow alongside chapters rather than being written
 once: `SAFETY.md`, `TOOLS.md`, `TROUBLESHOOTING.md`, `BOM.md`,
 `COST-LEDGER.md` each state in their frontmatter which chapters feed them.
+
+## Building the Published Book
+
+`scripts/build_book.py` compiles the source into PDF / EPUB / HTML. See
+`BUILD.md` for the full guide - prerequisites, how covers and Mermaid are
+handled, usage, and the Windows/WSL quick start.
 
 ## Authorship Context
 
