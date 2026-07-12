@@ -30,6 +30,19 @@ Friction.
   Motion: Basics" at ~168; BBC Bitesize KS3 moments + Explain That Stuff
   "gears" at Torque (~217) and Gears (~477); friction resources at ~643;
   momentum at ~828.
+- [ ] [T] "Think about it" prompts (STYLE-GUIDE section 2, added
+  2026-07-12), pick the two most counter-intuitive: torque (push a door
+  shut right next to the hinge, then from the handle - why is one so much
+  harder?); differential (walk around a tight corner side by side with a
+  friend on your outside - who has to take bigger steps, and what would
+  happen if you were forced to match steps?); weight transfer (why do you
+  lurch forward when a bus brakes?).
+- [ ] [T] Chapter Mini Project (STYLE-GUIDE section 3): cardboard gear pair
+  with different tooth counts on skewer/pencil axles (sources: 4-H "Make
+  Your Own Cardboard Gears", Experiland, Technovation gearbox guide -
+  re-verify in research pass). Reflection: turn the big gear once and
+  count the small gear's turns (the ratio made visible), then feel which
+  gear is harder to stop (the torque trade).
 - [ ] Break marker at the seam listed above.
 - [ ] Final pass: verify checklist (PLAN.md step 4), bump to v0.2, tick rows
   here, update SUMMARY.md.

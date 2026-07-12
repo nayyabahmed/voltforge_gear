@@ -66,13 +66,17 @@ For each chapter, in this order:
    c. Check explanations are pitched right by comparing against how the UK
       KS2/KS3 curriculum introduces the same idea (Bitesize is the
       reference).
-   d. Record findings as a short "Research notes" section at the bottom of
+   d. Confirm the chapter's mini-project candidate (list in book-wide.md)
+      is buildable from household materials, its reference activity still
+      exists, and the build genuinely embodies the chapter's core idea.
+   e. Record findings as a short "Research notes" section at the bottom of
       the chapter's backlog file: facts confirmed, facts corrected, links
       verified, anything deferred. This is the traceability record.
 3. Apply the items: first-use glosses, de-staccato story passages, visuals
    (sketch placeholders per STYLE-GUIDE section 7), Learn More boxes,
-   break markers at the listed seams - correcting any facts the research
-   pass flagged.
+   break markers at the listed seams, and the Chapter Mini Project
+   (STYLE-GUIDE section 3 "learning by doing" rules) - correcting any
+   facts the research pass flagged.
 4. Apply any book-wide items that touch this chapter (see book-wide.md).
 5. Verify: `rg -n '[^\x00-\x7F]'` is clean outside mermaid/notation,
    every gloss chapter number matches `SUMMARY.md`, "Looking Ahead" names

@@ -30,6 +30,17 @@ seam before Hands-On Activity 1 (~line 892).
 - [ ] [E] BBC Bitesize D&T "systems and control" at Input-Process-Output
   (~135); BBC Bitesize control/feedback at Feedback (~518); KS3 energy at
   "Connections Carry Things" (~413).
+- [ ] [T] "Think about it" prompts (STYLE-GUIDE section 2, added
+  2026-07-12): one before the cause-and-effect ripple - let the reader
+  predict what fitting larger tyres would change before the chain is
+  revealed - and one at Feedback (try walking a dead-straight line with
+  your eyes closed; why do you drift without noticing?). Max two.
+- [ ] [T] Chapter Mini Project (STYLE-GUIDE section 3): mini chain-reaction
+  machine from kitchen/household objects (source: Exploratorium Tinkering
+  "Chain Reaction @ Home" - re-verify in research pass). Reflection: name
+  each interface and what it carries (push, roll, pull), then trace the
+  cause-and-effect chain on paper - the chapter's two key ideas made
+  physical.
 - [ ] Break markers at both seams listed above.
 - [ ] Final pass: verify checklist (PLAN.md step 4), tick rows here, update
   SUMMARY.md.

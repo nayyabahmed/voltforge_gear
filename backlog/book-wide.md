@@ -37,3 +37,52 @@ Legend: [T] textual, [C] context awareness, [V] visual aid, [E] external referen
 - [ ] [V] **Weak mermaid pattern.** Replace mermaid that merely restates a
   bullet list. Mermaid for flows and cycles; tables for comparisons; sketch
   placeholders for spatial ideas.
+- [ ] [T] **"Think about it" prompts** (reader feedback on Ch 01, now
+  STYLE-GUIDE section 2): wherever a chapter asserts a surprising
+  consequence without letting the reader wonder why, add a think-prompt
+  (tiny on-the-spot experiment) before the explanation, with a sketch
+  placeholder if spatial. One or two per chapter at most. Specific
+  placements are in the chapter files; check for candidates in every pass.
+- [ ] [E] **Bitesize search terms use curriculum wording** (reader feedback
+  on Ch 01, now STYLE-GUIDE section 8): when adding or verifying Learn More
+  boxes, prefer the national-curriculum term ("mechanical systems", "fair
+  testing") over informal synonyms.
+- [ ] [T] **Chapter Mini Projects - "learning by doing"** (reader feedback,
+  2026-07-12; now STYLE-GUIDE section 3): every teaching chapter ends its
+  activities with a small household-materials build producing a keepable
+  artifact, closed by a reflection step tying it to the chapter's idea.
+  Candidates researched and web-verified 2026-07-12 (re-check the source
+  during each chapter's research pass):
+  - Ch 01: cotton reel crawler (rubber-band-through-spool classic; sources:
+    Instructables "Cotton reel tanks", minieco.co.uk) - reflection: find
+    each system; the missing one is control. APPLIED 2026-07-12.
+  - Ch 02: mini chain-reaction machine from kitchen objects (Exploratorium
+    Tinkering "Chain Reaction @ Home") - reflection: name each interface
+    and what it carries; trace the cause-and-effect chain.
+  - Ch 03: cardboard gear pair on skewer axles, different tooth counts
+    (4-H "Make Your Own Cardboard Gears" PDF; Experiland; Technovation
+    gearbox guide) - reflection: count turns to feel the ratio, feel the
+    torque trade.
+  - Ch 04: paper bridge tested to failure with coins (Science Buddies
+    "Build the Best Paper Bridge"; PBS Kids) - reflection: read the
+    failure - what bent, what buckled, why shape beat material.
+  - Ch 05: cardboard sliding caliper (Instructables "Make a Cardboard
+    Caliper"; ikatbag) - reflection: zero it, then measure five household
+    objects and record them properly.
+  - Ch 06: craft-stick catapult with fixed launch setup (Steam Powered
+    Family / Little Bins for Little Hands) - reflection: ten launches,
+    chart the spread; accuracy vs precision live, fair-test rules.
+  - Ch 07: matchbox-style sliding drawer sized to a chosen treasure -
+    tune the fit: too tight jams, too loose rattles (packaging classic;
+    weakest single source - needs its own write-up in the research pass).
+  - Ch 08: drawing-exchange build (TeachEngineering "The Universal
+    Language of Engineering Drawings"): draw three views of a small
+    object, swap with a family member, build from each other's drawing -
+    reflection: where the drawing failed as a contract. Artifact: object
+    + drawing displayed together.
+  - Ch 09: cardboard phone stand through the full design cycle (Science
+    Buddies / DiscoverE "Make a Cell Phone Stand") - requirements,
+    concepts, decision matrix, prototype, fair test, iterate. Genuinely
+    useful artifact.
+  - Ch 00 and capstone: none - Ch 00 has no technical content (at most,
+    set up the showcase shelf and notebook); the capstone IS the project.

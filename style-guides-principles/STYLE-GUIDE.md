@@ -48,6 +48,19 @@ revisions of existing ones. Derived from the readability review of Chapters
   term -> buggy example -> optional detail.
 - Any maths gets one fully worked example: the question, the known values, the
   rule, the calculation, then the meaning of the result in words.
+- **Think about it prompts.** Never just assert a surprising consequence
+  ("without suspension, every bump would launch the buggy into the air").
+  Give the reader a moment to work out WHY before you explain. Format: a
+  blockquote opening with **Think about it.**, a tiny physical experiment
+  they can do on the spot, then a short paragraph resolving it - plus a
+  sketch placeholder if the idea is spatial:
+
+  > **Think about it.** Jump off a low step and land with stiff, straight
+  > legs. Now jump again and land with bent knees. Which landing felt
+  > softer - and where did the "thump" go?
+
+  Aim for one or two per chapter at the most counter-intuitive claims; more
+  than that and they stop feeling special.
 
 ## 3. Chapter Template (in this order)
 
@@ -62,15 +75,43 @@ revisions of existing ones. Derived from the readability review of Chapters
 7. Hands-on activities (`# Hands-On Activity N - Name`). Always include at
    least one activity that needs NO special equipment (no printer, no
    calipers), with the equipment version as an upgrade.
-8. `# Common Beginner Mistakes` (numbered `## Mistake N - Name`).
-9. `# Chapter Summary`
-10. `# New Words` - a table, `| Word | Meaning |` with `|---|---|` divider.
-11. `# Review Questions` - 8-12 numbered questions mixing recall, explanation,
+8. `# Chapter Mini Project - Name` - the learning-by-doing build (see the
+   rules below). Teaching chapters only; build chapters and the capstone
+   already produce artifacts.
+9. `# Common Beginner Mistakes` (numbered `## Mistake N - Name`).
+10. `# Chapter Summary`
+11. `# New Words` - a table, `| Word | Meaning |` with `|---|---|` divider.
+12. `# Review Questions` - 8-12 numbered questions mixing recall, explanation,
     application and troubleshooting.
-12. `# Chapter Checklist` - `- [ ]` items confirming meaningful capability.
-13. `# Looking Ahead` - preview of the ACTUAL next chapter (verify the number).
+13. `# Chapter Checklist` - `- [ ]` items confirming meaningful capability.
+14. `# Looking Ahead` - preview of the ACTUAL next chapter (verify the number).
 
 Connect the topic to the buggy within the first 150 words of the chapter.
+
+### Chapter Mini Projects (learning by doing)
+
+Reading about an idea fades; a thing you built and kept does not. Every
+teaching chapter ends its activities with one mini project: a small build
+that produces a **keepable, working artifact** for the reader's showcase
+shelf.
+
+- Materials: household and scrap only - paper, card, rubber bands, pencils,
+  spools, tape, glue, string. No printer, no calipers, nothing bought
+  specially. 30-60 minutes.
+- The build must embody the chapter's core idea, not just decorate it
+  (a paper bridge tested to failure for the forces chapter, not a paper
+  buggy that only looks nice).
+- It always ends with a **reflection step** that ties the artifact back to
+  the chapter: label which subsystem each part is, read the failure, chart
+  the spread. The reflection is where the learning lands.
+- Point out what the artifact does NOT have when that teaches something
+  ("your crawler has no control system - you are its brain").
+- Prefer proven classic builds, verified in the research pass, over
+  invented ones; adapt the framing to the buggy story.
+- Anything sharp or hot in the build gets a safety callout BEFORE the
+  steps, per section 9.
+- Close by telling the reader to keep the artifact: the showcase shelf is
+  the book's trophy cabinet.
 
 ## 4. Length and Break Markers
 
@@ -150,7 +191,10 @@ Learn (tinkercad.com/learn), Onshape Learning Centre, NASA/ESA kids resources,
 manufacturer knowledge bases (Prusa, Bambu) and official safety guidance.
 Verify a link exists before citing it; prefer "search X on site Y" over deep
 URLs likely to rot; avoid sales-heavy pages; say in half a line why the link
-is worth the reader's time.
+is worth the reader's time. For Bitesize, use the UK national-curriculum
+wording as the search term ("mechanical systems", not "mechanisms";
+"fair testing", not "experiments") - curriculum terms are what the pages
+are organised around, and they match what the reader hears at school.
 
 ## 9. Safety Callouts
 
@@ -192,7 +236,10 @@ Chapter 9), the procedure, and a pass/fail condition.
    the file.
 4. Check: no non-ASCII outside mermaid/notation, Looking Ahead points to the
    real next chapter, every activity has a no-equipment variant, every
-   not-yet-taught term is glossed.
+   not-yet-taught term is glossed, and the mini project builds from
+   household materials and ends with its reflection step.
 5. Teaching check: concrete example before each formal term, an analogy for
    each abstract idea, a worked example for any maths, one signature visual
-   for the hardest idea, and the buggy connection within the first 150 words.
+   for the hardest idea, a "Think about it" prompt at the chapter's most
+   counter-intuitive claim, and the buggy connection within the first 150
+   words.
