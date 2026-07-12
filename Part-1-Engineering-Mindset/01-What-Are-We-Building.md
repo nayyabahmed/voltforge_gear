@@ -87,10 +87,10 @@ Imagine pushing a shopping trolley.
 
 You decide:
 
-- where it goes
-- how fast it moves
-- when it stops
-- when it turns
+- where it goes (navigation)
+- how fast it moves (acceleration)
+- when it stops(braking)
+- when it turns(steering)
 
 You are controlling movement. An RC buggy does exactly the same thing - the
 only difference is that your hands are replaced by a radio controller.
