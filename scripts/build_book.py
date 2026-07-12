@@ -46,6 +46,7 @@ from pathlib import Path
 ROOT       = Path(__file__).resolve().parent.parent
 SUMMARY    = ROOT / "SUMMARY.md"
 COVERS_DIR = ROOT / "assets" / "chapter_covers"
+TITLE_PAGE = ROOT / "assets" / "tile_page" / "Title_page.png"
 BUILD      = ROOT / "build"
 MERMAID    = BUILD / "mermaid"
 DIST       = ROOT / "dist"
@@ -57,6 +58,7 @@ LINK_RE     = re.compile(r"\[([^\]]+)\]\(([^)]+?\.md)\)")
 FRONTMATTER = re.compile(r"\A﻿?---\r?\n.*?\r?\n---\r?\n", re.S)
 MERMAID_RE  = re.compile(r"```mermaid[^\n]*\n(.*?)\n```", re.S)
 CHAPNUM_RE  = re.compile(r"(\d{2})[-_]")
+H1_RE       = re.compile(r"^# (.+?)\s*$", re.M)
 
 
 def chapter_number(path: Path) -> str | None:
@@ -97,6 +99,60 @@ def parse_summary() -> list[dict]:
     return items
 
 
+def parse_plan() -> list[dict]:
+    """The FULL chapter plan from SUMMARY.md's part tables — including
+    planned chapters that have no file yet — for the contents page."""
+    plan: list[dict] = []
+    section: str | None = None
+    for raw in SUMMARY.read_text(encoding="utf-8").splitlines():
+        heading = re.match(r"##\s+(.*\S)", raw)
+        if heading:
+            section = heading.group(1).strip()
+            if section.lower().startswith("part"):
+                plan.append({"kind": "part", "title": section})
+            continue
+        if not (section and section.lower().startswith("part")):
+            continue
+        row = re.match(r"\|\s*(.*?)\s*\|\s*(.*?)\s*\|\s*(.*?)\s*\|", raw)
+        if not row or row.group(1) in ("#", "---"):
+            continue  # not a table row / header / separator
+        num, cell, status = row.groups()
+        link = LINK_RE.search(cell)
+        path = (ROOT / link.group(2).replace("\\", "/")).resolve() if link else None
+        plan.append({
+            "kind": "chapter",
+            "num": num,
+            "title": link.group(1).strip() if link else cell.strip(),
+            "path": path,
+            "planned": status.startswith("📋"),
+        })
+    return plan
+
+
+def contents_block(included: set[Path]) -> str:
+    """A hand-built contents page: every part and chapter in the plan.
+
+    Chapters in this build link to their heading anchor (print.css adds the
+    page number); everything else is greyed out, planned chapters marked.
+    Replaces Pandoc's --toc, which can only list what is in the build.
+    """
+    lines = ['\n\n::: {.book-toc}\n']
+    for it in parse_plan():
+        if it["kind"] == "part":
+            lines.append(f'\n[{it["title"]}]{{.toc-part}}\n')
+            continue
+        num = it["num"]
+        label = f'{num} — {it["title"]}' if num not in ("", "—") else it["title"]
+        if it["path"] and it["path"] in included:
+            lines.append(f'- [{label}](#ch-{it["path"].stem})')
+        elif it["planned"]:
+            lines.append(f'- [{label} · planned]{{.toc-off}}')
+        else:
+            lines.append(f'- [{label}]{{.toc-off}}')
+    lines.append('\n:::\n')
+    return "\n".join(lines)
+
+
 def cover_for(path: Path) -> Path | None:
     """assets/chapter_covers/Chapter NN Cover.png for a chapter file, if present."""
     m = CHAPNUM_RE.match(path.name)
@@ -106,9 +162,43 @@ def cover_for(path: Path) -> Path | None:
     return cand if cand.exists() else None
 
 
+def part_cover_for(title: str) -> Path | None:
+    """assets/chapter_covers/Part N.png for a part heading, if present."""
+    m = re.match(r"Part\s+(\d+)", title)
+    if not m:
+        return None
+    cand = COVERS_DIR / f"Part {m.group(1)}.png"
+    return cand if cand.exists() else None
+
+
 # ---------------------------------------------------------------- transforms
 def strip_frontmatter(md: str) -> str:
     return FRONTMATTER.sub("", md, count=1)
+
+
+def demote_sections(md: str) -> str:
+    """Push every heading except the first H1 (the chapter title) down a level.
+
+    Chapters use "# " for the title AND every section, which flattened the
+    book's structure: the PDF TOC listed each section as if it were a
+    chapter. After this pass a chapter is H1, sections are H2, subsections
+    H3 — so a --toc-depth=1 TOC shows only parts and chapters. Fenced code
+    blocks are skipped so `# comment` lines inside them survive.
+    """
+    out: list[str] = []
+    in_fence = False
+    title_seen = False
+    for line in md.splitlines():
+        if line.lstrip().startswith("```"):
+            in_fence = not in_fence
+        elif not in_fence and re.match(r"#{1,5} ", line):
+            if line.startswith("# ") and not title_seen:
+                title_seen = True
+                out.append(line)
+                continue
+            line = "#" + line
+        out.append(line)
+    return "\n".join(out)
 
 
 def render_mermaid(md: str, slug: str, enabled: bool) -> str:
@@ -142,7 +232,10 @@ def render_mermaid(md: str, slug: str, enabled: bool) -> str:
             cmd += ["-p", pptr_cfg]
         subprocess.run(cmd, check=True)
         rel = out.relative_to(ROOT).as_posix()
-        return f'\n![Diagram]({rel}){{.mermaid-figure}}\n'
+        # Empty alt text on purpose: Pandoc turns an image with alt text that
+        # stands alone in a paragraph into a captioned figure, which printed a
+        # stray "Diagram" line under every diagram.
+        return f'\n![]({rel}){{.mermaid-figure}}\n'
 
     return MERMAID_RE.sub(repl, md)
 
@@ -161,19 +254,36 @@ def cover_block(cover: Path) -> str:
 def assemble(items: list[dict], mermaid: bool, include_glossary: bool) -> Path:
     BUILD.mkdir(parents=True, exist_ok=True)
     parts: list[str] = [f"% {TITLE}\n"]
+    included = {it["path"] for it in items if it["kind"] == "chapter"}
+    parts.append(contents_block(included))
     n_ch = 0
     for it in items:
         if it["kind"] == "part":
             title = it["title"]
             if title.lower().startswith("reference") and not include_glossary:
                 break  # stop before the reference/back-matter section
-            parts.append(f'\n\n::: {{.part-divider}}\n# {title}\n:::\n\n')
+            pcov = part_cover_for(title)
+            if pcov:
+                # Full-bleed part cover replaces the plain text divider; the
+                # heading is kept (hidden) so the part still appears in the TOC.
+                parts.append(cover_block(pcov))
+                parts.append(f'\n\n::: {{.toc-only}}\n# {title}\n:::\n\n')
+            else:
+                parts.append(f'\n\n::: {{.part-divider}}\n# {title}\n:::\n\n')
             continue
 
         path: Path = it["path"]
         slug = path.stem
         md = strip_frontmatter(path.read_text(encoding="utf-8"))
         md = render_mermaid(md, slug, mermaid)
+        md = demote_sections(md)
+        # Tag the chapter title so print.css starts a new page there and only
+        # there — otherwise every heading forced its own page. The explicit id
+        # is the contents page's link target (and page-number anchor).
+        md = H1_RE.sub(
+            lambda m: f"# {m.group(1)} {{#ch-{slug} .chapter-title}}",
+            md, count=1,
+        )
 
         cover = cover_for(path)
         if cover:
@@ -204,6 +314,24 @@ def run(cmd: list[str]) -> None:
     subprocess.run(cmd, cwd=ROOT, check=True)
 
 
+def title_cover_args() -> list[str]:
+    """--include-before-body snippet for the book title cover.
+
+    Pandoc places include-before content ahead of the TOC, so the title
+    page becomes page 1.
+    """
+    if not TITLE_PAGE.exists():
+        return []
+    rel = TITLE_PAGE.relative_to(ROOT).as_posix()
+    snippet = BUILD / "title-cover.html"
+    snippet.write_text(
+        f'<div class="chapter-cover book-cover">'
+        f'<img src="{rel}" alt="Book cover"/></div>\n',
+        encoding="utf-8",
+    )
+    return ["--include-before-body", str(snippet.relative_to(ROOT))]
+
+
 def build_pdf(combined: Path) -> None:
     need("pandoc"); need("weasyprint")
     DIST.mkdir(exist_ok=True)
@@ -212,10 +340,11 @@ def build_pdf(combined: Path) -> None:
         "-o", "dist/VoltForgeGear.pdf",
         "--pdf-engine=weasyprint",
         "--css", str(CSS.relative_to(ROOT)),
-        "--toc", "--toc-depth=2",
+        # no --toc: the assembled contents page (full plan from SUMMARY.md,
+        # planned chapters included) replaces Pandoc's built-chapters-only TOC.
         "--resource-path", ".",
         "--metadata", f"title={TITLE}",
-    ])
+    ] + title_cover_args())
     print("  -> dist/VoltForgeGear.pdf")
 
 
@@ -229,7 +358,7 @@ def build_epub(combined: Path) -> None:
         "--resource-path", ".",
         "--metadata", f"title={TITLE}",
     ]
-    front = COVERS_DIR / "Chapter 01 Cover.png"
+    front = TITLE_PAGE if TITLE_PAGE.exists() else COVERS_DIR / "Chapter 01 Cover.png"
     if front.exists():
         cmd += ["--epub-cover-image", str(front.relative_to(ROOT))]
     run(cmd)
@@ -242,11 +371,11 @@ def build_html(combined: Path) -> None:
     run([
         "pandoc", str(combined.relative_to(ROOT)),
         "-o", "dist/VoltForgeGear.html",
-        "--standalone", "--toc", "--toc-depth=2",
+        "--standalone",
         "--css", str(CSS.relative_to(ROOT)),
         "--resource-path", ".",
         "--metadata", f"title={TITLE}",
-    ])
+    ] + title_cover_args())
     print("  -> dist/VoltForgeGear.html")
 
 
