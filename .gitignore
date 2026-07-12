@@ -1,0 +1,8 @@
+# Build artifacts from scripts/build_book.py (see BUILD.md)
+# build/ holds intermediates (combined.md, rendered Mermaid, previews);
+# dist/ holds the published PDF/EPUB/HTML outputs.
+build/
+dist/
+
+# Python bytecode from running the build script
+__pycache__/
