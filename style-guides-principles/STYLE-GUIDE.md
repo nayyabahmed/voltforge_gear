@@ -113,8 +113,14 @@ shelf.
   video, so the reader can SEE the materials and method before building.
   Place it after the safety callout, before the build steps. YouTube
   entries say "with an adult".
-- Anything sharp or hot in the build gets a safety callout BEFORE the
-  steps, per section 9.
+- Every mini project gets a safety callout BEFORE the steps (per section
+  9), and its FIRST line is always the adult-check: the reader shows a
+  responsible adult/guardian what they plan to build before starting, and
+  builds with them nearby. The supervising adult - not the book - can see
+  the reader's actual materials and surroundings, so the judgement call on
+  whether a specific build is safe sits with them (decision 2026-07-14,
+  consistent with SAFETY.md "every activity assumes adult supervision").
+  Anything sharp or hot adds its specific warnings after that line.
 - Close by telling the reader to keep the artifact: the showcase shelf is
   the book's trophy cabinet.
 
@@ -259,8 +265,9 @@ Chapter 9), the procedure, and a pass/fail condition.
 4. Check: emoji follow the section 6 registry (fixed callout markers, one
    per heading max), Looking Ahead points to the real next chapter, every
    activity has a no-equipment variant, every not-yet-taught term is
-   glossed, and the mini project builds from household materials and ends
-   with its reflection step.
+   glossed, and the mini project builds from household materials, opens
+   its safety callout with the adult-check line, and ends with its
+   reflection step.
 5. Teaching check: concrete example before each formal term, an analogy for
    each abstract idea, a worked example for any maths, one signature visual
    for the hardest idea, a "Think about it" prompt at the chapter's most

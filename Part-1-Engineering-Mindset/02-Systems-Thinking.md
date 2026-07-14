@@ -907,9 +907,11 @@ You will need:
 
 > **⚠️ SAFETY**
 >
-> Use unbreakable objects only - no glass, nothing sharp, nothing hot.
-> Build away from table edges, stairs, screens and pets, and put the
-> kitchen things back when you finish.
+> Show a responsible adult what you plan to build before you start, and
+> build with them nearby - they can spot a hazard you cannot. Use
+> unbreakable objects only - no glass, nothing sharp, nothing hot. Build
+> away from table edges, stairs, screens and pets, and put the kitchen
+> things back when you finish.
 
 > **🎬 Watch the build**
 >

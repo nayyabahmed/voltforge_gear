@@ -55,6 +55,7 @@ Last updated: 2026-07-14
 | 2026-07-12 | ✅ Chapter Mini Project convention + researched candidates |
 | 2026-07-12 | ✅ Watch-the-build box convention (STYLE-GUIDE section 3) |
 | 2026-07-12 | ✅ ASCII rule dropped; emoji registry (STYLE-GUIDE section 6) |
+| 2026-07-14 | ✅ Adult-check line opens every mini project safety callout (STYLE-GUIDE section 3; applied retroactively to Ch 01/02/03) |
 
 ## Up Next (in order)
 

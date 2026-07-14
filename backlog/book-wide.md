@@ -52,6 +52,9 @@ Legend: [T] textual, [C] context awareness, [V] visual aid, [E] external referen
   2026-07-12; now STYLE-GUIDE section 3): every teaching chapter ends its
   activities with a small household-materials build producing a keepable
   artifact, closed by a reflection step tying it to the chapter's idea.
+  Every mini project's safety callout OPENS with the adult-check line -
+  show a responsible adult the plan first, build with them nearby
+  (decision 2026-07-14, STYLE-GUIDE section 3; Ch 01/02/03 retrofitted).
   Candidates researched and web-verified 2026-07-12 (re-check the source
   during each chapter's research pass):
   - Ch 01: cotton reel crawler (rubber-band-through-spool classic; sources:

@@ -145,6 +145,17 @@ they surface; strike nothing - mark it done in the Research notes instead.
 
 ## Standing Decisions
 
+- **Adult supervision in mini projects** (2026-07-14): every Chapter Mini
+  Project's safety callout OPENS with the adult-check line - the reader
+  shows a responsible adult/guardian what they plan to build before
+  starting, and builds with them nearby. Rationale: the supervising adult
+  can see the reader's actual materials and surroundings, so the judgement
+  call on whether a specific build is safe sits with them rather than with
+  the book's author. The rule lives in STYLE-GUIDE section 3; applied
+  retroactively to the Ch 01/02/03 mini projects on 2026-07-14, and to
+  every later mini project as part of its chapter pass. Consistent with
+  SAFETY.md ("every activity in this handbook assumes adult supervision").
+
 - **Chapter 04 split:** the review calls it the strongest split candidate,
   but a real split would renumber every later chapter and break gloss
   pointers book-wide. Decision: keep it one file with explicit "Part A /

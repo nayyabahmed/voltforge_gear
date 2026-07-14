@@ -1090,9 +1090,10 @@ You will need:
 
 > **⚠️ SAFETY**
 >
-> Corrugated cardboard is tough to cut. Use scissors, cut away from
-> yourself on a table, and ask an adult if you want to use a craft
-> knife - especially for the axle holes.
+> Show a responsible adult what you plan to build before you start, and
+> build with them nearby. Corrugated cardboard is tough to cut. Use
+> scissors, cut away from yourself on a table, and ask an adult if you
+> want to use a craft knife - especially for the axle holes.
 
 > **🎬 Watch the build**
 >
