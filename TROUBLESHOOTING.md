@@ -1,6 +1,6 @@
 ---
 title: "Troubleshooting Guide"
-project: "RC Buggy Engineering Handbook"
+project: "VoltForge Gear — The Young Engineer's Handbook"
 version: "0.1"
 status: "Stub (grows during the build)"
 ---

@@ -1,6 +1,6 @@
 # Table of Contents
 
-The full chapter plan for the VoltForge Gear RC Buggy Engineering Handbook, with writing progress.
+The full chapter plan for VoltForge Gear — The Young Engineer's Handbook, with writing progress.
 
 **Legend:** 📋 planned · ✍️ in progress · 🟡 v0.1 Draft · 🔵 v0.2 Reviewed · 🟠 v0.3 Prototype-tested · 🟢 v1.0 Released — see [VERSIONING.md](VERSIONING.md)
 
