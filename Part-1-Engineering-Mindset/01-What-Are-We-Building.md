@@ -434,8 +434,10 @@ You will need:
 
 > **⚠️ SAFETY**
 >
-> Ask an adult to cut the candle slice and make its hole. Scissors cut
-> card and fingers equally well - cut away from yourself, on a table.
+> Show a responsible adult what you plan to build before you start, and
+> build with them nearby. Ask an adult to cut the candle slice and make
+> its hole. Scissors cut card and fingers equally well - cut away from
+> yourself, on a table.
 
 If you would like to see the build before trying it:
 

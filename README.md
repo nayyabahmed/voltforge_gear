@@ -1,4 +1,4 @@
-# ⚡ VoltForge Gear — The RC Buggy Engineering Handbook
+# ⚡ VoltForge Gear — The Young Engineer's Handbook
 
 **Design it. Print it. Wire it. Race it.**
 

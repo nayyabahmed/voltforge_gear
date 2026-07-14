@@ -2,10 +2,10 @@
 title: "Chapter 03 - How Machines Move"
 part: "Part 1 - Engineering Mindset"
 chapter: 3
-version: "0.1"
-status: "Draft"
+version: "0.2"
+status: "Reviewed"
 difficulty: Beginner
-estimated_time: "75-100 minutes"
+estimated_time: "90-140 minutes (including the mini project)"
 prerequisites:
   - Chapter 00 - How to Use This Handbook
   - Chapter 01 - What Are We Building?
@@ -26,7 +26,7 @@ learning_objectives:
 
 ---
 
-# Learning Objectives
+# Learning Objectives 🎯
 
 By the end of this chapter you will be able to:
 
@@ -41,31 +41,14 @@ By the end of this chapter you will be able to:
 
 # Before We Begin
 
-Imagine holding one end of a pencil while someone twists the other end.
+Imagine holding one end of a pencil while someone slowly twists the other
+end. You feel the twist travel through the pencil. The pencil does not
+move forward - it carries a turning action from one end to the other.
 
-You feel the twist travel through the pencil.
-
-The pencil does not move forward.
-
-It carries a turning action from one end to the other.
-
-Machines do this all the time.
-
-A motor turns.
-
-A shaft turns.
-
-A gear turns.
-
-Another gear turns.
-
-A driveshaft turns.
-
-A wheel turns.
-
-The tyre pushes against the ground.
-
-Only then does the buggy move forward.
+Machines do this all the time. Inside our buggy, a motor turns a shaft,
+the shaft turns a gear, that gear turns another gear, and a driveshaft
+carries the turning out to a wheel. Only when the tyre pushes against the
+ground does the buggy actually move forward.
 
 This chapter follows that chain.
 
@@ -77,21 +60,17 @@ Many people say:
 
 > "The motor pushes the car."
 
-That is not quite correct.
+That is not quite correct. The motor creates rotation - turning movement.
+That turning movement travels through the **drivetrain**: the whole chain
+of parts that carries rotation from the motor to the driven wheels. (The
+gearbox you met in Chapter 2 is part of what engineers call the
+drivetrain.)
 
-The motor creates rotation.
+At the end of the chain, the tyres push backward on the ground, and the
+ground pushes the buggy forward.
 
-Rotation means turning movement.
-
-That turning movement travels through the drivetrain.
-
-The tyres then push backward on the ground.
-
-The ground pushes the buggy forward.
-
-This may sound strange at first.
-
-But it is one of the most important ideas in vehicle engineering.
+This may sound strange at first, but it is one of the most important
+ideas in vehicle engineering.
 
 ---
 
@@ -126,17 +105,11 @@ Examples:
 
 Engineers call this **rotational motion**.
 
-```mermaid
-flowchart LR
-    Linear["Linear motion<br/>moving along a path"]
-    Rotational["Rotational motion<br/>turning around a centre"]
-```
+> **[Sketch: a drawer sliding along a straight arrow (linear motion)
+> beside a wheel turning around its centre (rotational motion)]**
 
-Our buggy changes rotational motion into linear motion.
-
-The wheels rotate.
-
-The whole buggy moves forward.
+Our buggy changes rotational motion into linear motion: the wheels
+rotate, and the whole buggy moves forward.
 
 ---
 
@@ -167,23 +140,23 @@ Force can:
 
 # Motion and Force Are Not the Same
 
-An object can move without a large force acting on it.
+An object can move without a large force acting on it. Imagine a toy car
+rolling across a smooth floor: once it is moving, only a small force is
+needed to keep it moving.
 
-Imagine a toy car rolling across a smooth floor.
-
-Once it is moving, only a small force is needed to keep it moving.
-
-An object can also experience force without moving.
-
-Imagine pushing hard against a wall.
-
-You apply force.
-
-The wall does not move.
+An object can also experience force without moving. Push hard against a
+wall - you apply plenty of force, but the wall does not move.
 
 So:
 
 > Force can cause motion, but force and motion are not the same thing.
+
+> **📚 Learn more**
+>
+> - BBC Bitesize (KS3 Physics): search "forces" - pushes, pulls, and what
+>   balanced and unbalanced forces do to motion
+> - PhET Simulations (phet.colorado.edu): search "Forces and Motion:
+>   Basics" - push a crate on screen and watch what force does to motion
 
 ---
 
@@ -216,13 +189,9 @@ A motor may spin thousands of times per minute.
 
 # Torque
 
-Now imagine opening a tight jar lid.
-
-You are not pushing it in a straight line.
-
-You are twisting it.
-
-That twisting action is called **torque**.
+Now imagine opening a tight jam jar. You are not pushing the lid in a
+straight line - you are twisting it. That twisting action is called
+**torque**.
 
 Torque means:
 
@@ -240,23 +209,20 @@ Examples:
 
 # A Door Handle Experiment
 
-Open a door.
+> **🤔 Think about it.** Go to a door and push it shut with one finger
+> right next to the hinge. Now push it shut with the same finger next to
+> the handle. Why is one so much harder, when the door and your finger
+> have not changed?
 
-Push close to the hinge.
+Only one thing changed: how far from the hinge you pushed. The same force
+creates more turning effect when it is applied farther from the centre.
+That is why door handles live on the far edge of the door - the designer
+is giving your hand the biggest possible turning effect.
 
-Now push near the handle.
-
-Which is easier?
-
-Pushing near the handle is easier because you are farther from the hinge.
-
-The same force creates more turning effect when it is applied farther from the centre.
-
-```mermaid
-flowchart LR
-    Hinge["Hinge"] --- Near["Push near hinge<br/>harder"]
-    Near --- Far["Push farther away<br/>easier"]
-```
+> **[Sketch: top view of a door with the hinge on the left; two equal
+> force arrows pushing on the door, one close to the hinge and one at the
+> handle, each arrow's distance from the hinge labelled - the far arrow
+> swings the door easily, the near one struggles]**
 
 Torque depends on:
 
@@ -268,6 +234,11 @@ You do not need the maths yet.
 Just remember:
 
 > More distance from the centre creates more turning effect.
+
+> **📚 Learn more**
+>
+> - BBC Bitesize (KS3 Physics): search "moments" - the school name for
+>   the turning effect of a force, with seesaw and spanner examples
 
 ---
 
@@ -315,7 +286,8 @@ Let us look at each step.
 
 # Step 1 - The Motor Turns
 
-The brushless motor converts electrical energy into rotation.
+The brushless motor (a type of electric motor with no rubbing electrical
+contacts inside - Chapter 26) converts electrical energy into rotation.
 
 Its shaft spins.
 
@@ -337,11 +309,6 @@ The teeth of the two gears push against each other.
 
 When the small gear turns one way, the large gear turns the opposite way.
 
-```mermaid
-flowchart LR
-    Pinion["Small pinion gear"] -- "gear teeth push" --> Spur["Larger spur gear"]
-```
-
 The gears change the relationship between speed and torque.
 
 ---
@@ -354,24 +321,23 @@ A **differential** is a special group of gears that sends motion to both driven 
 
 Why would the wheels need different speeds?
 
-Imagine turning left.
+> **🤔 Think about it.** Walk around a tight corner side by side with a
+> friend, with your friend on the outside of the turn. Who has to take
+> bigger, faster steps? And what would happen if you were both forced to
+> match steps exactly?
 
-The outside wheel travels around a larger circle.
+Your friend on the outside walks around a larger circle, so they must
+travel farther in the same time - they need faster steps. When the buggy
+turns, its wheels face the same problem: the outside wheel travels around
+a larger circle than the inside wheel, so it must turn faster.
 
-The inside wheel travels around a smaller circle.
+> **[Sketch: top-down view of the buggy driving around a left-hand curve;
+> dashed arcs traced by the inside and outside wheels, the outside arc
+> clearly longer, labelled "shorter path" and "longer path"]**
 
-The outside wheel must travel farther in the same time.
-
-That means it must turn faster.
-
-```mermaid
-flowchart TD
-    Turn["Buggy turns left"]
-    Turn --> Inner["Left wheel<br/>shorter path"]
-    Turn --> Outer["Right wheel<br/>longer path"]
-```
-
-Without a differential, the tyres would scrub and fight each other during turns.
+Without a differential, the tyres would scrub and fight each other during
+turns - like you and your friend stumbling when you are forced to match
+steps.
 
 ---
 
@@ -415,11 +381,14 @@ The ground pushes forward on the tyre.
 
 That forward force moves the buggy.
 
-```mermaid
-flowchart LR
-    Tyre["Tyre pushes backward"] --> Ground["Ground"]
-    Ground --> Buggy["Ground pushes buggy forward"]
-```
+Engineers call this pair of forces *action and reaction*: whenever one
+thing pushes on another, the other pushes back just as hard in the
+opposite direction. It is also known as Newton's third law, and we will
+meet it properly in Chapter 4.
+
+> **[Sketch: side view of a driven wheel on the ground; an arrow at the
+> tyre's contact patch pointing backward labelled "tyre pushes ground",
+> and an equal arrow pointing forward labelled "ground pushes tyre"]**
 
 This is why grip matters.
 
@@ -429,15 +398,10 @@ Without grip, the wheel spins but the buggy does not accelerate properly.
 
 # A Simple Analogy: Walking
 
-When you walk, your foot pushes backward against the ground.
-
-The ground pushes you forward.
-
-If you try to walk on ice, your foot slips.
-
-The same leg muscles are working.
-
-But there is less grip.
+When you walk, your foot pushes backward against the ground, and the
+ground pushes you forward - action and reaction again. If you try to walk
+on ice, your foot slips. The same leg muscles are working, but there is
+less grip.
 
 The buggy behaves the same way.
 
@@ -466,7 +430,8 @@ Possible failures include:
 
 - stripped gear teeth
 - twisted driveshaft
-- loose wheel hex
+- loose wheel hex (the six-sided adapter that locks a wheel onto its
+  axle - Chapter 29)
 - cracked wheel hub
 - tyre slipping on the rim
 
@@ -474,7 +439,7 @@ A strong motor can reveal weak parts elsewhere.
 
 ---
 
-# Gears: Trading Speed for Strength
+# Gears: Trading Speed for Strength ⚙️
 
 Imagine riding a bicycle uphill.
 
@@ -491,6 +456,13 @@ In an easy gear:
 You traded speed for turning strength.
 
 RC gear systems do the same thing.
+
+> **📚 Learn more**
+>
+> - Explain That Stuff (explainthatstuff.com): search "gears" - why gears
+>   can give you speed or strength, but never both at once
+> - BBC Bitesize (KS3 Design and Technology): search "mechanical systems" -
+>   gears, levers and linkages as school D&T teaches them
 
 ---
 
@@ -519,10 +491,14 @@ The output turns four times slower.
 
 But it gains more torque.
 
-```mermaid
-flowchart LR
-    Small["10-tooth gear<br/>fast"] --> Large["40-tooth gear<br/>slower but stronger"]
-```
+> **[Sketch: a 10-tooth pinion meshing with a 40-tooth gear, teeth
+> interlocking at the contact point; arrows showing the small gear
+> spinning fast one way and the large gear turning slowly the other way,
+> labelled "4 turns" and "1 turn"]**
+
+Real buggy gears use exactly the same idea with finer teeth: a typical
+1/10 buggy pinion has 15 to 30 teeth and its spur gear 70 to 90. The
+numbers here are simply easier to picture.
 
 ---
 
@@ -584,16 +560,12 @@ Usually means:
 - harder work for the motor
 - often more heat
 
-```mermaid
-flowchart TD
-    Lower["Lower gearing"] --> LowerSpeed["Lower speed"]
-    Lower --> MoreTorque["More torque at wheels"]
-    Lower --> Easier["Easier on motor"]
-
-    Higher["Higher gearing"] --> HigherSpeed["Higher possible speed"]
-    Higher --> LessTorque["Less torque multiplication"]
-    Higher --> Harder["Harder on motor"]
-```
+| | Lower gearing | Higher gearing |
+|---|---|---|
+| Top speed | lower | higher (if the motor copes) |
+| Torque at the wheels | more | less |
+| Work for the motor | easier | harder |
+| Heat | usually less | usually more |
 
 Higher gearing does not always make the buggy faster.
 
@@ -640,19 +612,29 @@ This relationship is one reason engineers choose gear ratios carefully.
 
 ---
 
+> **☕ Good place to pause.** Stretch, get a drink, or try the pencil and
+> door activities at the end of the chapter now. The next section starts
+> a new idea: friction.
+
+---
+
 # Friction
 
-Rub your hands together.
-
-They become warm.
-
-That warmth comes from friction.
+Rub your hands together quickly. They become warm - that warmth comes
+from friction.
 
 **Friction** is a force that resists sliding or rolling motion between surfaces.
 
 Friction can be useful.
 
 It can also waste energy.
+
+> **📚 Learn more**
+>
+> - BBC Bitesize (KS3 Physics): search "friction" - where friction comes
+>   from and when it helps or hinders
+> - PhET Simulations (phet.colorado.edu): search "Forces and Motion:
+>   Basics" - the Friction screen lets you make the ground icy or rough
 
 ---
 
@@ -735,13 +717,17 @@ The power system and tyre system must match.
 
 ---
 
+> **☕ Good place to pause.** Stretch, get a drink, or try the friction
+> test (Activity 4) now. The next section moves from grip to how the
+> buggy's weight shifts as it speeds up and slows down.
+
+---
+
 # Weight Transfer
 
-Imagine standing still and suddenly running forward.
-
-Your body leans back slightly at first.
-
-A buggy does something similar during acceleration.
+Imagine standing still and suddenly sprinting forward - your body leans
+back slightly at first. A buggy does something similar during
+acceleration.
 
 As it accelerates:
 
@@ -758,14 +744,10 @@ The buggy's total weight does not jump from one end to the other.
 
 The forces pressing the tyres into the ground change.
 
-```mermaid
-flowchart TD
-    Accelerate["Accelerating"] --> RearLoad["More load on rear tyres"]
-    Accelerate --> FrontLight["Less load on front tyres"]
-
-    Brake["Braking"] --> FrontLoad["More load on front tyres"]
-    Brake --> RearLight["Less load on rear tyres"]
-```
+> **[Sketch: two side views of the buggy - accelerating with the nose
+> lifting and the rear squatting, arrows showing extra load on the rear
+> tyres; braking with the nose diving, arrows showing extra load on the
+> front tyres]**
 
 Weight transfer affects grip, steering and stability.
 
@@ -775,13 +757,8 @@ We will study it more deeply in the suspension chapters.
 
 # Inertia
 
-Imagine a book resting on a table.
-
-It stays still until something moves it.
-
-Now slide it.
-
-It continues moving until friction slows it down.
+Imagine a book resting on a table. It stays still until something moves
+it. Now slide it: it keeps moving until friction slows it down.
 
 This resistance to changing motion is called **inertia**.
 
@@ -827,11 +804,9 @@ But remember that engineers distinguish the two.
 
 # Momentum
 
-A moving object can be difficult to stop.
-
-A bowling ball moving slowly may be harder to stop than a tennis ball moving at the same speed.
-
-A fast buggy is harder to stop than a slow buggy.
+A moving object can be difficult to stop. A bowling ball moving slowly
+may be harder to stop than a tennis ball moving at the same speed, and a
+fast buggy is harder to stop than a slow buggy.
 
 This property is called **momentum**.
 
@@ -843,6 +818,11 @@ Momentum increases when:
 A fast, heavy buggy carries more momentum into a crash.
 
 That is why high speed increases the forces on printed parts.
+
+> **📚 Learn more**
+>
+> - BBC Bitesize: search "momentum" - a GCSE topic, so a look ahead, but
+>   the examples make mass-times-speed easy to picture
 
 ---
 
@@ -866,17 +846,20 @@ The stronger the force compared with the buggy's mass, the greater the accelerat
 
 # Power
 
-Torque tells us about twisting strength.
-
-Speed tells us how fast something moves.
+Imagine carrying a week's shopping up the stairs. You could haul every
+bag up in one fast trip, or make several slow, easy trips. Either way the
+same shopping ends up at the top - the same total work gets done - but
+the fast trip takes something extra. That something is power.
 
 **Power** tells us how quickly work is done or energy is transferred.
 
-A motor with useful torque at high speed can produce high power.
+A motor is the same. Torque tells us how strongly it can twist; power
+tells us how quickly it can keep delivering that twist. Two motors may
+have similar torque, but the one that can hold it at higher speed
+delivers more power - like the person who can carry the same bags
+upstairs at a run.
 
-Two motors may have similar torque, but the one that can maintain it at higher speed can deliver more power.
-
-We will study electrical power in a later chapter.
+We will study electrical power in Chapter 21.
 
 For now, remember:
 
@@ -897,7 +880,8 @@ The buggy may still be slow if:
 - tyres slip
 - the buggy is very heavy
 - the motor overheats
-- the ESC limits power
+- the ESC (the motor's electronic speed controller - Chapter 25) limits
+  power
 
 Speed is the result of the whole system.
 
@@ -940,8 +924,10 @@ A drivetrain can work perfectly while a weak suspension mount still breaks.
 Let us follow one acceleration event.
 
 1. The driver presses the throttle.
-2. The transmitter sends a command.
-3. The receiver passes the command to the ESC.
+2. The transmitter (the radio handset in the driver's hands - Chapter 23)
+   sends a command.
+3. The receiver (the small radio box inside the buggy - Chapter 23)
+   passes the command to the ESC.
 4. The ESC sends controlled electrical power to the motor.
 5. The motor produces torque.
 6. The pinion turns the spur gear.
@@ -991,7 +977,7 @@ If braking force is too strong, the buggy may become unstable.
 
 ---
 
-# Hands-On Activity 1 - Pencil Driveshaft
+# Hands-On Activity 1 - Pencil Driveshaft ✏️
 
 You need:
 
@@ -1016,7 +1002,7 @@ The pencil is acting like a simple shaft.
 
 ---
 
-# Hands-On Activity 2 - Door Torque Test
+# Hands-On Activity 2 - Door Torque Test 🚪
 
 Use a normal door.
 
@@ -1082,6 +1068,75 @@ Record:
 - Where did the lost motion go?
 
 Some energy became heat and deformation.
+
+---
+
+# Chapter Mini Project - The Cardboard Gear Pair 🛠️
+
+Reading about gear ratios is one thing. Turning a gear pair you built
+yourself, and feeling the ratio in your fingers, is another. This build
+gives you a working pinion and spur of your own - the same pair that
+lives inside the buggy, scaled up in cardboard.
+
+You will need:
+
+- corrugated cardboard (an old delivery box is perfect)
+- two round things to trace, one about twice the size of the other
+  (a mug and a large tin, or two different jar lids)
+- two pencils or wooden skewers for axles
+- scissors, glue and sticky tape
+- a spare piece of cardboard for the base
+- a marker pen
+
+> **⚠️ SAFETY**
+>
+> Show a responsible adult what you plan to build before you start, and
+> build with them nearby. Corrugated cardboard is tough to cut. Use
+> scissors, cut away from yourself on a table, and ask an adult if you
+> want to use a craft knife - especially for the axle holes.
+
+> **🎬 Watch the build**
+>
+> - 4-H (4-h.org): search "make your own cardboard gears" - a printable
+>   photo activity sheet using exactly this corrugated-strip method
+> - Instructables (instructables.com): search "working gears from
+>   junkmail and cardstock" - a step-by-step photo build
+> - Technovation (technovation.org): search "how to make a gearbox with
+>   moving parts" - takes the same idea further into a full gearbox
+
+Build steps:
+
+1. Trace and cut two cardboard discs, one about twice the diameter of
+   the other. The small one is your pinion, the large one your spur.
+2. Cut long strips of corrugated cardboard about 1 cm wide, then peel
+   the flat paper off one side so the wavy corrugations are exposed.
+   Those waves are your gear teeth.
+3. Glue a strip around the rim of each disc, teeth facing outward, and
+   trim so the ends meet neatly.
+4. Count the teeth on each gear and write the number in the middle of
+   its disc.
+5. Push a pencil or skewer through the centre of each gear.
+6. Fix both axles to the base (tape works, or push skewers right
+   through) so the two gears mesh - teeth interlocking, but not jammed
+   tight.
+7. Draw one bold arrow on the face of each gear so you can count turns.
+
+Now the engineering part - the reflection:
+
+1. Turn the large gear exactly one full turn and count how many turns
+   the small gear makes. Then divide your two tooth counts. Do the
+   numbers agree? That is your gear ratio, made visible.
+2. Pinch the small gear's axle gently to resist it while a helper turns
+   the large gear. Now swap: resist the large gear while they turn the
+   small one. Which gear is harder to stop? That is the torque trade -
+   the slower gear twists with more strength.
+3. Label your pair: the small gear is the pinion, the large one is the
+   spur. In the buggy, the motor spins the pinion and the spur turns
+   slower but stronger - you have just felt why.
+
+Your gear pair has no motor - you are its motor, which is exactly why
+you can feel what the buggy's motor will feel. Put it on your showcase
+shelf next to the cotton reel crawler.
 
 ---
 
@@ -1165,7 +1220,8 @@ Possible causes:
 - wheels are too large
 - buggy is too heavy
 - tyres are rubbing
-- motor timing is too aggressive
+- motor timing (an advanced motor setting - Chapter 26) is set too
+  aggressively
 - cooling airflow is poor
 
 The hot motor is the symptom.
@@ -1174,7 +1230,7 @@ The cause may be elsewhere in the system.
 
 ---
 
-# Common Beginner Mistakes
+# Common Beginner Mistakes ❌
 
 ## Mistake 1 - Confusing Speed with Torque
 
@@ -1290,14 +1346,15 @@ Possible causes:
 
 - broken differential
 - stripped internal gear
-- disconnected output cup
+- disconnected output cup (the socket where a driveshaft plugs into the
+  differential - Chapter 27)
 - broken shaft
 
 This is how engineers isolate faults.
 
 ---
 
-# Chapter Summary
+# Chapter Summary 📝
 
 In this chapter, we learned how movement travels through the buggy.
 
@@ -1329,7 +1386,7 @@ We also learned that:
 
 ---
 
-# New Words
+# New Words 📖
 
 | Word | Meaning |
 |---|---|
@@ -1361,7 +1418,7 @@ We also learned that:
 
 ---
 
-# Review Questions
+# Review Questions ❓
 
 1. What is the difference between linear and rotational motion?
 2. What is a force?
@@ -1384,7 +1441,7 @@ We also learned that:
 
 ---
 
-# Chapter Checklist
+# Chapter Checklist ✅
 
 - [ ] I understand the difference between motion and force.
 - [ ] I can explain torque using a real-world example.
@@ -1398,18 +1455,20 @@ We also learned that:
 - [ ] I understand grip and wheelspin.
 - [ ] I know what inertia and momentum mean in simple terms.
 - [ ] I completed at least one hands-on activity.
+- [ ] I built the cardboard gear pair and felt the ratio and the torque
+      trade for myself.
 - [ ] I drew a motion-path diagram.
 - [ ] I added observations to my engineering notebook.
 
 ---
 
-# Looking Ahead
+# Looking Ahead 🔭
 
 We can now trace motion and force through the buggy.
 
 The next step is to study forces more carefully.
 
-In the next chapter, we will explore:
+In Chapter 04 - Forces and Why Parts Break, we will explore:
 
 - pushing
 - pulling

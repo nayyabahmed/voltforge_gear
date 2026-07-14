@@ -1,6 +1,6 @@
 # Table of Contents
 
-The full chapter plan for the VoltForge Gear RC Buggy Engineering Handbook, with writing progress.
+The full chapter plan for VoltForge Gear — The Young Engineer's Handbook, with writing progress.
 
 **Legend:** 📋 planned · ✍️ in progress · 🟡 v0.1 Draft · 🔵 v0.2 Reviewed · 🟠 v0.3 Prototype-tested · 🟢 v1.0 Released — see [VERSIONING.md](VERSIONING.md)
 
@@ -14,8 +14,8 @@ The full chapter plan for the VoltForge Gear RC Buggy Engineering Handbook, with
 | --- | --- | --- |
 | 00 | [How to Use This Handbook](Part-1-Engineering-Mindset/00-How-to-Use-This-Handbook.md) | 🟡 v0.1 |
 | 01 | [What Are We Building?](Part-1-Engineering-Mindset/01-What-Are-We-Building.md) | 🔵 v0.2 |
-| 02 | [Systems Thinking](Part-1-Engineering-Mindset/02-Systems-Thinking.md) | 🟡 v0.1 |
-| 03 | [How Machines Move](Part-1-Engineering-Mindset/03-How-Machines-Move.md) | 🟡 v0.1 |
+| 02 | [Systems Thinking](Part-1-Engineering-Mindset/02-Systems-Thinking.md) | 🔵 v0.2 |
+| 03 | [How Machines Move](Part-1-Engineering-Mindset/03-How-Machines-Move.md) | 🔵 v0.2 |
 | 04 | [Forces and Why Parts Break](Part-1-Engineering-Mindset/04-Forces-and-Why-Parts-Break.md) | 🟡 v0.1 |
 | 05 | [Measurement](Part-1-Engineering-Mindset/05-Measurement.md) | 🟡 v0.1 |
 | 06 | [Accuracy, Precision and Error](Part-1-Engineering-Mindset/06-Accuracy-Precision-and-Error.md) | 🟡 v0.1 |

@@ -1,6 +1,6 @@
 ---
 title: "Safety Reference"
-project: "RC Buggy Engineering Handbook"
+project: "VoltForge Gear — The Young Engineer's Handbook"
 version: "0.1"
 status: "Draft (general rules from Chapter 10; grows with each hazard's chapter)"
 ---

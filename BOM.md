@@ -1,6 +1,6 @@
 ---
 title: "Bill of Materials (BOM)"
-project: "RC Buggy Engineering Handbook"
+project: "VoltForge Gear — The Young Engineer's Handbook"
 version: "0.1"
 status: "Stub (grows with the build chapters)"
 ---

@@ -51,7 +51,7 @@ BUILD      = ROOT / "build"
 MERMAID    = BUILD / "mermaid"
 DIST       = ROOT / "dist"
 CSS        = ROOT / "scripts" / "print.css"
-TITLE      = "VoltForge Gear — The RC Buggy Engineering Handbook"
+TITLE      = "VoltForge Gear — The Young Engineer's Handbook"
 
 # ---------------------------------------------------------------- regexes
 LINK_RE     = re.compile(r"\[([^\]]+)\]\(([^)]+?\.md)\)")

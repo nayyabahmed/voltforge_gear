@@ -11,7 +11,7 @@ Legend: [T] textual, [C] context awareness, [V] visual aid, [E] external referen
   stories and explanations (door/shelf/dartboard/bath-tap narrative passages
   are the worst offenders).
   - Progress: applied to Ch 00, and to the story openers of Ch 02 and Ch 06
-    in dd772e8. Remaining chapters pending.
+    in dd772e8; Ch 02 swept fully 2026-07-14. Remaining chapters pending.
 - [ ] [T] **Chapter length.** Every chapter from 02 onwards is too long for
   one sitting. Add break markers at the natural seams listed per chapter
   ("Good place to pause..." format, STYLE-GUIDE section 4). Chapter 04 gets
@@ -22,9 +22,10 @@ Legend: [T] textual, [C] context awareness, [V] visual aid, [E] external referen
   in the per-chapter files. Verify every chapter number against `SUMMARY.md`
   (the review's own example "ESC - Chapter 22" is stale; ESC is Chapter 25).
 - [ ] [C] **Terminology to reconcile across chapters:**
-  - [ ] "gearbox" (Ch02) vs "drivetrain" (Ch03/04) - add the bridging line in
+  - [x] "gearbox" (Ch02) vs "drivetrain" (Ch03/04) - add the bridging line in
     Ch03 ("the gearbox from Chapter 2 is part of what engineers call the
     drivetrain"); registry says "drivetrain" for the whole system.
+    APPLIED 2026-07-14 in Ch03 "A Common Mistake".
   - [ ] "requirement traceability" (Ch10/glossary) vs "requirements
     traceability" (Ch09) - standardise on the singular form.
   - [ ] "Hinge pin" vs "hinge-pin" (Ch04) - standardise as "hinge pin"
@@ -51,6 +52,9 @@ Legend: [T] textual, [C] context awareness, [V] visual aid, [E] external referen
   2026-07-12; now STYLE-GUIDE section 3): every teaching chapter ends its
   activities with a small household-materials build producing a keepable
   artifact, closed by a reflection step tying it to the chapter's idea.
+  Every mini project's safety callout OPENS with the adult-check line -
+  show a responsible adult the plan first, build with them nearby
+  (decision 2026-07-14, STYLE-GUIDE section 3; Ch 01/02/03 retrofitted).
   Candidates researched and web-verified 2026-07-12 (re-check the source
   during each chapter's research pass):
   - Ch 01: cotton reel crawler (rubber-band-through-spool classic; sources:
@@ -59,10 +63,12 @@ Legend: [T] textual, [C] context awareness, [V] visual aid, [E] external referen
   - Ch 02: mini chain-reaction machine from kitchen objects (Exploratorium
     Tinkering "Chain Reaction @ Home") - reflection: name each interface
     and what it carries; trace the cause-and-effect chain.
+    APPLIED 2026-07-14 (source re-verified in the research pass).
   - Ch 03: cardboard gear pair on skewer axles, different tooth counts
-    (4-H "Make Your Own Cardboard Gears" PDF; Experiland; Technovation
-    gearbox guide) - reflection: count turns to feel the ratio, feel the
-    torque trade.
+    (4-H "Make Your Own Cardboard Gears" PDF; Instructables "working
+    gears from junkmail and cardstock"; Technovation gearbox guide -
+    Experiland dropped, could not re-verify) - reflection: count turns to
+    feel the ratio, feel the torque trade. APPLIED 2026-07-14.
   - Ch 04: paper bridge tested to failure with coins (Science Buddies
     "Build the Best Paper Bridge"; PBS Kids) - reflection: read the
     failure - what bent, what buckled, why shape beat material.
