@@ -10,7 +10,7 @@ Update the relevant row whenever a work item starts or finishes
 
 **Legend:** ✅ done | 🔨 in progress | 📋 planned | ➖ not applicable
 
-Last updated: 2026-07-12
+Last updated: 2026-07-14
 
 ## Chapter Work
 
@@ -19,7 +19,7 @@ Last updated: 2026-07-12
 | 00 How to Use This Handbook | ✅ | ➖ nothing to verify | ➖ not in review scope | ➖ by convention | ✅ | ✅ | ✅ done |
 | 01 What Are We Building? | ✅ | 🔨 two Learn More terms owe retro-check | ✅ | ✅ Cotton Reel Crawler | ✅ | ✅ | ✅ done (bar retro-check) |
 | 02 Systems Thinking | ✅ | 📋 | 🔨 ~half applied (dd772e8) | 📋 chain-reaction machine | 📋 | ⚠️ bumped early | 🔨 in progress |
-| 03 How Machines Move | ✅ | 📋 | 📋 | 📋 cardboard gear pair | 📋 | 📋 | 📋 planned |
+| 03 How Machines Move | ✅ | ✅ | ✅ | ✅ cardboard gear pair | ✅ | ✅ | ✅ done |
 | 04 Forces and Why Parts Break | 📋 to create | 📋 | 📋 | 📋 paper bridge | 📋 | 📋 | 📋 planned |
 | 05 Measurement | 📋 to create | 📋 | 📋 | 📋 cardboard caliper | 📋 | 📋 | 📋 planned |
 | 06 Accuracy, Precision and Error | 📋 to create | 📋 | 🔨 ~half applied (dd772e8) | 📋 craft-stick catapult | 📋 | ⚠️ bumped early | 🔨 in progress |
@@ -33,15 +33,15 @@ Last updated: 2026-07-12
 
 | Activity | Status |
 | --- | --- |
-| De-staccato story passages | 🔨 done for 00, 01; partial 02, 06 |
-| Break markers / splits | 🔨 done for 01; rest planned |
-| First-use gloss sweep | 🔨 done for 00-02 (partial), 06, 08 (partial) |
-| Terminology reconciliation (4 items) | 📋 |
-| Learn More boxes | 🔨 done for 01; partial 06, 08 |
-| Weak mermaid replacement | 🔨 partial 06, 08 |
-| Think-about-it prompts | 🔨 done for 01; placements listed for 02, 03 |
-| Chapter Mini Projects | 🔨 done for 01; candidates researched for all |
-| Emoji presentation passes | 🔨 done for 00, 01 |
+| De-staccato story passages | 🔨 done for 00, 01, 03; partial 02, 06 |
+| Break markers / splits | 🔨 done for 01, 03; rest planned |
+| First-use gloss sweep | 🔨 done for 00-02 (partial), 03, 06, 08 (partial) |
+| Terminology reconciliation (4 items) | 🔨 1 of 4 done (gearbox->drivetrain bridge in 03) |
+| Learn More boxes | 🔨 done for 01, 03; partial 06, 08 |
+| Weak mermaid replacement | 🔨 done for 03; partial 06, 08 |
+| Think-about-it prompts | 🔨 done for 01, 03; placements listed for 02 |
+| Chapter Mini Projects | 🔨 done for 01, 03; candidates researched for all |
+| Emoji presentation passes | 🔨 done for 00, 01, 03 |
 | Refresh Ch 00 "How This Book Is Organised" to final template | 📋 after full sweep |
 
 ## Conventions and Infrastructure (all done)
@@ -62,7 +62,8 @@ Last updated: 2026-07-12
    capstone, glossary.
 2. 🔨 Phase 1 - finish the early-bumped chapters: 02, then 06, then 08
    (research pass first, per the loop).
-3. 📋 Phase 2 - chapters 03, 04, 05, 07, 09, capstone in order.
+3. 🔨 Phase 2 - chapter 03 ✅ done (2026-07-14, out of order on
+   `review-chapter-3`); remaining: 04, 05, 07, 09, capstone in order.
 4. 📋 Phase 3 - glossary + terminology sweep + gloss-number check.
 5. 📋 Phase 4 - Chapter 01 Learn More retro-check; refresh Ch 00
    template list; final book-wide ticks.

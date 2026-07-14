@@ -22,9 +22,10 @@ Legend: [T] textual, [C] context awareness, [V] visual aid, [E] external referen
   in the per-chapter files. Verify every chapter number against `SUMMARY.md`
   (the review's own example "ESC - Chapter 22" is stale; ESC is Chapter 25).
 - [ ] [C] **Terminology to reconcile across chapters:**
-  - [ ] "gearbox" (Ch02) vs "drivetrain" (Ch03/04) - add the bridging line in
+  - [x] "gearbox" (Ch02) vs "drivetrain" (Ch03/04) - add the bridging line in
     Ch03 ("the gearbox from Chapter 2 is part of what engineers call the
     drivetrain"); registry says "drivetrain" for the whole system.
+    APPLIED 2026-07-14 in Ch03 "A Common Mistake".
   - [ ] "requirement traceability" (Ch10/glossary) vs "requirements
     traceability" (Ch09) - standardise on the singular form.
   - [ ] "Hinge pin" vs "hinge-pin" (Ch04) - standardise as "hinge pin"
@@ -60,9 +61,10 @@ Legend: [T] textual, [C] context awareness, [V] visual aid, [E] external referen
     Tinkering "Chain Reaction @ Home") - reflection: name each interface
     and what it carries; trace the cause-and-effect chain.
   - Ch 03: cardboard gear pair on skewer axles, different tooth counts
-    (4-H "Make Your Own Cardboard Gears" PDF; Experiland; Technovation
-    gearbox guide) - reflection: count turns to feel the ratio, feel the
-    torque trade.
+    (4-H "Make Your Own Cardboard Gears" PDF; Instructables "working
+    gears from junkmail and cardstock"; Technovation gearbox guide -
+    Experiland dropped, could not re-verify) - reflection: count turns to
+    feel the ratio, feel the torque trade. APPLIED 2026-07-14.
   - Ch 04: paper bridge tested to failure with coins (Science Buddies
     "Build the Best Paper Bridge"; PBS Kids) - reflection: read the
     failure - what bent, what buckled, why shape beat material.

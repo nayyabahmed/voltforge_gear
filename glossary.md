@@ -1,6 +1,6 @@
 ---
 title: "Glossary"
-project: "RC Buggy Engineering Handbook"
+project: "VoltForge Gear — The Young Engineer's Handbook"
 scope: "Seeded from Chapters 01-10, growing with each new chapter (currently through Chapter 11)"
 version: "0.1"
 status: "Draft (living document)"
@@ -436,6 +436,14 @@ A structured check of a design before moving to the next stage.
 ### Detail View
 
 An enlarged drawing view of a small feature.
+
+---
+
+### Differential
+
+A gear system that sends motion to both driven wheels while letting them
+turn at different speeds, so the outside wheel can travel farther than
+the inside wheel during a turn.
 
 ---
 
@@ -1304,6 +1312,12 @@ The method used to prevent a part from moving or escaping.
 ### Revision
 
 A recorded version of a design or drawing.
+
+---
+
+### Revolution
+
+One complete turn of a rotating part.
 
 ---
 
