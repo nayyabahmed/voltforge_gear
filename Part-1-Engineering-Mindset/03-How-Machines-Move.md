@@ -717,6 +717,12 @@ The power system and tyre system must match.
 
 ---
 
+> **☕ Good place to pause.** Stretch, get a drink, or try the friction
+> test (Activity 4) now. The next section moves from grip to how the
+> buggy's weight shifts as it speeds up and slows down.
+
+---
+
 # Weight Transfer
 
 Imagine standing still and suddenly sprinting forward - your body leans

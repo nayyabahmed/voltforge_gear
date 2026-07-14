@@ -46,7 +46,9 @@ Friction.
   re-verified; Experiland dropped). Reflection: turn the big gear once and
   count the small gear's turns (the ratio made visible), then feel which
   gear is harder to stop (the torque trade).
-- [x] Break marker at the seam listed above.
+- [x] Break marker at the seam listed above. (A second marker added
+  2026-07-14 before "Weight Transfer" - the chapter runs ~1,470 lines, so
+  the grip -> vehicle-dynamics seam earned one too.)
 - [x] Emoji pass per STYLE-GUIDE section 6 (fixed callout markers, one
   meaningful emoji on content headings that earn one).
 - [x] Final pass: verify checklist (PLAN.md step 5), bump to v0.2, tick rows
