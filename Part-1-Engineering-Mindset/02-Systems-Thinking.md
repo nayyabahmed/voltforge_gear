@@ -5,7 +5,7 @@ chapter: 2
 version: "0.2"
 status: "Reviewed"
 difficulty: Beginner
-estimated_time: "60-90 minutes"
+estimated_time: "90-150 minutes (including the mini project)"
 prerequisites:
   - Chapter 00 - How to Use This Handbook
   - Chapter 01 - What Are We Building?
@@ -23,7 +23,7 @@ learning_objectives:
 
 ---
 
-# Learning Objectives
+# Learning Objectives 🎯
 
 By the end of this chapter you will be able to:
 
@@ -62,25 +62,11 @@ Systems thinking is the skill of seeing those relationships.
 
 ---
 
-# A Simple Story: The Bath That Will Not Fill
+# A Simple Story: The Bath That Will Not Fill 🛁
 
-Imagine turning on a bath tap.
+Imagine turning on a bath tap. Water flows into the bath - but someone forgot to put in the plug, so water is also escaping through the drain. You might turn the tap higher, and more water enters. But if water leaves faster than it enters, the bath still will not fill.
 
-Water flows into the bath.
-
-But someone forgot to put in the plug.
-
-Water also flows out through the drain.
-
-You might turn the tap higher.
-
-More water enters.
-
-But if water leaves faster than it enters, the bath still will not fill.
-
-Looking only at the tap does not explain the problem.
-
-You must look at the whole system:
+Looking only at the tap does not explain the problem. You must look at the whole system:
 
 ```mermaid
 flowchart LR
@@ -90,9 +76,7 @@ flowchart LR
 
 The water level depends on both the tap and the drain.
 
-This is systems thinking.
-
-It means asking:
+This is systems thinking. It means asking:
 
 - What enters the system?
 - What happens inside it?
@@ -157,6 +141,12 @@ It could be:
 - light
 - information
 - a finished object
+
+> **📚 Learn more**
+>
+> - BBC Bitesize (GCSE Design and Technology): search "systems approach
+>   to designing" - inputs, processes and outputs the way school D&T
+>   teaches them (a GCSE topic, so a look ahead)
 
 ---
 
@@ -240,15 +230,7 @@ flowchart LR
     Buggy --> Wear["Wear"]
 ```
 
-The main output is movement.
-
-But the unwanted outputs matter too.
-
-Heat may damage electronics.
-
-Vibration may loosen screws.
-
-Wear may reduce grip.
+The main output is movement. But the unwanted outputs matter too: heat may damage electronics, vibration may loosen screws, and wear may reduce grip.
 
 A good engineer notices both useful and unwanted outputs.
 
@@ -256,19 +238,13 @@ A good engineer notices both useful and unwanted outputs.
 
 # Useful Outputs and Unwanted Outputs
 
-Imagine a hair dryer.
-
-Its useful output is warm moving air.
-
-Its unwanted outputs include:
+Imagine a hair dryer. Its useful output is warm moving air. Its unwanted outputs include:
 
 - noise
 - wasted heat
 - vibration
 
-Machines nearly always create more than one output.
-
-The same is true for the buggy.
+Machines nearly always create more than one output, and the same is true for the buggy.
 
 | System | Useful output | Possible unwanted output |
 |---|---|---|
@@ -278,19 +254,13 @@ The same is true for the buggy.
 | Suspension | Controlled wheel movement | Friction |
 | Battery | Electrical energy | Heat |
 
-An unwanted output is not always a failure.
-
-Sometimes it is simply a cost of making the useful output.
+An unwanted output is not always a failure. Sometimes it is simply a cost of making the useful output.
 
 ---
 
 # System Boundaries
 
-Imagine drawing a circle around the toaster.
-
-Everything inside the circle belongs to the toaster system.
-
-Everything outside the circle belongs to the environment around it.
+Imagine drawing a circle around the toaster. Everything inside the circle belongs to the toaster system, and everything outside it belongs to the environment around it.
 
 That circle is called a **system boundary**.
 
@@ -306,30 +276,20 @@ flowchart LR
     Boundary --> Toast["Toast"]
 ```
 
-A boundary is not always a real wall.
-
-It is a thinking tool.
-
-It helps us decide what we are studying.
+A boundary is not always a real wall. It is a thinking tool that helps us decide what we are studying.
 
 ---
 
 # Choosing the Right Boundary
 
-Suppose the buggy is moving slowly.
-
-We could study only the motor.
-
-That gives us a small boundary.
+Suppose the buggy is moving slowly. We could study only the motor, which gives us a small boundary.
 
 ```mermaid
 flowchart LR
     Electricity --> Motor --> Rotation
 ```
 
-But the problem may not be inside the motor.
-
-It could be caused by:
+But the problem may not be inside the motor. It could be caused by:
 
 - a weak battery
 - an incorrect gear ratio
@@ -345,19 +305,13 @@ flowchart LR
     Battery --> ESC --> Motor --> Gearbox --> Wheels --> Ground
 ```
 
-The correct boundary depends on the question.
-
-A small boundary helps us study detail.
-
-A large boundary helps us find hidden connections.
+The correct boundary depends on the question: a small boundary helps us study detail, and a large boundary helps us find hidden connections.
 
 ---
 
 # The Buggy Is a System of Systems
 
-In Chapter 01, we divided the buggy into major systems.
-
-Each of those systems contains smaller systems.
+In Chapter 01, we divided the buggy into major systems. Each of those systems contains smaller systems.
 
 For example, the drive system may contain:
 
@@ -394,11 +348,7 @@ flowchart TD
 > subsystems annotated - control, power, drive, steering, suspension,
 > structure - so the abstract tree above maps onto a real object]**
 
-We can keep dividing until we reach individual parts.
-
-But we do not always need to.
-
-We stop when we have enough detail to answer the current question.
+We can keep dividing until we reach individual parts, but we do not always need to. We stop when we have enough detail to answer the current question.
 
 ---
 
@@ -415,19 +365,7 @@ A connection may carry:
 - heat
 - material
 
-Consider the battery cable.
-
-It is not just a piece of wire.
-
-It is a connection that carries electrical energy.
-
-Consider the driveshaft.
-
-It is a connection that carries rotation and torque (twisting force - Chapter 3 explains it properly).
-
-Consider the radio signal.
-
-It is a connection that carries information.
+Consider the battery cable. It is not just a piece of wire - it is a connection that carries electrical energy. The driveshaft is a connection that carries rotation and torque (twisting force - Chapter 3 explains it properly). The radio signal is a connection that carries information.
 
 ```mermaid
 flowchart LR
@@ -443,13 +381,21 @@ When studying a system, always ask:
 
 > What travels through this connection?
 
+> **📚 Learn more**
+>
+> - BBC Bitesize (KS3 Physics): search "energy stores and transfers" -
+>   how energy moves from store to store; most of the buggy's connections
+>   are carrying energy from one place to another
+
 ---
 
 # A Chain of Dependence
 
-Imagine that the battery is nearly empty.
+> **🤔 Think about it.** Suppose we fit the buggy with much larger tyres. Before reading on, write down two other things you think would change. Bigger tyres roll farther in one turn - so is that change free?
 
-What happens next?
+Larger tyres would carry the buggy farther with every turn of the motor - but the motor would have to push harder on every turn, drawing more electrical current and making more heat. One "simple" change ripples through the whole machine. Let us follow a ripple like that, step by step.
+
+Imagine that the battery is nearly empty. What happens next?
 
 1. Battery voltage falls.
 2. The ESC has less electrical energy available.
@@ -499,27 +445,21 @@ flowchart TD
     MoreCurrent --> ShortRun["Shorter run time"]
 ```
 
-The tight bearing is a small mechanical problem.
-
-But it creates electrical and thermal effects too.
-
-That is why systems thinking matters.
+The tight bearing is a small mechanical problem, but it creates electrical and thermal effects too. That is why systems thinking matters.
 
 ---
 
-# Feedback
+> **☕ Good place to pause.** Stretch, get a drink, or try following one change through the buggy (Activity 2) now. The next section starts a new idea: feedback.
 
-Imagine trying to walk along a painted line while your eyes are closed.
+---
 
-It is difficult.
+# Feedback 🔁
 
-Now open your eyes.
+> **🤔 Think about it.** Find a straight line on the floor - a floorboard edge or a line between tiles. Walk along it with your eyes open. Easy. Now try it with your eyes closed. Why do you drift off the line without noticing?
 
-You can see when you move away from the line.
+With your eyes closed you still know how to walk - but you get no information about the result of each step, so small errors quietly pile up. Open your eyes and everything changes: you can see when you move away from the line, and you correct your direction.
 
-You correct your direction.
-
-This repeated process is called **feedback**.
+This repeated loop - act, observe, compare, correct - is called **feedback**.
 
 ```mermaid
 flowchart LR
@@ -533,6 +473,12 @@ flowchart LR
 Feedback means:
 
 > Using information about a result to decide what to do next.
+
+> **📚 Learn more**
+>
+> - Explain That Stuff (explainthatstuff.com): search "thermostats" -
+>   the thermostat that keeps your house warm is a machine built entirely
+>   around feedback: it measures, compares and corrects, all day long
 
 ---
 
@@ -554,9 +500,7 @@ flowchart LR
     Eyes --> Driver
 ```
 
-The driver is part of the control system.
-
-Without the driver, a normal RC buggy does not know whether it is heading toward the correct place.
+The driver is part of the control system. Without the driver, a normal RC buggy does not know whether it is heading toward the correct place.
 
 ---
 
@@ -584,9 +528,7 @@ Both types are useful.
 
 # Positive and Negative Feedback
 
-These words can sound like praise and criticism.
-
-In engineering, they mean something different.
+These words can sound like praise and criticism. In engineering, they mean something different.
 
 ## Negative Feedback
 
@@ -618,19 +560,13 @@ flowchart LR
     MoreLoose --> Wobble
 ```
 
-Positive feedback is not always good.
-
-It means the change reinforces itself.
+Positive feedback is not always good. It simply means the change reinforces itself.
 
 ---
 
-# Trade-Offs
+# Trade-Offs ⚖️
 
-Suppose you install a larger motor.
-
-That may make the buggy faster.
-
-But it may also:
+Suppose you install a larger motor. That may make the buggy faster. But it may also:
 
 - draw more current
 - create more heat
@@ -652,9 +588,7 @@ A trade-off means:
 
 # A Concrete Trade-Off: Stronger Parts
 
-Suppose a suspension arm keeps breaking.
-
-You make it thicker.
+Suppose a suspension arm keeps breaking, so you make it thicker.
 
 Possible benefits:
 
@@ -669,9 +603,7 @@ Possible costs:
 - may transfer crash force into a more expensive part
 - may flex less than desired
 
-The strongest part is not automatically the best part.
-
-The best part is the one that performs the correct job inside the whole system.
+The strongest part is not automatically the best part. The best part is the one that performs the correct job inside the whole system.
 
 ---
 
@@ -692,9 +624,7 @@ Examples for our buggy:
 - Printed parts must fit on the chosen printer.
 - Hot electronics must have enough airflow.
 
-Requirements help us make decisions.
-
-Without them, words such as "better" and "fast" are too vague.
+Requirements help us make decisions. Without them, words such as "better" and "fast" are too vague.
 
 ---
 
@@ -706,7 +636,7 @@ Compare these two statements:
 
 and:
 
-> The buggy should reach 30 kilometres per hour on short grass using a 2-cell battery.
+> The buggy should reach 30 kilometres per hour on short grass using a 2-cell battery (a battery built from two smaller units, called cells - Chapter 22 explains them properly).
 
 The second statement is easier to test.
 
@@ -718,9 +648,7 @@ and:
 
 > One person should be able to remove the battery in less than one minute using no tools.
 
-Again, the second statement is measurable.
-
-Good requirements are concrete enough to test.
+Again, the second statement is measurable. Good requirements are concrete enough to test.
 
 ---
 
@@ -740,9 +668,7 @@ Examples:
 - Maximum safe temperature
 - Available build time
 
-Imagine making a sandwich.
-
-The requirement may be:
+Imagine making a sandwich. The requirement may be:
 
 > Make lunch for one person.
 
@@ -757,11 +683,9 @@ Engineering always happens inside constraints.
 
 ---
 
-# Interfaces
+# Interfaces 🔗
 
-Suppose two LEGO bricks must connect.
-
-The studs on one brick must match the holes on the other.
+Suppose two LEGO bricks must connect. The studs on one brick must match the holes on the other.
 
 The place where two systems meet is called an **interface**.
 
@@ -770,9 +694,9 @@ Examples in the buggy include:
 - motor to motor mount
 - motor shaft to pinion gear
 - battery connector to ESC connector
-- servo horn to steering link
+- servo horn (the small arm on the steering servo's shaft - Chapter 24) to steering link
 - bearing to printed housing
-- wheel hex to wheel
+- wheel hex (the six-sided adapter that turns the wheel - Chapter 29) to wheel
 
 ```mermaid
 flowchart LR
@@ -781,23 +705,17 @@ flowchart LR
     Bearing["Bearing outside diameter"] -- "interface" --> Housing["Printed bearing seat"]
 ```
 
-Interfaces are common places for problems.
+> **[Sketch: close-up photo of a pinion gear meshing with a spur gear -
+> the motor-to-drivetrain interface, where two systems meet tooth to
+> tooth]**
 
-A part may work perfectly alone but fail to connect to another part.
+Interfaces are common places for problems. A part may work perfectly alone but fail to connect to another part.
 
 ---
 
 # Why Interfaces Deserve Special Attention
 
-Imagine buying a phone charging cable with the wrong plug.
-
-The cable may be excellent.
-
-The phone may be excellent.
-
-But the connection does not fit.
-
-The system fails at the interface.
+Imagine buying a phone charging cable with the wrong plug. The cable may be excellent, and the phone may be excellent - but the connection does not fit. The system fails at the interface.
 
 In our buggy, interface problems may include:
 
@@ -845,11 +763,7 @@ flowchart TD
     Chassis --> Servo
 ```
 
-This diagram is not a drawing of where the parts sit.
-
-It is a map of how they affect one another.
-
-That difference is important.
+This diagram is not a drawing of where the parts sit. It is a map of how they affect one another - and that difference is important.
 
 ---
 
@@ -878,6 +792,10 @@ Both are useful, but they answer different questions.
 | Physical drawing | What shape and size are the parts? |
 
 We use the system diagram before detailed CAD because it helps us understand what must connect.
+
+---
+
+> **☕ Good place to pause.** Stretch, get a drink, and come back with a torch in your hand. The rest of the chapter is hands-on.
 
 ---
 
@@ -935,21 +853,15 @@ Write at least three possible effects.
 
 Example:
 
-```text
-Larger tyres
-    v
-More distance travelled per wheel turn
-    v
-Higher possible speed
-    v
-Motor works harder
-    v
-More heat may be produced
+```mermaid
+flowchart TD
+    Tyres["Larger tyres"] --> Distance["More distance travelled per wheel turn"]
+    Distance --> Speed["Higher possible speed"]
+    Speed --> Harder["Motor works harder"]
+    Harder --> Heat["More heat may be produced"]
 ```
 
-Do not worry about being perfectly correct.
-
-The goal is to practise following connections.
+Do not worry about being perfectly correct. The goal is to practise following connections.
 
 ---
 
@@ -976,9 +888,55 @@ Possible labels include:
 - force
 - visual information
 
-Your diagram does not need to match the one in this chapter.
+Your diagram does not need to match the one in this chapter. A useful diagram is more important than a beautiful diagram.
 
-A useful diagram is more important than a beautiful diagram.
+---
+
+# Chapter Mini Project - The Kitchen Chain Reaction 🛠️
+
+A system only works when every connection between its parts works. In this build you will feel that truth in your fingers: you are going to make a chain-reaction machine - a line of everyday objects in which each one triggers the next. Every hand-off between objects is an interface, and you are the engineer who has to make each one work.
+
+You will need:
+
+- a clear stretch of floor or a large table
+- dominoes, books or DVD cases (anything that topples in a row)
+- a marble or small ball
+- cardboard tubes, or card folded into a ramp
+- string, spoons, cups, a toy car - raid the recycling box and (with permission) the kitchen drawer
+- tape
+
+> **⚠️ SAFETY**
+>
+> Use unbreakable objects only - no glass, nothing sharp, nothing hot.
+> Build away from table edges, stairs, screens and pets, and put the
+> kitchen things back when you finish.
+
+> **🎬 Watch the build**
+>
+> - Exploratorium Tinkering (exploratorium.edu): search "chain reaction" -
+>   the museum's classic activity, with a downloadable photo guide
+> - Exploratorium Tinkering (exploratorium.edu): search "chain reaction
+>   at home" - the same activity rebuilt from kitchen objects
+> - YouTube (with an adult): search "simple chain reaction machine at
+>   home" - watch one run from start to finish before you build
+
+Build steps:
+
+1. Choose a satisfying ending - the finale. A marble dropping into a mug, or a string pulling up a paper flag, both work well.
+2. Build ONE link first: one object making the next object move. A domino run that nudges a marble is a classic start.
+3. Test that single link five times. Only add the next link when the first works every time.
+4. Grow the chain to at least four links, testing each new link on its own before testing the whole chain.
+5. Run the whole machine. When it stops halfway (it will), look closely at the interface where it stopped: what was supposed to travel across, and why did it not arrive?
+
+The reflection is where the learning lands. In your engineering notebook:
+
+- Draw your whole machine as boxes and arrows, exactly like the system maps in this chapter.
+- Label every arrow with what it carries: a push, a roll, a pull, a tip.
+- Mark the interface that failed most often. Interfaces are where systems fail - your machine just proved this chapter's biggest idea.
+
+Notice one thing your machine does NOT have: feedback. Once started, it cannot watch its own progress and correct itself - one bad hand-off and the whole chain stops. That is exactly why you had to test each link so carefully.
+
+Keep your favourite link - the single cleverest hand-off - and your boxes-and-arrows drawing for the showcase shelf, and photograph the full machine before you tidy it away.
 
 ---
 
@@ -1005,13 +963,11 @@ Systems thinking prevents us from replacing good parts because of a bad guess.
 
 ---
 
-# Common Beginner Mistakes
+# Common Beginner Mistakes ❌
 
 ## Mistake 1 - Looking at Only One Part
 
-A hot motor does not always mean the motor is faulty.
-
-The cause could be:
+A hot motor does not always mean the motor is faulty. The cause could be:
 
 - incorrect gearing
 - tight bearings
@@ -1025,29 +981,19 @@ Look at the connected system.
 
 ## Mistake 2 - Forgetting Unwanted Outputs
 
-Heat, sound, vibration and wear are outputs too.
-
-Ignoring them can create later failures.
+Heat, sound, vibration and wear are outputs too. Ignoring them can create later failures.
 
 ---
 
 ## Mistake 3 - Making a Diagram Too Detailed
 
-A useful first diagram may contain only six boxes.
-
-Do not draw every screw and wire.
-
-Add detail only when it helps answer a question.
+A useful first diagram may contain only six boxes. Do not draw every screw and wire - add detail only when it helps answer a question.
 
 ---
 
 ## Mistake 4 - Believing One Improvement Helps Everything
 
-A faster motor may reduce run time.
-
-A stronger arm may increase weight.
-
-A softer suspension may improve grip but allow the chassis to hit the ground.
+A faster motor may reduce run time. A stronger arm may increase weight. A softer suspension may improve grip but allow the chassis to hit the ground.
 
 Expect trade-offs.
 
@@ -1055,17 +1001,13 @@ Expect trade-offs.
 
 ## Mistake 5 - Ignoring Interfaces
 
-Many build problems happen where two parts meet.
-
-Check mounting holes, connectors, shaft sizes and clearances early.
+Many build problems happen where two parts meet. Check mounting holes, connectors, shaft sizes and clearances early.
 
 ---
 
-# Optional Challenge - The Slow Buggy Mystery
+# Optional Challenge - The Slow Buggy Mystery 🕵️
 
-Imagine the buggy is slower than expected.
-
-Create a cause map with at least five possible causes.
+Imagine the buggy is slower than expected. Create a cause map with at least five possible causes.
 
 You might begin with:
 
@@ -1096,7 +1038,7 @@ This type of diagram is useful during troubleshooting.
 
 ---
 
-# Chapter Summary
+# Chapter Summary 📝
 
 In this chapter, we learned that a machine is more than a collection of parts.
 
@@ -1111,19 +1053,13 @@ A working system contains:
 - outputs
 - feedback
 
-We also learned that one change can travel through several systems.
-
-A tight bearing can increase motor heat.
-
-A larger motor can require a stronger drivetrain.
-
-A heavier chassis can change suspension behaviour.
+We also learned that one change can travel through several systems: a tight bearing can increase motor heat, a larger motor can require a stronger drivetrain, and a heavier chassis can change suspension behaviour.
 
 Systems thinking helps us predict these effects before we build.
 
 ---
 
-# New Words
+# New Words 📖
 
 | Word | Meaning |
 |---|---|
@@ -1143,7 +1079,7 @@ Systems thinking helps us predict these effects before we build.
 
 ---
 
-# Review Questions
+# Review Questions ❓
 
 1. Why is a pile of correct parts not automatically a working machine?
 2. What are the three basic stages in an input-process-output diagram?
@@ -1158,7 +1094,7 @@ Systems thinking helps us predict these effects before we build.
 
 ---
 
-# Chapter Checklist
+# Chapter Checklist ✅
 
 - [ ] I can explain systems thinking in my own words.
 - [ ] I understand inputs, processes and outputs.
@@ -1170,15 +1106,16 @@ Systems thinking helps us predict these effects before we build.
 - [ ] I can identify interfaces between buggy parts.
 - [ ] I completed at least one hands-on activity.
 - [ ] I drew my first buggy system map.
+- [ ] I built my chain-reaction machine and traced its chain on paper.
 - [ ] I added my results to my engineering notebook.
 
 ---
 
-# Looking Ahead
+# Looking Ahead 🔭
 
 We now understand how to divide the buggy into systems and how those systems affect one another.
 
-Next, we will follow something as it travels through the machine:
+Next, in **Chapter 3 - How Machines Move**, we will follow something as it travels through the machine:
 
 **motion and force.**
 

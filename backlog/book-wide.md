@@ -11,7 +11,7 @@ Legend: [T] textual, [C] context awareness, [V] visual aid, [E] external referen
   stories and explanations (door/shelf/dartboard/bath-tap narrative passages
   are the worst offenders).
   - Progress: applied to Ch 00, and to the story openers of Ch 02 and Ch 06
-    in dd772e8. Remaining chapters pending.
+    in dd772e8; Ch 02 swept fully 2026-07-14. Remaining chapters pending.
 - [ ] [T] **Chapter length.** Every chapter from 02 onwards is too long for
   one sitting. Add break markers at the natural seams listed per chapter
   ("Good place to pause..." format, STYLE-GUIDE section 4). Chapter 04 gets
@@ -60,6 +60,7 @@ Legend: [T] textual, [C] context awareness, [V] visual aid, [E] external referen
   - Ch 02: mini chain-reaction machine from kitchen objects (Exploratorium
     Tinkering "Chain Reaction @ Home") - reflection: name each interface
     and what it carries; trace the cause-and-effect chain.
+    APPLIED 2026-07-14 (source re-verified in the research pass).
   - Ch 03: cardboard gear pair on skewer axles, different tooth counts
     (4-H "Make Your Own Cardboard Gears" PDF; Instructables "working
     gears from junkmail and cardstock"; Technovation gearbox guide -
