@@ -2,10 +2,10 @@
 title: "Chapter 04 - Forces and Why Parts Break"
 part: "Part 1 - Engineering Mindset"
 chapter: 4
-version: "0.1"
-status: "Draft"
+version: "0.2"
+status: "Reviewed"
 difficulty: Beginner
-estimated_time: "90-120 minutes"
+estimated_time: "120-180 minutes in 2-3 sittings (including the mini project)"
 prerequisites:
   - Chapter 00 - How to Use This Handbook
   - Chapter 01 - What Are We Building?
@@ -27,7 +27,7 @@ learning_objectives:
 
 ---
 
-# Learning Objectives
+# Learning Objectives 🎯
 
 By the end of this chapter you will be able to:
 
@@ -53,52 +53,32 @@ You can:
 - twist it
 - slide one end sideways
 
-The same ruler reacts differently to each action.
-
-A part that survives one kind of force may fail under another.
-
-For example:
+The same ruler reacts differently to each action, and a part that survives one kind of force may fail under another. For example:
 
 - a rope is excellent in pulling
 - a brick is excellent in squeezing
 - a thin sheet may bend easily
 - a metal shaft may resist twisting
 
-This chapter is about learning to see those different kinds of force.
-
-That skill is essential when designing 3D printed RC parts.
+This chapter is about learning to see those different kinds of force. That skill is essential when designing 3D printed RC parts.
 
 ---
 
-# A Story: The Bridge Made From Paper
+# A Story: The Bridge Made From Paper 🌉
 
-Imagine laying one sheet of paper across two books.
+> **🤔 Think about it.** Lay one sheet of paper across two books and place coins in the middle, one at a time, until it collapses. Now fold an identical sheet into a shallow U-shape and try again. Before you test it - will the folded sheet hold more, less, or the same? It is the same amount of paper.
 
-Now place a coin in the middle.
-
-The paper bends.
-
-Add more coins.
-
-Eventually it collapses.
-
-Now fold the paper into a shallow U-shape and place it across the same books.
-
-Try the coins again.
-
-The same amount of paper can now hold much more weight.
-
-Why?
-
-The material did not change.
-
-The shape changed.
+The flat sheet sags almost immediately, but the folded sheet can hold many times more coins. The material did not change - the shape changed.
 
 This gives us a powerful engineering lesson:
 
 > Strength depends on both material and geometry.
 
-Geometry means the shape and arrangement of the part.
+Geometry means the shape and arrangement of the part. At the end of this chapter you will use this trick deliberately, in the Chapter Mini Project, to build the strongest paper bridge you can.
+
+---
+
+# Part A - How Parts Are Loaded
 
 ---
 
@@ -109,7 +89,7 @@ A **load** is a force or combination of forces acting on a part.
 Examples:
 
 - the buggy's weight pressing on the suspension
-- the motor twisting the drivetrain
+- the motor twisting the drivetrain (torque, from Chapter 3)
 - a wheel hitting a rock
 - a screw squeezing two parts together
 - a landing force after a jump
@@ -138,25 +118,18 @@ We will begin with five simple load types.
 4. Shear
 5. Torsion
 
-```mermaid
-flowchart TD
-    Loads["Common ways parts are loaded"]
-    Loads --> Tension
-    Loads --> Compression
-    Loads --> Bending
-    Loads --> Shear
-    Loads --> Torsion
-```
+> **[Sketch: signature five-panel diagram - the same simple bar loaded
+> five ways, with labelled force arrows: pulled apart (tension), squeezed
+> (compression), bowed with top squeezed and bottom stretched (bending),
+> sliced by offset opposing arrows (shear), twisted at each end
+> (torsion). One everyday example pictured under each panel: rope, chair
+> leg, ruler, scissors, towel.]**
 
 ---
 
 # Tension
 
-Imagine two people pulling opposite ends of a rope.
-
-The rope is being stretched.
-
-That is **tension**.
+Imagine two people pulling opposite ends of a rope. The rope is being stretched. That is **tension**.
 
 Tension means:
 
@@ -170,11 +143,6 @@ Examples:
 - a steering link under pull
 - the lower side of a bent suspension arm
 
-```mermaid
-flowchart LR
-    Left["← Pull"] --- Part["Part in tension"] --- Right["Pull →"]
-```
-
 A part under tension may:
 
 - stretch
@@ -186,11 +154,7 @@ A part under tension may:
 
 # Compression
 
-Imagine pushing both ends of a sponge toward the centre.
-
-The sponge is being squeezed.
-
-That is **compression**.
+Imagine pushing both ends of a sponge toward the centre. The sponge is being squeezed. That is **compression**.
 
 Compression means:
 
@@ -200,14 +164,9 @@ Examples:
 
 - a chair leg holding weight
 - a spring being compressed
-- a shock tower mount under landing force
+- a shock tower mount (the shock tower is the printed plate the shock absorbers bolt to - we analyse one later this chapter) under landing force
 - a screw clamping two parts together
 - the upper side of a bent beam
-
-```mermaid
-flowchart LR
-    Left["Push →"] --- Part["Part in compression"] --- Right["← Push"]
-```
 
 A part under compression may:
 
@@ -221,20 +180,13 @@ A part under compression may:
 
 # Bending
 
-Hold a ruler at both ends and press in the middle.
-
-The ruler bends.
-
-That is **bending**.
+Hold a ruler at both ends and press in the middle. The ruler bends. That is **bending**.
 
 Bending happens when one side of a part stretches while the opposite side squeezes.
 
-```mermaid
-flowchart TD
-    Top["Top side in compression"]
-    Middle["Neutral region"]
-    Bottom["Bottom side in tension"]
-```
+> **[Sketch: side view of a beam bowing downward under a central load -
+> top edge labelled "squeezed (compression)", bottom edge labelled
+> "stretched (tension)", dashed centre line labelled "neutral - neither"]**
 
 For a simple beam bending downward:
 
@@ -247,15 +199,7 @@ This is why the outer surfaces of a beam are so important.
 
 # Shear
 
-Take a stack of cards.
-
-Hold the bottom cards still.
-
-Push the top cards sideways.
-
-The layers slide over one another.
-
-That is **shear**.
+Take a stack of cards. Hold the bottom cards still and push the top cards sideways. The layers slide over one another. That is **shear**.
 
 Shear means:
 
@@ -269,12 +213,8 @@ Examples:
 - a screw being pushed sideways
 - layers in a print trying to slide apart
 
-```mermaid
-flowchart LR
-    Top["Top force →"]
-    Middle["Material"]
-    Bottom["← Bottom force"]
-```
+> **[Sketch: card stack with offset arrows - top arrow pushing right,
+> bottom arrow pushing left, cards part-slid like a fanned deck]**
 
 A part under shear may:
 
@@ -287,9 +227,7 @@ A part under shear may:
 
 # Torsion
 
-Hold a towel at both ends and twist.
-
-The towel experiences torsion.
+Hold a towel at both ends and twist. The towel experiences torsion.
 
 **Torsion** means:
 
@@ -297,16 +235,11 @@ The towel experiences torsion.
 
 Examples:
 
-- a driveshaft carrying motor torque
+- a driveshaft carrying motor torque (the twisting force from Chapter 3)
 - a screwdriver shaft
 - a wheel axle
 - a chassis twisting during cornering
 - a hex driver turning a screw
-
-```mermaid
-flowchart LR
-    Left["↺ Twist"] --- Shaft["Shaft in torsion"] --- Right["Twist ↻"]
-```
 
 A part under torsion may:
 
@@ -333,9 +266,7 @@ A driveshaft may experience:
 - bending because of joint angle
 - impact when landing with throttle applied
 
-Real engineering is rarely one load at a time.
-
-But separating the loads helps us understand the whole problem.
+Real engineering is rarely one load at a time, but separating the loads helps us understand the whole problem.
 
 ---
 
@@ -357,25 +288,15 @@ flowchart LR
     HingePin --> Chassis
 ```
 
-The force does not disappear.
-
-It travels through every connected part.
-
-Each part must carry the load to the next one.
+The force does not disappear. It travels through every connected part, and each part must carry the load to the next one.
 
 ---
 
 # Reaction Forces
 
-Push your hand against a table.
+Push your hand against a table. You push down on the table, and the table pushes up on your hand. That upward force is a **reaction force**.
 
-You push down on the table.
-
-The table pushes up on your hand.
-
-That upward force is a **reaction force**.
-
-Whenever one object pushes on another, the second object pushes back.
+Whenever one object pushes on another, the second object pushes back. You met this in Chapter 3: the tyre pushes backward on the ground, and the ground pushes the buggy forward. Engineers call this pair action and reaction.
 
 In the buggy:
 
@@ -383,12 +304,6 @@ In the buggy:
 - ground pushes on tyre
 - suspension pushes on chassis
 - chassis pushes on suspension
-
-```mermaid
-flowchart LR
-    Tyre["Tyre pushes ground"] --> Ground
-    Ground --> Tyre2["Ground pushes tyre"]
-```
 
 Reaction forces are why the chassis and mounts must be strong.
 
@@ -424,13 +339,7 @@ Dynamic loads are often harder on parts because they keep changing.
 
 # Impact Loads
 
-Imagine gently placing a book on a table.
-
-Now drop the same book from shoulder height.
-
-The book has the same mass.
-
-But the impact is much larger.
+Imagine gently placing a book on a table. Now drop the same book from shoulder height. The book has the same mass, but the impact is much larger.
 
 An **impact load** happens when force is applied very quickly.
 
@@ -442,23 +351,17 @@ Examples:
 - a gear suddenly jamming
 - rolling the buggy
 
-Impact loads can be much greater than normal driving loads.
+Impact loads can be much greater than normal driving loads. This is why a part may survive ordinary use but fail in a crash.
 
-This is why a part may survive ordinary use but fail in a crash.
+---
+
+> **☕ Good place to pause.** Stretch, get a drink, or try the tension and compression experiments (Activity 2) now. The next section moves from the kinds of load to what they do inside the material.
 
 ---
 
 # Stress
 
-Imagine standing on snow.
-
-With normal shoes, you may sink.
-
-With snowshoes, your weight spreads over a larger area.
-
-The total load is similar.
-
-But the pressure on each small area is lower.
+Imagine standing on snow. With normal shoes, you may sink. With snowshoes, your weight spreads over a larger area - the total load is similar, but the pressure on each small patch of snow is lower.
 
 In a material, **stress** describes how concentrated the load is.
 
@@ -474,6 +377,12 @@ Just remember:
 
 > The same force creates more stress when it passes through a smaller area.
 
+> **📚 Learn more**
+>
+> - BBC Bitesize (KS3 Physics): search "pressure" - pressure is force
+>   divided by area, the same spreading-out idea; it explains snowshoes,
+>   drawing pins and sharp knives
+
 ---
 
 # A Concrete Example of Stress
@@ -483,18 +392,7 @@ Suppose two plastic straps carry the same pull.
 - Strap A is 10 mm wide.
 - Strap B is 2 mm wide.
 
-The narrow strap has less material carrying the load.
-
-So the stress inside it is greater.
-
-The narrow strap is more likely to fail.
-
-```mermaid
-flowchart TD
-    SameForce["Same pulling force"]
-    SameForce --> Wide["Wide section<br/>lower stress"]
-    SameForce --> Narrow["Narrow section<br/>higher stress"]
-```
+The narrow strap has less material carrying the load, so the stress inside it is greater. The narrow strap is more likely to fail.
 
 ---
 
@@ -532,17 +430,7 @@ How much load a part can survive before failure.
 
 How much a part resists bending, stretching or twisting.
 
-A rubber band can stretch a long way without breaking.
-
-It may be strong enough for its job, but it is not stiff.
-
-A glass ruler may feel stiff, but it can fail suddenly.
-
-```mermaid
-flowchart LR
-    Strength["Strength<br/>resistance to failure"]
-    Stiffness["Stiffness<br/>resistance to deformation"]
-```
+A rubber band can stretch a long way without breaking - strong enough for its job, but not stiff. A glass ruler may feel stiff, but it can fail suddenly.
 
 A buggy part may need:
 
@@ -554,33 +442,24 @@ A buggy part may need:
 
 # Elastic Deformation
 
-Bend a plastic ruler gently.
-
-Release it.
-
-It returns to its original shape.
-
-This is **elastic deformation**.
+Bend a plastic ruler gently and release it. It returns to its original shape. This is **elastic deformation**.
 
 Elastic deformation means:
 
 > A temporary shape change that disappears when the load is removed.
 
-Springs are designed to deform elastically.
+Springs are designed to deform elastically, and suspension arms may flex slightly and return.
 
-Suspension arms may flex slightly and return.
+> **📚 Learn more**
+>
+> - BBC Bitesize (GCSE Physics): search "forces and elasticity" - springs,
+>   stretching and the elastic limit (a GCSE topic, so a look ahead)
 
 ---
 
 # Permanent Deformation
 
-Bend a paperclip too far.
-
-It stays bent.
-
-This is **permanent deformation**.
-
-The material has gone beyond its elastic range.
+Bend a paperclip too far and it stays bent. This is **permanent deformation** - the material has gone beyond its elastic range. (School physics calls this inelastic or plastic deformation; it is the same idea.)
 
 A permanently bent part may still be in one piece, but it is damaged.
 
@@ -607,6 +486,10 @@ A fracture may be:
 - caused by poor layer bonding
 
 The fracture surface often contains clues about why the part failed.
+
+> **[Sketch: photo of a real broken RC part - a snapped suspension arm or
+> shock tower - with the fracture surface visible and the crack starting
+> point arrowed]**
 
 ---
 
@@ -636,19 +519,17 @@ Examples:
 
 Ductile behaviour may give warning before complete failure.
 
+> **📚 Learn more**
+>
+> - BBC Bitesize (GCSE Design and Technology): search "materials and
+>   their working properties" - brittle, ductile and tough as school D&T
+>   teaches them (a GCSE topic, so a look ahead)
+
 ---
 
 # Buckling
 
-Take a drinking straw.
-
-Pulling it lengthwise is difficult.
-
-Now press both ends toward each other.
-
-It may suddenly bend sideways.
-
-That is **buckling**.
+Take a drinking straw. Pulling it lengthwise is difficult. Now press both ends toward each other - it may suddenly bend sideways. That is **buckling**.
 
 Buckling happens when a long, thin part under compression becomes unstable and bends.
 
@@ -659,24 +540,42 @@ Examples:
 - slender printed post
 - long screw spacer
 
-```mermaid
-flowchart LR
-    Straight["Straight column under compression"] --> Buckled["Column bends sideways"]
-```
+> **[Sketch: two columns side by side - one straight under a small load,
+> one bowed sideways under a larger load, arrows pressing down on both]**
 
 A part may buckle before the material itself is crushed.
 
 ---
 
+# Part A Recap - The Loads at a Glance
+
+| Idea | In one line | Feel it with |
+|---|---|---|
+| Tension | Pulling that stretches | elastic band |
+| Compression | Pushing that squashes | sponge |
+| Bending | One side stretched, other squeezed | ruler |
+| Shear | Layers sliding past each other | card stack |
+| Torsion | Twisting along the length | towel |
+| Load path | The route a force takes through parts | - |
+| Impact load | Force applied very quickly | dropped book |
+| Stress | How concentrated the load is | snowshoes |
+| Strength vs stiffness | Survives load vs resists flexing | rubber band vs glass |
+| Elastic vs permanent | Springs back vs stays changed | ruler vs paperclip |
+| Buckling | Thin part under compression folds sideways | straw |
+
+---
+
+> **☕ Good place to pause.** That was Part A: the ways parts get loaded. Stretch, get a drink, maybe try the straw press. Part B changes the question from "what can loads do?" to "how do we design so parts do not break?"
+
+---
+
+# Part B - Designing So Parts Do Not Break
+
+---
+
 # Why Shape Matters
 
-Return to the paper bridge.
-
-A flat sheet bends easily.
-
-A folded sheet resists bending much better.
-
-That happens because more material is moved away from the middle of the bend.
+Return to the paper bridge. A flat sheet bends easily, but a folded sheet resists bending much better. That happens because more material is moved away from the middle of the bend.
 
 This is why beams often use shapes such as:
 
@@ -686,20 +585,17 @@ This is why beams often use shapes such as:
 - ribs
 - tubes
 
-```text
-Flat strip:     ______
-
-Channel:        |____|
-
-Box section:    |____|
-                |____|
-
-I-beam:         =====
-                  ||
-                =====
-```
+> **[Sketch: end-on views of beam cross-sections - flat strip, U-channel,
+> box section, I-beam - drawn from the same amount of material, labelled
+> from floppiest to stiffest]**
 
 The shape can increase stiffness without using a solid block of material.
+
+> **📚 Learn more**
+>
+> - Explain That Stuff (explainthatstuff.com): search "bridges" - every
+>   bridge is a balancing act between tension and compression, exactly
+>   the loads you just met
 
 ---
 
@@ -716,35 +612,24 @@ Ribs can:
 
 Printed chassis parts often use ribs instead of making everything solid.
 
-```mermaid
-flowchart TD
-    Plate["Flat plate"]
-    Rib["Supporting rib"]
-    Rib --> Plate
-```
+> **[Sketch: a flat plate flexing under a push, next to the same plate
+> with two ribs underneath holding it flat]**
 
-A rib should follow the expected load path.
-
-Random ribs may add weight without solving the real problem.
+A rib should follow the expected load path. Random ribs may add weight without solving the real problem.
 
 ---
 
 # Fillets and Rounded Corners
 
-Imagine tearing paper.
+> **🤔 Think about it.** Try to tear a sheet of scrap paper by pulling its edges apart. Hard. Now snip a tiny nick in the edge and pull again. Why does a cut a few millimetres long make tearing so much easier?
 
-A tiny cut makes it easier to start the tear.
-
-Sharp corners can act like that tiny cut.
-
-They concentrate stress.
+All your pulling force funnels into the material right at the tip of the nick - the stress concentrates there, so the tear starts there. Sharp inside corners on a part act like that tiny cut: they concentrate stress.
 
 A **fillet** is a rounded inside corner.
 
-```text
-Sharp corner:   |_
-Rounded corner: |)
-```
+> **[Sketch: two brackets side by side - one with a sharp inside corner
+> and tightly bunched force-flow lines at the corner, one with a rounded
+> fillet and smooth, evenly spaced flow lines]**
 
 Fillets help force flow smoothly through a change in shape.
 
@@ -753,7 +638,7 @@ They are especially useful where:
 - a thin wall meets a thick wall
 - a bracket meets a base
 - a suspension arm changes width
-- a screw boss joins a plate
+- a screw boss (the thickened plastic cylinder a screw threads into) joins a plate
 
 ---
 
@@ -771,13 +656,7 @@ Common causes:
 - poor print seams
 - cracks
 
-```mermaid
-flowchart LR
-    Load["Force flow"] --> Smooth["Smooth shape<br/>stress spreads"]
-    Load --> Notch["Sharp notch<br/>stress concentrates"]
-```
-
-Stress concentrations are common starting points for cracks.
+Stress concentrations are common starting points for cracks - remember the nicked paper.
 
 ---
 
@@ -791,27 +670,15 @@ We need holes for:
 - cable routing
 - weight reduction
 
-But a hole removes material.
+But a hole removes material, and it changes the path that force must follow. A hole placed in a highly loaded area may weaken the part.
 
-It also changes the path that force must follow.
-
-A hole placed in a highly loaded area may weaken the part.
-
-That does not mean holes are bad.
-
-It means they should be placed and shaped thoughtfully.
+That does not mean holes are bad. It means they should be placed and shaped thoughtfully.
 
 ---
 
 # Sudden Changes in Thickness
 
-Imagine a thick beam that suddenly becomes very thin.
-
-The force must squeeze through the thin region.
-
-Stress increases there.
-
-A smoother transition spreads the load more gradually.
+Imagine a thick beam that suddenly becomes very thin. The force must squeeze through the thin region, so stress increases there. A smoother transition spreads the load more gradually.
 
 ```text
 Sudden step:     ======__
@@ -868,12 +735,8 @@ Example:
 
 - a wheel being pushed inward or outward
 
-```mermaid
-flowchart TD
-    Bearing["Bearing"]
-    Bearing --> Radial["Radial load<br/>across shaft"]
-    Bearing --> Axial["Axial load<br/>along shaft"]
-```
+> **[Sketch: a bearing on a shaft with two labelled arrows - one pressing
+> down across the shaft (radial), one pushing along the shaft (axial)]**
 
 Some bearings handle one type better than the other.
 
@@ -881,15 +744,7 @@ Some bearings handle one type better than the other.
 
 # Fatigue
 
-Bend a paperclip slightly.
-
-It survives.
-
-Bend it back and forth many times.
-
-Eventually it breaks.
-
-This is **fatigue**.
+Bend a paperclip slightly and it survives. Bend it back and forth many times and eventually it breaks. This is **fatigue**.
 
 Fatigue means:
 
@@ -925,11 +780,7 @@ Durability is about surviving many load cycles, not just one.
 
 # Creep
 
-Hang a weight from a plastic strip.
-
-It may stretch slowly over hours or days.
-
-This is called **creep**.
+Hang a weight from a plastic strip and it may stretch slowly over hours or days. This is called **creep**.
 
 Creep means:
 
@@ -950,13 +801,7 @@ Some printed plastics resist creep better than others.
 
 # Heat Changes Mechanical Behaviour
 
-Plastic often becomes softer when warm.
-
-A motor mount that feels stiff at room temperature may flex near a hot motor.
-
-A gear cover near the motor may deform.
-
-A battery tray left in a hot car may warp.
+Plastic often becomes softer when warm. A motor mount that feels stiff at room temperature may flex near a hot motor, a gear cover may deform, and a battery tray left in a hot car may warp.
 
 When designing parts near heat sources, consider:
 
@@ -972,13 +817,7 @@ Mechanical design and thermal design are connected.
 
 # Print Orientation and Force Direction
 
-3D printed parts are made from layers.
-
-Imagine stacking many sheets of paper and gluing them together.
-
-The stack may be strong in one direction but easier to split between sheets.
-
-Printed parts behave similarly.
+3D printed parts are made from layers. Imagine stacking many sheets of paper and gluing them together: the stack may be strong in one direction but easier to split between sheets. Printed parts behave similarly.
 
 ```text
 Layers:
@@ -999,17 +838,17 @@ For now, remember:
 
 > The direction a part is printed can change how it fails.
 
+> **📚 Learn more**
+>
+> - Explain That Stuff (explainthatstuff.com): search "how 3D printers
+>   work" - the layer-by-layer process that creates this direction-
+>   dependent behaviour
+
 ---
 
 # A Simple Printed-Part Example
 
-Imagine a hook.
-
-If printed standing upright, the layers may run across the narrow neck.
-
-A pulling load may separate those layers.
-
-If printed flat, the material paths may follow the hook shape more effectively.
+Imagine a hook. If printed standing upright, the layers may run across the narrow neck, and a pulling load may separate those layers. If printed flat, the material paths may follow the hook shape more effectively.
 
 The best orientation depends on:
 
@@ -1029,13 +868,7 @@ Suppose you believe a bracket will experience a load of 10 units.
 
 Would you design it to fail at exactly 10?
 
-No.
-
-Small errors, impacts and material differences may push the load higher.
-
-Engineers add extra capacity.
-
-This is called a **safety factor**.
+No. Small errors, impacts and material differences may push the load higher, so engineers add extra capacity. This is called a **safety factor**.
 
 A safety factor means designing for more load than normally expected.
 
@@ -1075,9 +908,7 @@ The buggy might become:
 
 Extra material can also transfer crash loads into more expensive parts.
 
-Good design does not mean maximum strength everywhere.
-
-It means:
+Good design does not mean maximum strength everywhere. It means:
 
 > Enough strength, stiffness and durability for the job.
 
@@ -1089,7 +920,7 @@ Sometimes one cheap part should fail before an expensive part.
 
 For example:
 
-- a replaceable servo saver protects the servo
+- a replaceable servo saver (a spring-loaded steering part that gives way in a crash so the servo does not - Chapter 28) protects the servo
 - a plastic spur gear may protect the motor shaft
 - a body mount may bend before the chassis cracks
 - a small printed bumper may absorb a crash
@@ -1129,7 +960,7 @@ flowchart LR
 
 Likely weak areas include:
 
-- hinge-pin holes
+- hinge pin holes
 - shock mounting holes
 - thin sections
 - sharp inside corners
@@ -1174,7 +1005,7 @@ A motor mount must:
 
 - hold the motor in position
 - resist motor torque
-- keep gear mesh correct
+- keep gear mesh (how deeply the pinion and spur teeth engage - Chapter 27) correct
 - survive heat
 - resist vibration
 
@@ -1245,6 +1076,10 @@ flowchart LR
 ```
 
 The purpose is to make invisible forces visible.
+
+---
+
+> **☕ Good place to pause.** Stretch, get a drink, and gather paper, books and coins. The rest of the chapter is hands-on - and it ends with a bridge-building contest.
 
 ---
 
@@ -1339,7 +1174,12 @@ You need:
 
 - one paperclip
 - eye protection
-- adult supervision
+
+> **⚠️ SAFETY**
+>
+> Do this with an adult nearby and wear eye protection. A fatigued
+> paperclip snaps suddenly, and the loose end can fly. Hold it at arm's
+> length, away from your face and from anyone watching.
 
 Steps:
 
@@ -1347,8 +1187,6 @@ Steps:
 2. Bend it back.
 3. Repeat carefully.
 4. Count the cycles until it weakens or breaks.
-
-Do not hold it near your face.
 
 Record:
 
@@ -1385,6 +1223,52 @@ The goal is to practise seeing forces.
 
 ---
 
+# Chapter Mini Project - The Paper Bridge, Tested to Failure 🛠️
+
+In Activity 1 you compared a flat sheet with a folded channel. Now use everything from Part B - shape, ribs, smooth changes, no weak points - to design the strongest paper bridge you can, and then do the thing real engineers find hardest: load it until it fails, on purpose, and read the wreckage.
+
+You will need:
+
+- 3 sheets of A4 paper (one per design - no tape, no glue, folding only)
+- two stacks of books, 20 cm apart
+- a pile of identical coins
+- your engineering notebook
+
+> **⚠️ SAFETY**
+>
+> Show a responsible adult what you plan to build before you start, and
+> build with them nearby. Keep coins off the floor and away from younger
+> siblings - they are a choking hazard.
+
+> **🎬 Watch the build**
+>
+> - Science Buddies (sciencebuddies.org): search "build the best paper
+>   bridge" - the classic activity with photos of folded designs
+> - Scientific American (scientificamerican.com): search "paper bridges" -
+>   the same experiment with the science explained
+> - YouTube (with an adult): search "strongest paper bridge challenge" -
+>   see how far folding alone can go
+
+Build steps:
+
+1. Design bridge 1 in your notebook first: sketch the fold pattern and predict how many coins it will hold.
+2. Build it, span the 20 cm gap, and add coins one at a time - always in the middle - until it collapses. Record the count.
+3. Study the wreck before you touch it: where did it start to sag first? Did the top edge crumple (compression), did an edge tear (tension), or did a wall fold sideways (buckling)?
+4. Design bridge 2 to fix exactly the failure you saw - not a random new shape. Change one thing. Test the same way.
+5. Design bridge 3 the same way. Three designs, three failure reports, one champion.
+
+The reflection is where the learning lands. In your notebook:
+
+- Make a results table: design sketch, prediction, coins held, what failed first, load type at the failure.
+- Mark on your champion's sketch which parts were in tension, which in compression, and where the stress concentrated when it finally failed.
+- Write one sentence answering the chapter's big question: the paper never changed, so what did?
+
+Notice what your bridge does NOT have: a safety factor. It was loaded to exactly its limit - one more coin and down it came. Real bridges are designed so their everyday load is only a fraction of the failing load you just found.
+
+Keep the champion bridge, uncrushed, with its results table for the showcase shelf - and keep the best wreck too. A read failure is worth as much as a win.
+
+---
+
 # Thinking Like an Engineer
 
 Suppose a suspension arm breaks near a screw hole.
@@ -1410,7 +1294,11 @@ Use it.
 
 ---
 
-# Reading a Failure
+# Reading a Failure 🔍
+
+> **[Sketch: photo of a fractured printed part next to an annotated
+> close-up of its fracture surface - crack origin, growth lines and final
+> snap region labelled]**
 
 When a part breaks, record:
 
@@ -1432,7 +1320,7 @@ It may be your best teacher.
 
 ---
 
-# Common Beginner Mistakes
+# Common Beginner Mistakes ❌
 
 ## Mistake 1 - Making Everything Solid
 
@@ -1503,11 +1391,13 @@ Durability matters.
 
 A break at one location may be caused by a load elsewhere.
 
-Trace the full load path before redesigning.
+Trace the full load path before redesigning - this is the systems thinking from Chapter 2 applied to forces.
 
 ---
 
 # Optional Challenge - Compare Beam Shapes
+
+This is the fair-test version of the Chapter Mini Project: instead of iterating designs, compare four shapes systematically.
 
 Create paper beams with these shapes:
 
@@ -1555,7 +1445,7 @@ Describe:
 
 ---
 
-# Chapter Summary
+# Chapter Summary 📝
 
 In this chapter, we learned that parts can be loaded in several ways:
 
@@ -1583,7 +1473,7 @@ We also learned that:
 
 ---
 
-# New Words
+# New Words 📖
 
 | Word | Meaning |
 |---|---|
@@ -1618,7 +1508,7 @@ We also learned that:
 
 ---
 
-# Review Questions
+# Review Questions ❓
 
 1. What is a load?
 2. What is tension?
@@ -1648,7 +1538,7 @@ We also learned that:
 
 ---
 
-# Chapter Checklist
+# Chapter Checklist ✅
 
 - [ ] I can identify tension, compression, bending, shear and torsion.
 - [ ] I can trace a simple load path.
@@ -1663,18 +1553,19 @@ We also learned that:
 - [ ] I know why heat and print orientation matter.
 - [ ] I understand the purpose of a safety factor.
 - [ ] I completed at least one hands-on activity.
+- [ ] I built my paper bridge, tested it to failure and read the wreckage.
 - [ ] I drew a force map for a buggy part.
 - [ ] I added my observations to my engineering notebook.
 
 ---
 
-# Looking Ahead
+# Looking Ahead 🔭
 
 We can now describe how forces act on buggy parts and why parts may bend, loosen or break.
 
 The next step is learning how engineers turn guesses into facts.
 
-In the next chapter, we will study **measurement**.
+Next, in **Chapter 5 - Measurement**, we will study measurement.
 
 We will learn:
 

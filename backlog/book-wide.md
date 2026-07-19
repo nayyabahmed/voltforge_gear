@@ -28,8 +28,9 @@ Legend: [T] textual, [C] context awareness, [V] visual aid, [E] external referen
     APPLIED 2026-07-14 in Ch03 "A Common Mistake".
   - [ ] "requirement traceability" (Ch10/glossary) vs "requirements
     traceability" (Ch09) - standardise on the singular form.
-  - [ ] "Hinge pin" vs "hinge-pin" (Ch04) - standardise as "hinge pin"
-    (two words, per the terminology registry).
+  - [x] "Hinge pin" vs "hinge-pin" (Ch04) - standardise as "hinge pin"
+    (two words, per the terminology registry). APPLIED 2026-07-14 in the
+    Ch04 pass (one hyphenated instance fixed).
   - [ ] Ch05 "measurement uncertainty" vs Ch06 "error/range/repeatability" -
     add one sentence in Ch06 linking the two vocabularies.
 - [ ] [E] **"Learn More" box pattern.** 2-3 links max, next to the relevant
@@ -72,6 +73,8 @@ Legend: [T] textual, [C] context awareness, [V] visual aid, [E] external referen
   - Ch 04: paper bridge tested to failure with coins (Science Buddies
     "Build the Best Paper Bridge"; PBS Kids) - reflection: read the
     failure - what bent, what buckled, why shape beat material.
+    APPLIED 2026-07-14 (source re-verified; Scientific American "Paper
+    Bridges" replaced the unconfirmed PBS Kids link).
   - Ch 05: cardboard sliding caliper (Instructables "Make a Cardboard
     Caliper"; ikatbag) - reflection: zero it, then measure five household
     objects and record them properly.
