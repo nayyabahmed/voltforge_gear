@@ -124,6 +124,12 @@ A component that supports a rotating shaft while reducing friction.
 
 ---
 
+### Bending
+
+Loading that stretches one side of a part while squeezing the other side.
+
+---
+
 ### Bilateral Tolerance
 
 A tolerance that allows variation above and below a nominal size.
