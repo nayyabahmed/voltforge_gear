@@ -10,7 +10,7 @@ Update the relevant row whenever a work item starts or finishes
 
 **Legend:** ✅ done | 🔨 in progress | 📋 planned | ➖ not applicable
 
-Last updated: 2026-07-14
+Last updated: 2026-07-19
 
 ## Chapter Work
 
@@ -21,7 +21,7 @@ Last updated: 2026-07-14
 | 02 Systems Thinking | ✅ | ✅ | ✅ | ✅ Kitchen Chain Reaction | ✅ | ✅ (now honest) | ✅ done |
 | 03 How Machines Move | ✅ | ✅ | ✅ | ✅ cardboard gear pair | ✅ | ✅ | ✅ done |
 | 04 Forces and Why Parts Break | ✅ | ✅ | ✅ | ✅ Paper Bridge to Failure | ✅ | ✅ | ✅ done |
-| 05 Measurement | 📋 to create | 📋 | 📋 | 📋 cardboard caliper | 📋 | 📋 | 📋 planned |
+| 05 Measurement | ✅ created 2026-07-19 | 📋 | 📋 | 📋 cardboard caliper | 📋 | 📋 | 📋 planned (backlog ready) |
 | 06 Accuracy, Precision and Error | 📋 to create | 📋 | 🔨 ~half applied (dd772e8) | 📋 craft-stick catapult | 📋 | ⚠️ bumped early | 🔨 in progress |
 | 07 Tolerances and Fits | 📋 to create | 📋 | 📋 | 📋 sliding drawer box | 📋 | 📋 | 📋 planned |
 | 08 Engineering Drawings | 📋 to create | 📋 | 🔨 ~half applied (dd772e8) | 📋 drawing-exchange build | 📋 | ⚠️ bumped early | 🔨 in progress |
@@ -59,8 +59,9 @@ Last updated: 2026-07-14
 
 ## Up Next (in order)
 
-1. 📋 Create remaining backlog files: chapters 05, 06, 07, 08, 09,
-   capstone, glossary (04 created and completed 2026-07-14).
+1. 📋 Create remaining backlog files: chapters 06, 07, 08, 09, capstone,
+   glossary (04 created and completed 2026-07-14; 05 created 2026-07-19,
+   cycle pending on `review-chapter-5`).
 2. 🔨 Phase 1 - finish the early-bumped chapters: 02 ✅ done (2026-07-14,
    on `review-chapter-2`); remaining: 06, then 08 (research pass first,
    per the loop).
