@@ -44,7 +44,7 @@ technique / recording + activities. Break markers at the seams ~421 and
   straight-on, then from a sharp angle - why does the number change?);
   repeated measurement spread (measure the same object three times -
   why do the answers differ?). Pick the two most counter-intuitive.
-- [ ] [T] Chapter Mini Project (STYLE-GUIDE section 3): cardboard sliding
+- [ ] [T] Topic Mini Project (STYLE-GUIDE section 3): cardboard sliding
   caliper (sources: Instructables "Make a Cardboard Caliper"; ikatbag -
   re-verify both in the research pass). Reflection: zero it, then
   measure five household objects and record them properly - measurement
