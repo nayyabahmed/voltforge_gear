@@ -76,6 +76,16 @@ def filter_chapters(items: list[dict], wanted: set[str]) -> list[dict]:
 
 
 # ---------------------------------------------------------------- summary parsing
+def is_book_section(section: str | None) -> bool:
+    """True for sections whose links/rows are book content: the numbered Parts
+    and the unnumbered 'Front Matter' section (Topic 0.0). Everything else — the
+    legend and the Reference block — is handled elsewhere."""
+    if not section:
+        return False
+    low = section.lower()
+    return low.startswith("part") or low.startswith("front matter")
+
+
 def parse_summary() -> list[dict]:
     """Return an ordered list of items: {'kind': 'part'|'chapter', ...}."""
     items: list[dict] = []
@@ -87,9 +97,9 @@ def parse_summary() -> list[dict]:
             section = heading.group(1).strip()
             items.append({"kind": "part", "title": section})
             continue
-        # Only links inside a "Part N" section count as book chapters; links in
-        # the legend, front matter or the Reference block are handled elsewhere.
-        if not (section and section.lower().startswith("part")):
+        # Only links inside a "Part N" or "Front Matter" section count as book
+        # chapters; links in the legend or the Reference block are separate.
+        if not is_book_section(section):
             continue
         for text, rel in LINK_RE.findall(raw):
             path = (ROOT / rel.replace("\\", "/")).resolve()
@@ -108,10 +118,10 @@ def parse_plan() -> list[dict]:
         heading = re.match(r"##\s+(.*\S)", raw)
         if heading:
             section = heading.group(1).strip()
-            if section.lower().startswith("part"):
+            if is_book_section(section):
                 plan.append({"kind": "part", "title": section})
             continue
-        if not (section and section.lower().startswith("part")):
+        if not is_book_section(section):
             continue
         row = re.match(r"\|\s*(.*?)\s*\|\s*(.*?)\s*\|\s*(.*?)\s*\|", raw)
         if not row or row.group(1) in ("#", "---"):
@@ -245,7 +255,7 @@ def cover_block(cover: Path) -> str:
     # Raw HTML passes through Pandoc; print.css makes .chapter-cover a full page.
     return (
         f'\n\n::: {{.chapter-cover}}\n'
-        f'<img src="{rel}" alt="Chapter cover"/>\n'
+        f'<img src="{rel}" alt="Topic cover"/>\n'
         f':::\n\n'
     )
 
