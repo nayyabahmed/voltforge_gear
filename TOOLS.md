@@ -14,23 +14,23 @@ progressively, like everything else in this project (see
 
 ---
 
-## Part 1 - Engineering Mindset (Chapters 00-09)
+## Part 1 - Engineering Mindset (Topics 0.0-1.9)
 
 | Tool | First needed | Essential? | No-tool fallback |
 |---|---|---|---|
-| Engineering notebook | Chapter 00 | Yes | Any paper or note app |
-| Ruler (mm markings) | Chapter 05 | Yes | Printable paper ruler |
-| Digital calipers | Chapter 05 | Recommended | Ruler + care; see Chapter 05 activities |
+| Engineering notebook | Topic 0.0 | Yes | Any paper or note app |
+| Ruler (mm markings) | Topic 1.5 | Yes | Printable paper ruler |
+| Digital calipers | Topic 1.5 | Recommended | Ruler + care; see Topic 1.5 activities |
 | Cardboard, scissors, glue | Capstone | Yes | - |
 
-## Part 2 - Workshop Skills (Chapters 10-19)
+## Part 2 - Workshop Skills (Topics 2.1-2.10)
 
 | Tool | First needed | Essential? | No-tool fallback |
 |---|---|---|---|
-| 3D printer (FDM) | Chapter 11 | No - activities have printer-free variants | School, library or maker-space printers; print services |
-| Screwdrivers and hex drivers | Chapter 16 | Yes | *(details with Chapter 16)* |
-| Soldering iron and stand | Chapter 18 | Yes (for Part 3 onward) | *(details with Chapter 18)* |
-| *(to be completed as Part 2 chapters are written)* | | | |
+| 3D printer (FDM) | Topic 2.2 | No - activities have printer-free variants | School, library or maker-space printers; print services |
+| Screwdrivers and hex drivers | Topic 2.7 | Yes | *(details with Topic 2.7)* |
+| Soldering iron and stand | Topic 2.9 | Yes (for Part 3 onward) | *(details with Topic 2.9)* |
+| *(to be completed as Part 2 topics are written)* | | | |
 
 ## Part 3 onward
 
@@ -41,6 +41,6 @@ LiPo-safe charging equipment and similar will appear here)*
 
 ## Maintenance Rules
 
-1. Add a tool the moment a chapter first requires it, with the chapter number.
+1. Add a tool the moment a topic first requires it, with the topic number.
 2. Always record a fallback for readers who do not own the tool.
 3. Safety-relevant tools must link to their rules in [SAFETY.md](SAFETY.md).
