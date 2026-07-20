@@ -10,6 +10,26 @@ Sources: `style-guides-principles/STYLE-GUIDE.md` (the rules),
 The working copies of the backlog items live in this folder - tick items
 here as they are applied.
 
+> **Numbering note (2026-07-20).** The handbook now labels its units **Topics**
+> with per-part numbers (Part 1 → 1.1-1.9, Part 2 → 2.1-2.10, …), and "How to
+> Use This Handbook" is the front-matter **Topic 0.0**. This backlog is
+> author-facing scaffolding and deliberately keeps the **original global
+> chapter numbers (00-09)** as stable internal review IDs - they match the
+> `chapter-NN.md` backlog filenames and the `NN-` book filenames, none of which
+> were renamed. Translate to the reader-facing number with this map when
+> applying an item into book prose:
+>
+> | Backlog ID | Topic | Backlog ID | Topic |
+> | --- | --- | --- | --- |
+> | 00 | 0.0 | 05 | 1.5 |
+> | 01 | 1.1 | 06 | 1.6 |
+> | 02 | 1.2 | 07 | 1.7 |
+> | 03 | 1.3 | 08 | 1.8 |
+> | 04 | 1.4 | 09 | 1.9 |
+>
+> Cross-references *into the book* (e.g. "the ESC's home is chapter 25") must be
+> written in the new scheme (Topic 3.6) - see `SUMMARY.md` for the full table.
+
 ---
 
 ## Current State (as of 2026-07-12)
@@ -77,7 +97,7 @@ For each chapter, in this order:
       verified, anything deferred. This is the traceability record.
 3. Apply the items: first-use glosses, de-staccato story passages, visuals
    (sketch placeholders per STYLE-GUIDE section 7), Learn More boxes,
-   break markers at the listed seams, and the Chapter Mini Project
+   break markers at the listed seams, and the Topic Mini Project
    (STYLE-GUIDE section 3 "learning by doing" rules) - correcting any
    facts the research pass flagged.
 4. Apply any book-wide items that touch this chapter (see book-wide.md).

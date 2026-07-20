@@ -49,7 +49,7 @@ Legend: [T] textual, [C] context awareness, [V] visual aid, [E] external referen
   on Ch 01, now STYLE-GUIDE section 8): when adding or verifying Learn More
   boxes, prefer the national-curriculum term ("mechanical systems", "fair
   testing") over informal synonyms.
-- [ ] [T] **Chapter Mini Projects - "learning by doing"** (reader feedback,
+- [ ] [T] **Topic Mini Projects - "learning by doing"** (reader feedback,
   2026-07-12; now STYLE-GUIDE section 3): every teaching chapter ends its
   activities with a small household-materials build producing a keepable
   artifact, closed by a reflection step tying it to the chapter's idea.

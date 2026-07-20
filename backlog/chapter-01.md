@@ -56,7 +56,7 @@ Two inline comments from the user, applied after the v0.2 sweep:
   two-panel bump sketch placeholder.
 - [x] Learn More box: Bitesize search term corrected from "mechanisms" to
   "mechanical systems" (the KS2 D&T national-curriculum wording).
-- [x] Chapter Mini Project added (new book-wide "learning by doing"
+- [x] Topic Mini Project added (new book-wide "learning by doing"
   convention, STYLE-GUIDE section 3): the cotton reel crawler - classic
   rubber-band-through-spool build, web-verified (Instructables "Cotton
   reel tanks"; minieco.co.uk), with safety callout, troubleshooting lines,

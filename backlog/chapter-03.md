@@ -40,7 +40,7 @@ Friction.
   friend on your outside - who has to take bigger steps, and what would
   happen if you were forced to match steps?). Weight-transfer bus prompt
   not used (two-per-chapter cap).
-- [x] [T] Chapter Mini Project (STYLE-GUIDE section 3): cardboard gear pair
+- [x] [T] Topic Mini Project (STYLE-GUIDE section 3): cardboard gear pair
   with different tooth counts on skewer/pencil axles (sources: 4-H "Make
   Your Own Cardboard Gears", Instructables, Technovation gearbox guide -
   re-verified; Experiland dropped). Reflection: turn the big gear once and
