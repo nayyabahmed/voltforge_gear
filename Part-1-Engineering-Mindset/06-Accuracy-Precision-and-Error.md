@@ -1,18 +1,18 @@
 ---
-title: "Chapter 06 - Accuracy, Precision and Error"
+title: "Topic 1.6 - Accuracy, Precision and Error"
 part: "Part 1 - Engineering Mindset"
-chapter: 6
+topic: "1.6"
 version: "0.2"
 status: "Reviewed"
 difficulty: Beginner
 estimated_time: "90-120 minutes"
 prerequisites:
-  - Chapter 00 - How to Use This Handbook
-  - Chapter 01 - What Are We Building?
-  - Chapter 02 - Systems Thinking
-  - Chapter 03 - How Machines Move
-  - Chapter 04 - Forces and Why Parts Break
-  - Chapter 05 - Measurement
+  - Topic 0.0 - How to Use This Handbook
+  - Topic 1.1 - What Are We Building?
+  - Topic 1.2 - Systems Thinking
+  - Topic 1.3 - How Machines Move
+  - Topic 1.4 - Forces and Why Parts Break
+  - Topic 1.5 - Measurement
 learning_objectives:
   - Understand the difference between accuracy and precision.
   - Recognise random error and systematic error.
@@ -22,7 +22,7 @@ learning_objectives:
   - Build a simple measurement-checking process for RC parts.
 ---
 
-# Chapter 06 - Accuracy, Precision and Error
+# Topic 1.6 - Accuracy, Precision and Error
 
 > **"A number can look exact and still be wrong."**
 
@@ -30,7 +30,7 @@ learning_objectives:
 
 # Learning Objectives
 
-By the end of this chapter you will be able to:
+By the end of this topic you will be able to:
 
 - Explain the difference between **accuracy** and **precision**.
 - Recognise when repeated measurements are consistent but wrong.
@@ -54,7 +54,7 @@ Every one of those patterns has a name in engineering, and every measuring tool 
 > (loose spread around the centre), bottom-right "neither" (darts scattered
 > everywhere)]**
 
-Keep this picture in your head for the whole chapter. It is the signature image of measurement quality.
+Keep this picture in your head for the whole topic. It is the signature image of measurement quality.
 
 ---
 
@@ -873,7 +873,7 @@ Small errors can add together.
 
 This is called **error stacking** or **tolerance stack-up**.
 
-We will study tolerances fully in the next chapter.
+We will study tolerances fully in the next topic.
 
 ---
 
@@ -1266,9 +1266,9 @@ This activity connects accuracy to function.
 
 ---
 
-# Chapter Summary
+# Topic Summary
 
-In this chapter, we learned that accuracy and precision are different.
+In this topic, we learned that accuracy and precision are different.
 
 - Accuracy means closeness to the true value.
 - Precision means closeness between repeated measurements.
@@ -1350,7 +1350,7 @@ A trustworthy number comes from a trustworthy process.
 
 ---
 
-# Chapter Checklist
+# Topic Checklist
 
 - [ ] I can explain accuracy in my own words.
 - [ ] I can explain precision in my own words.
@@ -1379,7 +1379,7 @@ The next question is:
 
 > How much difference can two connected parts allow?
 
-In the next chapter, we will study **tolerances and fits**.
+In the next topic, we will study **tolerances and fits**.
 
 We will learn:
 

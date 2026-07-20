@@ -1,22 +1,22 @@
 ---
 title: "Part 1 Capstone - First Engineering Challenge"
 part: "Part 1 - Engineering Mindset"
-chapter: capstone
+topic: capstone
 version: "0.1"
 status: "Draft"
 difficulty: Beginner
 estimated_time: "2-4 hours"
 prerequisites:
-  - Chapter 00 - How to Use This Handbook
-  - Chapter 01 - What Are We Building?
-  - Chapter 02 - Systems Thinking
-  - Chapter 03 - How Machines Move
-  - Chapter 04 - Forces and Why Parts Break
-  - Chapter 05 - Measurement
-  - Chapter 06 - Accuracy, Precision and Error
-  - Chapter 07 - Tolerances and Fits
-  - Chapter 08 - Engineering Drawings
-  - Chapter 09 - The Engineering Design Process
+  - Topic 0.0 - How to Use This Handbook
+  - Topic 1.1 - What Are We Building?
+  - Topic 1.2 - Systems Thinking
+  - Topic 1.3 - How Machines Move
+  - Topic 1.4 - Forces and Why Parts Break
+  - Topic 1.5 - Measurement
+  - Topic 1.6 - Accuracy, Precision and Error
+  - Topic 1.7 - Tolerances and Fits
+  - Topic 1.8 - Engineering Drawings
+  - Topic 1.9 - The Engineering Design Process
 learning_objectives:
   - Apply the complete engineering design process to a small real project.
   - Measure a real component and create a packaging envelope.
@@ -371,7 +371,7 @@ Spend the most care on critical dimensions.
 
 # Step 7 - Measure the Component
 
-Use the techniques from Chapters 05 and 06.
+Use the techniques from Topics 1.5 and 1.6.
 
 For each critical dimension:
 
@@ -1251,7 +1251,7 @@ If several items are incomplete, repeat small activities before continuing.
 
 ---
 
-# Chapter Summary
+# Topic Summary
 
 In this challenge, you applied the full engineering process to one small component holder.
 
@@ -1328,7 +1328,7 @@ The thinking remains similar.
 
 ---
 
-# Chapter Checklist
+# Topic Checklist
 
 - [ ] I selected a small component or substitute object.
 - [ ] I wrote a user description.

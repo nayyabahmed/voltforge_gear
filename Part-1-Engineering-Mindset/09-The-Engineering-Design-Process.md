@@ -1,21 +1,21 @@
 ---
-title: "Chapter 09 - The Engineering Design Process"
+title: "Topic 1.9 - The Engineering Design Process"
 part: "Part 1 - Engineering Mindset"
-chapter: 9
+topic: "1.9"
 version: "0.1"
 status: "Draft"
 difficulty: Beginner
 estimated_time: "100-140 minutes"
 prerequisites:
-  - Chapter 00 - How to Use This Handbook
-  - Chapter 01 - What Are We Building?
-  - Chapter 02 - Systems Thinking
-  - Chapter 03 - How Machines Move
-  - Chapter 04 - Forces and Why Parts Break
-  - Chapter 05 - Measurement
-  - Chapter 06 - Accuracy, Precision and Error
-  - Chapter 07 - Tolerances and Fits
-  - Chapter 08 - Engineering Drawings
+  - Topic 0.0 - How to Use This Handbook
+  - Topic 1.1 - What Are We Building?
+  - Topic 1.2 - Systems Thinking
+  - Topic 1.3 - How Machines Move
+  - Topic 1.4 - Forces and Why Parts Break
+  - Topic 1.5 - Measurement
+  - Topic 1.6 - Accuracy, Precision and Error
+  - Topic 1.7 - Tolerances and Fits
+  - Topic 1.8 - Engineering Drawings
 learning_objectives:
   - Understand engineering as an iterative process rather than a one-time act.
   - Define a problem before choosing a solution.
@@ -25,7 +25,7 @@ learning_objectives:
   - Record evidence and improve a design one change at a time.
 ---
 
-# Chapter 09 - The Engineering Design Process
+# Topic 1.9 - The Engineering Design Process
 
 > **"A good engineer does not begin with an answer.  
 > A good engineer begins with a clear question."**
@@ -34,7 +34,7 @@ learning_objectives:
 
 # Learning Objectives
 
-By the end of this chapter you will be able to:
+By the end of this topic you will be able to:
 
 - Explain the main stages of the engineering design process.
 - Define a problem clearly.
@@ -1768,9 +1768,9 @@ It proves that every important requirement has a way to be checked.
 
 ---
 
-# Chapter Summary
+# Topic Summary
 
-In this chapter, we learned that engineering is an iterative process.
+In this topic, we learned that engineering is an iterative process.
 
 The main stages are:
 
@@ -1897,7 +1897,7 @@ It is learning in a controlled way.
 
 ---
 
-# Chapter Checklist
+# Topic Checklist
 
 - [ ] I understand the engineering design cycle.
 - [ ] I can write a clear problem statement.
@@ -1929,7 +1929,7 @@ It is learning in a controlled way.
 
 We now have the core thinking tools needed to begin a real engineering project.
 
-In the next chapter, we will combine everything from Part 1 in a first practical challenge.
+In the next topic, we will combine everything from Part 1 in a first practical challenge.
 
 We will:
 
@@ -1941,4 +1941,4 @@ We will:
 - build a cardboard or simple printed prototype
 - test it
 - record the result
-- prepare for the workshop and 3D printing chapters
+- prepare for the workshop and 3D printing topics

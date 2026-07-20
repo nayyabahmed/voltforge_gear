@@ -542,7 +542,7 @@ Before buying or building a part, ask
 
 # Handbook Writing Rule
 
-Every future build chapter should include
+Every future build topic should include
 
  learning goal
  cheapest valid prototype

@@ -1,17 +1,17 @@
 ---
-title: "Chapter 05 - Measurement"
+title: "Topic 1.5 - Measurement"
 part: "Part 1 - Engineering Mindset"
-chapter: 5
+topic: "1.5"
 version: "0.1"
 status: "Draft"
 difficulty: Beginner
 estimated_time: "90-120 minutes"
 prerequisites:
-  - Chapter 00 - How to Use This Handbook
-  - Chapter 01 - What Are We Building?
-  - Chapter 02 - Systems Thinking
-  - Chapter 03 - How Machines Move
-  - Chapter 04 - Forces and Why Parts Break
+  - Topic 0.0 - How to Use This Handbook
+  - Topic 1.1 - What Are We Building?
+  - Topic 1.2 - Systems Thinking
+  - Topic 1.3 - How Machines Move
+  - Topic 1.4 - Forces and Why Parts Break
 learning_objectives:
   - Understand why measurement is central to engineering.
   - Distinguish between length, diameter, thickness, depth and spacing.
@@ -21,7 +21,7 @@ learning_objectives:
   - Build a simple measurement record for an RC component.
 ---
 
-# Chapter 05 - Measurement
+# Topic 1.5 - Measurement
 
 > **"A part that is almost the right size is often completely useless."**
 
@@ -29,7 +29,7 @@ learning_objectives:
 
 # Learning Objectives
 
-By the end of this chapter you will be able to:
+By the end of this topic you will be able to:
 
 - Explain why measurement matters in engineering.
 - Choose a suitable tool for a measurement.
@@ -797,7 +797,7 @@ But the measured outside diameter may be slightly under 3 mm.
 
 Do not identify a screw from diameter alone.
 
-Later chapters will cover fasteners in detail.
+Later topics will cover fasteners in detail.
 
 ---
 
@@ -1055,7 +1055,7 @@ True value: 12.10 mm
 
 The display looks precise, but the result is not accurate.
 
-We will study accuracy and precision more deeply in the next chapter.
+We will study accuracy and precision more deeply in the next topic.
 
 ---
 
@@ -1734,9 +1734,9 @@ Ask:
 
 ---
 
-# Chapter Summary
+# Topic Summary
 
-In this chapter, we learned that measurement is more than reading a number.
+In this topic, we learned that measurement is more than reading a number.
 
 A useful measurement requires:
 
@@ -1820,7 +1820,7 @@ A good measurement record allows us to design parts that fit, move and can be as
 
 ---
 
-# Chapter Checklist
+# Topic Checklist
 
 - [ ] I understand why measurement matters.
 - [ ] I record both numbers and units.
@@ -1850,7 +1850,7 @@ But a new question appears:
 
 > How trustworthy are those measurements?
 
-In the next chapter, we will explore **accuracy and precision**.
+In the next topic, we will explore **accuracy and precision**.
 
 We will learn:
 

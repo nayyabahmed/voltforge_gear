@@ -1,16 +1,16 @@
 ---
 title: "Glossary"
 project: "VoltForge Gear — The Young Engineer's Handbook"
-scope: "Seeded from Chapters 01-10, growing with each new chapter (currently through Chapter 11)"
+scope: "Seeded from Topics 1.1-2.1, growing with each new topic (currently through Topic 2.2)"
 version: "0.1"
 status: "Draft (living document)"
 ---
 
 # Glossary
 
-This glossary collects the engineering terms introduced in the chapters written so far.
+This glossary collects the engineering terms introduced in the topics written so far.
 
-It is a living document. New terms should be added as later chapters are written.
+It is a living document. New terms should be added as later topics are written.
 
 Terms are listed alphabetically.
 
@@ -1849,7 +1849,7 @@ When adding new terms:
 2. Define the idea before using advanced wording.
 3. Keep each definition short.
 4. Add an RC buggy example where helpful.
-5. Add cross-links only after the chapter filenames are stable.
+5. Add cross-links only after the topic filenames are stable.
 6. Avoid duplicate terms with slightly different wording.
 7. Prefer one main definition and note related terms underneath.
 

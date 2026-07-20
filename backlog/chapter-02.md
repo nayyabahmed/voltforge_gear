@@ -46,7 +46,7 @@ seam before Hands-On Activity 1 (~line 892).
   your eyes closed; why do you drift without noticing?). Max two.
   *(done 2026-07-14: larger-tyres prompt opens A Chain of Dependence;
   eyes-closed line walk now opens Feedback in prompt form)*
-- [x] [T] Chapter Mini Project (STYLE-GUIDE section 3): mini chain-reaction
+- [x] [T] Topic Mini Project (STYLE-GUIDE section 3): mini chain-reaction
   machine from kitchen/household objects (source: Exploratorium Tinkering
   "Chain Reaction @ Home" - re-verify in research pass). Reflection: name
   each interface and what it carries (push, roll, pull), then trace the

@@ -49,5 +49,5 @@ are information here too.
 1. Record every purchase within a week, while the reasoning is fresh.
 2. Update the cumulative total each time.
 3. A failed purchase is a required entry, not an embarrassment.
-4. Review the ledger at each stage boundary (Part 4 chapters) before the
+4. Review the ledger at each stage boundary (Part 4 topics) before the
    next round of spending.

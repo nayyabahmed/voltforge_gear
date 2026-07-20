@@ -10,7 +10,11 @@ Update the relevant row whenever a work item starts or finishes
 
 **Legend:** ✅ done | 🔨 in progress | 📋 planned | ➖ not applicable
 
-Last updated: 2026-07-19
+> **Numbering note.** Rows are keyed by the original global chapter numbers
+> (00-09), kept as internal review IDs; the reader now sees these as Topics
+> 0.0 and 1.1-1.9. See the mapping table in [PLAN.md](PLAN.md).
+
+Last updated: 2026-07-20
 
 ## Chapter Work
 
@@ -40,7 +44,7 @@ Last updated: 2026-07-19
 | Learn More boxes | 🔨 done for 01, 02, 03, 04; partial 06, 08 |
 | Weak mermaid replacement | 🔨 done for 02, 03, 04; partial 06, 08 |
 | Think-about-it prompts | 🔨 done for 01, 02, 03, 04 |
-| Chapter Mini Projects | 🔨 done for 01, 02, 03, 04; candidates researched for all |
+| Topic Mini Projects | 🔨 done for 01, 02, 03, 04; candidates researched for all |
 | Emoji presentation passes | 🔨 done for 00, 01, 02, 03, 04 |
 | Refresh Ch 00 "How This Book Is Organised" to final template | 📋 after full sweep |
 
@@ -52,7 +56,7 @@ Last updated: 2026-07-19
 | 2026-07-12 | ✅ Research pass added to per-chapter loop + topics list |
 | 2026-07-12 | ✅ Think-about-it prompt convention (STYLE-GUIDE section 2) |
 | 2026-07-12 | ✅ Bitesize curriculum-wording rule (STYLE-GUIDE section 8) |
-| 2026-07-12 | ✅ Chapter Mini Project convention + researched candidates |
+| 2026-07-12 | ✅ Topic Mini Project convention + researched candidates |
 | 2026-07-12 | ✅ Watch-the-build box convention (STYLE-GUIDE section 3) |
 | 2026-07-12 | ✅ ASCII rule dropped; emoji registry (STYLE-GUIDE section 6) |
 | 2026-07-14 | ✅ Adult-check line opens every mini project safety callout (STYLE-GUIDE section 3; applied retroactively to Ch 01/02/03) |

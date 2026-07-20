@@ -18,7 +18,7 @@ Last updated: 2026-07-12
    mini-project candidate (STYLE-GUIDE + CLAUDE.md "verify before citing").
 2. **Draft** - write to STYLE-GUIDE (template, glosses, think-prompt,
    visuals, Learn More, emoji registry, break markers).
-3. **Mini project** - teaching chapters get a Chapter Mini Project with a
+3. **Mini project** - teaching chapters get a Topic Mini Project with a
    Watch-the-build box; build chapters (Parts 3-5) instead follow the
    Handbook Writing Rule (GUIDING-PRINCIPLES) and the capstones ARE
    projects.

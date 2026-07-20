@@ -1,14 +1,14 @@
 ---
-title: "Chapter 10 - Workshop Safety and Setup"
+title: "Topic 2.1 - Workshop Safety and Setup"
 part: "Part 2 - Workshop Skills"
-chapter: 10
+topic: "2.1"
 version: "0.1"
 status: "Draft"
 difficulty: Beginner
 estimated_time: "60-90 minutes"
 prerequisites:
-  - Chapter 00 - How to Use This Handbook
-  - Chapter 09 - The Engineering Design Process
+  - Topic 0.0 - How to Use This Handbook
+  - Topic 1.9 - The Engineering Design Process
   - Part 1 Capstone - First Engineering Challenge
 learning_objectives:
   - Tell the difference between a hazard and a risk.
@@ -18,7 +18,7 @@ learning_objectives:
   - Organise tools and small parts so nothing gets lost.
 ---
 
-# Chapter 10 - Workshop Safety and Setup
+# Topic 2.1 - Workshop Safety and Setup
 
 > **"The fastest way to finish a project is to avoid injuries, lost parts and damaged tools."**
 
@@ -26,7 +26,7 @@ learning_objectives:
 
 # Learning Objectives
 
-By the end of this chapter you will be able to:
+By the end of this topic you will be able to:
 
 - Explain the difference between a **hazard** and a **risk**.
 - Use the Pause-Plan-Protect routine before starting any task.
@@ -51,7 +51,7 @@ Nobody calls this "kitchen safety training". It is just how the kitchen works.
 
 A workshop is the same room with different tools. The oven becomes a soldering iron. The knives become craft blades. The blender becomes a drill. And the same quiet rules - know what is hot, give sharp things a home, respect things that spin - keep you building instead of bleeding.
 
-This chapter turns your kitchen sense into workshop sense. That is all safety is.
+This topic turns your kitchen sense into workshop sense. That is all safety is.
 
 ---
 
@@ -82,7 +82,7 @@ Back to the kitchen: a chef's knife is always a hazard - it never stops being sh
 | Soldering iron unplugged and cold | Hot tool | Low |
 | Hot iron lying across loose wires | Hot tool | High |
 
-Notice what changed in each pair: not the tool - the *situation*. That is the most useful safety idea in this whole chapter:
+Notice what changed in each pair: not the tool - the *situation*. That is the most useful safety idea in this whole topic:
 
 > You usually cannot remove the hazard.
 > You can almost always lower the risk.
@@ -141,7 +141,7 @@ The buggy has its own version. Before touching gears, wheels, steering links, mo
 
 > Disconnect the battery. Every time.
 
-Do not trust the transmitter switch alone. A radio glitch or a nudged trigger can start the motor while your fingers are in the drivetrain - and remember from Chapter 3 how much torque reaches those gears.
+Do not trust the transmitter switch alone. A radio glitch or a nudged trigger can start the motor while your fingers are in the drivetrain - and remember from Topic 1.3 how much torque reaches those gears.
 
 ```text
 Adjusting or inspecting -> battery disconnected
@@ -154,7 +154,7 @@ Testing movement       -> battery connected, just for the test
 
 A charged battery is like a kettle of just-boiled water: quietly holding a lot of energy, perfectly safe handled properly, and not something you drop, stab or leave with a toddler.
 
-The full battery chapter is coming (Chapter 22 - Batteries and Battery Safety), but from today:
+The full battery topic is coming (Topic 3.3 - Batteries and Battery Safety), but from today:
 
 - Never crush, bend, puncture or open a battery.
 - Never use one that is swollen, leaking, hot or damaged.
@@ -167,7 +167,7 @@ The full battery chapter is coming (Chapter 22 - Batteries and Battery Safety), 
 > If a battery ever swells, gets unusually hot, smells odd or starts smoking:
 > move away and tell an adult. Do not pick it up to inspect it. This rule is
 > also on the project [safety card](../SAFETY.md), which lives beside every
-> chapter of this handbook.
+> topic of this handbook.
 
 ---
 
@@ -175,7 +175,7 @@ The full battery chapter is coming (Chapter 22 - Batteries and Battery Safety), 
 
 Here is the sneaky thing about heat, and every cook knows it: **a hot pan looks exactly like a cold pan.**
 
-The workshop is full of parts that look innocent while holding a burn: the soldering iron (obviously), the hot glue gun and the glue itself, the 3D printer nozzle and bed (Chapter 11), a motor after hard running, an ESC (the motor's speed controller - Chapter 25) after a long test.
+The workshop is full of parts that look innocent while holding a burn: the soldering iron (obviously), the hot glue gun and the glue itself, the 3D printer nozzle and bed (Topic 2.2), a motor after hard running, an ESC (the motor's speed controller - Topic 3.6) after a long test.
 
 So borrow the kitchen habits:
 
@@ -206,7 +206,7 @@ The one rule that prevents the classic drilling injury:
 
 > Never hold a small part in your fingers while drilling it. Clamp it.
 
-A drill bit can grab the part and spin it instantly - faster than you can let go. It stops being a part and becomes a propeller with sharp corners. Clamping also frees both hands to control the tool, which is why every school workshop in the country teaches it (see this chapter's Learn More).
+A drill bit can grab the part and spin it instantly - faster than you can let go. It stops being a part and becomes a propeller with sharp corners. Clamping also frees both hands to control the tool, which is why every school workshop in the country teaches it (see this topic's Learn More).
 
 Before spinning anything: clamp the work, glasses on, hair and cords secured, hands clear, and let it stop completely before you reach in - the same patience you give a blender before poking a spoon in.
 
@@ -307,10 +307,10 @@ Straight from our guiding principles: **each purchase should unlock a real task.
 
 | Useful now | Buy when a task needs it | Do not buy yet |
 |---|---|---|
-| Clear surface + desk lamp | Digital calipers (Chapter 5 makes them tempting) | Big cheap tool sets |
-| Cutting mat or scrap board | Soldering iron (Chapter 18) | Duplicate tools |
+| Clear surface + desk lamp | Digital calipers (Topic 1.5 makes them tempting) | Big cheap tool sets |
+| Cutting mat or scrap board | Soldering iron (Topic 2.9) | Duplicate tools |
 | Safety glasses | Wire cutters, clamps, drill | Specialist RC tools |
-| Ruler, pencil, notebook | 3D printer accessories (Chapter 11) | Materials with no planned use |
+| Ruler, pencil, notebook | 3D printer accessories (Topic 2.2) | Materials with no planned use |
 | Parts tray + labelled bags | | |
 
 The full list, with what each tool is first needed for, lives in [TOOLS.md](../TOOLS.md). And remember that borrowing counts: family, school, library maker spaces and RC clubs all lend tools - learn the tool's rules, return it clean, and report any damage.
@@ -425,7 +425,7 @@ A **near miss** is trouble that *almost* happened: the screw that flew past your
 
 You already know this feeling from home - the time you nearly slipped on the stairs and forever after held the rail. The near miss taught you for free what an accident would have taught you expensively.
 
-Engineers treat near misses as data (remember "failures are teachers" from Chapter 0?). When one happens, write three lines:
+Engineers treat near misses as data (remember "failures are teachers" from Topic 0.0?). When one happens, write three lines:
 
 ```text
 Near miss: part shifted while drilling
@@ -469,9 +469,9 @@ Tonight's mess is next session's hazard hunt. The tidy ending is part of the job
 
 ---
 
-# Chapter Summary
+# Topic Summary
 
-In this chapter we learned that:
+In this topic we learned that:
 
 - You already understand safety culture - the kitchen taught you. The workshop just changes the tools.
 - A **hazard** is what could cause harm; **risk** is how likely and how bad. You lower risk by changing the situation.
@@ -511,7 +511,7 @@ In this chapter we learned that:
 
 ---
 
-# Chapter Checklist
+# Topic Checklist
 
 - [ ] I can explain hazard vs risk with my own example.
 - [ ] I use Pause-Plan-Protect before workshop tasks.
@@ -532,12 +532,12 @@ In this chapter we learned that:
 >
 > - BBC Bitesize (Design and Technology) - search "health and safety"
 > - Your tool's own manual - the manufacturer's safety pages are written for that exact tool
-> - If you join a school, library or club workshop, take their induction - it is this chapter, taught hands-on
+> - If you join a school, library or club workshop, take their induction - it is this topic, taught hands-on
 
 ---
 
 # Looking Ahead
 
-Your bench now has a hot zone. In the next chapter, we put something in it.
+Your bench now has a hot zone. In the next topic, we put something in it.
 
-Chapter 11 introduces the 3D printer: a robot that draws with melted plastic, layer by layer, and builds almost any shape you can design. It is the tool that will make most of our buggy's parts - and now you have the workspace, and the habits, to run it safely.
+Topic 2.2 introduces the 3D printer: a robot that draws with melted plastic, layer by layer, and builds almost any shape you can design. It is the tool that will make most of our buggy's parts - and now you have the workspace, and the habits, to run it safely.

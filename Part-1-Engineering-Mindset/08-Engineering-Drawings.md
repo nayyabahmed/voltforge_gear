@@ -1,20 +1,20 @@
 ---
-title: "Chapter 08 - Engineering Drawings"
+title: "Topic 1.8 - Engineering Drawings"
 part: "Part 1 - Engineering Mindset"
-chapter: 8
+topic: "1.8"
 version: "0.2"
 status: "Reviewed"
 difficulty: Beginner
 estimated_time: "100-130 minutes"
 prerequisites:
-  - Chapter 00 - How to Use This Handbook
-  - Chapter 01 - What Are We Building?
-  - Chapter 02 - Systems Thinking
-  - Chapter 03 - How Machines Move
-  - Chapter 04 - Forces and Why Parts Break
-  - Chapter 05 - Measurement
-  - Chapter 06 - Accuracy, Precision and Error
-  - Chapter 07 - Tolerances and Fits
+  - Topic 0.0 - How to Use This Handbook
+  - Topic 1.1 - What Are We Building?
+  - Topic 1.2 - Systems Thinking
+  - Topic 1.3 - How Machines Move
+  - Topic 1.4 - Forces and Why Parts Break
+  - Topic 1.5 - Measurement
+  - Topic 1.6 - Accuracy, Precision and Error
+  - Topic 1.7 - Tolerances and Fits
 learning_objectives:
   - Understand why engineering drawings are different from artistic sketches.
   - Read front, top and side views.
@@ -24,7 +24,7 @@ learning_objectives:
   - Create a simple engineering drawing for an RC component.
 ---
 
-# Chapter 08 - Engineering Drawings
+# Topic 1.8 - Engineering Drawings
 
 > **"A good drawing lets another person build the same part without asking what you meant."**
 
@@ -32,7 +32,7 @@ learning_objectives:
 
 # Learning Objectives
 
-By the end of this chapter you will be able to:
+By the end of this topic you will be able to:
 
 - Explain the purpose of an engineering drawing.
 - Understand why one picture is often not enough.
@@ -88,13 +88,13 @@ A good drawing helps someone:
 - make the part
 - inspect the part
 - assemble the part
-- understand interfaces (the places where parts connect - remember Chapter 2)
+- understand interfaces (the places where parts connect - remember Topic 1.2)
 - compare the result with the design
 
 The best drawings do one more thing: they capture **design intent** - *why* a
 feature is the size and shape it is. A hole is not just "5.3 mm"; it is
 "5.3 mm so the 5 mm pin can spin freely". We will return to design intent near
-the end of this chapter, but keep the idea in mind as you read: a drawing
+the end of this topic, but keep the idea in mind as you read: a drawing
 records reasons, not just sizes.
 
 ---
@@ -213,7 +213,7 @@ Each view shows two dimensions clearly.
 > **Learn more**
 >
 > - BBC Bitesize (KS3 Design and Technology) - search "isometric and
->   orthographic drawing" for worked examples of the views in this chapter
+>   orthographic drawing" for worked examples of the views in this topic
 
 ---
 
@@ -561,7 +561,7 @@ The reader needs both the big picture and the details.
 
 # Dimension From Useful Datums
 
-In Chapter 07, we learned about datums.
+In Topic 1.7, we learned about datums.
 
 Use a common datum when feature position matters.
 
@@ -1424,9 +1424,9 @@ Do not crush printed part.
 
 ---
 
-# Chapter Summary
+# Topic Summary
 
-In this chapter, we learned that engineering drawings are precise communication tools.
+In this topic, we learned that engineering drawings are precise communication tools.
 
 A good drawing may include:
 
@@ -1523,7 +1523,7 @@ We also learned:
 
 ---
 
-# Chapter Checklist
+# Topic Checklist
 
 - [ ] I understand the purpose of an engineering drawing.
 - [ ] I know the difference between a sketch and a formal drawing.
@@ -1554,7 +1554,7 @@ The next question is:
 
 > How do engineers move from a problem to a tested design?
 
-In the next chapter, we will study the **engineering design process**.
+In the next topic, we will study the **engineering design process**.
 
 We will learn:
 

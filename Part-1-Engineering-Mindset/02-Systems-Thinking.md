@@ -1,14 +1,14 @@
 ---
-title: "Chapter 02 - Systems Thinking"
+title: "Topic 1.2 - Systems Thinking"
 part: "Part 1 - Engineering Mindset"
-chapter: 2
+topic: "1.2"
 version: "0.2"
 status: "Reviewed"
 difficulty: Beginner
 estimated_time: "90-150 minutes (including the mini project)"
 prerequisites:
-  - Chapter 00 - How to Use This Handbook
-  - Chapter 01 - What Are We Building?
+  - Topic 0.0 - How to Use This Handbook
+  - Topic 1.1 - What Are We Building?
 learning_objectives:
   - Understand that a system is more than a collection of parts.
   - Identify inputs, processes, outputs, boundaries and feedback.
@@ -16,7 +16,7 @@ learning_objectives:
   - Draw simple system diagrams before designing physical parts.
 ---
 
-# Chapter 02 - Systems Thinking
+# Topic 1.2 - Systems Thinking
 
 > **"A pile of parts is not a machine.  
 > The relationships between the parts are what make the machine work."**
@@ -25,7 +25,7 @@ learning_objectives:
 
 # Learning Objectives 🎯
 
-By the end of this chapter you will be able to:
+By the end of this topic you will be able to:
 
 - Explain what **systems thinking** means.
 - Describe a system using inputs, processes and outputs.
@@ -203,7 +203,7 @@ Our buggy also has inputs, processes and outputs.
 ## Processes
 
 - The receiver reads radio commands.
-- The ESC (the motor's electronic speed controller - Chapter 25) controls electrical power.
+- The ESC (the motor's electronic speed controller - Topic 3.6) controls electrical power.
 - The motor converts electrical energy into rotation.
 - The gearbox changes speed and twisting force.
 - The steering system changes wheel direction.
@@ -311,7 +311,7 @@ The correct boundary depends on the question: a small boundary helps us study de
 
 # The Buggy Is a System of Systems
 
-In Chapter 01, we divided the buggy into major systems. Each of those systems contains smaller systems.
+In Topic 1.1, we divided the buggy into major systems. Each of those systems contains smaller systems.
 
 For example, the drive system may contain:
 
@@ -323,7 +323,7 @@ For example, the drive system may contain:
 - axles
 - wheels
 
-Do not worry if some of those part names are new - we will meet them all properly in Chapter 3.
+Do not worry if some of those part names are new - we will meet them all properly in Topic 1.3.
 
 This kind of smaller system inside a larger system is called a **subsystem**.
 
@@ -365,7 +365,7 @@ A connection may carry:
 - heat
 - material
 
-Consider the battery cable. It is not just a piece of wire - it is a connection that carries electrical energy. The driveshaft is a connection that carries rotation and torque (twisting force - Chapter 3 explains it properly). The radio signal is a connection that carries information.
+Consider the battery cable. It is not just a piece of wire - it is a connection that carries electrical energy. The driveshaft is a connection that carries rotation and torque (twisting force - Topic 1.3 explains it properly). The radio signal is a connection that carries information.
 
 ```mermaid
 flowchart LR
@@ -636,7 +636,7 @@ Compare these two statements:
 
 and:
 
-> The buggy should reach 30 kilometres per hour on short grass using a 2-cell battery (a battery built from two smaller units, called cells - Chapter 22 explains them properly).
+> The buggy should reach 30 kilometres per hour on short grass using a 2-cell battery (a battery built from two smaller units, called cells - Topic 3.3 explains them properly).
 
 The second statement is easier to test.
 
@@ -694,9 +694,9 @@ Examples in the buggy include:
 - motor to motor mount
 - motor shaft to pinion gear
 - battery connector to ESC connector
-- servo horn (the small arm on the steering servo's shaft - Chapter 24) to steering link
+- servo horn (the small arm on the steering servo's shaft - Topic 3.5) to steering link
 - bearing to printed housing
-- wheel hex (the six-sided adapter that turns the wheel - Chapter 29) to wheel
+- wheel hex (the six-sided adapter that turns the wheel - Topic 3.10) to wheel
 
 ```mermaid
 flowchart LR
@@ -795,7 +795,7 @@ We use the system diagram before detailed CAD because it helps us understand wha
 
 ---
 
-> **☕ Good place to pause.** Stretch, get a drink, and come back with a torch in your hand. The rest of the chapter is hands-on.
+> **☕ Good place to pause.** Stretch, get a drink, and come back with a torch in your hand. The rest of the topic is hands-on.
 
 ---
 
@@ -888,11 +888,11 @@ Possible labels include:
 - force
 - visual information
 
-Your diagram does not need to match the one in this chapter. A useful diagram is more important than a beautiful diagram.
+Your diagram does not need to match the one in this topic. A useful diagram is more important than a beautiful diagram.
 
 ---
 
-# Chapter Mini Project - The Kitchen Chain Reaction 🛠️
+# Topic Mini Project - The Kitchen Chain Reaction 🛠️
 
 A system only works when every connection between its parts works. In this build you will feel that truth in your fingers: you are going to make a chain-reaction machine - a line of everyday objects in which each one triggers the next. Every hand-off between objects is an interface, and you are the engineer who has to make each one work.
 
@@ -932,9 +932,9 @@ Build steps:
 
 The reflection is where the learning lands. In your engineering notebook:
 
-- Draw your whole machine as boxes and arrows, exactly like the system maps in this chapter.
+- Draw your whole machine as boxes and arrows, exactly like the system maps in this topic.
 - Label every arrow with what it carries: a push, a roll, a pull, a tip.
-- Mark the interface that failed most often. Interfaces are where systems fail - your machine just proved this chapter's biggest idea.
+- Mark the interface that failed most often. Interfaces are where systems fail - your machine just proved this topic's biggest idea.
 
 Notice one thing your machine does NOT have: feedback. Once started, it cannot watch its own progress and correct itself - one bad hand-off and the whole chain stops. That is exactly why you had to test each link so carefully.
 
@@ -1040,9 +1040,9 @@ This type of diagram is useful during troubleshooting.
 
 ---
 
-# Chapter Summary 📝
+# Topic Summary 📝
 
-In this chapter, we learned that a machine is more than a collection of parts.
+In this topic, we learned that a machine is more than a collection of parts.
 
 A working system contains:
 
@@ -1096,7 +1096,7 @@ Systems thinking helps us predict these effects before we build.
 
 ---
 
-# Chapter Checklist ✅
+# Topic Checklist ✅
 
 - [ ] I can explain systems thinking in my own words.
 - [ ] I understand inputs, processes and outputs.
@@ -1117,7 +1117,7 @@ Systems thinking helps us predict these effects before we build.
 
 We now understand how to divide the buggy into systems and how those systems affect one another.
 
-Next, in **Chapter 3 - How Machines Move**, we will follow something as it travels through the machine:
+Next, in **Topic 1.3 - How Machines Move**, we will follow something as it travels through the machine:
 
 **motion and force.**
 
