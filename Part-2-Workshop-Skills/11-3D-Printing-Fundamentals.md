@@ -1,16 +1,16 @@
 ---
-title: "Chapter 11 - 3D Printing Fundamentals"
+title: "Topic 2.2 - 3D Printing Fundamentals"
 part: "Part 2 - Workshop Skills"
-chapter: 11
+topic: "2.2"
 version: "0.1"
 status: "Draft"
 difficulty: Beginner
 estimated_time: "60-90 minutes"
 prerequisites:
-  - Chapter 02 - Systems Thinking
-  - Chapter 04 - Forces and Why Parts Break
-  - Chapter 07 - Tolerances and Fits
-  - Chapter 10 - Workshop Safety and Setup
+  - Topic 1.2 - Systems Thinking
+  - Topic 1.4 - Forces and Why Parts Break
+  - Topic 1.7 - Tolerances and Fits
+  - Topic 2.1 - Workshop Safety and Setup
 learning_objectives:
   - Explain how an FDM 3D printer builds a part layer by layer.
   - Follow the journey from a computer model to a finished printed part.
@@ -19,7 +19,7 @@ learning_objectives:
   - Know the safety rules for working near a 3D printer.
 ---
 
-# Chapter 11 - 3D Printing Fundamentals
+# Topic 2.2 - 3D Printing Fundamentals
 
 > **"A 3D printer does not print objects.
 > It prints thin slices of objects, thousands of times in a row."**
@@ -28,7 +28,7 @@ learning_objectives:
 
 # Learning Objectives
 
-By the end of this chapter you will be able to:
+By the end of this topic you will be able to:
 
 - Explain what **additive manufacturing** means and how it differs from cutting and carving.
 - Name the main parts of an FDM printer and what each one does.
@@ -51,7 +51,7 @@ That is a 3D printer.
 
 Instead of icing, it squeezes out melted plastic. Instead of your hand, a computer moves the nozzle. And instead of a cake, it builds on a flat plate - one thin layer at a time - until a real, solid object appears.
 
-In this chapter we find out how that works, what printers are good at, what they are bad at, and how to stay safe around them.
+In this topic we find out how that works, what printers are good at, what they are bad at, and how to stay safe around them.
 
 ---
 
@@ -59,7 +59,7 @@ In this chapter we find out how that works, what printers are good at, what they
 
 There are two big families of making things.
 
-**Cutting away** - you start with a block of material and remove what you do not need. A sculptor carving stone works this way. So do drills, saws and CNC machines (computer-controlled cutting machines - more in later chapters).
+**Cutting away** - you start with a block of material and remove what you do not need. A sculptor carving stone works this way. So do drills, saws and CNC machines (computer-controlled cutting machines - more in later topics).
 
 **Adding on** - you start with nothing and build the part up, bit by bit. A bricklayer works this way. So does our cake decorator.
 
@@ -113,7 +113,7 @@ Before we print anything, let's meet the machine. An FDM printer has surprisingl
 > **[Sketch: labelled front view of an FDM printer - spool of filament, extruder,
 > hot end with nozzle, part being printed, heated build plate, motion rails]**
 
-Think back to Chapter 2: the printer is itself a system of systems. Material supply (spool and extruder), heat (hot end), movement (motors and rails), and a control brain (the printer's electronics) all work together to do one job - place melted plastic in exactly the right spot.
+Think back to Topic 1.2: the printer is itself a system of systems. Material supply (spool and extruder), heat (hot end), movement (motors and rails), and a control brain (the printer's electronics) all work together to do one job - place melted plastic in exactly the right spot.
 
 ---
 
@@ -127,7 +127,7 @@ Think back to Chapter 2: the printer is itself a system of systems. Material sup
 > - Melting plastic releases tiny particles and fumes. Print in a ventilated room, not a small closed bedroom. PLA is the mildest choice, which is one reason we start with it.
 > - Always have an adult check the first layer of a print with you, and never leave a printer running alone in the house.
 >
-> The full workshop rules live in Chapter 10 and on the project [safety card](../SAFETY.md).
+> The full workshop rules live in Topic 2.1 and on the project [safety card](../SAFETY.md).
 
 ---
 
@@ -147,9 +147,9 @@ flowchart LR
 
 Let's walk the journey step by step.
 
-**1. CAD model.** You design the part in a CAD program (computer-aided design - Chapter 13 is all about this). The CAD model is the *design*: exact sizes, holes, and shapes.
+**1. CAD model.** You design the part in a CAD program (computer-aided design - Topic 2.4 is all about this). The CAD model is the *design*: exact sizes, holes, and shapes.
 
-**2. STL file.** The CAD program exports an **STL** file. An STL describes only the outside *skin* of your part as thousands of tiny triangles. It contains no sizes, no notes, no design intent - remember from Chapter 8 why the drawing matters, not just the shape. Always keep the original CAD file; the STL is only an export, like a photo of your design.
+**2. STL file.** The CAD program exports an **STL** file. An STL describes only the outside *skin* of your part as thousands of tiny triangles. It contains no sizes, no notes, no design intent - remember from Topic 1.8 why the drawing matters, not just the shape. Always keep the original CAD file; the STL is only an export, like a photo of your design.
 
 **3. Slicer.** A **slicer** is a program that does exactly what its name says: it cuts your model into thin horizontal slices and plans the nozzle's route through every single one. This is also where you choose the settings: layer height, infill, supports and temperatures. The slicer is where most printing decisions are made.
 
@@ -170,7 +170,7 @@ Slice a loaf of bread and lay the slices flat, one on top of another, in order. 
 
 That is exactly how your part is built. Each slice is one **layer**, and the **layer height** is how thick each slice is. A typical layer is 0.2 mm - about the thickness of two sheets of paper.
 
-Layer height is a trade-off (remember trade-offs from Chapter 2):
+Layer height is a trade-off (remember trade-offs from Topic 1.2):
 
 | Layer height | Surface | Print time | Good for |
 |---|---|---|---|
@@ -186,21 +186,21 @@ Because the part is made of flat slices, curved and sloped surfaces show tiny st
 ---
 
 > **Good place to pause.** Stretch, get a drink, or try Hands-On Activity 1 now.
-> The next section connects printing back to forces and breaking - Chapter 4 territory.
+> The next section connects printing back to forces and breaking - Topic 1.4 territory.
 
 ---
 
 # Layers Are the Weak Direction
 
-Here is the most important engineering fact in this chapter.
+Here is the most important engineering fact in this topic.
 
 When the nozzle lays down a new layer, the plastic below it has already cooled. The new layer melts onto it and grips - but that grip is never quite as strong as the solid plastic within a layer.
 
-Remember **anisotropy** from Chapter 4: a material that behaves differently in different directions. A printed part is strong *along* its layers and weaker *between* them - like a deck of cards that slides apart between cards but is hard to tear through.
+Remember **anisotropy** from Topic 1.4: a material that behaves differently in different directions. A printed part is strong *along* its layers and weaker *between* them - like a deck of cards that slides apart between cards but is hard to tear through.
 
 This means **print orientation is a design decision**, not an afterthought.
 
-Think about a suspension arm from Chapter 4. In use, it gets bent up and down by bumps. If we print it standing upright, the bending force pulls the layers apart - the weak direction. If we print it lying flat, the layers run along the arm, and the force has to break through solid plastic.
+Think about a suspension arm from Topic 1.4. In use, it gets bent up and down by bumps. If we print it standing upright, the bending force pulls the layers apart - the weak direction. If we print it lying flat, the layers run along the arm, and the force has to break through solid plastic.
 
 ```mermaid
 flowchart TD
@@ -217,7 +217,7 @@ Rule of thumb for the buggy:
 
 > Lay the part down so the layers run along the biggest force.
 
-When a printed part breaks, look at the broken surface. If the break is clean and flat along a layer line, orientation was probably the problem - you have just read a failure, exactly like Chapter 4 taught.
+When a printed part breaks, look at the broken surface. If the break is clean and flat along a layer line, orientation was probably the problem - you have just read a failure, exactly like Topic 1.4 taught.
 
 Before slicing any part, answer these four questions in your notebook:
 
@@ -244,7 +244,7 @@ A good first layer is:
 - **complete** - no gaps between the lines
 - **stuck down** at every corner
 
-This squashing is also why the bottom edge of a part often bulges slightly outward - the **elephant's foot** you met in Chapter 7. Now you know where it comes from.
+This squashing is also why the bottom edge of a part often bulges slightly outward - the **elephant's foot** you met in Topic 1.7. Now you know where it comes from.
 
 Watch the first layer of every print. If it goes down well, the print will probably succeed. If it does not, stop the print - the next twenty minutes will not fix a bad first layer.
 
@@ -260,7 +260,7 @@ You will notice it most on:
 - sharp corners
 - cold rooms and draughts
 
-A heated build plate fights warping by keeping the bottom layers warm and relaxed until the print finishes. Rounded corners help too - remember from Chapter 4 how corners concentrate stress? They concentrate shrinking as well.
+A heated build plate fights warping by keeping the bottom layers warm and relaxed until the print finishes. Rounded corners help too - remember from Topic 1.4 how corners concentrate stress? They concentrate shrinking as well.
 
 This is one reason our buggy will use a *modular* chassis made from smaller bolted-together sections instead of one huge plate. Small parts warp less, print faster, and when one section breaks you reprint that section - not the whole chassis.
 
@@ -279,7 +279,7 @@ An **overhang** is any part of the model that leans out or sticks out with nothi
 Supports work, but they cost time, waste plastic, and leave rough patches. Good designers avoid them where possible:
 
 - turn the part over (the best support is a better orientation)
-- use chamfers - remember from Chapter 7 how a 45-degree chamfer guides parts together? It also makes a printable overhang
+- use chamfers - remember from Topic 1.7 how a 45-degree chamfer guides parts together? It also makes a printable overhang
 - split the part in two and bolt it together
 
 > **[Sketch: the letters T, Y and H printed upright - the T needing support,
@@ -299,7 +299,7 @@ Inside the outer skin (the *walls*), the slicer fills the space with a pattern -
 | 20-40% | Solid and stiff | Most buggy parts - our usual range |
 | 50-100% | Heavy, nearly solid | Rarely worth it |
 
-Why not always print 100% solid? Because it is slower, heavier and more expensive - and usually *not much stronger*. Just like the I-beam in Chapter 4, most of a part's strength comes from its shape and its outer walls, not from filling the middle. Adding walls usually beats adding infill.
+Why not always print 100% solid? Because it is slower, heavier and more expensive - and usually *not much stronger*. Just like the I-beam in Topic 1.4, most of a part's strength comes from its shape and its outer walls, not from filling the middle. Adding walls usually beats adding infill.
 
 A light buggy accelerates faster and breaks less when it crashes. Infill is one of your easiest weight-saving tools.
 
@@ -307,9 +307,9 @@ A light buggy accelerates faster and breaks less when it crashes. Infill is one 
 
 # What Printers Do Badly
 
-Printers are honest but imperfect. Chapter 7 warned you: exact size is not real. Here is how that plays out in printing.
+Printers are honest but imperfect. Topic 1.7 warned you: exact size is not real. Here is how that plays out in printing.
 
-- **Holes come out slightly small.** Print a 5.0 mm hole and expect roughly 4.8 mm. This is why the fit coupons from Chapter 7 exist - print a test row of holes *before* the real part.
+- **Holes come out slightly small.** Print a 5.0 mm hole and expect roughly 4.8 mm. This is why the fit coupons from Topic 1.7 exist - print a test row of holes *before* the real part.
 - **The first layer spreads.** Elephant's foot makes the bottom edge slightly wider. A small chamfer on the bottom edge hides it.
 - **Fine details blur.** The nozzle is 0.4 mm wide; it cannot draw anything thinner than its own tip. Text and tiny pins need to be chunky.
 - **Bridges sag.** Plastic piped across a gap droops slightly, like a washing line.
@@ -377,7 +377,7 @@ Our plan follows the guiding principles: **prove the idea in PLA, then print the
 ---
 
 > **Good place to pause.** The teaching is done - what remains is practice.
-> The activities below are where this chapter actually sticks.
+> The activities below are where this topic actually sticks.
 
 ---
 
@@ -408,7 +408,7 @@ Many things around you were printed: phone stands, game pieces, hooks, school pr
 
 1. Find the layer lines. Which direction do they run?
 2. Work out which face was on the build plate. (Look for a flatter, shinier face - and maybe a slight elephant's foot.)
-3. Now think like Chapter 4: if you wanted to break this part with your hands, which direction would you bend it? Do the layers help it or weaken it there?
+3. Now think like Topic 1.4: if you wanted to break this part with your hands, which direction would you bend it? Do the layers help it or weaken it there?
 4. Was this part printed in a smart orientation? Write your verdict in your notebook.
 
 ---
@@ -419,9 +419,9 @@ Many things around you were printed: phone stands, game pieces, hooks, school pr
 
 Do not print a buggy part yet. Print the tests that make every later part better:
 
-1. **A calibration cube** (a simple 20 mm cube - every slicer ships with one, or your adult can download one). Measure it with the technique from Chapters 5 and 6: three measurements per side, written in your notebook. How close to 20.00 mm did you get?
-2. **A hole coupon from Chapter 7**: a small plate with holes labelled 5.0 to 5.5 mm. Test which hole actually fits a 5 mm shaft or bolt.
-3. Record both results in your **fit library** (Chapter 7). This page of your notebook will guide every buggy part you ever print.
+1. **A calibration cube** (a simple 20 mm cube - every slicer ships with one, or your adult can download one). Measure it with the technique from Topics 1.5 and 1.6: three measurements per side, written in your notebook. How close to 20.00 mm did you get?
+2. **A hole coupon from Topic 1.7**: a small plate with holes labelled 5.0 to 5.5 mm. Test which hole actually fits a 5 mm shaft or bolt.
+3. Record both results in your **fit library** (Topic 1.7). This page of your notebook will guide every buggy part you ever print.
 
 Watch the whole first layer of each print. That habit alone will save you more failed prints than any upgrade.
 
@@ -441,7 +441,7 @@ Choosing orientation by "what looks tidy on the plate" instead of "which way doe
 
 ## Mistake 3 - Cranking the infill to 100%
 
-It feels stronger. It mostly is not. It is definitely slower, heavier and more expensive. Add walls or improve the shape instead - Chapter 4's lesson again: shape beats material.
+It feels stronger. It mostly is not. It is definitely slower, heavier and more expensive. Add walls or improve the shape instead - Topic 1.4's lesson again: shape beats material.
 
 ## Mistake 4 - Walking away from the first layer
 
@@ -449,7 +449,7 @@ Ninety per cent of failed prints announce themselves in the first five minutes. 
 
 ## Mistake 5 - Expecting CAD sizes from the printer
 
-You designed a 5.0 mm hole, so you expect a 5.0 mm hole. Chapter 7 already told you the truth: every process has tolerance. Measure, adjust, and keep your fit library up to date.
+You designed a 5.0 mm hole, so you expect a 5.0 mm hole. Topic 1.7 already told you the truth: every process has tolerance. Measure, adjust, and keep your fit library up to date.
 
 ## Mistake 6 - Trying to print everything
 
@@ -457,9 +457,9 @@ Bearings, gears, shafts and springs are precision parts. Buy precision, build st
 
 ---
 
-# Chapter Summary
+# Topic Summary
 
-In this chapter we learned that:
+In this topic we learned that:
 
 - 3D printing is **additive manufacturing**: parts are built up in thin layers instead of carved from a block.
 - FDM printers melt plastic **filament** and pipe it through a **nozzle**, layer by layer, onto a **build plate**.
@@ -502,13 +502,13 @@ In this chapter we learned that:
 4. A suspension arm gets bent up and down in use. Should it be printed lying flat or standing upright, and why?
 5. Why is the first layer of a print so important?
 6. What is the rough overhang angle a printer can manage without supports?
-7. Why do printed parts usually not need 100% infill? (Hint: think of Chapter 4's I-beam.)
+7. Why do printed parts usually not need 100% infill? (Hint: think of Topic 1.4's I-beam.)
 8. You need a bumper that survives crashes and a quick test fit for a battery tray. Which filament would you pick for each, and why?
-9. Your 5.0 mm designed hole printed at 4.8 mm. Which chapter's tool - and which test object - helps you plan for this next time?
+9. Your 5.0 mm designed hole printed at 4.8 mm. Which topic's tool - and which test object - helps you plan for this next time?
 
 ---
 
-# Chapter Checklist
+# Topic Checklist
 
 - [ ] I can explain layer-by-layer printing to someone else.
 - [ ] I know the journey: CAD -> STL -> slicer -> G-code -> printer.
@@ -523,8 +523,8 @@ In this chapter we learned that:
 
 # Looking Ahead
 
-In this chapter, the slicer got one small section. In the next chapter it takes centre stage.
+In this topic, the slicer got one small section. In the next topic it takes centre stage.
 
 We will install a slicer, load a ready-made model, choose our settings, and produce our first real prints - no CAD needed yet, because thousands of free models are ready to download.
 
-Designing your own shapes comes right after that, in Chapter 13 (CAD Fundamentals). If you want a head start on it, Tinkercad (tinkercad.com) is a free, kid-friendly CAD tool.
+Designing your own shapes comes right after that, in Topic 2.4 (CAD Fundamentals). If you want a head start on it, Tinkercad (tinkercad.com) is a free, kid-friendly CAD tool.

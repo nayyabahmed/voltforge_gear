@@ -1,19 +1,19 @@
 ---
-title: "Chapter 07 - Tolerances and Fits"
+title: "Topic 1.7 - Tolerances and Fits"
 part: "Part 1 - Engineering Mindset"
-chapter: 7
+topic: "1.7"
 version: "0.1"
 status: "Draft"
 difficulty: Beginner
 estimated_time: "100-130 minutes"
 prerequisites:
-  - Chapter 00 - How to Use This Handbook
-  - Chapter 01 - What Are We Building?
-  - Chapter 02 - Systems Thinking
-  - Chapter 03 - How Machines Move
-  - Chapter 04 - Forces and Why Parts Break
-  - Chapter 05 - Measurement
-  - Chapter 06 - Accuracy, Precision and Error
+  - Topic 0.0 - How to Use This Handbook
+  - Topic 1.1 - What Are We Building?
+  - Topic 1.2 - Systems Thinking
+  - Topic 1.3 - How Machines Move
+  - Topic 1.4 - Forces and Why Parts Break
+  - Topic 1.5 - Measurement
+  - Topic 1.6 - Accuracy, Precision and Error
 learning_objectives:
   - Understand why real parts cannot be made to one perfectly exact size.
   - Distinguish between nominal size, tolerance, allowance and clearance.
@@ -23,7 +23,7 @@ learning_objectives:
   - Create and test a simple fit-coupon before designing a full RC part.
 ---
 
-# Chapter 07 - Tolerances and Fits
+# Topic 1.7 - Tolerances and Fits
 
 > **"Two parts can both be made correctly and still fail to fit together."**
 
@@ -31,7 +31,7 @@ learning_objectives:
 
 # Learning Objectives
 
-By the end of this chapter you will be able to:
+By the end of this topic you will be able to:
 
 - Explain what a tolerance is.
 - Understand why dimensions are allowed to vary.
@@ -67,7 +67,7 @@ The useful fit exists between two bad extremes:
 - too tight
 - too loose
 
-This chapter is about designing that useful middle.
+This topic is about designing that useful middle.
 
 ---
 
@@ -1697,9 +1697,9 @@ Explain which plan better controls each hole's position relative to the centreli
 
 ---
 
-# Chapter Summary
+# Topic Summary
 
-In this chapter, we learned that real parts always vary.
+In this topic, we learned that real parts always vary.
 
 A tolerance defines acceptable variation.
 
@@ -1800,7 +1800,7 @@ It is the fit that allows the part to perform its job reliably.
 
 ---
 
-# Chapter Checklist
+# Topic Checklist
 
 - [ ] I understand why dimensions need tolerances.
 - [ ] I know nominal size, upper limit and lower limit.
@@ -1830,7 +1830,7 @@ We can now measure parts and decide how closely they should fit.
 
 The next step is learning how engineers communicate shape and size clearly.
 
-In the next chapter, we will study **engineering drawings**.
+In the next topic, we will study **engineering drawings**.
 
 We will learn:
 

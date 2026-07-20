@@ -1,7 +1,7 @@
 ---
-title: "Chapter 00 - How to Use This Handbook"
-part: "Part 1 - Engineering Mindset"
-chapter: 0
+title: "Topic 0.0 - How to Use This Handbook"
+part: "Front Matter"
+topic: "0.0"
 version: "0.2"
 status: "Reviewed"
 difficulty: Beginner
@@ -9,11 +9,11 @@ estimated_time: "20-30 minutes"
 prerequisites: []
 learning_objectives:
   - Understand who this handbook is for and what you will build.
-  - Learn how the chapters are structured and why they build on each other.
+  - Learn how the topics are structured and why they build on each other.
   - Set up your engineering notebook.
 ---
 
-# Chapter 00 - How to Use This Handbook 📘
+# Topic 0.0 - How to Use This Handbook 📘
 
 > **Target Audience**
 >
@@ -31,7 +31,7 @@ learning_objectives:
 
 # Learning Objectives 🎯
 
-By the end of this chapter you will be able to:
+By the end of this topic you will be able to:
 
 - Explain who this handbook is for and what you will build.
 - Describe the engineering cycle and why it never finishes.
@@ -274,20 +274,20 @@ Now we begin thinking like designers.
 
 # How This Book Is Organised 🗺️
 
-Each chapter follows the same pattern.
+Each topic follows the same pattern.
 
 1. **Learning Objectives** - what you will be able to do.
 2. **Before We Begin** - a short story to set the scene.
 3. **Simple Explanations** - the ideas, one small step at a time.
 4. **Hands-On Activities** - experiments you can try yourself.
 5. **Engineering Challenge** - a bigger task to test your new skills.
-6. **Chapter Summary** - the key ideas in one place.
+6. **Topic Summary** - the key ideas in one place.
 7. **New Words** - the vocabulary you have learned.
 8. **Review Questions** - check your understanding.
-9. **Chapter Checklist** - tick off what you completed.
-10. **Looking Ahead** - a preview of the next chapter.
+9. **Topic Checklist** - tick off what you completed.
+10. **Looking Ahead** - a preview of the next topic.
 
-This means every chapter builds naturally on the previous one.
+This means every topic builds naturally on the previous one.
 
 ---
 
@@ -363,7 +363,7 @@ The buggy is simply the first machine we will build.
 
 ---
 
-# Chapter Summary 📝
+# Topic Summary 📝
 
 You have learned that:
 
@@ -398,7 +398,7 @@ You have learned that:
 
 ---
 
-# Chapter Checklist ✅
+# Topic Checklist ✅
 
 - [ ] I understand what this handbook is trying to teach.
 - [ ] I know the engineering cycle.
@@ -411,7 +411,7 @@ You have learned that:
 
 # Looking Ahead 🔭
 
-In the next chapter, **Chapter 1 - What Are We Building?**, we answer a
+In the next topic, **Topic 1.1 - What Are We Building?**, we answer a
 simple question:
 
 **What are we actually building?**

@@ -1,15 +1,15 @@
 ---
-title: "Chapter 03 - How Machines Move"
+title: "Topic 1.3 - How Machines Move"
 part: "Part 1 - Engineering Mindset"
-chapter: 3
+topic: "1.3"
 version: "0.2"
 status: "Reviewed"
 difficulty: Beginner
 estimated_time: "90-140 minutes (including the mini project)"
 prerequisites:
-  - Chapter 00 - How to Use This Handbook
-  - Chapter 01 - What Are We Building?
-  - Chapter 02 - Systems Thinking
+  - Topic 0.0 - How to Use This Handbook
+  - Topic 1.1 - What Are We Building?
+  - Topic 1.2 - Systems Thinking
 learning_objectives:
   - Understand that motion must travel through connected parts.
   - Distinguish between force, motion, speed and torque.
@@ -19,7 +19,7 @@ learning_objectives:
   - Build a simple force-flow diagram for the RC buggy.
 ---
 
-# Chapter 03 - How Machines Move
+# Topic 1.3 - How Machines Move
 
 > **"The motor does not push the buggy forward.  
 > It starts a chain of motion that ends at the ground."**
@@ -28,7 +28,7 @@ learning_objectives:
 
 # Learning Objectives 🎯
 
-By the end of this chapter you will be able to:
+By the end of this topic you will be able to:
 
 - Explain the difference between movement and force.
 - Describe torque as twisting force.
@@ -50,7 +50,7 @@ the shaft turns a gear, that gear turns another gear, and a driveshaft
 carries the turning out to a wheel. Only when the tyre pushes against the
 ground does the buggy actually move forward.
 
-This chapter follows that chain.
+This topic follows that chain.
 
 ---
 
@@ -63,7 +63,7 @@ Many people say:
 That is not quite correct. The motor creates rotation - turning movement.
 That turning movement travels through the **drivetrain**: the whole chain
 of parts that carries rotation from the motor to the driven wheels. (The
-gearbox you met in Chapter 2 is part of what engineers call the
+gearbox you met in Topic 1.2 is part of what engineers call the
 drivetrain.)
 
 At the end of the chain, the tyres push backward on the ground, and the
@@ -287,7 +287,7 @@ Let us look at each step.
 # Step 1 - The Motor Turns
 
 The brushless motor (a type of electric motor with no rubbing electrical
-contacts inside - Chapter 26) converts electrical energy into rotation.
+contacts inside - Topic 3.7) converts electrical energy into rotation.
 
 Its shaft spins.
 
@@ -347,7 +347,7 @@ The differential turns the driveshafts.
 
 A **driveshaft** is a shaft that carries rotation from one place to another.
 
-It acts like the twisted pencil from the beginning of the chapter.
+It acts like the twisted pencil from the beginning of the topic.
 
 The driveshaft does not create the rotation.
 
@@ -384,7 +384,7 @@ That forward force moves the buggy.
 Engineers call this pair of forces *action and reaction*: whenever one
 thing pushes on another, the other pushes back just as hard in the
 opposite direction. It is also known as Newton's third law, and we will
-meet it properly in Chapter 4.
+meet it properly in Topic 1.4.
 
 > **[Sketch: side view of a driven wheel on the ground; an arrow at the
 > tyre's contact patch pointing backward labelled "tyre pushes ground",
@@ -431,7 +431,7 @@ Possible failures include:
 - stripped gear teeth
 - twisted driveshaft
 - loose wheel hex (the six-sided adapter that locks a wheel onto its
-  axle - Chapter 29)
+  axle - Topic 3.10)
 - cracked wheel hub
 - tyre slipping on the rim
 
@@ -613,7 +613,7 @@ This relationship is one reason engineers choose gear ratios carefully.
 ---
 
 > **☕ Good place to pause.** Stretch, get a drink, or try the pencil and
-> door activities at the end of the chapter now. The next section starts
+> door activities at the end of the topic now. The next section starts
 > a new idea: friction.
 
 ---
@@ -751,7 +751,7 @@ The forces pressing the tyres into the ground change.
 
 Weight transfer affects grip, steering and stability.
 
-We will study it more deeply in the suspension chapters.
+We will study it more deeply in the suspension topics.
 
 ---
 
@@ -859,7 +859,7 @@ have similar torque, but the one that can hold it at higher speed
 delivers more power - like the person who can carry the same bags
 upstairs at a run.
 
-We will study electrical power in Chapter 21.
+We will study electrical power in Topic 3.2.
 
 For now, remember:
 
@@ -880,7 +880,7 @@ The buggy may still be slow if:
 - tyres slip
 - the buggy is very heavy
 - the motor overheats
-- the ESC (the motor's electronic speed controller - Chapter 25) limits
+- the ESC (the motor's electronic speed controller - Topic 3.6) limits
   power
 
 Speed is the result of the whole system.
@@ -924,9 +924,9 @@ A drivetrain can work perfectly while a weak suspension mount still breaks.
 Let us follow one acceleration event.
 
 1. The driver presses the throttle.
-2. The transmitter (the radio handset in the driver's hands - Chapter 23)
+2. The transmitter (the radio handset in the driver's hands - Topic 3.4)
    sends a command.
-3. The receiver (the small radio box inside the buggy - Chapter 23)
+3. The receiver (the small radio box inside the buggy - Topic 3.4)
    passes the command to the ESC.
 4. The ESC sends controlled electrical power to the motor.
 5. The motor produces torque.
@@ -1071,7 +1071,7 @@ Some energy became heat and deformation.
 
 ---
 
-# Chapter Mini Project - The Cardboard Gear Pair 🛠️
+# Topic Mini Project - The Cardboard Gear Pair 🛠️
 
 Reading about gear ratios is one thing. Turning a gear pair you built
 yourself, and feeling the ratio in your fingers, is another. This build
@@ -1220,7 +1220,7 @@ Possible causes:
 - wheels are too large
 - buggy is too heavy
 - tyres are rubbing
-- motor timing (an advanced motor setting - Chapter 26) is set too
+- motor timing (an advanced motor setting - Topic 3.7) is set too
   aggressively
 - cooling airflow is poor
 
@@ -1347,16 +1347,16 @@ Possible causes:
 - broken differential
 - stripped internal gear
 - disconnected output cup (the socket where a driveshaft plugs into the
-  differential - Chapter 27)
+  differential - Topic 3.8)
 - broken shaft
 
 This is how engineers isolate faults.
 
 ---
 
-# Chapter Summary 📝
+# Topic Summary 📝
 
-In this chapter, we learned how movement travels through the buggy.
+In this topic, we learned how movement travels through the buggy.
 
 The motor creates rotational motion and torque.
 
@@ -1441,7 +1441,7 @@ We also learned that:
 
 ---
 
-# Chapter Checklist ✅
+# Topic Checklist ✅
 
 - [ ] I understand the difference between motion and force.
 - [ ] I can explain torque using a real-world example.
@@ -1468,7 +1468,7 @@ We can now trace motion and force through the buggy.
 
 The next step is to study forces more carefully.
 
-In Chapter 04 - Forces and Why Parts Break, we will explore:
+In Topic 1.4 - Forces and Why Parts Break, we will explore:
 
 - pushing
 - pulling

@@ -1,13 +1,13 @@
 ---
-title: "Chapter 01 - What Are We Building?"
+title: "Topic 1.1 - What Are We Building?"
 part: "Part 1 - Engineering Mindset"
-chapter: 1
+topic: "1.1"
 version: "0.2"
 status: "Reviewed"
 difficulty: Beginner
 estimated_time: "60-90 minutes"
 prerequisites:
-  - Chapter 00 - How to Use This Handbook
+  - Topic 0.0 - How to Use This Handbook
 learning_objectives:
   - Explain the main purpose of an RC buggy.
   - Identify the major systems inside the buggy.
@@ -15,7 +15,7 @@ learning_objectives:
   - Begin looking at everyday objects as collections of systems.
 ---
 
-# Chapter 01 - What Are We Building? 🏎️
+# Topic 1.1 - What Are We Building? 🏎️
 
 > **"To understand a machine, don't start with the smallest part.
 > Start by asking what job the whole machine is trying to do."**
@@ -24,7 +24,7 @@ learning_objectives:
 
 # Learning Objectives 🎯
 
-By the end of this chapter you will be able to:
+By the end of this topic you will be able to:
 
 - Explain the main purpose of an RC buggy.
 - Identify the major systems inside the buggy.
@@ -53,7 +53,7 @@ engineering ideas.
 
 > **Break a big problem into smaller problems.**
 
-This chapter is about learning that skill, and our RC buggy is the perfect
+This topic is about learning that skill, and our RC buggy is the perfect
 machine to practise on - because, as we are about to see, it is really six
 smaller machines working together.
 
@@ -167,9 +167,9 @@ brain. Its job is to receive commands from the radio controller.
 
 Later we will discover this system contains:
 
-- a radio receiver (the part that hears the controller's signals - Chapter 23)
-- an ESC (the motor's electronic speed controller - Chapter 25)
-- a servo (a small motor that turns the steering - Chapter 24)
+- a radio receiver (the part that hears the controller's signals - Topic 3.4)
+- an ESC (the motor's electronic speed controller - Topic 3.6)
+- a servo (a small motor that turns the steering - Topic 3.5)
 
 For now just remember:
 
@@ -277,7 +277,7 @@ Wheels --> Ground
 ```
 
 Don't worry if some of those words are unfamiliar. Each one will have its
-own chapter later.
+own topic later.
 
 > **☕ Good place to pause.** Stretch, get a drink, or look at a machine
 > near you and guess what its systems are. The next section starts a new
@@ -309,7 +309,7 @@ Possible systems:
 - steering
 - brakes
 - drivetrain (the chain and gears that carry your pedalling to the back
-  wheel - Chapter 3 meets the buggy's version)
+  wheel - Topic 1.3 meets the buggy's version)
 - frame
 - wheels
 
@@ -415,7 +415,7 @@ new.
 
 ---
 
-# Chapter Mini Project - The Cotton Reel Crawler 🛠️
+# Topic Mini Project - The Cotton Reel Crawler 🛠️
 
 Time to build a machine you can keep. This one is nearly a hundred years
 old - children were building it from scraps during the Second World War -
@@ -507,9 +507,9 @@ sense.
 
 ---
 
-# Chapter Summary 📝
+# Topic Summary 📝
 
-In this chapter we discovered that an RC buggy is **not one machine**. It is
+In this topic we discovered that an RC buggy is **not one machine**. It is
 a collection of smaller systems, and each system performs one job. Together
 they allow the buggy to move exactly where the driver wants.
 
@@ -538,7 +538,7 @@ exactly this way. Before solving problems, understand the system.
 4. Why do engineers break big machines into smaller systems?
 5. The motor only spins. What else is needed before the buggy actually moves?
 6. What systems can you find in a bicycle?
-7. The chapter compares the chassis to your bones. Why is that a good
+7. The topic compares the chassis to your bones. Why is that a good
    comparison? What would happen to the buggy without it?
 8. Your buggy switches on, but the wheels do not turn when you steer with
    the controller. Which system would you check first, and why?
@@ -549,7 +549,7 @@ exactly this way. Before solving problems, understand the system.
 
 ---
 
-# Chapter Checklist ✅
+# Topic Checklist ✅
 
 - [ ] I know the main job of an RC buggy.
 - [ ] I understand what a system is.
@@ -564,7 +564,7 @@ exactly this way. Before solving problems, understand the system.
 
 # Looking Ahead 🔭
 
-In the next chapter, **Chapter 2 - Systems Thinking**, we will learn a new
+In the next topic, **Topic 1.2 - Systems Thinking**, we will learn a new
 way of seeing machines. Instead of looking at individual parts, we will
 learn to see **connections** - one of the most powerful tools used by
 engineers.
