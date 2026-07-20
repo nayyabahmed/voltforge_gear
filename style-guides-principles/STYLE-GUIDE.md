@@ -1,8 +1,8 @@
-# VoltForge Gear - Chapter Style Guide
+# VoltForge Gear - Topic Style Guide
 
-How to write a chapter of this handbook. Applies to every new chapter and to
-revisions of existing ones. Derived from the readability review of Chapters
-00-10 (see `improvement-suggestions.md`) and the project guiding principles.
+How to write a topic of this handbook. Applies to every new topic and to
+revisions of existing ones. Derived from the readability review of Topics
+0.0-2.1 (see `improvement-suggestions.md`) and the project guiding principles.
 
 ---
 
@@ -59,50 +59,51 @@ revisions of existing ones. Derived from the readability review of Chapters
   > legs. Now jump again and land with bent knees. Which landing felt
   > softer - and where did the "thump" go?
 
-  Aim for one or two per chapter at the most counter-intuitive claims; more
+  Aim for one or two per topic at the most counter-intuitive claims; more
   than that and they stop feeling special.
 
-## 3. Chapter Template (in this order)
+## 3. Topic Template (in this order)
 
-1. YAML frontmatter: title, part, chapter, version ("0.1"), status ("Draft"),
-   difficulty, estimated_time, prerequisites (list of chapter titles),
+1. YAML frontmatter: title, part, topic, version ("0.1"), status ("Draft"),
+   difficulty, estimated_time, prerequisites (list of topic titles),
    learning_objectives (3-6 bullets).
-2. `# Chapter NN - Title` (ASCII hyphen, zero-padded number).
+2. `# Topic X.Y - Title` (ASCII hyphen; part-relative number, e.g. `1.5`).
+   The file keeps its zero-padded `NN-` name on disk (see section 12).
 3. A short blockquote hook (a quote or a one-line big idea).
-4. `# Learning Objectives` - "By the end of this chapter you will be able to:"
+4. `# Learning Objectives` - "By the end of this topic you will be able to:"
 5. `# Before We Begin` - a story or hands-on hook, written as paragraphs.
 6. Content sections.
 7. Hands-on activities (`# Hands-On Activity N - Name`). Always include at
    least one activity that needs NO special equipment (no printer, no
    calipers), with the equipment version as an upgrade.
-8. `# Chapter Mini Project - Name` - the learning-by-doing build (see the
-   rules below). Teaching chapters only; build chapters and the capstone
+8. `# Topic Mini Project - Name` - the learning-by-doing build (see the
+   rules below). Teaching topics only; build topics and the capstone
    already produce artifacts.
 9. `# Common Beginner Mistakes` (numbered `## Mistake N - Name`).
-10. `# Chapter Summary`
+10. `# Topic Summary`
 11. `# New Words` - a table, `| Word | Meaning |` with `|---|---|` divider.
 12. `# Review Questions` - 8-12 numbered questions mixing recall, explanation,
     application and troubleshooting.
-13. `# Chapter Checklist` - `- [ ]` items confirming meaningful capability.
-14. `# Looking Ahead` - preview of the ACTUAL next chapter (verify the number).
+13. `# Topic Checklist` - `- [ ]` items confirming meaningful capability.
+14. `# Looking Ahead` - preview of the ACTUAL next topic (verify the number).
 
-Connect the topic to the buggy within the first 150 words of the chapter.
+Connect the topic to the buggy within the first 150 words of the topic.
 
-### Chapter Mini Projects (learning by doing)
+### Topic Mini Projects (learning by doing)
 
 Reading about an idea fades; a thing you built and kept does not. Every
-teaching chapter ends its activities with one mini project: a small build
+teaching topic ends its activities with one mini project: a small build
 that produces a **keepable, working artifact** for the reader's showcase
 shelf.
 
 - Materials: household and scrap only - paper, card, rubber bands, pencils,
   spools, tape, glue, string. No printer, no calipers, nothing bought
   specially. 30-60 minutes.
-- The build must embody the chapter's core idea, not just decorate it
-  (a paper bridge tested to failure for the forces chapter, not a paper
+- The build must embody the topic's core idea, not just decorate it
+  (a paper bridge tested to failure for the forces topic, not a paper
   buggy that only looks nice).
 - It always ends with a **reflection step** that ties the artifact back to
-  the chapter: label which subsystem each part is, read the failure, chart
+  the topic: label which subsystem each part is, read the failure, chart
   the spread. The reflection is where the learning lands.
 - Point out what the artifact does NOT have when that teaches something
   ("your crawler has no control system - you are its brain").
@@ -127,7 +128,7 @@ shelf.
 ## 4. Length and Break Markers
 
 - Target 700-1,200 lines. If the material genuinely needs more, split the
-  chapter or add explicit break markers.
+  topic or add explicit break markers.
 - Insert a break marker at every natural seam (roughly every 25-30 minutes of
   reading):
 
@@ -137,15 +138,17 @@ shelf.
 ## 5. Vocabulary Rules
 
 - First-use gloss: any term not yet taught gets a bracket gloss and a pointer
-  to its home chapter, e.g. "the ESC (the motor's speed controller - Chapter
-  22)". This includes terms from LATER chapters and hobby jargon.
-- New terms introduced in this chapter are **bolded** on first use, defined in
+  to its home topic, e.g. "the ESC (the motor's speed controller - Topic
+  3.3)". This includes terms from LATER topics and hobby jargon.
+- New terms introduced in this topic are **bolded** on first use, defined in
   plain language, and listed in the New Words table.
-- Budget: at most ~15 new words per chapter. More than that means the chapter
+- Budget: at most ~15 new words per topic. More than that means the topic
   should split.
 - Every New Words entry must also be added to `glossary.md` (alphabetical,
   same plain-language style).
 - Terminology registry (never vary these):
+  - "topic" for a numbered unit of the book (Part N holds Topics N.1, N.2 …;
+    "How to Use This Handbook" is the front-matter Topic 0.0). Never "chapter".
   - "drivetrain" for the whole motor-to-wheel system; "gearbox" means only the
     enclosed gear assembly inside it
   - "requirement traceability" (singular "requirement")
@@ -154,8 +157,8 @@ shelf.
   - "revision" = a documented design change; "version" = a project stage
     (V0.1, V1.0)
   - "test coupon" and "packaging envelope", never vague equivalents
-- When an older chapter used a different word, bridge explicitly: "the gearbox
-  from Chapter 2 is part of what engineers call the drivetrain."
+- When an older topic used a different word, bridge explicitly: "the gearbox
+  from Topic 1.2 is part of what engineers call the drivetrain."
 
 ## 6. Characters and Emoji
 
@@ -170,9 +173,9 @@ purposeful markers, not confetti.
   - `> **🎬 Watch the build**`
   - `> **☕ Good place to pause.**`
 - **Template headings** carry a fixed emoji at the END of the heading:
-  Learning Objectives 🎯, Chapter Mini Project 🛠️, Common Beginner
-  Mistakes ❌, Chapter Summary 📝, New Words 📖, Review Questions ❓,
-  Chapter Checklist ✅, Looking Ahead 🔭.
+  Learning Objectives 🎯, Topic Mini Project 🛠️, Common Beginner
+  Mistakes ❌, Topic Summary 📝, New Words 📖, Review Questions ❓,
+  Topic Checklist ✅, Looking Ahead 🔭.
 - **Content headings**: at most one emoji, at the end, meaningfully chosen
   ("# System 1 - The Brain 🧠"). Not every heading needs one.
 - **Body prose stays emoji-light**: an emoji earns its place by marking
@@ -200,7 +203,7 @@ Pick the form that fits the idea:
 - Small ASCII line samples (`- - - -`) are fine for line types and dimension
   arrows. Never keep weak ASCII art just because it already exists - replace
   it with a sketch placeholder.
-- **Signature visual**: every technical chapter gets one strong visual for its
+- **Signature visual**: every technical topic gets one strong visual for its
   hardest idea (four-dartboard panel for accuracy, three-fit cross-section for
   fits, aligned three views for drawings, dashed envelope for packaging, a
   meshing gear pair for ratios).
@@ -239,37 +242,40 @@ For anything hot, sharp, electrical, chemical or spinning:
 
 ## 10. Cross-Referencing
 
-- Backward: "Remember X from Chapter N" whenever reusing a taught concept.
-- Forward: "(covered in Chapter N / Part N)" for anything not yet taught.
-- Each chapter's "Looking Ahead" must name and match the real next chapter.
+- Backward: "Remember X from Topic N.M" whenever reusing a taught concept.
+- Forward: "(covered in Topic N.M / Part N)" for anything not yet taught.
+- Each topic's "Looking Ahead" must name and match the real next topic.
 - Tie content back to the buggy within every major section: the buggy is the
   classroom.
 
-## 11. Build Chapters (Parts 3-5)
+## 11. Build Topics (Parts 3-5)
 
-Per the guiding principles "Handbook Writing Rule", every build chapter also
+Per the guiding principles "Handbook Writing Rule", every build topic also
 includes: learning goal, cheapest valid prototype, parts to buy / reuse /
 make, cost checkpoint, modular interfaces, test plan, upgrade path, and a
 stop point before the next purchase.
 
-Every test in a build chapter states: the question being tested, the
+Every test in a build topic states: the question being tested, the
 independent, dependent and control variables (the fair-test pattern from
-Chapter 9), the procedure, and a pass/fail condition.
+Topic 1.9), the procedure, and a pass/fail condition.
 
-## 12. Publishing a Chapter
+## 12. Publishing a Topic
 
-1. Save as `Part-N-Name/NN-Chapter-Title.md` (zero-padded, hyphenated).
+1. Save as `Part-N-Name/NN-Title.md`. The filename keeps the zero-padded
+   global sequence number (`00-`, `01-` … `43-`, hyphenated); the topic's
+   displayed number is part-relative (e.g. `1.5`). Keeping the filename
+   scheme keeps the build's cover matching and `--chapters` selection working.
 2. Add New Words to `glossary.md`.
-3. Update the chapter's row in `SUMMARY.md` (planned -> v0.1 Draft) and link
+3. Update the topic's row in `SUMMARY.md` (planned -> v0.1 Draft) and link
    the file.
 4. Check: emoji follow the section 6 registry (fixed callout markers, one
-   per heading max), Looking Ahead points to the real next chapter, every
+   per heading max), Looking Ahead points to the real next topic, every
    activity has a no-equipment variant, every not-yet-taught term is
    glossed, and the mini project builds from household materials, opens
    its safety callout with the adult-check line, and ends with its
    reflection step.
 5. Teaching check: concrete example before each formal term, an analogy for
    each abstract idea, a worked example for any maths, one signature visual
-   for the hardest idea, a "Think about it" prompt at the chapter's most
+   for the hardest idea, a "Think about it" prompt at the topic's most
    counter-intuitive claim, and the buggy connection within the first 150
    words.
