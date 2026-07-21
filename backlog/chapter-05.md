@@ -2,64 +2,89 @@
 
 Source review: 1,863 lines. Line numbers refer to the original v0.1 text.
 Created 2026-07-19 from the frozen review (improvement-suggestions.md)
-plus the 2026-07-12/14 conventions. Status: NOT STARTED - improve cycle
-planned for a future session (research pass first, per PLAN.md loop).
+plus the 2026-07-12/14 conventions. Status: DONE 2026-07-21 (v0.2 on
+`review-chapter-5`) - research pass first, then all items applied.
 
 Sittings: the review suggests three - units + what to measure / tools +
 technique / recording + activities. Break markers at the seams ~421 and
 ~1419 (plus check for a natural third seam during the pass).
 
-- [ ] [T] "Before We Begin" (46-66) and "The Shelf That Was Nearly Right"
-  (70-105): merge staccato lines into short paragraphs (the review calls
-  this the highest-value textual fix in the chapter).
-- [ ] [T] De-staccato sweep of the rest of the chapter's narrative
-  passages (book-wide item - Ch02/04 precedent: sweep the whole chapter,
-  keep one-liners for steps, warnings, definitions, punchlines).
-- [ ] [C] "press fit" (~1591) used before Ch07 defines it - gloss +
-  forward ref (verify chapter number against SUMMARY.md: Ch07 Tolerances
-  and Fits).
-- [ ] [T] "confirmation bias" (~989) - add a plain gloss ("seeing what
-  you hoped to see"). "trigonometry" (~1418) - soften or cut.
-- [ ] [T] Resolution/accuracy/uncertainty run (~1027-1085) duplicates
-  Ch06 - trim to a teaser plus "we cover this properly in Chapter 6".
-- [ ] [C] Tool section assumes the reader owns digital calipers - add a
-  cheap options / no-calipers fallback note (Activity 3 already models
-  this; every activity needs a no-equipment variant per STYLE-GUIDE).
-- [ ] [V] Ruler ASCII (~471) is confusing - replace with a labelled
-  sketch/photo of a ruler with mm and cm marks called out (the review's
-  top visual priority for Ch05 - likely the signature visual).
-- [ ] [V] Centre-to-centre ASCII (~396) - labelled two-circles diagram
-  showing centre spacing vs edge gap (sketch placeholder).
-- [ ] [V] Replace the caliper-parts mermaid (~542) with a labelled
-  caliper photo/sketch; replace the bearing OD/ID mermaid (~345) with a
-  cross-section sketch.
-- [ ] [E] Learn More boxes (verify every page in the research pass; use
-  curriculum wording): BBC Bitesize units of length (~131), converting
-  mm/cm/m (~185), reading scales (~464), parts of a circle (~311),
-  mean/average (~993); KS3 "taking measurements" (parallax) at ~487;
-  expansion/contraction at ~1088. Seven placements is too many - pick
-  the best 4-5, note the drops in Research notes.
-- [ ] [T] "Think about it" prompts (max two; STYLE-GUIDE section 2).
-  Candidates to test in the research pass: parallax (read a ruler
-  straight-on, then from a sharp angle - why does the number change?);
-  repeated measurement spread (measure the same object three times -
-  why do the answers differ?). Pick the two most counter-intuitive.
-- [ ] [T] Topic Mini Project (STYLE-GUIDE section 3): cardboard sliding
-  caliper (sources: Instructables "Make a Cardboard Caliper"; ikatbag -
-  re-verify both in the research pass). Reflection: zero it, then
-  measure five household objects and record them properly - measurement
-  technique and honest recording made physical. Safety callout opens
-  with the adult-check line (2026-07-14 convention); scissors/craft
-  knife warnings per section 9. Keep the caliper for the showcase shelf.
-- [ ] Break markers at the seams listed above.
-- [ ] Emoji pass per STYLE-GUIDE section 6 (template headings, fixed
-  callout markers, at most one meaningful emoji per content heading).
-- [ ] Verify New Words all exist in glossary.md; check gloss chapter
-  numbers against SUMMARY.md; Looking Ahead must name Chapter 6 -
-  Accuracy, Precision and Error; estimated_time bump for the mini
-  project; adult-check any activity that needs it.
-- [ ] Final pass: verify checklist (PLAN.md step 5), bump frontmatter to
-  0.2/Reviewed, tick rows here, update SUMMARY.md + TRACKER.md.
+- [x] [T] "Before We Begin" and "The Shelf That Was Nearly Right":
+  merged staccato lines into short paragraphs (the review's highest-value
+  textual fix).
+- [x] [T] De-staccato sweep of the rest of the chapter's narrative
+  passages (Why Millimetres, Length/Width/Height, Nominal vs Actual,
+  Measuring Soft Parts, Why Measurements Differ). Kept one-liners for
+  steps, warnings, definitions and punchlines per Ch02/04 precedent.
+- [x] [C] "press fit" (Thinking Like an Engineer) - glossed with forward
+  ref to Topic 1.7 (Tolerances and Fits), confirmed against SUMMARY.md.
+- [x] [T] "confirmation bias" - plain gloss added ("seeing what you hoped
+  to see rather than what is really there"); also New Words + glossary.
+  "trigonometry" softened to "a maths trick for a future topic".
+- [x] [T] Resolution/accuracy/uncertainty run trimmed from three sections
+  to one combined "first taste" teaser pointing to Topic 1.6.
+- [x] [C] No-calipers fallback note added after the caliper anatomy
+  (ruler is enough; entry-level caliper is plenty; you build one below).
+- [x] [V] Ruler ASCII replaced with the signature sketch placeholder
+  (mm/cm marks, 43 mm object, eye looking straight down).
+- [x] [V] Centre-to-centre ASCII replaced with a two-holes sketch
+  placeholder (centre-to-centre vs edge gap).
+- [x] [V] Caliper-parts mermaid and bearing OD/ID mermaid both replaced
+  with labelled sketch placeholders (anatomy; cross-section).
+- [x] [E] Learn More boxes - 4 kept (below), curriculum wording, all
+  verified in the research pass. Drops noted in Research notes.
+- [x] [T] "Think about it" prompts - two placed (parallax; repeated-
+  measurement spread), the two most counter-intuitive candidates.
+- [x] [T] Topic Mini Project - Cardboard Sliding Caliper. Zero it, then
+  measure and record five household objects. Safety callout opens with
+  the adult-check line; scissors warning added; Watch the build box
+  (Instructables + ikatbag + YouTube). Keep for the showcase shelf.
+- [x] Break markers at three seams (after centre-to-centre; before
+  Recording Measurements; before the hands-on activities).
+- [x] Emoji pass per STYLE-GUIDE section 6 (all eight template headings
+  carry their fixed emoji; fixed callout markers used throughout).
+- [x] New Words all exist in glossary.md (added "Calipers" and
+  "Confirmation Bias"); gloss numbers checked against SUMMARY.md; Looking
+  Ahead now names Topic 1.6; estimated_time bumped to 120-160 min for the
+  mini project; adult-check line present in the mini project callout.
+- [x] Final pass done: frontmatter bumped to 0.2/Reviewed; rows ticked;
+  SUMMARY.md + TRACKER.md updated.
+
+## Research notes (2026-07-21)
+
+Facts confirmed:
+- Caliper technique: zero with jaws closed after wiping debris; outside
+  jaws for external, inside jaws for internal, depth rod perpendicular;
+  gentle pressure. Matches the chapter (verified via iFixit, Make:,
+  Bantam Tools, Katz-Moses guides).
+- Thermal expansion: particles vibrate faster and move further apart when
+  heated (the particles themselves do not grow); railway/bridge expansion
+  gaps are the classic example. Chapter's statement is correct. KS3
+  "particle model" is the curriculum wording.
+- Unit relationships (10 mm = 1 cm, 100 cm = 1 m, 1000 mm = 1 m) and
+  parallax (eye must be vertically above the mark) confirmed; both match
+  the chapter.
+
+Links verified (bbc.co.uk blocks the crawler, so Bitesize pages verified
+indirectly via curriculum wording, per the Ch02/04 method):
+- BBC Bitesize KS2/KS3 Maths "units of measurement" (Units section).
+- BBC Bitesize KS3 Maths "parts of a circle" (Diameter/Radius).
+- BBC Bitesize KS3 Physics "taking measurements" (Parallax).
+- BBC Bitesize KS3 Physics "particle model" (Temperature Matters).
+
+Learn More placements dropped (backlog listed seven; kept four):
+- "reading scales" merged into the "taking measurements"/parallax box.
+- "mean/average" dropped - averaging belongs to Topic 1.6, and the
+  resolution/accuracy run was trimmed toward 1.6 anyway.
+- separate "converting mm/cm/m" folded into the single "units of
+  measurement" box.
+
+Mini project sources confirmed to exist and build from household card:
+- Instructables "Make a Cardboard Caliper" (photo build).
+- ikatbag "Cardboard not-really-Vernier Callipers" (photographed, has a
+  printable scale).
+- YouTube "DIY cardboard vernier caliper" videos exist (used with the
+  "with an adult" wording).
 
 ## Research topics (from PLAN.md - run before editing)
 

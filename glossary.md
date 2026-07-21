@@ -188,6 +188,14 @@ Calibration helps identify or correct measurement bias.
 
 ---
 
+### Calipers
+
+A tool for measuring outside, inside, depth and step dimensions.
+
+A digital caliper shows the reading on a display and can be zeroed before use.
+
+---
+
 ### Cause
 
 Something that creates a change.
@@ -326,6 +334,14 @@ Examples:
 - available tools
 - chosen battery
 - build time
+
+---
+
+### Confirmation Bias
+
+Seeing what you hoped to see rather than what is really there.
+
+In measurement, it means repeating a reading until you get the expected number instead of recording the honest result.
 
 ---
 

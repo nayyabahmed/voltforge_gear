@@ -24,7 +24,7 @@ The full topic plan for VoltForge Gear — The Young Engineer's Handbook, with w
 | 1.2 | [Systems Thinking](Part-1-Engineering-Mindset/02-Systems-Thinking.md) | 🔵 v0.2 |
 | 1.3 | [How Machines Move](Part-1-Engineering-Mindset/03-How-Machines-Move.md) | 🔵 v0.2 |
 | 1.4 | [Forces and Why Parts Break](Part-1-Engineering-Mindset/04-Forces-and-Why-Parts-Break.md) | 🔵 v0.2 |
-| 1.5 | [Measurement](Part-1-Engineering-Mindset/05-Measurement.md) | 🟡 v0.1 |
+| 1.5 | [Measurement](Part-1-Engineering-Mindset/05-Measurement.md) | 🔵 v0.2 |
 | 1.6 | [Accuracy, Precision and Error](Part-1-Engineering-Mindset/06-Accuracy-Precision-and-Error.md) | 🟡 v0.1 |
 | 1.7 | [Tolerances and Fits](Part-1-Engineering-Mindset/07-Tolerances-and-Fits.md) | 🟡 v0.1 |
 | 1.8 | [Engineering Drawings](Part-1-Engineering-Mindset/08-Engineering-Drawings.md) | 🟡 v0.1 |
