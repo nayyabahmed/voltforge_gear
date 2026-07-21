@@ -2,10 +2,10 @@
 title: "Topic 1.9 - The Engineering Design Process"
 part: "Part 1 - Engineering Mindset"
 topic: "1.9"
-version: "0.1"
-status: "Draft"
+version: "0.2"
+status: "Reviewed"
 difficulty: Beginner
-estimated_time: "100-140 minutes"
+estimated_time: "140-180 minutes"
 prerequisites:
   - Topic 0.0 - How to Use This Handbook
   - Topic 1.1 - What Are We Building?
@@ -32,7 +32,7 @@ learning_objectives:
 
 ---
 
-# Learning Objectives
+# Learning Objectives 🎯
 
 By the end of this topic you will be able to:
 
@@ -104,9 +104,12 @@ A test may reveal that:
 - the measurement method was weak
 - the real problem was different
 
-Going backward is not failure.
+Going backward is not failure. It is part of the process.
 
-It is part of the process.
+> **📚 Learn more**
+>
+> - BBC Bitesize (KS3 Design and Technology): search "iterative design" -
+>   the design, make and evaluate loop, the same cycle shown above
 
 ---
 
@@ -165,6 +168,10 @@ without tools because the battery must be charged away from the buggy.
 ---
 
 # Problem vs Solution
+
+> **🤔 Think about it.** A friend says "we need a sliding tray with two
+> clips." It sounds helpful - but what have they quietly decided already,
+> before anyone has checked whether a tray is even the best answer?
 
 Compare:
 
@@ -257,23 +264,7 @@ using no tools.
 
 # Requirement Language
 
-In formal engineering, words such as these are useful:
-
-- **shall** - required
-- **should** - preferred
-- **may** - optional
-
-Example:
-
-```text
-The tray shall hold the battery during normal driving.
-The tray should allow access to the connector.
-The tray may include a removable foam pad.
-```
-
-For a beginner project, plain language is fine.
-
-The important thing is clarity.
+Formal engineers use three careful words: **shall** (required), **should** (preferred) and **may** (optional). For a beginner project, plain language is completely fine - the important thing is that each requirement is clear and testable.
 
 ---
 
@@ -475,9 +466,7 @@ This is called **concept generation**.
 
 # Divergent Thinking
 
-**Divergent thinking** means producing many possibilities.
-
-At this stage:
+First, open up and think wide: make as many different ideas as you can, without judging them yet. Grown-ups call this **divergent thinking**. At this stage:
 
 - do not judge too quickly
 - do not worry about perfect details
@@ -500,9 +489,7 @@ flowchart TD
 
 # Convergent Thinking
 
-**Convergent thinking** means narrowing many ideas into a smaller set.
-
-Now ask:
+Then do the opposite: narrow that big pile down to the few most promising ideas. Grown-ups call this **convergent thinking**. Now ask:
 
 - Which ideas meet the requirements?
 - Which violate hard constraints?
@@ -567,7 +554,12 @@ Questions:
 - Can it be removed with body installed?
 ```
 
-Concept cards make comparison easier.
+> **[Sketch: a filled-in concept card for the sliding battery tray - a quick
+> thumbnail drawing of the tray sliding into its rails at the top, with the
+> "how it works", "advantages", "risks" and "questions" notes written
+> underneath]**
+
+A good concept card always includes a quick thumbnail sketch, not just words. Concept cards make comparison easier.
 
 ---
 
@@ -621,26 +613,19 @@ The matrix helps expose trade-offs.
 
 # Weighted Decision Matrix
 
-Some criteria matter more than others.
+Some criteria matter more than others. If keeping the battery secure matters more than how easy the part is to print, give it a larger **weight**. You multiply each score by its weight, then add up the weighted scores.
 
-Suppose safety is more important than appearance.
+Here is the battery-holder comparison again, now weighted. The weight is in brackets, and each cell shows score → score × weight:
 
-Give it a larger weight.
+| Criterion (weight) | Strap | Sliding tray | Hinged lid |
+|---|---:|---:|---:|
+| Secure hold (×5) | 4 → 20 | 5 → 25 | 5 → 25 |
+| Easy to remove (×4) | 3 → 12 | 5 → 20 | 4 → 16 |
+| Dirt resistance (×2) | 5 → 10 | 2 → 4 | 4 → 8 |
+| Easy to print (×1) | 5 → 5 | 3 → 3 | 3 → 3 |
+| Weighted total | 47 | 52 | 52 |
 
-Example:
-
-```text
-Safety weight = 5
-Appearance weight = 1
-```
-
-Then multiply:
-
-```text
-Score x Weight
-```
-
-This better reflects project priorities.
+Notice the winner changed. In the unweighted matrix the strap won with 22. Once "secure hold" and "easy removal" are weighted as the things that matter most, the sliding tray and hinged lid pull ahead. Weighting makes your real priorities visible.
 
 ---
 
@@ -717,11 +702,14 @@ Examples:
 - user owns M3 hardware
 - servo horn will clear the chassis
 
-Write assumptions down.
+(How hot a motor gets, and how stiff a plastic like PETG stays, are material questions - materials are covered in Part 2.)
 
-Then test the important ones.
+Write assumptions down, then test the important ones. Hidden assumptions cause surprises.
 
-Hidden assumptions cause surprises.
+> **☕ Good place to pause.** That is the front half of the design process:
+> problem, users, requirements, constraints, ideas, comparison, risks and
+> assumptions - all before building. Stretch. The next half is where you
+> build, test and improve.
 
 ---
 
@@ -743,79 +731,19 @@ Different questions need different prototype types.
 
 ---
 
-# Paper Prototype
+# Types of Prototype
 
-Useful for:
+You rarely need the final material to learn something - often paper or cardboard answers the question faster and cheaper. Here are the common prototype types:
 
-- layout
-- packaging
-- size
-- access
-- assembly sequence
+| Prototype type | Good for | Example |
+|---|---|---|
+| Paper prototype | layout, packaging, size, access | a paper battery footprint placed on a card chassis |
+| Cardboard mock-up | component arrangement, clearance, wheelbase | a cardboard chassis to check where the servo sits |
+| Appearance prototype | shape, proportions, body style | a shaped block showing the look, with no working parts |
+| Fit prototype | bearing seat, screw hole, snap fit, hinge pin | a small test coupon (a printed sample that tests one fit - Topic 1.7) |
+| Functional prototype | steering, suspension travel, latch, crash behaviour | a working steering linkage made from temporary parts |
 
-Example:
-
-Cut a paper battery footprint and place it on a cardboard chassis.
-
-This quickly tests whether the layout is possible.
-
----
-
-# Cardboard Mock-Up
-
-Useful for:
-
-- component arrangement
-- body clearance
-- servo position
-- battery removal
-- wheelbase planning
-
-Cardboard is cheap and fast.
-
-It is often better than starting with CAD.
-
----
-
-# Appearance Prototype
-
-Useful for:
-
-- shape
-- proportions
-- visual design
-- body style
-
-It may not need working mechanics.
-
----
-
-# Fit Prototype
-
-Useful for:
-
-- bearing seat
-- screw hole
-- snap fit
-- hinge pin
-- battery clearance
-- servo pocket
-
-A small test coupon is a fit prototype.
-
----
-
-# Functional Prototype
-
-Useful for:
-
-- steering movement
-- suspension travel
-- drivetrain alignment
-- latch operation
-- crash behaviour
-
-A functional prototype may use temporary parts.
+Cardboard and paper are often better first steps than jumping straight to CAD.
 
 ---
 
@@ -825,11 +753,10 @@ A **proof of concept** checks whether an idea can work at all.
 
 Example:
 
-> Can a printed compliant hinge survive 100 openings?
+> Can a printed flexible (living) hinge - a thin strip of plastic that bends
+> instead of turning on a pin - survive 100 openings?
 
-The proof of concept may look nothing like the final part.
-
-Its only job is to test the principle.
+The proof of concept may look nothing like the final part. Its only job is to test the principle.
 
 ---
 
@@ -903,6 +830,11 @@ Change only the geometry.
 
 Otherwise, you may not know what caused the difference.
 
+> **📚 Learn more**
+>
+> - BBC Bitesize (KS3 Science): search "variables" - independent, dependent
+>   and control variables, the fair-test idea used all through school science
+
 ---
 
 # Control Variable
@@ -949,6 +881,8 @@ flowchart LR
     Independent["Change arm thickness"] --> Test
     Test --> Dependent["Measure failure load"]
 ```
+
+All three fit into one buggy sentence: *we change the suspension arm thickness (independent variable) and measure the failure load (dependent variable), while keeping the material, drop height and test rig the same (control variables)* - otherwise we would not know what actually caused the difference.
 
 ---
 
@@ -999,9 +933,12 @@ Examples:
 
 Use both.
 
-Numbers show amount.
+Numbers show amount. Descriptions show behaviour.
 
-Descriptions show behaviour.
+> **📚 Learn more**
+>
+> - BBC Bitesize (KS3 Science): search "collecting and recording data" -
+>   results tables, and the difference between numbers and descriptions
 
 ---
 
@@ -1118,7 +1055,7 @@ Bearing became loose.
 
 Possible root causes:
 
-- housing creep
+- housing creep (the plastic slowly giving way under a steady load - materials are covered in Part 2)
 - excessive heat
 - seat oversized
 - wall too thin
@@ -1135,23 +1072,13 @@ The **Five Whys** method repeatedly asks "why?"
 
 Example:
 
-```text
-Problem: Spur gear stripped.
-
-Why?
-Gear teeth were overloaded.
-
-Why?
-Gear mesh became too loose.
-
-Why?
-Motor mount moved.
-
-Why?
-Printed mount softened.
-
-Why?
-Material temperature resistance was too low.
+```mermaid
+flowchart TD
+    P["Spur gear stripped"] --> W1["Why? The gear teeth were overloaded"]
+    W1 --> W2["Why? The gear mesh became too loose"]
+    W2 --> W3["Why? The motor mount moved"]
+    W3 --> W4["Why? The printed mount softened"]
+    W4 --> W5["Why? The material's temperature resistance was too low"]
 ```
 
 The final answer may reveal a more useful redesign target.
@@ -1164,25 +1091,11 @@ Ask until the cause is actionable.
 
 # Step 14 - Improve One Thing at a Time
 
-Suppose a mount fails.
+> **🤔 Think about it.** Your mount keeps failing, so you change five things
+> at once - material, wall thickness, print orientation, fillet and screw
+> type. The new version survives. Which change actually fixed it?
 
-You change:
-
-- material
-- wall thickness
-- print orientation
-- fillet
-- screw type
-
-The next version survives.
-
-Which change solved the problem?
-
-You do not know.
-
-Change one major variable at a time when possible.
-
-This is controlled iteration.
+You cannot tell. Any one of the five might have solved it - or two of them together, while a third quietly made things worse and got masked. Change one major variable at a time when you can, so the result points at a single cause. This is **controlled iteration**.
 
 ---
 
@@ -1244,27 +1157,16 @@ Survived 20 drop tests without visible cracking.
 
 # Reversible and Irreversible Decisions
 
-A **reversible decision** is easy to change later.
+A **reversible decision** is easy to change later. An **irreversible decision** is expensive or difficult to undo.
 
-Examples:
+| Reversible (easy to change) | Irreversible (hard to undo) |
+|---|---|
+| electronics tray position | buying incompatible electronics |
+| screw length | choosing a printer too small |
+| body colour | machining a custom gearbox |
+| removable spacer | gluing a battery permanently |
 
-- electronics tray position
-- screw length
-- body colour
-- removable spacer
-
-An **irreversible decision** is expensive or difficult to change.
-
-Examples:
-
-- buying incompatible electronics
-- choosing a printer too small
-- machining a custom gearbox
-- gluing a battery permanently
-
-Make reversible decisions early.
-
-Delay irreversible decisions until evidence is stronger.
+Make reversible decisions early. Delay irreversible decisions until the evidence is stronger.
 
 ---
 
@@ -1395,6 +1297,10 @@ After first physical tests.
 
 Before calling Version 1.0 complete.
 
+> **☕ Good place to pause.** You have now seen the whole loop, from a vague
+> problem to a reviewed Version 1.0. Stretch - the rest of the topic shows
+> two worked examples, then hands you the process to run yourself.
+
 ---
 
 # The Engineering Notebook
@@ -1503,6 +1409,10 @@ Measure permanent bend after each test.
 
 This turns guessing into evidence.
 
+> **☕ Good place to pause.** That is the whole design process, twice over.
+> Stretch, grab paper and a pencil - the rest is hands-on, and it ends with a
+> phone stand you design, test and improve from start to finish.
+
 ---
 
 # Hands-On Activity 1 - Rewrite a Vague Problem
@@ -1598,6 +1508,48 @@ Then ask:
 
 ---
 
+# Topic Mini Project - The Cardboard Phone Stand 🛠️
+
+You have read the whole design process. Now run it, start to finish, on something small and real: a cardboard stand that holds a phone or tablet at a good angle for watching a video. It is the perfect size to practise defining, building, testing and improving.
+
+You will need:
+
+- corrugated cardboard (an old delivery box)
+- a ruler, a pencil and scissors
+- a phone or tablet to test with (ask permission first)
+- your engineering notebook
+
+> **⚠️ SAFETY**
+>
+> Show a responsible adult what you plan to build before you start, and
+> build with them nearby. Scissors are sharp - cut away from your fingers,
+> and ask an adult to help score or cut thick cardboard. Test with a cheap
+> or well-protected device, over a soft surface, in case the stand tips.
+
+> **🎬 Watch the build**
+>
+> - Instructables (instructables.com): search "cardboard phone stand" - a
+>   step-by-step photo build you can adapt
+> - YouTube (with an adult): search "DIY cardboard phone stand" - several
+>   folding designs to compare
+
+Run the whole process:
+
+1. **Define and set requirements.** Write a one-line problem ("I need to prop a phone at a comfortable angle to watch videos hands-free") and two or three measurable requirements - for example: holds the phone at about 60°, does not tip when tapped, folds flat to store.
+2. **Concepts.** Sketch three different stands (a folded V, an L-shape with a back leg, a slotted easel). Choose one with a quick decision matrix or a reasoned choice.
+3. **Build.** Make your chosen stand from cardboard.
+4. **Test.** Stand the phone in it. Does it hold your target angle? Give it a gentle tap - does it tip? Record what happens (a photo helps).
+
+The reflection is where the learning lands. In your notebook:
+
+- Did it pass your requirements? If it tipped, that is a failed test - and a useful one.
+- Change **one thing** to fix the biggest weakness (a wider base, a lower angle, a deeper lip), rebuild just that, and test again. Note which change helped.
+- Which was harder: deciding what "good" meant, or building it? For most engineers, defining the problem well is the hard part.
+
+Keep your final stand - and your first "failed" one - for the showcase shelf. Two versions with test notes tell the story of a real design process.
+
+---
+
 # Engineering Challenge - Design a Simple Bumper
 
 Use the full process.
@@ -1665,7 +1617,7 @@ The quality of the next question determines the quality of the next design.
 
 ---
 
-# Common Beginner Mistakes
+# Common Beginner Mistakes ❌
 
 ## Mistake 1 - Starting With CAD
 
@@ -1752,7 +1704,7 @@ Do not jump directly to a final redesign.
 
 ---
 
-# Optional Challenge - Requirements Traceability
+# Optional Challenge - Requirement Traceability
 
 Create a table linking requirements to tests.
 
@@ -1762,13 +1714,13 @@ Create a table linking requirements to tests.
 | BAT-REQ-02 | Battery remains secure | Shake and drive test |
 | BAT-REQ-03 | Connector not pinched | Visual inspection |
 
-This is called **requirements traceability**.
+This is called **requirement traceability**.
 
 It proves that every important requirement has a way to be checked.
 
 ---
 
-# Topic Summary
+# Topic Summary 📝
 
 In this topic, we learned that engineering is an iterative process.
 
@@ -1809,7 +1761,7 @@ It is learning in a controlled way.
 
 ---
 
-# New Words
+# New Words 📖
 
 | Word | Meaning |
 |---|---|
@@ -1848,11 +1800,11 @@ It is learning in a controlled way.
 | Scope creep | Uncontrolled growth of project goals. |
 | Definition of done | Testable conditions for completion. |
 | Design review | Structured check of a design before the next stage. |
-| Requirements traceability | Linking each requirement to a test or verification method. |
+| Requirement traceability | Linking each requirement to a test or verification method. |
 
 ---
 
-# Review Questions
+# Review Questions ❓
 
 1. Why is engineering a cycle rather than a straight line?
 2. What is a problem statement?
@@ -1897,7 +1849,7 @@ It is learning in a controlled way.
 
 ---
 
-# Topic Checklist
+# Topic Checklist ✅
 
 - [ ] I understand the engineering design cycle.
 - [ ] I can write a clear problem statement.
@@ -1925,11 +1877,11 @@ It is learning in a controlled way.
 
 ---
 
-# Looking Ahead
+# Looking Ahead 🔭
 
 We now have the core thinking tools needed to begin a real engineering project.
 
-In the next topic, we will combine everything from Part 1 in a first practical challenge.
+In the next topic - the **Part 1 Capstone, your First Engineering Challenge** - we will combine everything from Part 1 in one practical project.
 
 We will:
 

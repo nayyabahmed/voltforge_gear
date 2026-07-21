@@ -124,6 +124,12 @@ A component that supports a rotating shaft while reducing friction.
 
 ---
 
+### Benchmarking
+
+Comparing existing solutions to learn from them before designing your own.
+
+---
+
 ### Bending
 
 Loading that stretches one side of a part while squeezing the other side.
@@ -348,6 +354,12 @@ In measurement, it means repeating a reading until you get the expected number i
 ### Control Variable
 
 A factor kept the same during a fair test.
+
+---
+
+### Convergent Thinking
+
+Narrowing many ideas down to the few best ones, using evidence and criteria.
 
 ---
 
@@ -686,6 +698,12 @@ The relationship between two connected parts.
 ### Fit Library
 
 A record of tested dimensions and the real fits they produced.
+
+---
+
+### Five Whys
+
+A method of repeatedly asking "why?" to trace a problem back to its root cause.
 
 ---
 
