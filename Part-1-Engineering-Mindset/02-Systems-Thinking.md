@@ -385,7 +385,7 @@ When studying a system, always ask:
 >
 > - BBC Bitesize (KS3 Physics): search "energy stores and transfers" -
 >   how energy moves from store to store; most of the buggy's connections
->   are carrying energy from one place to another
+>   are carrying energy from one place to another. https://www.bbc.co.uk/bitesize/topics/zc3g87h/articles/zg2sn9q
 
 ---
 
