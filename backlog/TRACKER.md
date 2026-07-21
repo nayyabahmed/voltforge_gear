@@ -28,7 +28,7 @@ Last updated: 2026-07-22
 | 05 Measurement | ✅ | ✅ | ✅ | ✅ cardboard sliding caliper | ✅ | ✅ | ✅ done (2026-07-21) |
 | 06 Accuracy, Precision and Error | ✅ created 2026-07-21 | ✅ | ✅ | ✅ accuracy/precision target game | ✅ | ✅ (early bump now honest) | ✅ done (2026-07-21) |
 | 07 Tolerances and Fits | ✅ created 2026-07-22 | ✅ | ✅ | ✅ matchbox drawer | ✅ | ✅ | ✅ done (2026-07-22) |
-| 08 Engineering Drawings | 📋 to create | 📋 | 🔨 ~half applied (dd772e8) | 📋 drawing-exchange build | 📋 | ⚠️ bumped early | 🔨 in progress |
+| 08 Engineering Drawings | ✅ created 2026-07-22 | ✅ | ✅ | ✅ the blueprint challenge | ✅ | ✅ (early bump now honest) | ✅ done (2026-07-22) |
 | 09 The Engineering Design Process | 📋 to create | 📋 | 📋 | 📋 cardboard phone stand | 📋 | 📋 | 📋 planned |
 | Part 1 Capstone | 📋 to create | 📋 | 📋 | ➖ capstone IS the project | 📋 | 📋 | 📋 planned |
 | Glossary | 📋 to create | ➖ | 🔨 1 of 2 items done + Suspension added | ➖ | ➖ | ➖ | 🔨 in progress |
@@ -37,15 +37,15 @@ Last updated: 2026-07-22
 
 | Activity | Status |
 | --- | --- |
-| De-staccato story passages | 🔨 done for 00, 01, 02, 03, 04, 05, 06, 07; partial 08-09 |
-| Break markers / splits | 🔨 done for 01, 02, 03, 04 (incl. Part A/B), 05, 06, 07; rest planned |
-| First-use gloss sweep | 🔨 done for 00-07; partial 08 |
+| De-staccato story passages | 🔨 done for 00, 01, 02, 03, 04, 05, 06, 07, 08; partial 09 |
+| Break markers / splits | 🔨 done for 01, 02, 03, 04 (incl. Part A/B), 05, 06, 07, 08; rest planned |
+| First-use gloss sweep | 🔨 done for 00-08; 09 planned |
 | Terminology reconciliation (4 items) | 🔨 2 of 4 done (gearbox->drivetrain bridge in 03; "hinge pin" already two words throughout 04) |
-| Learn More boxes | 🔨 done for 01, 02, 03, 04, 05, 06, 07; partial 08 |
-| Weak mermaid replacement | 🔨 done for 02, 03, 04, 05, 06, 07; partial 08 |
-| Think-about-it prompts | 🔨 done for 01, 02, 03, 04, 05, 06, 07 |
-| Topic Mini Projects | 🔨 done for 01, 02, 03, 04, 05, 06, 07; candidates researched for all |
-| Emoji presentation passes | 🔨 done for 00, 01, 02, 03, 04, 05, 06, 07 |
+| Learn More boxes | 🔨 done for 01, 02, 03, 04, 05, 06, 07, 08; 09 planned |
+| Weak mermaid replacement | 🔨 done for 02, 03, 04, 05, 06, 07, 08; 09 planned |
+| Think-about-it prompts | 🔨 done for 01, 02, 03, 04, 05, 06, 07, 08 |
+| Topic Mini Projects | 🔨 done for 01, 02, 03, 04, 05, 06, 07, 08; candidates researched for all |
+| Emoji presentation passes | 🔨 done for 00, 01, 02, 03, 04, 05, 06, 07, 08 |
 | Refresh Ch 00 "How This Book Is Organised" to final template | 📋 after full sweep |
 
 ## Conventions and Infrastructure (all done)
@@ -63,16 +63,15 @@ Last updated: 2026-07-22
 
 ## Up Next (in order)
 
-1. 📋 Create remaining backlog files: chapters 08, 09, capstone,
-   glossary (04 completed 2026-07-14; 05 + 06 completed 2026-07-21; 07
+1. 📋 Create remaining backlog files: chapter 09, capstone, glossary
+   (04 completed 2026-07-14; 05 + 06 completed 2026-07-21; 07 + 08
    completed 2026-07-22, all on `review-chapter-5`).
-2. 🔨 Phase 1 - finish the early-bumped chapters: 02 ✅ done (2026-07-14,
-   on `review-chapter-2`); 06 ✅ done (2026-07-21, on `review-chapter-5`);
-   remaining: 08 (research pass first, per the loop).
+2. ✅ Phase 1 complete - all early-bumped chapters finished: 02 (2026-07-14,
+   `review-chapter-2`), 06 and 08 (2026-07-21/22, `review-chapter-5`).
 3. 🔨 Phase 2 - chapter 03 ✅ done (2026-07-14, on `review-chapter-3`);
    chapter 04 ✅ done (2026-07-14, out of order on `review-chapter-4` at
    user request); chapter 05 ✅ done (2026-07-21); chapter 07 ✅ done
-   (2026-07-22, on `review-chapter-5`); remaining: 09, capstone in order.
+   (2026-07-22, on `review-chapter-5`); remaining: 09, then capstone.
 4. 📋 Phase 3 - glossary + terminology sweep + gloss-number check.
 5. 📋 Phase 4 - Chapter 01 Learn More retro-check; refresh Ch 00
    template list; final book-wide ticks.

@@ -1481,6 +1481,12 @@ A load that tries to slide one part of material past another.
 
 ---
 
+### Side View
+
+A view of an object looking from one side, often showing thickness and step heights.
+
+---
+
 ### Significant Figures
 
 Digits that meaningfully describe a measurement.

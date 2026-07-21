@@ -5,7 +5,7 @@ topic: "1.8"
 version: "0.2"
 status: "Reviewed"
 difficulty: Beginner
-estimated_time: "100-130 minutes"
+estimated_time: "130-170 minutes"
 prerequisites:
   - Topic 0.0 - How to Use This Handbook
   - Topic 1.1 - What Are We Building?
@@ -30,7 +30,7 @@ learning_objectives:
 
 ---
 
-# Learning Objectives
+# Learning Objectives 🎯
 
 By the end of this topic you will be able to:
 
@@ -165,17 +165,12 @@ Use sketches first, then formalise the design.
 
 # Why One Picture Is Not Enough
 
-Look at a cup from the side.
+> **🤔 Think about it.** Picture a mug seen straight from the side - a
+> rectangle with a curved top. Now picture the same mug seen straight from
+> directly above. What shape is it now? How can one object be two different
+> shapes?
 
-It appears rectangular with a curved top.
-
-Look from above.
-
-It appears circular.
-
-Both views are correct.
-
-One view cannot show the whole shape.
+From the side the mug looks rectangular; from above it looks like a circle. Both views are correct - and neither one, on its own, shows the whole shape. That is exactly why one picture is not enough.
 
 The same is true for RC parts.
 
@@ -210,10 +205,10 @@ flowchart TD
 
 Each view shows two dimensions clearly.
 
-> **Learn more**
+> **📚 Learn more**
 >
-> - BBC Bitesize (KS3 Design and Technology) - search "isometric and
->   orthographic drawing" for worked examples of the views in this topic
+> - BBC Bitesize (KS3 Design and Technology): search "isometric and
+>   orthographic drawing" - worked examples of the views in this topic
 
 ---
 
@@ -349,6 +344,14 @@ Centre lines help show:
 
 They are useful for dimensioning hole spacing.
 
+Here are the three basic line types in one place:
+
+| Line type | How it looks | What it means |
+|---|---|---|
+| Visible line | solid | an edge you can see from this view |
+| Hidden line | dashed | an edge hidden behind the surface |
+| Centre line | long-short-long | the centre of a hole, shaft or line of symmetry |
+
 ---
 
 # Symmetry
@@ -375,11 +378,10 @@ A **section view** does the same thing for a part.
 
 It imagines the part cut by a plane so internal features become visible.
 
-```mermaid
-flowchart LR
-    Whole["Whole part"] --> Cut["Imaginary cut"]
-    Cut --> Section["Section view shows inside"]
-```
+> **[Sketch: a block shown three ways - the whole outside view, then the same
+> block with a cutting plane slicing through it, then the resulting section
+> view with the cut faces filled with diagonal hatching so the internal hole
+> becomes visible]**
 
 Section views are useful for:
 
@@ -389,7 +391,13 @@ Section views are useful for:
 - internal channels
 - wall thickness
 - snap fits
-- nut traps
+- nut traps (shaped pockets that hold a nut - Topic 1.7)
+
+> **📚 Learn more**
+>
+> - Onshape Learning Centre (learn.onshape.com): search "drawings" - a
+>   beginner walkthrough of turning a 3D model into a dimensioned drawing,
+>   including section views
 
 ---
 
@@ -486,6 +494,10 @@ A good drawing often includes:
 - orthographic views for precision
 - isometric view for understanding
 
+> **☕ Good place to pause.** That is the family of views - front, top, side,
+> section, detail, exploded and isometric. Stretch or get a drink. The next
+> part is about putting numbers on a drawing: dimensions, callouts and notes.
+
 ---
 
 # Dimensions
@@ -527,13 +539,16 @@ More dimensions can create contradictions.
 
 # Do Not Dimension the Same Feature Twice
 
-Suppose overall width is shown in both front and top views.
+> **🤔 Think about it.** You helpfully write the part's width - 50 mm - on
+> both the front view and the top view. Later you change it to 52 mm on the
+> front view and forget the top. Which one is right now, and how would the
+> person building it ever know?
 
-If one value is later changed and the other is not, the drawing conflicts.
+Suppose overall width is shown in both front and top views. If one value is later changed and the other is not, the drawing conflicts.
 
 A feature should normally have one controlling dimension.
 
-Reference dimensions may be shown differently and clearly marked.
+Reference dimensions may be shown differently and clearly marked - usually by putting the number in brackets, like `(50)`, to say "this is for information only, not the controlling dimension".
 
 ---
 
@@ -572,7 +587,7 @@ Examples:
 - front edge of bulkhead
 - motor mounting face
 
-This reduces tolerance stack-up.
+This reduces tolerance stack-up (small errors adding up across an assembly - Topic 1.7).
 
 ```mermaid
 flowchart LR
@@ -672,6 +687,13 @@ Example:
 C'BORE Ø6.0 × 3 DEEP
 ```
 
+Countersink and counterbore are easy to mix up:
+
+| Recess | Shape | Made for |
+|---|---|---|
+| Countersink | cone-shaped | angled (countersunk) screw heads, so the head sits flush |
+| Counterbore | flat-bottomed cylinder | socket-head cap screws, nuts, washers or a bearing shoulder |
+
 ---
 
 # Threads
@@ -689,7 +711,7 @@ For printed parts, also state the intended method:
 - printed thread
 - tapped after printing
 - self-tapping screw
-- heat-set insert
+- heat-set insert (a metal thread pushed into the plastic with a hot iron - Topic 1.7)
 
 The drawing should match the real manufacturing process.
 
@@ -844,6 +866,11 @@ Material affects:
 - print settings
 
 A drawing without material may be incomplete.
+
+> **☕ Good place to pause.** You now know the views, the dimensions, the
+> callouts and the notes that make up a drawing. Stretch - the rest is about
+> tying a drawing to a real part (revision, title block, design intent) and
+> then drawing one yourself.
 
 ---
 
@@ -1009,7 +1036,7 @@ A 3D printed part drawing should communicate:
 - fit intent
 - revision
 
-The STL alone is not enough for long-term project documentation.
+The STL (the 3D model file a printer reads - Part 2) alone is not enough for long-term project documentation.
 
 A drawing explains the design intent.
 
@@ -1152,6 +1179,11 @@ A clear drawing may include:
 
 - quick visual recognition
 
+> **☕ Good place to pause.** That is the whole language of drawings. Stretch,
+> grab paper, a pencil and a ruler - the rest of this topic is hands-on, and
+> it ends with a challenge where someone rebuilds a part from your drawing
+> alone.
+
 ---
 
 # Hands-On Activity 1 - Three Views of a Box
@@ -1237,6 +1269,49 @@ Save it for future drawings.
 
 ---
 
+# Topic Mini Project - The Blueprint Challenge 🛠️
+
+This topic's big idea is that a good drawing lets another person build your part without asking what you meant. The only way to know whether your drawing is that good is to test it - so build something, draw it, and have someone rebuild it from the drawing alone.
+
+You will need:
+
+- a small object you build yourself (5-10 pieces of a construction toy like
+  LEGO, or a simple folded-and-taped card shape)
+- paper, a pencil and a ruler
+- a partner (a friend, sibling or adult)
+- your engineering notebook
+
+> **⚠️ SAFETY**
+>
+> Show a responsible adult what you plan to build before you start, and
+> build with them nearby. If you cut or fold card, scissors are sharp - cut
+> away from your fingers and ask an adult for help with any tricky cuts.
+
+> **🎬 Watch the build**
+>
+> - TeachEngineering (teachengineering.org): search "seeing all sides
+>   orthographic drawing" - the classroom version of this build-and-draw
+>   exchange
+> - BBC Bitesize (KS3 Design and Technology): search "isometric and
+>   orthographic drawing" - a refresher on the views before you draw
+
+Build steps:
+
+1. Build your small object and keep it hidden from your partner.
+2. Draw it as an engineering drawing: front, top and side views, kept aligned, plus an isometric view for recognition.
+3. Add every dimension needed to rebuild it - overall sizes, and where each block or fold sits. Add a title block with the part name and units.
+4. Hand your partner **only the drawing** - not the object. Ask them to build a copy from the drawing alone, without asking you any questions.
+
+The reflection is where the learning lands. In your notebook:
+
+- Put the two objects side by side. Where do they differ? Every difference is a place your drawing was unclear.
+- Which was harder to get right: the shape, or where things were positioned? Positioning is usually where drawings fail - which is exactly why datums matter (Topic 1.7).
+- Fix the drawing so that a stranger could get it perfect, and note what you changed.
+
+Keep your drawing and both objects for the showcase shelf. A drawing that let someone rebuild your part, with no questions asked, is a real engineering achievement.
+
+---
+
 # Engineering Challenge - Draw a Servo Mount
 
 Create a simple engineering drawing for a servo mount.
@@ -1303,7 +1378,7 @@ Good communication is part of engineering.
 
 ---
 
-# Common Beginner Mistakes
+# Common Beginner Mistakes ❌
 
 ## Mistake 1 - Using Only an Isometric View
 
@@ -1424,7 +1499,7 @@ Do not crush printed part.
 
 ---
 
-# Topic Summary
+# Topic Summary 📝
 
 In this topic, we learned that engineering drawings are precise communication tools.
 
@@ -1457,7 +1532,7 @@ We also learned:
 
 ---
 
-# New Words
+# New Words 📖
 
 | Word | Meaning |
 |---|---|
@@ -1488,7 +1563,7 @@ We also learned:
 
 ---
 
-# Review Questions
+# Review Questions ❓
 
 1. What is the main purpose of an engineering drawing?
 2. How is a sketch different from an engineering drawing?
@@ -1523,7 +1598,7 @@ We also learned:
 
 ---
 
-# Topic Checklist
+# Topic Checklist ✅
 
 - [ ] I understand the purpose of an engineering drawing.
 - [ ] I know the difference between a sketch and a formal drawing.
@@ -1546,7 +1621,7 @@ We also learned:
 
 ---
 
-# Looking Ahead
+# Looking Ahead 🔭
 
 We can now communicate what a part should look like and how large it should be.
 
@@ -1554,7 +1629,7 @@ The next question is:
 
 > How do engineers move from a problem to a tested design?
 
-In the next topic, we will study the **engineering design process**.
+In the next topic, **Topic 1.9 - The Engineering Design Process**, we will study how engineers turn a problem into a tested design.
 
 We will learn:
 
