@@ -29,7 +29,7 @@ The full topic plan for VoltForge Gear — The Young Engineer's Handbook, with w
 | 1.7 | [Tolerances and Fits](Part-1-Engineering-Mindset/07-Tolerances-and-Fits.md) | 🔵 v0.2 |
 | 1.8 | [Engineering Drawings](Part-1-Engineering-Mindset/08-Engineering-Drawings.md) | 🔵 v0.2 |
 | 1.9 | [The Engineering Design Process](Part-1-Engineering-Mindset/09-The-Engineering-Design-Process.md) | 🔵 v0.2 |
-| — | [Part 1 Capstone: First Engineering Challenge](Part-1-Engineering-Mindset/Part-1-Capstone-First-Engineering-Challenge.md) | 🟡 v0.1 |
+| — | [Part 1 Capstone: First Engineering Challenge](Part-1-Engineering-Mindset/Part-1-Capstone-First-Engineering-Challenge.md) | 🔵 v0.2 |
 | — | Part 1 Review Quiz | 📋 |
 
 ## Part 2 — Workshop Skills

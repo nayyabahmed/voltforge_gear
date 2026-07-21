@@ -26,8 +26,10 @@ Legend: [T] textual, [C] context awareness, [V] visual aid, [E] external referen
     Ch03 ("the gearbox from Chapter 2 is part of what engineers call the
     drivetrain"); registry says "drivetrain" for the whole system.
     APPLIED 2026-07-14 in Ch03 "A Common Mistake".
-  - [ ] "requirement traceability" (Ch10/glossary) vs "requirements
-    traceability" (Ch09) - standardise on the singular form.
+  - [x] "requirement traceability" (Ch10/glossary) vs "requirements
+    traceability" (Ch09) - standardise on the singular form. APPLIED
+    2026-07-22: Ch09 fixed to singular; capstone and glossary already
+    singular.
   - [x] "Hinge pin" vs "hinge-pin" (Ch04) - standardise as "hinge pin"
     (two words, per the terminology registry). APPLIED 2026-07-14 in the
     Ch04 pass (one hyphenated instance fixed).
