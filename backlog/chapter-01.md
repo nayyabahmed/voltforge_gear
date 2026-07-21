@@ -79,9 +79,11 @@ Two inline comments from the user, applied after the v0.2 sweep:
 The chapter was swept before the research pass was added to PLAN.md, so
 retro-verification is still owed:
 
-- [ ] Verify the two Learn More search terms surface the intended pages
-  (BBC Bitesize KS2 D&T "mechanical systems"; Explain That Stuff "tools
-  and machines"). Both sources are on the approved list; the specific
-  search terms have not been web-checked yet.
+- [x] Verify the two Learn More search terms surface the intended pages.
+  DONE 2026-07-22: BBC Bitesize KS2 D&T "mechanical systems" confirmed as
+  the curriculum topic (wheels/axles, levers, gears/pulleys, linkages) -
+  kept. Explain That Stuff had no "tools and machines" page; its real
+  category is "Tools, instruments, and measurement" (verified by fetching
+  the site) - the box was updated to browse that section instead.
 - No technical facts, temperatures or safety claims appear in this chapter,
   so nothing else needs verifying.

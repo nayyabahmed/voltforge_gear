@@ -342,8 +342,9 @@ built from systems.
 > - BBC Bitesize (KS2 Design and Technology): search "mechanical systems" -
 >   levers, gears and pulleys: everyday machines broken into simple parts
 >   that each do one job
-> - Explain That Stuff: search "tools and machines" - friendly explanations
->   of how familiar machines work inside
+> - Explain That Stuff (explainthatstuff.com): browse the "Tools, instruments
+>   and measurement" section - friendly explanations of how everyday machines
+>   and tools work inside
 
 ---
 

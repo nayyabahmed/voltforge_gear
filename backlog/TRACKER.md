@@ -40,13 +40,13 @@ Last updated: 2026-07-22
 | De-staccato story passages | ✅ done for all Part 1 (00-09 + capstone) |
 | Break markers / splits | ✅ done for all Part 1 (01-09 incl. Ch04 Part A/B, + capstone; Ch00 n/a) |
 | First-use gloss sweep | ✅ done for all Part 1 (00-09 + capstone) |
-| Terminology reconciliation (4 items) | 🔨 3 of 4 done (gearbox->drivetrain in 03; "hinge pin" in 04; "requirement traceability" singular in 09/capstone); remaining: Ch05 uncertainty <-> Ch06 error link |
-| Learn More boxes | 🔨 done for 01-09 + capstone; remaining: Ch01 two search-term retro-check (Phase 4) |
+| Terminology reconciliation (4 items) | ✅ 4 of 4 done (gearbox->drivetrain in 03; "hinge pin" in 04; "requirement traceability" singular in 09/capstone; Ch05 uncertainty <-> Ch06 error link added in 06) |
+| Learn More boxes | ✅ done for all Part 1 (01-09 + capstone; Ch01 search terms web-verified 2026-07-22) |
 | Weak mermaid replacement | ✅ done for all Part 1 (02-09 + capstone; 00/01 had none) |
 | Think-about-it prompts | ✅ done for all Part 1 (01-09 + capstone; Ch00 n/a) |
 | Topic Mini Projects | ✅ done for all teaching topics 01-09; capstone IS a project |
 | Emoji presentation passes | ✅ done for all Part 1 (00-09 + capstone) |
-| Refresh Ch 00 "How This Book Is Organised" to final template | 📋 after full sweep |
+| Refresh Ch 00 "How This Book Is Organised" to final template | ✅ done 2026-07-22 (added Mini Project + Common Beginner Mistakes to the list; added a Showcase Shelf section) |
 
 ## Conventions and Infrastructure (all done)
 
@@ -70,9 +70,17 @@ Last updated: 2026-07-22
    `review-chapter-2`), 06 and 08 (2026-07-21/22, `review-chapter-5`).
 3. ✅ Phase 2 complete - all Part 1 teaching topics + capstone done: 03, 04
    (2026-07-14), 05 (2026-07-21), 07, 09, capstone (2026-07-22).
-4. 📋 Phase 3 - final glossary review + the one remaining terminology link
-   (Ch05 "measurement uncertainty" <-> Ch06 error/range vocabulary) +
-   whole-Part-1 gloss-number check against SUMMARY.
-5. 📋 Phase 4 - Chapter 01 Learn More retro-check (two search terms); refresh
-   Ch 00
+4. ✅ Phase 3 complete (2026-07-22) - Ch05<->Ch06 uncertainty link added in
+   Ch06; glossary reviewed (all New Words present, first/third-angle entry
+   and singular "requirement traceability" confirmed); whole-Part-1
+   gloss-number check passed against SUMMARY (ESC 3.6, receiver 3.4, servo
+   3.5, all 1.x/3.x pointers correct; no stale "Chapter N" refs).
+5. ✅ Phase 4 complete (2026-07-22) - Ch01 Learn More terms web-verified
+   (Bitesize "mechanical systems" kept; Explain That Stuff box corrected to
+   its real "Tools, instruments and measurement" section); Ch00 "How This
+   Book Is Organised" refreshed to the final template + Showcase Shelf added.
+
+**PART 1 REVIEW COMPLETE.** Every Part 1 topic (0.0, 1.1-1.9, capstone) is
+at v0.2 "Reviewed" and all book-wide sweeps are done. All work sits on
+`review-chapter-5` and is not yet merged to main.
    template list; final book-wide ticks.

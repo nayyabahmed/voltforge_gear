@@ -276,18 +276,20 @@ Now we begin thinking like designers.
 
 Each topic follows the same pattern.
 
-1. **Learning Objectives** - what you will be able to do.
-2. **Before We Begin** - a short story to set the scene.
-3. **Simple Explanations** - the ideas, one small step at a time.
-4. **Hands-On Activities** - experiments you can try yourself.
-5. **Engineering Challenge** - a bigger task to test your new skills.
-6. **Topic Summary** - the key ideas in one place.
-7. **New Words** - the vocabulary you have learned.
-8. **Review Questions** - check your understanding.
-9. **Topic Checklist** - tick off what you completed.
-10. **Looking Ahead** - a preview of the next topic.
+1. **Learning Objectives** - what you will be able to do by the end.
+2. **Before We Begin** - a short story or hands-on hook to set the scene.
+3. **The main sections** - the ideas, one small step at a time, with sketches, "Learn more" boxes and "Think about it" moments along the way.
+4. **Hands-On Activities** - experiments you can try yourself; there is always one that needs no special equipment.
+5. **Topic Mini Project** - a small build from household odds and ends that you get to keep.
+6. **Engineering Challenge** - a bigger task that puts your new skills together.
+7. **Common Beginner Mistakes** - the traps to look out for.
+8. **Topic Summary** - the key ideas in one place.
+9. **New Words** - the vocabulary you have learned.
+10. **Review Questions** - check your understanding.
+11. **Topic Checklist** - tick off what you completed.
+12. **Looking Ahead** - a preview of the next topic.
 
-This means every topic builds naturally on the previous one.
+This means every topic builds naturally on the previous one. Not every topic has every section - the front-matter and capstone are a little different - but this is the shape to expect.
 
 ---
 
@@ -319,6 +321,14 @@ For every experiment record:
 - What you will try next
 
 Professional engineers do exactly this.
+
+---
+
+# Your Showcase Shelf 🏆
+
+Many topics end with a small build - a paper bridge, a cardboard caliper, a sliding drawer. Keep them. Set aside a shelf, a box or a corner of a desk as your **showcase shelf**: the place your finished builds live.
+
+It is your trophy cabinet. By the end of the handbook it tells the story of everything you made and learned - including the best "failures", which are often the ones that taught you the most.
 
 ---
 

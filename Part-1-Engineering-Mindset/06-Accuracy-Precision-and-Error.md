@@ -213,6 +213,8 @@ In measurement, **error** means:
 
 Error does not always mean someone made a careless mistake - some error is unavoidable in every real measurement. The goal is to reduce it, understand it, and report it honestly.
 
+In Topic 1.5 we called the leftover doubt in any reading its **measurement uncertainty**. This topic gives that doubt names - random and systematic error - and ways to describe it, like range and repeatability.
+
 ---
 
 # Two Main Types of Error

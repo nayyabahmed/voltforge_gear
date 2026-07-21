@@ -1842,7 +1842,7 @@ It is learning in a controlled way.
 34. What is scope creep?
 35. What is a definition of done?
 36. What is a design review?
-37. What is requirements traceability?
+37. What is requirement traceability?
 38. Why can a failed test be useful?
 39. Why should reversible decisions be made early?
 40. Why should CAD not always be the first design activity?

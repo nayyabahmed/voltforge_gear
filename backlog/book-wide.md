@@ -33,8 +33,10 @@ Legend: [T] textual, [C] context awareness, [V] visual aid, [E] external referen
   - [x] "Hinge pin" vs "hinge-pin" (Ch04) - standardise as "hinge pin"
     (two words, per the terminology registry). APPLIED 2026-07-14 in the
     Ch04 pass (one hyphenated instance fixed).
-  - [ ] Ch05 "measurement uncertainty" vs Ch06 "error/range/repeatability" -
-    add one sentence in Ch06 linking the two vocabularies.
+  - [x] Ch05 "measurement uncertainty" vs Ch06 "error/range/repeatability" -
+    add one sentence in Ch06 linking the two vocabularies. APPLIED
+    2026-07-22 in Ch06 "Error" section ("In Topic 1.5 we called the leftover
+    doubt ... measurement uncertainty; this topic gives it names ...").
 - [ ] [E] **"Learn More" box pattern.** 2-3 links max, next to the relevant
   section, approved sources only (STYLE-GUIDE section 8). Placements listed
   per chapter. Plan the electricity/magnetism links now for Part 3.
