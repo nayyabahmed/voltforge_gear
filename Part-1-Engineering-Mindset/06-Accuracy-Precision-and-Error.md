@@ -5,7 +5,7 @@ topic: "1.6"
 version: "0.2"
 status: "Reviewed"
 difficulty: Beginner
-estimated_time: "90-120 minutes"
+estimated_time: "120-150 minutes"
 prerequisites:
   - Topic 0.0 - How to Use This Handbook
   - Topic 1.1 - What Are We Building?
@@ -28,7 +28,7 @@ learning_objectives:
 
 ---
 
-# Learning Objectives
+# Learning Objectives 🎯
 
 By the end of this topic you will be able to:
 
@@ -82,9 +82,7 @@ A reading of:
 
 is not accurate.
 
-The difficulty is that we do not always know the true value exactly.
-
-That is why engineers use standards, calibration tools and repeated checks.
+The difficulty is that we do not always know the true value exactly, which is why engineers lean on standards, calibration tools and repeated checks.
 
 ---
 
@@ -104,20 +102,18 @@ Suppose you measure the same shaft five times.
 5.52 mm
 ```
 
-These readings are very close together.
-
-They are precise.
-
-But if the shaft is truly 5.00 mm, they are not accurate.
+These readings are very close together, so they are precise. But if the shaft is truly 5.00 mm, they are not accurate.
 
 This gives us an important lesson:
 
 > Precision does not guarantee accuracy.
 
-> **Learn more**
+> **📚 Learn more**
 >
-> - BBC Bitesize (KS3 Science): search "accuracy and precision" - the same dartboard idea, with practice questions
-> - BBC Bitesize (KS3 Science): search "errors in measurement"
+> - BBC Bitesize (KS3 Science): search "accuracy and precision" - the same
+>   dartboard idea, with practice questions
+> - BBC Bitesize (KS3 Science): search "errors in measurement" - random and
+>   systematic error explained
 
 ---
 
@@ -125,9 +121,7 @@ This gives us an important lesson:
 
 A good measurement process aims for both: close to the true value, and repeatable.
 
-But different jobs need different levels.
-
-Measuring a body shell may not require the same accuracy as measuring a bearing seat.
+But different jobs need different levels: measuring a body shell may not require the same accuracy as measuring a bearing seat.
 
 ---
 
@@ -204,6 +198,10 @@ But the tool may have:
 The display is precise in appearance.
 
 That does not prove the result is accurate.
+
+> **☕ Good place to pause.** You have met accuracy and precision and seen why
+> a confident display can still lie. Stretch or get a drink - the next part
+> looks at the two kinds of error hiding behind those numbers.
 
 ---
 
@@ -293,9 +291,7 @@ Readings:
 
 The results are repeatable but consistently too large.
 
-Repeating the measurement does not remove systematic error.
-
-You must find and correct the cause.
+Repeating the measurement does not remove systematic error - you must find and correct the cause.
 
 ---
 
@@ -306,9 +302,12 @@ You must find and correct the cause.
 | Random error | Readings scatter | Hand pressure changes | Repeat and average |
 | Systematic error | Readings shift together | Tool not zeroed | Correct the method or tool |
 
-This distinction is extremely important.
+> **🤔 Think about it.** Suppose your calipers are stuck reading 0.5 mm too
+> big. You measure a shaft ten times and average the results to be extra
+> careful. Will the average land closer to the true size than a single
+> reading - or exactly as wrong?
 
-Averaging many wrong measurements does not make them right.
+This distinction is extremely important. Averaging ten shifted readings only gives you a shifted average: it smooths out random scatter, but it cannot rescue a systematic error. Averaging many wrong-in-the-same-way measurements does not make them right - you have to find and fix the cause.
 
 > **[Sketch: two dot-strips above a number line marked with the true value -
 > "random error" dots scattered evenly around the true value, "systematic
@@ -317,6 +316,10 @@ Averaging many wrong measurements does not make them right.
 ---
 
 # Zero Error
+
+> **🤔 Think about it.** Close a pair of digital calipers with nothing
+> between the jaws. If the display shows 0.18 mm instead of 0.00, what will
+> happen to every measurement you take next - and by how much?
 
 Close digital calipers gently.
 
@@ -335,6 +338,10 @@ Suppose they read:
 That is a **zero error**.
 
 Every reading may be shifted by about 0.18 mm.
+
+> **[Sketch: a closed digital caliper, jaws touching, its display reading
+> 0.18 mm instead of 0.00 - an arrow noting "this 0.18 mm is added to every
+> measurement until you re-zero"]**
 
 The solution may be:
 
@@ -500,7 +507,7 @@ Never confuse display resolution with guaranteed accuracy.
 
 # Significant Figures
 
-**Significant figures** are digits that meaningfully describe a measurement.
+**Significant figures** are the digits that meaningfully describe a measurement. They are not the same as decimal places: significant figures count the meaningful digits in the whole number, while decimal places only count the digits after the point.
 
 Suppose a ruler can reasonably measure to the nearest millimetre.
 
@@ -621,6 +628,13 @@ Do not round early during a calculation if the extra detail may matter.
 
 Round the final result.
 
+> **📚 Learn more**
+>
+> - BBC Bitesize (KS3 Maths): search "rounding" - rounding to whole numbers
+>   and decimal places, with the 0-4 down / 5-9 up rule
+> - BBC Bitesize (KS3 Maths): search "mean, median, mode and range" - the
+>   averages you use to summarise a set of repeated readings
+
 ---
 
 # Averaging Measurements
@@ -684,6 +698,10 @@ Example:
 10.01
 ```
 
+> **[Sketch: a dot-strip number line around 10 mm - four dots clustered
+> tightly near 10.01 mm and one lone dot far out at 11.26 mm, circled and
+> labelled "outlier - investigate, do not just delete"]**
+
 The 11.26 mm reading is suspicious.
 
 Possible causes:
@@ -697,6 +715,10 @@ Possible causes:
 Do not delete an outlier just because you dislike it.
 
 Investigate it.
+
+> **☕ Good place to pause.** That is the toolkit for judging a measurement:
+> error, calibration, spread, outliers. Stretch, then the rest of the topic
+> turns those ideas into a repeatable process and connects them to the buggy.
 
 ---
 
@@ -723,7 +745,7 @@ A procedure turns measurement into a repeatable process.
 
 # Measurement Traceability
 
-**Traceability** means being able to follow a measurement back to:
+Good measuring leaves a paper trail: enough notes that you - or somebody else - can retrace exactly how a number was reached. Engineers call this **traceability**: being able to follow a measurement back to:
 
 - the tool
 - the method
@@ -785,13 +807,16 @@ Validation asks:
 
 > Did we build the right thing for real use?
 
-```mermaid
-flowchart LR
-    Verification["Verification<br/>meets specification"]
-    Validation["Validation<br/>works for real purpose"]
-```
+| Question | What it checks | Buggy example |
+|---|---|---|
+| Verification - did we build it as specified? | The part matches the drawing | The bearing hole measures 11 mm, as drawn |
+| Validation - did we build the right thing? | The design works in real use | The housing survives driving without cracking |
 
 Both matter.
+
+> **☕ Good place to pause.** Almost there. The last stretch is about spending
+> your measuring effort wisely - and it ends with a target game you build and
+> keep. Gather some paper and a handful of coins or counters.
 
 ---
 
@@ -873,7 +898,7 @@ Small errors can add together.
 
 This is called **error stacking** or **tolerance stack-up**.
 
-We will study tolerances fully in the next topic.
+We will study tolerances fully in Topic 1.7 - Tolerances and Fits.
 
 ---
 
@@ -1058,6 +1083,55 @@ This tests reproducibility.
 
 ---
 
+# Topic Mini Project - Accuracy vs Precision Target Game 🛠️
+
+The four-dartboard picture from the start of this topic becomes real when you throw at a target yourself. In this build you make a target, toss counters at it three different ways, then *measure* how your throws landed - turning accuracy, precision and systematic error into something you can see and record.
+
+You will need:
+
+- a sheet of paper or card for the target
+- a pen and a ruler
+- five small counters (coins, buttons or bottle tops)
+- your engineering notebook
+
+> **⚠️ SAFETY**
+>
+> Show a responsible adult what you plan to build before you start, and
+> build with them nearby. Toss the counters gently, low over a table -
+> never at anyone - and keep small counters away from young children and
+> pets, as they are a choking hazard.
+
+> **🎬 Watch the build**
+>
+> - Carolina Knowledge Center (knowledge.carolina.com): search "accuracy
+>   versus precision beanbag toss" - the classroom activity this build is
+>   based on, with the measuring and maths spelled out
+> - YouTube (with an adult): search "accuracy vs precision bean bag toss" -
+>   watch a target round measured and classified
+
+Build steps:
+
+1. Draw a target: a small bullseye dot with two or three rings around it. Mark the exact centre.
+2. From a fixed spot (say one big step back), toss all five counters at the bullseye, one at a time. Do not move them.
+3. Trace where each counter landed by marking a dot on the target, then clear them and label this round "Round 1 - careful".
+4. Repeat twice more: "Round 2 - rushed" (throw quickly), and "Round 3 - off-balance" (stand on one foot, or throw with your other hand).
+
+Now measure, like an engineer:
+
+1. For each round, use the ruler to measure how far each dot is from the centre. Record all five distances.
+2. Work out the **average** distance (accuracy - how close to the centre) and the **range** of the dots' spread (precision - how tightly grouped).
+3. Classify each round against the four dartboards: accurate and precise, precise but not accurate, accurate on average but not precise, or neither.
+
+The reflection is where the learning lands. In your notebook:
+
+- Which round was *precise but not accurate* - tight, but not on the centre? That tight-but-wrong pattern is exactly what a badly calibrated tool does.
+- Did any round always miss the same way - always short, or always to the left? A consistent miss like that is a **systematic error**, the throwing version of a zero error, and averaging more throws would not fix it.
+- Which single number told you more about a round: the average, or the range?
+
+Keep your marked-up target and its results table for the showcase shelf. It is the four-dartboard diagram, made real and measured.
+
+---
+
 # Engineering Challenge - Build a Measurement Confidence Sheet
 
 Choose one critical component dimension.
@@ -1125,6 +1199,8 @@ An engineer asks:
 - Are the holes being measured correctly?
 - Is the same systematic error appearing in every print?
 
+(Slicer, extrusion and other printing terms are explained in Part 2 - do not worry if they are new here.)
+
 A repeated pattern often points to a systematic cause.
 
 ---
@@ -1139,7 +1215,7 @@ Possible causes include:
 - changing temperature
 - inconsistent part cooling
 - different print orientation
-- elephant's foot
+- elephant's foot (a printed part's slightly squashed, wider bottom layer - Topic 1.7)
 - debris
 - warped print bed
 - measurement pressure
@@ -1151,7 +1227,7 @@ Measure each factor and look for patterns.
 
 ---
 
-# Common Beginner Mistakes
+# Common Beginner Mistakes ❌
 
 ## Mistake 1 - Treating Precision as Accuracy
 
@@ -1226,7 +1302,7 @@ Measure the same object with two different tools.
 Examples:
 
 - two digital calipers
-- caliper and micrometer
+- caliper and micrometer (a finer, more advanced measuring tool - optional)
 - two rulers
 - caliper and known gauge
 
@@ -1266,7 +1342,7 @@ This activity connects accuracy to function.
 
 ---
 
-# Topic Summary
+# Topic Summary 📝
 
 In this topic, we learned that accuracy and precision are different.
 
@@ -1292,7 +1368,7 @@ A trustworthy number comes from a trustworthy process.
 
 ---
 
-# New Words
+# New Words 📖
 
 | Word | Meaning |
 |---|---|
@@ -1320,7 +1396,7 @@ A trustworthy number comes from a trustworthy process.
 
 ---
 
-# Review Questions
+# Review Questions ❓
 
 1. What is accuracy?
 2. What is precision?
@@ -1350,7 +1426,7 @@ A trustworthy number comes from a trustworthy process.
 
 ---
 
-# Topic Checklist
+# Topic Checklist ✅
 
 - [ ] I can explain accuracy in my own words.
 - [ ] I can explain precision in my own words.
@@ -1371,7 +1447,7 @@ A trustworthy number comes from a trustworthy process.
 
 ---
 
-# Looking Ahead
+# Looking Ahead 🔭
 
 We now know how to measure and how to judge the quality of a measurement.
 
@@ -1379,7 +1455,7 @@ The next question is:
 
 > How much difference can two connected parts allow?
 
-In the next topic, we will study **tolerances and fits**.
+In the next topic, **Topic 1.7 - Tolerances and Fits**, we will study how much a size is allowed to vary.
 
 We will learn:
 

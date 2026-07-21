@@ -396,6 +396,14 @@ A chosen reference point, line, or surface used for measurement or dimensioning.
 
 ---
 
+### Decimal Place
+
+A digit position to the right of a decimal point.
+
+More decimal places do not automatically mean a more trustworthy measurement.
+
+---
+
 ### Decision Matrix
 
 A table used to compare design concepts against selected criteria.
@@ -618,6 +626,14 @@ The motor mechanism in a 3D printer that grips the filament and pushes it into t
 ---
 
 ## F
+
+### False Precision
+
+Reporting more detail than the measurement can justify.
+
+False precision can make weak data look more scientific than it really is.
+
+---
 
 ### Fatigue
 
@@ -1304,6 +1320,12 @@ A trusted known dimension used to help interpret other dimensions.
 ### Repeatability
 
 Getting similar results when the same person measures the same thing with the same method and tool.
+
+---
+
+### Reproducibility
+
+Getting similar results when something important changes, such as the person, tool or location.
 
 ---
 
