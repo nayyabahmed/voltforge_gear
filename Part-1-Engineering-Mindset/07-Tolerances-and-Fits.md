@@ -2,10 +2,10 @@
 title: "Topic 1.7 - Tolerances and Fits"
 part: "Part 1 - Engineering Mindset"
 topic: "1.7"
-version: "0.1"
-status: "Draft"
+version: "0.2"
+status: "Reviewed"
 difficulty: Beginner
-estimated_time: "100-130 minutes"
+estimated_time: "130-170 minutes"
 prerequisites:
   - Topic 0.0 - How to Use This Handbook
   - Topic 1.1 - What Are We Building?
@@ -29,7 +29,7 @@ learning_objectives:
 
 ---
 
-# Learning Objectives
+# Learning Objectives 🎯
 
 By the end of this topic you will be able to:
 
@@ -45,9 +45,7 @@ By the end of this topic you will be able to:
 
 # Before We Begin
 
-Imagine building a wooden box with a lid.
-
-If the lid is exactly the same size as the opening, what happens?
+Imagine building a wooden box with a lid. If the lid is made exactly the same size as the opening, what happens?
 
 It may:
 
@@ -56,18 +54,12 @@ It may:
 - refuse to enter
 - fit only when pushed hard
 
-Now make the lid slightly smaller.
-
-It can slide into place.
-
-But if it is too small, it rattles.
-
-The useful fit exists between two bad extremes:
+Now make the lid slightly smaller and it can slide into place - but if it is too small, it rattles. The useful fit lives between two bad extremes:
 
 - too tight
 - too loose
 
-This topic is about designing that useful middle.
+This whole topic is about designing that useful middle. It matters for every part of the buggy that slides, spins or clips into another - a wheel on an axle, a bearing in its housing, a battery in its tray.
 
 ---
 
@@ -101,9 +93,7 @@ Variation comes from:
 - surface roughness
 - material batch differences
 
-Engineering accepts this.
-
-Instead of demanding impossible perfection, engineers define acceptable limits.
+Engineering accepts this. Instead of demanding impossible perfection, engineers define acceptable limits - a band of sizes that will still work.
 
 ---
 
@@ -131,13 +121,16 @@ or as large as:
 10.10 mm
 ```
 
-```mermaid
-flowchart LR
-    Min["9.90 mm"] --> Nominal["10.00 mm nominal"]
-    Nominal --> Max["10.10 mm"]
-```
+> **[Sketch: a number line from 9.90 to 10.10 mm with 10.00 mm nominal
+> marked in the middle and the whole band between 9.90 and 10.10 shaded as
+> the "acceptable zone" - anything outside the shaded band is rejected]**
 
 Any value inside that range is acceptable.
+
+> **📚 Learn more**
+>
+> - BBC Bitesize (KS3 Design & Technology): search "tolerance" - why makers
+>   allow a range of sizes instead of one exact number
 
 ---
 
@@ -193,7 +186,7 @@ Lower limit:
 
 # Bilateral Tolerance
 
-A **bilateral tolerance** allows variation in both directions.
+A tolerance can be two-sided or one-sided. A two-sided, or **bilateral tolerance**, allows the size to vary in both directions - larger or smaller than nominal.
 
 Example:
 
@@ -207,7 +200,7 @@ The size may be larger or smaller than nominal.
 
 # Unilateral Tolerance
 
-A **unilateral tolerance** allows variation mainly in one direction.
+A one-sided, or **unilateral tolerance**, allows variation mainly in one direction.
 
 Example:
 
@@ -222,7 +215,7 @@ Minimum = 10.0 mm
 Maximum = 10.2 mm
 ```
 
-Unilateral tolerances are useful when one side of the nominal size must not be crossed.
+Unilateral tolerances are useful when one side of the nominal size must not be crossed. (The formal words *bilateral* and *unilateral* are worth knowing, but "two-sided" and "one-sided" are all you really need to remember.)
 
 ---
 
@@ -325,13 +318,12 @@ The three useful categories are:
 2. Transition fit
 3. Interference fit
 
-```mermaid
-flowchart TD
-    Fits["Common fits"]
-    Fits --> Clearance["Clearance fit"]
-    Fits --> Transition["Transition fit"]
-    Fits --> Interference["Interference fit"]
-```
+> **[Sketch: three shaft-in-hole cross-sections side by side. CLEARANCE -
+> hole clearly bigger than the shaft, a gap all around, labelled
+> "slides / spins". TRANSITION - hole and shaft almost the same size, barely
+> a gap, labelled "light push". INTERFERENCE - shaft bigger than the hole,
+> the material squeezed around it, labelled "pressed in, grips". This is the
+> signature image of the topic.]**
 
 ---
 
@@ -353,12 +345,6 @@ Examples:
 - body post through a body hole
 - battery sliding into a tray
 - hinge pin through a suspension arm
-
-```text
-Hole:   (     )
-Shaft:    | |
-Space remains between them
-```
 
 Too much clearance causes:
 
@@ -412,10 +398,6 @@ Examples:
 - metal pin pressed into plastic
 - printed plug held by friction
 - tightly fitted wheel insert
-
-```text
-Opening smaller than inserted part
-```
 
 Interference fits can hold parts without screws.
 
@@ -473,11 +455,19 @@ May require pressing and may crack the housing.
 
 The CAD value alone does not guarantee the printed result.
 
+> **☕ Good place to pause.** That is the language of fits: tolerance, clearance
+> and the three fit types. Stretch or get a drink. The next part looks at why a
+> 3D printer rarely gives you the exact size you drew.
+
 ---
 
 # Why Printed Holes Often Come Out Small
 
-3D printed holes may print smaller than their CAD size because of:
+> **🤔 Think about it.** You draw a hole exactly 5.00 mm wide for a 5.00 mm
+> pin and send it to a 3D printer. Before the part comes off the bed - will
+> the pin slide straight in, be a perfect fit, or not go in at all?
+
+3D printed holes usually print a little smaller than their CAD size, because of:
 
 - extrusion width
 - curved tool paths
@@ -488,6 +478,14 @@ The CAD value alone does not guarantee the printed result.
 - slicer behaviour
 - printer calibration
 - cooling
+
+(Do not worry if words like extrusion, over-extrusion or slicer are new - Part 2 explains how a 3D printer actually works. Here they are just reasons a hole can shrink.)
+
+> **📚 Learn more**
+>
+> - Explain That Stuff (explainthatstuff.com): search "3D printing" - how a
+>   printer builds a part in layers, which is why holes and shafts rarely
+>   come out at their exact drawn size
 
 A CAD hole of:
 
@@ -736,9 +734,12 @@ Snap fits need:
 - controlled strain
 - assembly access
 
-A short thick tab may break.
+A short thick tab may break, while a longer, thinner tab can flex safely.
 
-A longer thinner tab may flex safely.
+> **📚 Learn more**
+>
+> - BBC Bitesize (KS3 Design & Technology): search "mechanical fixings" -
+>   ways of joining parts, from snap fits and clips to screws and rivets
 
 ---
 
@@ -784,6 +785,25 @@ Use supplier recommendations and print tests.
 
 ---
 
+# Fit Types at a Glance
+
+That is a lot of fit words in a row. Here they are in one place:
+
+| Fit | What it feels like | Buggy example |
+|---|---|---|
+| Clearance fit | Slides or spins freely | Hinge pin through a suspension arm |
+| Transition fit | Light push; barely any play | Locating peg or alignment dowel |
+| Interference (press) fit | Must be forced; grips hard | Bearing pressed into a housing |
+| Running fit | Turns freely, over and over | Shaft rotating in a printed guide |
+| Sliding fit | Slides straight with little wobble | Battery tray rail |
+| Locational fit | Sits in one exact spot | Motor locating boss |
+| Snap fit | Clicks over an edge and locks | Battery cover latch |
+| Threaded fit | Held by a screw thread | Screw into a heat-set insert |
+
+The first three describe how tight the fit is; the rest describe the job the fit does.
+
+---
+
 # Allowance
 
 **Allowance** is the intentional difference between mating parts.
@@ -815,6 +835,8 @@ and a hole can be:
 ```text
 5.05 to 5.15 mm
 ```
+
+The idea is simple: the tightest the fit can ever be is the smallest allowed hole with the largest allowed shaft, and the loosest is the largest hole with the smallest shaft.
 
 Smallest clearance occurs with:
 
@@ -853,6 +875,10 @@ Design should work across the expected variation, not only one lucky pair.
 ---
 
 # Tolerance Stack-Up
+
+> **🤔 Think about it.** Three spacers each need to be 10.0 mm, give or take
+> 0.2 mm - and every single one passes inspection. Line all three up. Can the
+> stack still end up 0.6 mm away from 30.0 mm, even though no part is faulty?
 
 Imagine three spacers placed in a row.
 
@@ -918,9 +944,7 @@ A dimension chain should be studied as a system.
 
 # Datum
 
-A **datum** is a chosen reference point, line or surface.
-
-Measurements are taken from that reference.
+Think of measuring everyone's height in a class from the same floor, rather than each person from the top of the shorter one beside them. That shared starting line is the idea behind a datum. A **datum** is a chosen reference point, line or surface, and every measurement is taken from it.
 
 Examples:
 
@@ -954,13 +978,9 @@ Datum to C
 Datum to D
 ```
 
-```mermaid
-flowchart LR
-    Datum --> A
-    Datum --> B
-    Datum --> C
-    Datum --> D
-```
+> **[Sketch: a chassis edge drawn as a datum line, with four holes A, B, C, D
+> each dimensioned by its own arrow measured straight from that datum line -
+> so no hole's position depends on any other hole (baseline dimensioning)]**
 
 This can reduce accumulated positional error.
 
@@ -989,12 +1009,15 @@ This can be convenient.
 
 But errors may stack along the chain.
 
-```mermaid
-flowchart LR
-    A --> B --> C --> D
-```
+> **[Sketch: the same four holes A, B, C, D dimensioned in a chain - A to B,
+> B to C, C to D - so each hole's position is measured from the previous one
+> and any error is passed along the chain to the last hole]**
 
 Use chain dimensions carefully when the final position matters.
+
+> **☕ Good place to pause.** You have now met tolerance, fits, stack-up and
+> datums - the whole toolkit. Stretch, then the last stretch turns it into
+> real buggy parts and a fit you build with your own hands.
 
 ---
 
@@ -1045,6 +1068,11 @@ But tight fits can be affected by:
 
 A fit that is perfect indoors may tighten or loosen outdoors.
 
+> **📚 Learn more**
+>
+> - BBC Bitesize (KS3 Physics): search "particle model" - why materials
+>   expand when warm and shrink when cold (the same idea as in Topic 1.5)
+
 ---
 
 # Dirt and Outdoor Use
@@ -1082,9 +1110,9 @@ Two rough surfaces may need more clearance than two polished surfaces.
 A fit may improve after:
 
 - light sanding
-- reaming
+- reaming (cleaning a hole up to size with a fine rotary tool)
 - drilling
-- deburring
+- deburring (removing the rough burr left around an edge)
 
 If post-processing is planned, document it as part of the process.
 
@@ -1127,10 +1155,9 @@ Examples:
 - screw entering clearance hole
 - battery entering tray
 
-```text
-Sharp entry:    | |
-Chamfered:     \   /
-```
+> **[Sketch: two hole entrances side by side - a sharp square-edged hole with
+> a peg catching on the rim, and a chamfered hole whose sloped lead-in guides
+> the same peg smoothly inside]**
 
 Chamfers improve assembly without changing the main fit.
 
@@ -1179,6 +1206,10 @@ Example hole series for a 5 mm pin:
 5.40 mm
 5.50 mm
 ```
+
+> **[Sketch: a small printed rectangular block with a row of six labelled
+> holes (5.00 to 5.50 mm) through it, and a single steel pin being tried in
+> each hole in turn to find the best fit]**
 
 After printing, test the real pin in each hole.
 
@@ -1395,6 +1426,10 @@ Fit problems contain several possible causes.
 
 Measure before changing CAD.
 
+> **☕ Good place to pause.** That is the whole topic. Stretch, then the rest is
+> hands-on - and it ends with a little sliding drawer you build and keep.
+> Gather some card, a ruler, scissors and glue.
+
 ---
 
 # Hands-On Activity 1 - Everyday Fits
@@ -1505,6 +1540,56 @@ Discuss why they may differ.
 
 ---
 
+# Topic Mini Project - The Matchbox Drawer 🛠️
+
+This whole topic started with a box and a lid. Now you build one - a little sliding drawer inside a sleeve, like a matchbox - and feel the difference between too tight, too loose and just right. That "just right" gap is clearance, and you will tune it with your own hands.
+
+You will need:
+
+- thin card (a cereal box is ideal)
+- a ruler and a pencil
+- scissors, and glue or tape
+- your engineering notebook
+
+> **⚠️ SAFETY**
+>
+> Show a responsible adult what you plan to build before you start, and
+> build with them nearby. Scissors are sharp - cut away from your fingers,
+> and ask an adult to help with any straight cuts or if you use a craft
+> knife.
+
+> **🎬 Watch the build**
+>
+> - Cut Out + Keep (cutoutandkeep.net): search "matchbox drawers" - a
+>   photo build of the drawer-and-sleeve from card
+> - Instructables (instructables.com): search "DIY sliding gift box" - the
+>   same sliding drawer idea, measured and folded step by step
+> - YouTube (with an adult): search "cardboard matchbox drawer" - watch the
+>   drawer slide before you cut your own
+
+Build steps:
+
+1. Decide an inside size for your drawer - say a 60 mm x 40 mm base with 20 mm walls. Cut and fold the drawer (an open-topped box) and glue its corners.
+2. Now build the sleeve. Here is the whole point: **first make the sleeve the exact same size as the drawer.** Try to slide the drawer in.
+3. It jams, scrapes or will not go. Write down what happened - that is an interference fit, no clearance at all.
+4. Make a second sleeve a little larger all round - about 1-2 mm bigger in width and height. Try the drawer again.
+
+Now tune the fit:
+
+1. If the drawer still sticks, trim or re-fold for a touch more room. If it slides but falls out or rattles badly, you went too far - make a snugger sleeve.
+2. Aim for a drawer that slides smoothly but stays put when you tip the sleeve gently. That is a good sliding fit.
+3. Measure the final gap between drawer and sleeve with your ruler, as best you can, and record it.
+
+The reflection is where the learning lands. In your notebook:
+
+- Name the three fits you felt: the same-size sleeve (interference - jammed), the too-big sleeve (loose clearance - rattles/falls out), and your tuned one (a sliding fit).
+- That final gap you measured *is* the clearance. Was it total, or per side? Say which.
+- Notice you found the useful middle by *testing*, not by guessing a magic number - exactly how you would dial in a 3D printed fit with a test coupon.
+
+Keep your best matchbox drawer on the showcase shelf. It is a fit you designed by feel.
+
+---
+
 # Engineering Challenge - Build a Fit Library
 
 Create a project file called:
@@ -1549,6 +1634,8 @@ Use simple labels:
 
 ## Final Recommendation
 
+Write a plain-language recommendation. (PETG in the example below is a tough, slightly flexible printing plastic often used for mechanical parts - Part 2 covers materials.)
+
 Example:
 
 ```text
@@ -1561,7 +1648,7 @@ Over time, this becomes a valuable design reference.
 
 ---
 
-# Common Beginner Mistakes
+# Common Beginner Mistakes ❌
 
 ## Mistake 1 - Making Connected Parts the Same CAD Size
 
@@ -1697,7 +1784,7 @@ Explain which plan better controls each hole's position relative to the centreli
 
 ---
 
-# Topic Summary
+# Topic Summary 📝
 
 In this topic, we learned that real parts always vary.
 
@@ -1730,7 +1817,7 @@ It is the fit that allows the part to perform its job reliably.
 
 ---
 
-# New Words
+# New Words 📖
 
 | Word | Meaning |
 |---|---|
@@ -1765,7 +1852,7 @@ It is the fit that allows the part to perform its job reliably.
 
 ---
 
-# Review Questions
+# Review Questions ❓
 
 1. Why can real parts not be made to one perfectly exact size?
 2. What is a tolerance?
@@ -1800,7 +1887,7 @@ It is the fit that allows the part to perform its job reliably.
 
 ---
 
-# Topic Checklist
+# Topic Checklist ✅
 
 - [ ] I understand why dimensions need tolerances.
 - [ ] I know nominal size, upper limit and lower limit.
@@ -1824,13 +1911,13 @@ It is the fit that allows the part to perform its job reliably.
 
 ---
 
-# Looking Ahead
+# Looking Ahead 🔭
 
 We can now measure parts and decide how closely they should fit.
 
 The next step is learning how engineers communicate shape and size clearly.
 
-In the next topic, we will study **engineering drawings**.
+In the next topic, **Topic 1.8 - Engineering Drawings**, we will study how a part's shape and size are put on paper so anyone can build it.
 
 We will learn:
 
