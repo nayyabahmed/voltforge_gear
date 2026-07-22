@@ -66,6 +66,25 @@ def chapter_number(path: Path) -> str | None:
     return m.group(1) if m else None
 
 
+def filter_parts(items: list[dict], wanted: set[str]) -> list[dict]:
+    """Keep whole parts by number, e.g. {"1"} -> Part 1 and everything in it.
+
+    Unlike --chapters this keeps a part's unnumbered capstone, which has no
+    N.M prefix to match on.
+    """
+    kept: list[dict] = []
+    keeping = False
+    for it in items:
+        if it["kind"] == "part":
+            m = re.match(r"Part\s+(\d+)", it["title"])
+            keeping = bool(m and m.group(1) in wanted)
+            if keeping:
+                kept.append(it)
+        elif keeping:
+            kept.append(it)
+    return kept
+
+
 def filter_chapters(items: list[dict], wanted: set[str]) -> list[dict]:
     """Keep only topics whose N.M- prefix is in `wanted`, dropping empty parts."""
     kept = [it for it in items
@@ -424,6 +443,9 @@ def main() -> None:
     ap.add_argument("--chapters",
                     help="comma-separated topic numbers to build "
                          "(e.g. 0.0,1.1); default is every published topic")
+    ap.add_argument("--part",
+                    help="comma-separated part numbers to build (e.g. 1); "
+                         "keeps the part cover and the part's capstone")
     args = ap.parse_args()
 
     # Windows consoles often default to cp1252, which can't print the
@@ -435,6 +457,8 @@ def main() -> None:
         sys.exit(f"error: {SUMMARY} not found.")
 
     items = parse_summary()
+    if args.part:
+        items = filter_parts(items, {n.strip() for n in args.part.split(",") if n.strip()})
     if args.chapters:
         wanted = {n.strip() for n in args.chapters.split(",") if n.strip()}
         items = filter_chapters(items, wanted)
