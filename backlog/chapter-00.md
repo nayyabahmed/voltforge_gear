@@ -11,7 +11,7 @@ glossary). Logged here for completeness.
   workshop rules renamed to `## Rule N - Name` headings for scannability;
   Looking Ahead now names Chapter 1 explicitly.
 - [ ] Possible future item: "How This Book Is Organised" chapter-pattern
-  list predates the Chapter Mini Project and Think-about-it conventions -
+  list predates the Topic Mini Project and Think-about-it conventions -
   refresh the list when Part 1 is fully swept so it matches the real
   template.
 

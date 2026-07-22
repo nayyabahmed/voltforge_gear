@@ -1,16 +1,16 @@
 ---
 title: "Glossary"
 project: "VoltForge Gear — The Young Engineer's Handbook"
-scope: "Seeded from Chapters 01-10, growing with each new chapter (currently through Chapter 11)"
+scope: "Seeded from Topics 1.1-2.1, growing with each new topic (currently through Topic 2.2)"
 version: "0.1"
 status: "Draft (living document)"
 ---
 
 # Glossary
 
-This glossary collects the engineering terms introduced in the chapters written so far.
+This glossary collects the engineering terms introduced in the topics written so far.
 
-It is a living document. New terms should be added as later chapters are written.
+It is a living document. New terms should be added as later topics are written.
 
 Terms are listed alphabetically.
 
@@ -124,6 +124,12 @@ A component that supports a rotating shaft while reducing friction.
 
 ---
 
+### Benchmarking
+
+Comparing existing solutions to learn from them before designing your own.
+
+---
+
 ### Bending
 
 Loading that stretches one side of a part while squeezing the other side.
@@ -185,6 +191,14 @@ Software used to create precise 2D drawings and 3D models.
 Comparing a measuring tool with a trusted reference.
 
 Calibration helps identify or correct measurement bias.
+
+---
+
+### Calipers
+
+A tool for measuring outside, inside, depth and step dimensions.
+
+A digital caliper shows the reading on a display and can be zeroed before use.
 
 ---
 
@@ -329,9 +343,23 @@ Examples:
 
 ---
 
+### Confirmation Bias
+
+Seeing what you hoped to see rather than what is really there.
+
+In measurement, it means repeating a reading until you get the expected number instead of recording the honest result.
+
+---
+
 ### Control Variable
 
 A factor kept the same during a fair test.
+
+---
+
+### Convergent Thinking
+
+Narrowing many ideas down to the few best ones, using evidence and criteria.
 
 ---
 
@@ -377,6 +405,14 @@ Checking a result using a second method.
 ### Datum
 
 A chosen reference point, line, or surface used for measurement or dimensioning.
+
+---
+
+### Decimal Place
+
+A digit position to the right of a decimal point.
+
+More decimal places do not automatically mean a more trustworthy measurement.
 
 ---
 
@@ -603,6 +639,14 @@ The motor mechanism in a 3D printer that grips the filament and pushes it into t
 
 ## F
 
+### False Precision
+
+Reporting more detail than the measurement can justify.
+
+False precision can make weak data look more scientific than it really is.
+
+---
+
 ### Fatigue
 
 Failure caused by repeated loading.
@@ -654,6 +698,12 @@ The relationship between two connected parts.
 ### Fit Library
 
 A record of tested dimensions and the real fits they produced.
+
+---
+
+### Five Whys
+
+A method of repeatedly asking "why?" to trace a problem back to its root cause.
 
 ---
 
@@ -1291,6 +1341,12 @@ Getting similar results when the same person measures the same thing with the sa
 
 ---
 
+### Reproducibility
+
+Getting similar results when something important changes, such as the person, tool or location.
+
+---
+
 ### Requirement
 
 A clear, testable statement of what a design must do.
@@ -1440,6 +1496,12 @@ How easily a part can be:
 ### Shear
 
 A load that tries to slide one part of material past another.
+
+---
+
+### Side View
+
+A view of an object looking from one side, often showing thickness and step heights.
 
 ---
 
@@ -1849,7 +1911,7 @@ When adding new terms:
 2. Define the idea before using advanced wording.
 3. Keep each definition short.
 4. Add an RC buggy example where helpful.
-5. Add cross-links only after the chapter filenames are stable.
+5. Add cross-links only after the topic filenames are stable.
 6. Avoid duplicate terms with slightly different wording.
 7. Prefer one main definition and note related terms underneath.
 

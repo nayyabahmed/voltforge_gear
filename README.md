@@ -17,20 +17,20 @@ This is not a build manual and not a school textbook. It is a project-based engi
 
 ## What Makes This Handbook Different
 
-Every chapter follows the same promise to the reader:
+Every topic follows the same promise to the reader:
 
 1. **Concept before vocabulary.** You will understand an idea *before* you learn its technical name. Nothing is defined before it is experienced.
-2. **Hands-on from the start.** Each chapter includes a simple experiment you can do with household materials — no special tools required until the workshop chapters.
-3. **Everything builds toward the buggy.** No isolated theory. Each chapter ends with a practical engineering task and leads directly into the next one.
+2. **Hands-on from the start.** Each topic includes a simple experiment you can do with household materials — no special tools required until the workshop topics.
+3. **Everything builds toward the buggy.** No isolated theory. Each topic ends with a practical engineering task and leads directly into the next one.
 4. **Written like real engineers work.** Notebooks, measurement sheets, design reviews, testing, iteration — the habits matter as much as the knowledge.
 
-## Anatomy of a Chapter
+## Anatomy of a Topic
 
-Every chapter is a self-contained Markdown file (roughly 2,000–4,000 words, or 8–15 book pages) with a consistent structure:
+Every topic is a self-contained Markdown file (roughly 2,000–4,000 words, or 8–15 book pages) with a consistent structure:
 
 | Section | Purpose |
 | --- | --- |
-| YAML front matter | Title, part, chapter number, difficulty, time estimate, prerequisites, learning objectives |
+| YAML front matter | Title, part, topic number, difficulty, time estimate, prerequisites, learning objectives |
 | Introduction & story | A relatable scenario or analogy that motivates the idea |
 | Concrete explanation | The idea in plain language, grounded in the buggy |
 | Engineering explanation | The same idea with proper terms, diagrams and numbers |
@@ -39,7 +39,7 @@ Every chapter is a self-contained Markdown file (roughly 2,000–4,000 words, or
 | "Thinking Like an Engineer" | How professionals apply the idea in the real world |
 | Challenge | A practical engineering task |
 | Summary & checklist | Self-assessment before moving on |
-| Looking ahead | A preview that sets up the next chapter |
+| Looking ahead | A preview that sets up the next topic |
 
 A growing [`glossary.md`](glossary.md) collects every term the moment it is formally introduced, so there is always one place to look things up.
 
@@ -49,13 +49,13 @@ A growing [`glossary.md`](glossary.md) collects every term the moment it is form
 
 | Part | Theme | Status |
 | --- | --- | --- |
-| **Part 1 — Engineering Mindset** | Systems thinking, motion, forces, measurement, tolerances, drawings, the design process | ✅ Chapters 00–09 + capstone written (review quiz pending) |
-| **Part 2 — Workshop Skills** | Workshop safety, 3D printing, slicers, CAD, materials, hand tools, soldering | ✍️ In progress (Chapter 11 drafted) |
+| **Part 1 — Engineering Mindset** | Systems thinking, motion, forces, measurement, tolerances, drawings, the design process | ✅ Topic 0.0 + Topics 1.1–1.9 + capstone written (review quiz pending) |
+| **Part 2 — Workshop Skills** | Workshop safety, 3D printing, slicers, CAD, materials, hand tools, soldering | ✍️ In progress (Topic 2.2 drafted) |
 | **Part 3 — RC Systems** | Electricity basics, batteries, radio, servos, ESCs, motors, drivetrain, steering, suspension | 📋 Planned |
 | **Part 4 — Design and Build** | From cardboard mock-up to driving buggy, one working stage at a time | 📋 Planned |
 | **Part 5 — Advanced Topics** | Maintenance, sensors & telemetry, advanced materials, design your own variant | 📋 Planned |
 
-See [`SUMMARY.md`](SUMMARY.md) for the full chapter-by-chapter table of contents and progress.
+See [`SUMMARY.md`](SUMMARY.md) for the full topic-by-topic table of contents and progress.
 
 ## Repository Layout
 
@@ -67,7 +67,7 @@ rc-buggy-handbook/
 ├── VERSIONING.md          ← the document lifecycle: Draft → Reviewed → Prototype-Tested → Released
 ├── CONTRIBUTING.md        ← how to help
 ├── style-guides-principles/
-│   ├── STYLE-GUIDE.md         how chapters are written (voice, template, conventions)
+│   ├── STYLE-GUIDE.md         how topics are written (voice, template, conventions)
 │   ├── GUIDING-PRINCIPLES.md  the project's engineering philosophy
 │   └── improvement-suggestions.md  the readability review backlog
 ├── glossary.md            ← every term, defined once, in one place
@@ -77,13 +77,13 @@ rc-buggy-handbook/
 ├── SAFETY.md              ← the quick-reference safety card for the whole project
 ├── TROUBLESHOOTING.md     ← symptoms → causes → fixes, grown during the build
 │
-├── Part-1-Engineering-Mindset/    chapters 00–09 + capstone
-├── Part-2-Workshop-Skills/        chapters 10–19
-├── Part-3-RC-Systems/             chapters 20–29
-├── Part-4-Design-and-Build/       chapters 30–39
-├── Part-5-Advanced-Topics/        chapters 40–43
+├── Part-1-Engineering-Mindset/    Topic 0.0 + Topics 1.1–1.9 + capstone
+├── Part-2-Workshop-Skills/        Topics 2.1–2.10
+├── Part-3-RC-Systems/             Topics 3.1–3.10
+├── Part-4-Design-and-Build/       Topics 4.1–4.10
+├── Part-5-Advanced-Topics/        Topics 5.1–5.4
 │
-├── assets/                diagrams, photos and images used by chapters
+├── assets/                diagrams, photos and images used by topics
 ├── activities/            printable worksheets and checklists
 ├── posters/               printable posters
 └── teacher-notes/         optional extensions and challenges for older readers
@@ -105,16 +105,16 @@ The handbook is written in **sprints**, one part at a time, so each part is cohe
 
 Working conventions:
 
-- **One file = one complete chapter**, self-contained and ready to commit.
+- **One file = one complete topic**, self-contained and ready to commit.
 - **Every document has a version and status** in its front matter and matures through a fixed lifecycle — v0.1 Draft → v0.2 Reviewed → v0.3 Prototype-Tested → v1.0 Released. See [VERSIONING.md](VERSIONING.md).
 - Plain GitHub-flavoured Markdown throughout; all diagrams are Mermaid so they render directly on GitHub with no build step.
-- Chapters are reviewed, versioned and improved over time — the handbook is maintained like a software project, not published once.
+- Topics are reviewed, versioned and improved over time — the handbook is maintained like a software project, not published once.
 
-The finished handbook is expected to reach roughly **300–500 pages** across **40+ chapters**, with **300+ diagrams**, quizzes, printable worksheets, a troubleshooting guide and a complete bill of materials — somewhere between *The Way Things Work*, an engineering textbook, and an RC build manual.
+The finished handbook is expected to reach roughly **300–500 pages** across **40+ topics**, with **300+ diagrams**, quizzes, printable worksheets, a troubleshooting guide and a complete bill of materials — somewhere between *The Way Things Work*, an engineering textbook, and an RC build manual.
 
 ## How to Read It
 
-Start at [Chapter 00 — How to Use This Handbook](Part-1-Engineering-Mindset/00-How-to-Use-This-Handbook.md) and read in order. The chapters deliberately build on each other: each one assumes the experiments, vocabulary and checklists of the ones before it. Keep an **engineering notebook** from day one — the chapters will tell you what to put in it.
+Start at [Topic 0.0 — How to Use This Handbook](Part-1-Engineering-Mindset/0.0-How-to-Use-This-Handbook.md) and read in order. The topics deliberately build on each other: each one assumes the experiments, vocabulary and checklists of the ones before it. Keep an **engineering notebook** from day one — the topics will tell you what to put in it.
 
 ## Contributing & Feedback
 

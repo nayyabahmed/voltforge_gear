@@ -2,14 +2,14 @@
 title: "Building the Published Handbook"
 status: "Draft"
 version: "0.1"
-feeds_from: "SUMMARY.md (order) · Part-*/ chapters · assets/chapter_covers/"
+feeds_from: "SUMMARY.md (order) · Part-*/ topics · assets/topic_covers/"
 ---
 
 # Building the Published Handbook 🏗️
 
 This repo is written as a GitHub-flavoured Markdown book. `SUMMARY.md` is the
-table of contents, chapters live in `Part-*/`, and each finished chapter has a
-full-page cover in `assets/chapter_covers/`. This document explains how those
+table of contents, topics live in `Part-*/`, and each finished topic has a
+full-page cover in `assets/topic_covers/`. This document explains how those
 pieces are combined into a **published artifact** — a print-ready PDF, an EPUB
 ebook, and/or a standalone HTML file — using `scripts/build_book.py`.
 
@@ -20,9 +20,9 @@ assembles a temporary combined file in `build/`, and writes outputs to `dist/`.
 
 ```mermaid
 flowchart LR
-  S[SUMMARY.md<br/>order + which chapters are live] --> A
-  C[Part-*/NN-*.md<br/>chapter prose] --> A
-  V[assets/chapter_covers/<br/>Chapter NN Cover.png] --> A
+  S[SUMMARY.md<br/>order + which topics are live] --> A
+  C[Part-*/N.M-*.md<br/>topic prose] --> A
+  V[assets/topic_covers/<br/>Topic N.M Cover.png] --> A
   A[build_book.py<br/>assemble] --> M[mmdc<br/>Mermaid → PNG] --> P
   A --> P[Pandoc]
   P --> PDF[dist/*.pdf]
@@ -30,13 +30,13 @@ flowchart LR
   P --> HTML[dist/*.html]
 ```
 
-1. **Order & inclusion** come from `SUMMARY.md`. A chapter is treated as
+1. **Order & inclusion** come from `SUMMARY.md`. A topic is treated as
    *published* only when its row links to a `.md` file that actually exists, so
-   planned-but-unwritten chapters are skipped automatically. Keep `SUMMARY.md`
+   planned-but-unwritten topics are skipped automatically. Keep `SUMMARY.md`
    current and the book builds in the right order with no other config.
-2. **Covers** are matched to chapters by number: a file named
-   `NN-Something.md` looks for `assets/chapter_covers/Chapter NN Cover.png` and,
-   if found, drops it in as a full-bleed opener page *before* the chapter text.
+2. **Covers** are matched to topics by number: a file named
+   `N.M-Something.md` looks for `assets/topic_covers/Topic N.M Cover.png` and,
+   if found, drops it in as a full-bleed opener page *before* the topic text.
    Covers never live in the prose, so GitHub stays clean.
 3. **Mermaid diagrams** are pre-rendered to PNG with `mmdc`, because PDF/EPUB
    engines can't run Mermaid the way GitHub does. (PNG, not SVG: mmdc's SVG
@@ -99,7 +99,7 @@ The finished `dist/` PDF is on your Windows drive, openable from Explorer.
 ## Usage
 
 ```bash
-# dry run — list chapters + which covers were matched (no external tools)
+# dry run — list topics + which covers were matched (no external tools)
 python scripts/build_book.py --list
 
 # print-ready PDF -> dist/VoltForgeGear.pdf
@@ -111,8 +111,9 @@ python scripts/build_book.py --pdf --epub --html --include-glossary
 # fast preview without rendering diagrams
 python scripts/build_book.py --pdf --no-mermaid
 
-# partial build — only the listed NN- chapters (e.g. proofing a chapter)
-python scripts/build_book.py --pdf --chapters 00,01
+# partial build — only the listed topics (e.g. proofing a topic).
+# --chapters keeps its name but takes part-relative topic numbers.
+python scripts/build_book.py --pdf --chapters 0.0,1.1
 ```
 
 When building as root (WSL default-less setups, CI), Chromium refuses to
@@ -129,9 +130,12 @@ land in `build/`. Both are safe to delete and should be added to `.gitignore`.
 
 ## Filename convention (important)
 
-Covers are matched by the pattern **`Chapter NN Cover.png`** (two-digit number,
-single spaces). The current Chapter 1 file `Chapter-01-Cover .png` won't match —
-rename it to `Chapter 01 Cover.png` so the build finds it.
+Covers are matched by the pattern **`Topic N.M Cover.png`** (part-relative topic
+number, single spaces) and live in `assets/topic_covers/`. Topic files are named
+for the same number (`1.5-Measurement.md` → `Topic 1.5 Cover.png`), so the
+displayed number, the filename and the cover all agree. Part openers use
+`Part N.png`. A stray space or a hyphen in the cover name (`Topic-1.1-Cover .png`)
+won't match — use single spaces.
 
 ## What each output is good for
 
@@ -145,10 +149,10 @@ rename it to `Chapter 01 Cover.png` so the build finds it.
 
 ## Troubleshooting
 
-- *A written chapter is missing from the PDF* → its `SUMMARY.md` row isn't a
+- *A written topic is missing from the PDF* → its `SUMMARY.md` row isn't a
   Markdown link to an existing file. Fix the link/path.
-- *A cover didn't appear* → filename doesn't match `Chapter NN Cover.png`, or the
-  chapter file isn't prefixed `NN-`.
+- *A cover didn't appear* → filename doesn't match `Topic N.M Cover.png`, or the
+  topic file isn't prefixed `N.M-`.
 - *Diagrams are code blocks, not pictures* → `mmdc` isn't on `PATH`, or you
   passed `--no-mermaid`.
 - *Emoji render as tofu boxes* → install `fonts-noto-color-emoji` (WeasyPrint

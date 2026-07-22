@@ -1,5 +1,11 @@
 # Readability Improvement Backlog
 
+> **Frozen record.** This is the original review as written on 2026-07-11 and is
+> kept unchanged. It predates the 2026-07-20 switch to per-part "Topic X.Y"
+> numbering, so it still refers to "Chapters" by their old global numbers
+> (Chapter 02 = Topic 1.2, … Chapter 10 = Topic 2.1). See `SUMMARY.md` for the
+> current scheme; the live working items are in `backlog/`.
+
 Suggestions from a full review of Chapters 02-10 and the glossary (2026-07-11),
 aimed at making the handbook easier for an 11-year-old to read.
 Grouped as: book-wide issues first, then per-chapter items, then external resources.

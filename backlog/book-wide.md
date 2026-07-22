@@ -26,13 +26,17 @@ Legend: [T] textual, [C] context awareness, [V] visual aid, [E] external referen
     Ch03 ("the gearbox from Chapter 2 is part of what engineers call the
     drivetrain"); registry says "drivetrain" for the whole system.
     APPLIED 2026-07-14 in Ch03 "A Common Mistake".
-  - [ ] "requirement traceability" (Ch10/glossary) vs "requirements
-    traceability" (Ch09) - standardise on the singular form.
+  - [x] "requirement traceability" (Ch10/glossary) vs "requirements
+    traceability" (Ch09) - standardise on the singular form. APPLIED
+    2026-07-22: Ch09 fixed to singular; capstone and glossary already
+    singular.
   - [x] "Hinge pin" vs "hinge-pin" (Ch04) - standardise as "hinge pin"
     (two words, per the terminology registry). APPLIED 2026-07-14 in the
     Ch04 pass (one hyphenated instance fixed).
-  - [ ] Ch05 "measurement uncertainty" vs Ch06 "error/range/repeatability" -
-    add one sentence in Ch06 linking the two vocabularies.
+  - [x] Ch05 "measurement uncertainty" vs Ch06 "error/range/repeatability" -
+    add one sentence in Ch06 linking the two vocabularies. APPLIED
+    2026-07-22 in Ch06 "Error" section ("In Topic 1.5 we called the leftover
+    doubt ... measurement uncertainty; this topic gives it names ...").
 - [ ] [E] **"Learn More" box pattern.** 2-3 links max, next to the relevant
   section, approved sources only (STYLE-GUIDE section 8). Placements listed
   per chapter. Plan the electricity/magnetism links now for Part 3.
@@ -49,7 +53,7 @@ Legend: [T] textual, [C] context awareness, [V] visual aid, [E] external referen
   on Ch 01, now STYLE-GUIDE section 8): when adding or verifying Learn More
   boxes, prefer the national-curriculum term ("mechanical systems", "fair
   testing") over informal synonyms.
-- [ ] [T] **Chapter Mini Projects - "learning by doing"** (reader feedback,
+- [ ] [T] **Topic Mini Projects - "learning by doing"** (reader feedback,
   2026-07-12; now STYLE-GUIDE section 3): every teaching chapter ends its
   activities with a small household-materials build producing a keepable
   artifact, closed by a reflection step tying it to the chapter's idea.

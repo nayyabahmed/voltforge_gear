@@ -1,16 +1,16 @@
 ---
-title: "Chapter 04 - Forces and Why Parts Break"
+title: "Topic 1.4 - Forces and Why Parts Break"
 part: "Part 1 - Engineering Mindset"
-chapter: 4
+topic: "1.4"
 version: "0.2"
 status: "Reviewed"
 difficulty: Beginner
 estimated_time: "120-180 minutes in 2-3 sittings (including the mini project)"
 prerequisites:
-  - Chapter 00 - How to Use This Handbook
-  - Chapter 01 - What Are We Building?
-  - Chapter 02 - Systems Thinking
-  - Chapter 03 - How Machines Move
+  - Topic 0.0 - How to Use This Handbook
+  - Topic 1.1 - What Are We Building?
+  - Topic 1.2 - Systems Thinking
+  - Topic 1.3 - How Machines Move
 learning_objectives:
   - Understand the main ways forces act on parts.
   - Recognise tension, compression, bending, shear and torsion.
@@ -20,7 +20,7 @@ learning_objectives:
   - Draw simple force diagrams for buggy parts.
 ---
 
-# Chapter 04 - Forces and Why Parts Break
+# Topic 1.4 - Forces and Why Parts Break
 
 > **"Parts do not break because they are unlucky.  
 > They break because forces found a path through them."**
@@ -29,7 +29,7 @@ learning_objectives:
 
 # Learning Objectives 🎯
 
-By the end of this chapter you will be able to:
+By the end of this topic you will be able to:
 
 - Explain the main ways a part can be loaded.
 - Identify tension, compression, bending, shear and torsion.
@@ -60,7 +60,7 @@ The same ruler reacts differently to each action, and a part that survives one k
 - a thin sheet may bend easily
 - a metal shaft may resist twisting
 
-This chapter is about learning to see those different kinds of force. That skill is essential when designing 3D printed RC parts.
+This topic is about learning to see those different kinds of force. That skill is essential when designing 3D printed RC parts.
 
 ---
 
@@ -74,7 +74,7 @@ This gives us a powerful engineering lesson:
 
 > Strength depends on both material and geometry.
 
-Geometry means the shape and arrangement of the part. At the end of this chapter you will use this trick deliberately, in the Chapter Mini Project, to build the strongest paper bridge you can.
+Geometry means the shape and arrangement of the part. At the end of this topic you will use this trick deliberately, in the Topic Mini Project, to build the strongest paper bridge you can.
 
 ---
 
@@ -89,7 +89,7 @@ A **load** is a force or combination of forces acting on a part.
 Examples:
 
 - the buggy's weight pressing on the suspension
-- the motor twisting the drivetrain (torque, from Chapter 3)
+- the motor twisting the drivetrain (torque, from Topic 1.3)
 - a wheel hitting a rock
 - a screw squeezing two parts together
 - a landing force after a jump
@@ -164,7 +164,7 @@ Examples:
 
 - a chair leg holding weight
 - a spring being compressed
-- a shock tower mount (the shock tower is the printed plate the shock absorbers bolt to - we analyse one later this chapter) under landing force
+- a shock tower mount (the shock tower is the printed plate the shock absorbers bolt to - we analyse one later this topic) under landing force
 - a screw clamping two parts together
 - the upper side of a bent beam
 
@@ -235,7 +235,7 @@ Hold a towel at both ends and twist. The towel experiences torsion.
 
 Examples:
 
-- a driveshaft carrying motor torque (the twisting force from Chapter 3)
+- a driveshaft carrying motor torque (the twisting force from Topic 1.3)
 - a screwdriver shaft
 - a wheel axle
 - a chassis twisting during cornering
@@ -296,7 +296,7 @@ The force does not disappear. It travels through every connected part, and each 
 
 Push your hand against a table. You push down on the table, and the table pushes up on your hand. That upward force is a **reaction force**.
 
-Whenever one object pushes on another, the second object pushes back. You met this in Chapter 3: the tyre pushes backward on the ground, and the ground pushes the buggy forward. Engineers call this pair action and reaction.
+Whenever one object pushes on another, the second object pushes back. You met this in Topic 1.3: the tyre pushes backward on the ground, and the ground pushes the buggy forward. Engineers call this pair action and reaction.
 
 In the buggy:
 
@@ -832,7 +832,7 @@ A load pulling across the layers may be handled differently from a load trying t
 
 This direction-dependent behaviour is called **anisotropy**.
 
-We will study it in detail in the 3D printing chapters.
+We will study it in detail in the 3D printing topics.
 
 For now, remember:
 
@@ -920,7 +920,7 @@ Sometimes one cheap part should fail before an expensive part.
 
 For example:
 
-- a replaceable servo saver (a spring-loaded steering part that gives way in a crash so the servo does not - Chapter 28) protects the servo
+- a replaceable servo saver (a spring-loaded steering part that gives way in a crash so the servo does not - Topic 3.9) protects the servo
 - a plastic spur gear may protect the motor shaft
 - a body mount may bend before the chassis cracks
 - a small printed bumper may absorb a crash
@@ -1005,7 +1005,7 @@ A motor mount must:
 
 - hold the motor in position
 - resist motor torque
-- keep gear mesh (how deeply the pinion and spur teeth engage - Chapter 27) correct
+- keep gear mesh (how deeply the pinion and spur teeth engage - Topic 3.8) correct
 - survive heat
 - resist vibration
 
@@ -1079,7 +1079,7 @@ The purpose is to make invisible forces visible.
 
 ---
 
-> **☕ Good place to pause.** Stretch, get a drink, and gather paper, books and coins. The rest of the chapter is hands-on - and it ends with a bridge-building contest.
+> **☕ Good place to pause.** Stretch, get a drink, and gather paper, books and coins. The rest of the topic is hands-on - and it ends with a bridge-building contest.
 
 ---
 
@@ -1223,7 +1223,7 @@ The goal is to practise seeing forces.
 
 ---
 
-# Chapter Mini Project - The Paper Bridge, Tested to Failure 🛠️
+# Topic Mini Project - The Paper Bridge, Tested to Failure 🛠️
 
 In Activity 1 you compared a flat sheet with a folded channel. Now use everything from Part B - shape, ribs, smooth changes, no weak points - to design the strongest paper bridge you can, and then do the thing real engineers find hardest: load it until it fails, on purpose, and read the wreckage.
 
@@ -1261,7 +1261,7 @@ The reflection is where the learning lands. In your notebook:
 
 - Make a results table: design sketch, prediction, coins held, what failed first, load type at the failure.
 - Mark on your champion's sketch which parts were in tension, which in compression, and where the stress concentrated when it finally failed.
-- Write one sentence answering the chapter's big question: the paper never changed, so what did?
+- Write one sentence answering the topic's big question: the paper never changed, so what did?
 
 Notice what your bridge does NOT have: a safety factor. It was loaded to exactly its limit - one more coin and down it came. Real bridges are designed so their everyday load is only a fraction of the failing load you just found.
 
@@ -1391,13 +1391,13 @@ Durability matters.
 
 A break at one location may be caused by a load elsewhere.
 
-Trace the full load path before redesigning - this is the systems thinking from Chapter 2 applied to forces.
+Trace the full load path before redesigning - this is the systems thinking from Topic 1.2 applied to forces.
 
 ---
 
 # Optional Challenge - Compare Beam Shapes
 
-This is the fair-test version of the Chapter Mini Project: instead of iterating designs, compare four shapes systematically.
+This is the fair-test version of the Topic Mini Project: instead of iterating designs, compare four shapes systematically.
 
 Create paper beams with these shapes:
 
@@ -1445,9 +1445,9 @@ Describe:
 
 ---
 
-# Chapter Summary 📝
+# Topic Summary 📝
 
-In this chapter, we learned that parts can be loaded in several ways:
+In this topic, we learned that parts can be loaded in several ways:
 
 - tension
 - compression
@@ -1538,7 +1538,7 @@ We also learned that:
 
 ---
 
-# Chapter Checklist ✅
+# Topic Checklist ✅
 
 - [ ] I can identify tension, compression, bending, shear and torsion.
 - [ ] I can trace a simple load path.
@@ -1565,7 +1565,7 @@ We can now describe how forces act on buggy parts and why parts may bend, loosen
 
 The next step is learning how engineers turn guesses into facts.
 
-Next, in **Chapter 5 - Measurement**, we will study measurement.
+Next, in **Topic 1.5 - Measurement**, we will study measurement.
 
 We will learn:
 

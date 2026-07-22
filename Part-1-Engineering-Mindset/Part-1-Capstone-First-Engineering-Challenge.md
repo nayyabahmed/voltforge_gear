@@ -1,22 +1,22 @@
 ---
 title: "Part 1 Capstone - First Engineering Challenge"
 part: "Part 1 - Engineering Mindset"
-chapter: capstone
-version: "0.1"
-status: "Draft"
+topic: capstone
+version: "0.2"
+status: "Reviewed"
 difficulty: Beginner
 estimated_time: "2-4 hours"
 prerequisites:
-  - Chapter 00 - How to Use This Handbook
-  - Chapter 01 - What Are We Building?
-  - Chapter 02 - Systems Thinking
-  - Chapter 03 - How Machines Move
-  - Chapter 04 - Forces and Why Parts Break
-  - Chapter 05 - Measurement
-  - Chapter 06 - Accuracy, Precision and Error
-  - Chapter 07 - Tolerances and Fits
-  - Chapter 08 - Engineering Drawings
-  - Chapter 09 - The Engineering Design Process
+  - Topic 0.0 - How to Use This Handbook
+  - Topic 1.1 - What Are We Building?
+  - Topic 1.2 - Systems Thinking
+  - Topic 1.3 - How Machines Move
+  - Topic 1.4 - Forces and Why Parts Break
+  - Topic 1.5 - Measurement
+  - Topic 1.6 - Accuracy, Precision and Error
+  - Topic 1.7 - Tolerances and Fits
+  - Topic 1.8 - Engineering Drawings
+  - Topic 1.9 - The Engineering Design Process
 learning_objectives:
   - Apply the complete engineering design process to a small real project.
   - Measure a real component and create a packaging envelope.
@@ -48,7 +48,7 @@ The holder must:
 You may choose one of these components:
 
 - RC receiver
-- small ESC
+- small ESC (a motor's electronic speed controller - Topic 3.6)
 - steering servo
 - battery
 - switch
@@ -128,18 +128,34 @@ A complete rough process is more valuable than one beautiful sketch with no evid
 
 ---
 
+# How the 27 Steps Are Grouped
+
+The challenge has 27 numbered steps, but they fall into five familiar phases from Topic 1.9:
+
+| Phase | Steps | What you do |
+|---|---|---|
+| 1. Understand | 1-9 | study the user, the component and the space it needs |
+| 2. Define | 10-12 | write requirements, constraints and a definition of done |
+| 3. Design | 13-16 | generate concepts, compare them, spot risks |
+| 4. Build and Test | 17-22 | build a prototype, test it, revise once, retest |
+| 5. Document | 23-27 | drawing, bill of materials, revision notes, review |
+
+Work through them in order. Do not rush to build - the first three phases are what stop you building the wrong thing.
+
+---
+
 # Safety First
 
-Before starting:
-
-- Work in a clear area.
-- Ask an adult before using blades, drills, soldering tools or hot equipment.
-- Use safety glasses when cutting rigid materials or testing parts to failure.
-- Do not puncture, crush or modify a battery.
-- Do not power an ESC or motor for this challenge unless supervised and required.
-- Keep fingers away from moving servo horns.
-- Do not use a spinning motor or wheel during this first challenge.
-- Use only low-risk materials for the first prototype.
+> **⚠️ SAFETY**
+>
+> Before starting, show a responsible adult what you plan to build, and work
+> with them nearby.
+> - Work in a clear area, and use only low-risk materials for the first prototype.
+> - Ask an adult before using blades, drills, soldering tools or hot equipment.
+> - Wear safety glasses when cutting rigid materials or testing parts to failure.
+> - Do not puncture, crush or modify a battery.
+> - Do not power an ESC or motor for this challenge unless supervised and required, and keep fingers away from moving servo horns.
+> - Do not run a spinning motor or wheel during this first challenge.
 
 This challenge is about design thinking, not dangerous testing.
 
@@ -167,7 +183,7 @@ Advantages:
 
 - clear mounting features
 - has a moving output
-- introduces swept volume
+- introduces swept volume (the space a moving part sweeps through - Topic 1.5)
 - useful for learning interface design
 
 ## Battery
@@ -190,6 +206,8 @@ Advantages:
 For the easiest first project, choose a receiver or small rectangular object.
 
 ---
+
+**Phase 1 - Understand** (Steps 1-9): get to know the user, the component and the space it needs.
 
 # Step 1 - Define the User
 
@@ -371,7 +389,7 @@ Spend the most care on critical dimensions.
 
 # Step 7 - Measure the Component
 
-Use the techniques from Chapters 05 and 06.
+Use the techniques from Topics 1.5 and 1.6.
 
 For each critical dimension:
 
@@ -396,7 +414,11 @@ Example table:
 
 # Step 8 - Draw the Packaging Envelope
 
-The packaging envelope is larger than the solid component.
+> **🤔 Think about it.** Your receiver measures about 31 x 16 mm, so a
+> 31 x 16 mm pocket sounds perfect. Before you decide - where do the plug,
+> the wires and your fingers go when you lift it back out?
+
+The packaging envelope is larger than the solid component, because the real part needs room for far more than its own body.
 
 Include space for:
 
@@ -409,15 +431,10 @@ Include space for:
 - fingers
 - tools
 
-```mermaid
-flowchart TD
-    Component["Component body"] --> Envelope["Packaging envelope"]
-    Envelope --> Wires
-    Envelope --> Connector
-    Envelope --> Cooling
-    Envelope --> Access
-    Envelope --> Removal
-```
+> **[Sketch: a receiver drawn as a solid outline, with a larger dashed
+> rectangle around it labelled "packaging envelope" - arrows out of one side
+> for the wires and plug, an upward arrow labelled "lift-out room for
+> fingers", and a small gap all round labelled "clearance"]**
 
 Sketch the envelope around the component.
 
@@ -463,6 +480,8 @@ Example:
 | Lid to holder | Removable by hand |
 
 ---
+
+**Phase 2 - Define** (Steps 10-12): pin down what "good" means before you design anything.
 
 # Step 10 - Write Requirements
 
@@ -534,7 +553,14 @@ The challenge is done when:
 
 This prevents endless redesign.
 
+> **☕ Good place to pause.** That is the Understand and Define phases done -
+> you now know the user, the component, the space it needs, and exactly what
+> success looks like. Stretch. The next phase is the fun part: inventing and
+> comparing ideas.
+
 ---
+
+**Phase 3 - Design** (Steps 13-16): invent several ideas, compare them fairly, and spot the risks.
 
 # Step 13 - Generate at Least Three Concepts
 
@@ -574,6 +600,11 @@ Possible holder concepts:
 - carrier slides into base
 
 Sketch each concept.
+
+> **[Sketch: five small labelled thumbnails side by side - Open Tray with
+> Strap, Clip-In Cage, Two-Piece Box, Foam-Pad Platform and Sliding Cassette
+> - each a quick line drawing showing how the component sits and how it comes
+> out]**
 
 ---
 
@@ -662,6 +693,8 @@ This turns surprises into planned questions.
 
 ---
 
+**Phase 4 - Build and Test** (Steps 17-22): build a cheap prototype, test it, change one thing, and retest.
+
 # Step 17 - Build a Low-Cost Prototype
 
 Use cardboard or another easy material first.
@@ -680,6 +713,11 @@ For a tray:
 Do not permanently attach the real component.
 
 Use removable tape or soft bands if needed.
+
+> **📚 Learn more**
+>
+> - Make: Maker Camp (makercamp.make.co): search "cardboard prototypes" -
+>   quick ways to build and join cardboard models that hold their shape
 
 ---
 
@@ -831,7 +869,13 @@ Compare Revision A and Revision B.
 
 Now you have evidence.
 
+> **☕ Good place to pause.** You have built, tested, improved and retested -
+> and you have real numbers proving it. Stretch. The last phase turns all
+> that work into documents another person could actually use.
+
 ---
+
+**Phase 5 - Document** (Steps 23-27): capture the design as a drawing, a parts list, revision notes and a review.
 
 # Step 23 - Create an Engineering Drawing
 
@@ -865,6 +909,8 @@ Material: Cardboard prototype / PETG planned
 Units: mm
 Scale: NTS
 ```
+
+Here **NTS** means *Not To Scale*: it warns the reader not to measure the drawing with a ruler, but to trust the written dimensions instead.
 
 ---
 
@@ -1068,7 +1114,7 @@ A beautiful prototype that teaches nothing is decoration.
 
 ---
 
-# Common Beginner Mistakes
+# Common Beginner Mistakes ❌
 
 ## Mistake 1 - Choosing a Project That Is Too Large
 
@@ -1144,6 +1190,13 @@ If you already know basic CAD:
 6. Do not add decorative details yet.
 
 This is a packaging model, not a final production design.
+
+> **📚 Learn more**
+>
+> - Tinkercad Learn (tinkercad.com/learn): free beginner lessons for your
+>   first 3D CAD model
+> - Onshape Learning Centre (learn.onshape.com): the "CAD Basics" pathway,
+>   for a more capable free CAD tool later on
 
 ---
 
@@ -1251,7 +1304,7 @@ If several items are incomplete, repeat small activities before continuing.
 
 ---
 
-# Chapter Summary
+# Topic Summary 📝
 
 In this challenge, you applied the full engineering process to one small component holder.
 
@@ -1273,15 +1326,11 @@ You:
 - created a drawing
 - completed a design review
 
-This is the same basic pattern used in much larger engineering projects.
-
-The scale changes.
-
-The thinking remains similar.
+This is the same basic pattern used in much larger engineering projects. The scale changes, but the thinking remains similar.
 
 ---
 
-# New Words
+# New Words 📖
 
 | Word | Meaning |
 |---|---|
@@ -1298,7 +1347,7 @@ The thinking remains similar.
 
 ---
 
-# Review Questions
+# Review Questions ❓
 
 1. What is the goal of the first engineering challenge?
 2. Why should the selected component be small and simple?
@@ -1328,7 +1377,7 @@ The thinking remains similar.
 
 ---
 
-# Chapter Checklist
+# Topic Checklist ✅
 
 - [ ] I selected a small component or substitute object.
 - [ ] I wrote a user description.
@@ -1362,13 +1411,11 @@ The thinking remains similar.
 
 ---
 
-# Looking Ahead
+# Looking Ahead 🔭
 
-You have completed the first part of the handbook.
+You have completed the first part of the handbook, and you now have the basic thinking tools used throughout the rest of the project.
 
-You now have the basic thinking tools used throughout the rest of the project.
-
-In Part 2, we will enter the workshop.
+In the next topic, **Topic 2.1 - Workshop Safety and Setup**, we enter the workshop.
 
 We will learn:
 

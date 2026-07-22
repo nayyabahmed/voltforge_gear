@@ -46,7 +46,7 @@ the Part A/B seam (~669); before Hands-On Activity 1 (~1251).
   story (~73) - fold and test before the chapter explains why shape wins;
   one at Stress Concentration (~734) - tear paper with and without a tiny
   nick, why does the nick matter so much?
-- [x] [T] Chapter Mini Project (STYLE-GUIDE section 3): paper bridge
+- [x] [T] Topic Mini Project (STYLE-GUIDE section 3): paper bridge
   tested to failure with coins (sources: Science Buddies "Build the Best
   Paper Bridge", PBS Kids - re-verify in research pass). Builds on
   Activity 1 and the beam-shapes challenge: design-build-test-iterate to
