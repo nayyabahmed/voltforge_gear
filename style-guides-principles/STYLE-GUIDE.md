@@ -261,10 +261,10 @@ Topic 1.9), the procedure, and a pass/fail condition.
 
 ## 12. Publishing a Topic
 
-1. Save as `Part-N-Name/NN-Title.md`. The filename keeps the zero-padded
-   global sequence number (`00-`, `01-` … `43-`, hyphenated); the topic's
-   displayed number is part-relative (e.g. `1.5`). Keeping the filename
-   scheme keeps the build's cover matching and `--chapters` selection working.
+1. Save as `Part-N-Name/N.M-Title.md`, where `N.M` is the topic's displayed
+   part-relative number (`1.5-Measurement.md`, `2.1-Workshop-Safety-and-Setup.md`).
+   Cover art matches the same number (`assets/topic_covers/Topic 1.5 Cover.png`),
+   and the build's `--chapters` selection takes those numbers too.
 2. Add New Words to `glossary.md`.
 3. Update the topic's row in `SUMMARY.md` (planned -> v0.1 Draft) and link
    the file.

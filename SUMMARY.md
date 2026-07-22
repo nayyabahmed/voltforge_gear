@@ -12,7 +12,7 @@ The full topic plan for VoltForge Gear — The Young Engineer's Handbook, with w
 
 | # | Topic | Status |
 | --- | --- | --- |
-| 0.0 | [How to Use This Handbook](Part-1-Engineering-Mindset/00-How-to-Use-This-Handbook.md) | 🟡 v0.1 |
+| 0.0 | [How to Use This Handbook](Part-1-Engineering-Mindset/0.0-How-to-Use-This-Handbook.md) | 🟡 v0.1 |
 
 ## Part 1 — Engineering Mindset
 
@@ -20,15 +20,15 @@ The full topic plan for VoltForge Gear — The Young Engineer's Handbook, with w
 
 | # | Topic | Status |
 | --- | --- | --- |
-| 1.1 | [What Are We Building?](Part-1-Engineering-Mindset/01-What-Are-We-Building.md) | 🔵 v0.2 |
-| 1.2 | [Systems Thinking](Part-1-Engineering-Mindset/02-Systems-Thinking.md) | 🔵 v0.2 |
-| 1.3 | [How Machines Move](Part-1-Engineering-Mindset/03-How-Machines-Move.md) | 🔵 v0.2 |
-| 1.4 | [Forces and Why Parts Break](Part-1-Engineering-Mindset/04-Forces-and-Why-Parts-Break.md) | 🔵 v0.2 |
-| 1.5 | [Measurement](Part-1-Engineering-Mindset/05-Measurement.md) | 🔵 v0.2 |
-| 1.6 | [Accuracy, Precision and Error](Part-1-Engineering-Mindset/06-Accuracy-Precision-and-Error.md) | 🔵 v0.2 |
-| 1.7 | [Tolerances and Fits](Part-1-Engineering-Mindset/07-Tolerances-and-Fits.md) | 🔵 v0.2 |
-| 1.8 | [Engineering Drawings](Part-1-Engineering-Mindset/08-Engineering-Drawings.md) | 🔵 v0.2 |
-| 1.9 | [The Engineering Design Process](Part-1-Engineering-Mindset/09-The-Engineering-Design-Process.md) | 🔵 v0.2 |
+| 1.1 | [What Are We Building?](Part-1-Engineering-Mindset/1.1-What-Are-We-Building.md) | 🔵 v0.2 |
+| 1.2 | [Systems Thinking](Part-1-Engineering-Mindset/1.2-Systems-Thinking.md) | 🔵 v0.2 |
+| 1.3 | [How Machines Move](Part-1-Engineering-Mindset/1.3-How-Machines-Move.md) | 🔵 v0.2 |
+| 1.4 | [Forces and Why Parts Break](Part-1-Engineering-Mindset/1.4-Forces-and-Why-Parts-Break.md) | 🔵 v0.2 |
+| 1.5 | [Measurement](Part-1-Engineering-Mindset/1.5-Measurement.md) | 🔵 v0.2 |
+| 1.6 | [Accuracy, Precision and Error](Part-1-Engineering-Mindset/1.6-Accuracy-Precision-and-Error.md) | 🔵 v0.2 |
+| 1.7 | [Tolerances and Fits](Part-1-Engineering-Mindset/1.7-Tolerances-and-Fits.md) | 🔵 v0.2 |
+| 1.8 | [Engineering Drawings](Part-1-Engineering-Mindset/1.8-Engineering-Drawings.md) | 🔵 v0.2 |
+| 1.9 | [The Engineering Design Process](Part-1-Engineering-Mindset/1.9-The-Engineering-Design-Process.md) | 🔵 v0.2 |
 | — | [Part 1 Capstone: First Engineering Challenge](Part-1-Engineering-Mindset/Part-1-Capstone-First-Engineering-Challenge.md) | 🔵 v0.2 |
 | — | Part 1 Review Quiz | 📋 |
 
@@ -38,8 +38,8 @@ The full topic plan for VoltForge Gear — The Young Engineer's Handbook, with w
 
 | # | Topic | Status |
 | --- | --- | --- |
-| 2.1 | [Workshop Safety and Setup](Part-2-Workshop-Skills/10-Workshop-Safety-and-Setup.md) | 🟡 v0.1 |
-| 2.2 | [3D Printing Fundamentals](Part-2-Workshop-Skills/11-3D-Printing-Fundamentals.md) | 🟡 v0.1 |
+| 2.1 | [Workshop Safety and Setup](Part-2-Workshop-Skills/2.1-Workshop-Safety-and-Setup.md) | 🟡 v0.1 |
+| 2.2 | [3D Printing Fundamentals](Part-2-Workshop-Skills/2.2-3D-Printing-Fundamentals.md) | 🟡 v0.1 |
 | 2.3 | Slicer Software and First Prints | 📋 |
 | 2.4 | CAD Fundamentals | 📋 |
 | 2.5 | Designing Simple Parts | 📋 |

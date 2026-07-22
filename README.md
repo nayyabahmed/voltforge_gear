@@ -114,7 +114,7 @@ The finished handbook is expected to reach roughly **300–500 pages** across **
 
 ## How to Read It
 
-Start at [Topic 0.0 — How to Use This Handbook](Part-1-Engineering-Mindset/00-How-to-Use-This-Handbook.md) and read in order. The topics deliberately build on each other: each one assumes the experiments, vocabulary and checklists of the ones before it. Keep an **engineering notebook** from day one — the topics will tell you what to put in it.
+Start at [Topic 0.0 — How to Use This Handbook](Part-1-Engineering-Mindset/0.0-How-to-Use-This-Handbook.md) and read in order. The topics deliberately build on each other: each one assumes the experiments, vocabulary and checklists of the ones before it. Keep an **engineering notebook** from day one — the topics will tell you what to put in it.
 
 ## Contributing & Feedback
 

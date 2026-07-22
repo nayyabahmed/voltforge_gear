@@ -12,8 +12,9 @@ test step. Mermaid diagrams render directly on GitHub.
 The finished book is 44 topics in five parts, numbered per part (Part 1 →
 Topics 1.1-1.9, Part 2 → 2.1-2.10, … Part 5 → 5.1-5.4), plus the front-matter
 Topic 0.0 ("How to Use This Handbook", which sits outside Part 1) and an
-unnumbered Part 1 capstone. The files keep a global two-digit sequence prefix
-on disk (`00-` … `43-`) even though the displayed number is part-relative.
+unnumbered Part 1 capstone. Files are named for their displayed topic number
+(`1.5-Measurement.md`, `2.1-Workshop-Safety-and-Setup.md`); cover art matches
+it too (`assets/topic_covers/Topic 1.5 Cover.png`).
 `SUMMARY.md` is the single source of truth for the topic plan, numbering and
 writing progress - always check it before referencing a topic by number, and
 update the topic's status row whenever you create or materially revise a topic.
@@ -68,8 +69,8 @@ Read these before writing or editing any topic:
 
 ## Publishing a Topic (the full loop)
 
-1. File at `Part-N-Name/NN-Title.md` (the `NN-` prefix keeps the global
-   sequence number) with frontmatter including `version` and `status` per
+1. File at `Part-N-Name/N.M-Title.md` (the prefix is the displayed topic
+   number) with frontmatter including `version` and `status` per
    `VERSIONING.md` (new = "0.1" / "Draft").
 2. Add every New Words entry to `glossary.md` (alphabetical `### Term`
    entries under `## Letter` headings, plain-language style).

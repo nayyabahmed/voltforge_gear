@@ -10,7 +10,7 @@ Pipeline
    links to a real .md file that exists on disk).
 2. For each chapter:
      - strip the YAML front matter,
-     - inject its full-page cover image (assets/chapter_covers/Chapter NN Cover.png)
+     - inject its full-page cover image (assets/topic_covers/Topic N.M Cover.png)
        as a chapter-opener page, if one exists,
      - pre-render every ```mermaid block to an SVG with mermaid-cli (mmdc),
        because PDF/EPUB engines cannot run Mermaid.
@@ -31,7 +31,7 @@ Usage
     python scripts/build_book.py --epub --html           # multiple targets
     python scripts/build_book.py --pdf --no-mermaid      # skip diagram pre-render
     python scripts/build_book.py --pdf --include-glossary
-    python scripts/build_book.py --pdf --chapters 00,01  # partial build
+    python scripts/build_book.py --pdf --chapters 0.0,1.1  # partial build
 """
 from __future__ import annotations
 import argparse
@@ -45,7 +45,7 @@ from pathlib import Path
 # ---------------------------------------------------------------- paths
 ROOT       = Path(__file__).resolve().parent.parent
 SUMMARY    = ROOT / "SUMMARY.md"
-COVERS_DIR = ROOT / "assets" / "chapter_covers"
+COVERS_DIR = ROOT / "assets" / "topic_covers"
 TITLE_PAGE = ROOT / "assets" / "tile_page" / "Title_page.png"
 BUILD      = ROOT / "build"
 MERMAID    = BUILD / "mermaid"
@@ -57,7 +57,7 @@ TITLE      = "VoltForge Gear — The Young Engineer's Handbook"
 LINK_RE     = re.compile(r"\[([^\]]+)\]\(([^)]+?\.md)\)")
 FRONTMATTER = re.compile(r"\A﻿?---\r?\n.*?\r?\n---\r?\n", re.S)
 MERMAID_RE  = re.compile(r"```mermaid[^\n]*\n(.*?)\n```", re.S)
-CHAPNUM_RE  = re.compile(r"(\d{2})[-_]")
+CHAPNUM_RE  = re.compile(r"(\d+\.\d+)[-_]")
 H1_RE       = re.compile(r"^# (.+?)\s*$", re.M)
 
 
@@ -67,7 +67,7 @@ def chapter_number(path: Path) -> str | None:
 
 
 def filter_chapters(items: list[dict], wanted: set[str]) -> list[dict]:
-    """Keep only chapters whose NN- prefix is in `wanted`, dropping empty parts."""
+    """Keep only topics whose N.M- prefix is in `wanted`, dropping empty parts."""
     kept = [it for it in items
             if it["kind"] == "part" or chapter_number(it["path"]) in wanted]
     return [it for i, it in enumerate(kept)
@@ -164,16 +164,16 @@ def contents_block(included: set[Path]) -> str:
 
 
 def cover_for(path: Path) -> Path | None:
-    """assets/chapter_covers/Chapter NN Cover.png for a chapter file, if present."""
+    """assets/topic_covers/Topic N.M Cover.png for a topic file, if present."""
     m = CHAPNUM_RE.match(path.name)
     if not m:
         return None
-    cand = COVERS_DIR / f"Chapter {m.group(1)} Cover.png"
+    cand = COVERS_DIR / f"Topic {m.group(1)} Cover.png"
     return cand if cand.exists() else None
 
 
 def part_cover_for(title: str) -> Path | None:
-    """assets/chapter_covers/Part N.png for a part heading, if present."""
+    """assets/topic_covers/Part N.png for a part heading, if present."""
     m = re.match(r"Part\s+(\d+)", title)
     if not m:
         return None
@@ -368,7 +368,7 @@ def build_epub(combined: Path) -> None:
         "--resource-path", ".",
         "--metadata", f"title={TITLE}",
     ]
-    front = TITLE_PAGE if TITLE_PAGE.exists() else COVERS_DIR / "Chapter 01 Cover.png"
+    front = TITLE_PAGE if TITLE_PAGE.exists() else COVERS_DIR / "Topic 1.1 Cover.png"
     if front.exists():
         cmd += ["--epub-cover-image", str(front.relative_to(ROOT))]
     run(cmd)
@@ -402,8 +402,8 @@ def main() -> None:
     ap.add_argument("--include-glossary", action="store_true",
                     help="append the glossary as back matter")
     ap.add_argument("--chapters",
-                    help="comma-separated two-digit chapter numbers to build "
-                         "(e.g. 00,01); default is every published chapter")
+                    help="comma-separated topic numbers to build "
+                         "(e.g. 0.0,1.1); default is every published topic")
     args = ap.parse_args()
 
     # Windows consoles often default to cp1252, which can't print the
@@ -416,7 +416,7 @@ def main() -> None:
 
     items = parse_summary()
     if args.chapters:
-        wanted = {n.strip().zfill(2) for n in args.chapters.split(",") if n.strip()}
+        wanted = {n.strip() for n in args.chapters.split(",") if n.strip()}
         items = filter_chapters(items, wanted)
     chapters = [i for i in items if i["kind"] == "chapter"]
 
