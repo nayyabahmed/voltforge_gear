@@ -163,22 +163,42 @@ def contents_block(included: set[Path]) -> str:
     return "\n".join(lines)
 
 
+def find_cover(*names: str) -> Path | None:
+    """First matching cover anywhere under assets/topic_covers/.
+
+    Covers are filed per part (`Part_1/`, `Part_2/`, ...), so the lookup
+    searches subfolders rather than assuming a flat directory.
+    """
+    for name in names:
+        if (COVERS_DIR / name).exists():
+            return COVERS_DIR / name
+        hit = next(COVERS_DIR.rglob(name), None)
+        if hit:
+            return hit
+    return None
+
+
 def cover_for(path: Path) -> Path | None:
-    """assets/topic_covers/Topic N.M Cover.png for a topic file, if present."""
+    """Topic N.M Cover.png for a topic file, if present.
+
+    The unnumbered part capstones fall back to Part_N_Project.png.
+    """
     m = CHAPNUM_RE.match(path.name)
-    if not m:
-        return None
-    cand = COVERS_DIR / f"Topic {m.group(1)} Cover.png"
-    return cand if cand.exists() else None
+    if m:
+        return find_cover(f"Topic {m.group(1)} Cover.png")
+    m = re.search(r"Part[-_ ](\d+)", path.name)
+    if m and "capstone" in path.name.lower():
+        return find_cover(f"Part_{m.group(1)}_Project.png",
+                          f"Part {m.group(1)} Project.png")
+    return None
 
 
 def part_cover_for(title: str) -> Path | None:
-    """assets/topic_covers/Part N.png for a part heading, if present."""
+    """Part N.png for a part heading, if present."""
     m = re.match(r"Part\s+(\d+)", title)
     if not m:
         return None
-    cand = COVERS_DIR / f"Part {m.group(1)}.png"
-    return cand if cand.exists() else None
+    return find_cover(f"Part_{m.group(1)}.png", f"Part {m.group(1)}.png")
 
 
 # ---------------------------------------------------------------- transforms
