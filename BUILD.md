@@ -114,7 +114,16 @@ python scripts/build_book.py --pdf --no-mermaid
 # partial build — only the listed topics (e.g. proofing a topic).
 # --chapters keeps its name but takes part-relative topic numbers.
 python scripts/build_book.py --pdf --chapters 0.0,1.1
+
+# a whole part, including its part cover and its unnumbered capstone
+python scripts/build_book.py --pdf --part 1
 ```
+
+Prefer `--part` over `--chapters` when you want a complete part: capstones
+have no `N.M` prefix, so `--chapters` cannot select them.
+
+Every build writes to the same `dist/VoltForgeGear.pdf`, so a partial build
+overwrites a full one — rename the output if you want to keep both.
 
 When building as root (WSL default-less setups, CI), Chromium refuses to
 start without a sandbox flag. Point `MMDC_PUPPETEER_CONFIG` at a JSON file

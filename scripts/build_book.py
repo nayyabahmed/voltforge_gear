@@ -66,6 +66,25 @@ def chapter_number(path: Path) -> str | None:
     return m.group(1) if m else None
 
 
+def filter_parts(items: list[dict], wanted: set[str]) -> list[dict]:
+    """Keep whole parts by number, e.g. {"1"} -> Part 1 and everything in it.
+
+    Unlike --chapters this keeps a part's unnumbered capstone, which has no
+    N.M prefix to match on.
+    """
+    kept: list[dict] = []
+    keeping = False
+    for it in items:
+        if it["kind"] == "part":
+            m = re.match(r"Part\s+(\d+)", it["title"])
+            keeping = bool(m and m.group(1) in wanted)
+            if keeping:
+                kept.append(it)
+        elif keeping:
+            kept.append(it)
+    return kept
+
+
 def filter_chapters(items: list[dict], wanted: set[str]) -> list[dict]:
     """Keep only topics whose N.M- prefix is in `wanted`, dropping empty parts."""
     kept = [it for it in items
@@ -163,22 +182,42 @@ def contents_block(included: set[Path]) -> str:
     return "\n".join(lines)
 
 
+def find_cover(*names: str) -> Path | None:
+    """First matching cover anywhere under assets/topic_covers/.
+
+    Covers are filed per part (`Part_1/`, `Part_2/`, ...), so the lookup
+    searches subfolders rather than assuming a flat directory.
+    """
+    for name in names:
+        if (COVERS_DIR / name).exists():
+            return COVERS_DIR / name
+        hit = next(COVERS_DIR.rglob(name), None)
+        if hit:
+            return hit
+    return None
+
+
 def cover_for(path: Path) -> Path | None:
-    """assets/topic_covers/Topic N.M Cover.png for a topic file, if present."""
+    """Topic N.M Cover.png for a topic file, if present.
+
+    The unnumbered part capstones fall back to Part_N_Project.png.
+    """
     m = CHAPNUM_RE.match(path.name)
-    if not m:
-        return None
-    cand = COVERS_DIR / f"Topic {m.group(1)} Cover.png"
-    return cand if cand.exists() else None
+    if m:
+        return find_cover(f"Topic {m.group(1)} Cover.png")
+    m = re.search(r"Part[-_ ](\d+)", path.name)
+    if m and "capstone" in path.name.lower():
+        return find_cover(f"Part_{m.group(1)}_Project.png",
+                          f"Part {m.group(1)} Project.png")
+    return None
 
 
 def part_cover_for(title: str) -> Path | None:
-    """assets/topic_covers/Part N.png for a part heading, if present."""
+    """Part N.png for a part heading, if present."""
     m = re.match(r"Part\s+(\d+)", title)
     if not m:
         return None
-    cand = COVERS_DIR / f"Part {m.group(1)}.png"
-    return cand if cand.exists() else None
+    return find_cover(f"Part_{m.group(1)}.png", f"Part {m.group(1)}.png")
 
 
 # ---------------------------------------------------------------- transforms
@@ -404,6 +443,9 @@ def main() -> None:
     ap.add_argument("--chapters",
                     help="comma-separated topic numbers to build "
                          "(e.g. 0.0,1.1); default is every published topic")
+    ap.add_argument("--part",
+                    help="comma-separated part numbers to build (e.g. 1); "
+                         "keeps the part cover and the part's capstone")
     args = ap.parse_args()
 
     # Windows consoles often default to cp1252, which can't print the
@@ -415,6 +457,8 @@ def main() -> None:
         sys.exit(f"error: {SUMMARY} not found.")
 
     items = parse_summary()
+    if args.part:
+        items = filter_parts(items, {n.strip() for n in args.part.split(",") if n.strip()})
     if args.chapters:
         wanted = {n.strip() for n in args.chapters.split(",") if n.strip()}
         items = filter_chapters(items, wanted)
