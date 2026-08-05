@@ -1,52 +1,75 @@
-# Chapter Writing - Project Tracker ✍️
+# Topic Writing - Project Tracker ✍️
 
-Status board for AUTHORING new chapters (12 onwards, plus part quizzes
-and capstones). The Part 1 review has its own board: [TRACKER.md](TRACKER.md).
+Status board for AUTHORING new topics. The Part 1 review has its own board:
+[TRACKER.md](TRACKER.md).
 
-`SUMMARY.md` stays the single source of truth for chapter numbering and
-published status - this board never contradicts it. What this board adds
-is the PIPELINE view: which stage each in-flight chapter is at, which
-SUMMARY's single status emoji cannot show.
+`SUMMARY.md` stays the single source of truth for topic numbering and
+published status - this board never contradicts it. What this board adds is
+the PIPELINE view: which stage each in-flight topic is at, and which debts a
+published topic still carries. SUMMARY's single status emoji cannot show
+either.
 
 **Legend:** ✅ done | 🔨 in progress | 📋 planned | ➖ not applicable
 
-Last updated: 2026-07-12
+Last updated: 2026-08-05
 
-## Pipeline Stages (every new chapter, in order)
+## Pipeline Stages (every new topic, in order)
 
 1. **Research** - web-verify facts, links, safety claims; confirm the
    mini-project candidate (STYLE-GUIDE + CLAUDE.md "verify before citing").
 2. **Draft** - write to STYLE-GUIDE (template, glosses, think-prompt,
    visuals, Learn More, emoji registry, break markers).
-3. **Mini project** - teaching chapters get a Topic Mini Project with a
-   Watch-the-build box; build chapters (Parts 3-5) instead follow the
+3. **Mini project** - teaching topics get a Topic Mini Project with a
+   Watch-the-build box; build topics (Parts 3-5) instead follow the
    Handbook Writing Rule (GUIDING-PRINCIPLES) and the capstones ARE
    projects.
-4. **Glossary** - every New Words entry added alphabetically.
+4. **Glossary** - every New Words entry added alphabetically to
+   `glossary.md`.
 5. **Reference docs** - feed SAFETY.md, TOOLS.md, BOM.md, COST-LEDGER.md,
-   TROUBLESHOOTING.md where the chapter touches them (check their
+   TROUBLESHOOTING.md where the topic touches them (check their
    frontmatter feeds lists).
 6. **Publish** - SUMMARY.md row to 🟡 v0.1, this board updated, one commit.
 
 ## In Flight
 
-| Chapter | Research | Draft | Mini project | Glossary | Ref docs | Published |
+| Topic | Research | Draft | Mini project | Glossary | Ref docs | Published |
 | --- | --- | --- | --- | --- | --- | --- |
-| (none - writing paused during the Part 1 review) | | | | | | |
+| (none) | | | | | | |
 
-## Recently Published
+## Published - Part 2 (Workshop Skills)
 
-| Chapter | Status | Notes |
-| --- | --- | --- |
-| 10 Workshop Safety and Setup | ✅ v0.1 | Written pre-conventions: owes a mini project, emoji pass and think-prompt check when next revised |
-| 11 3D Printing Fundamentals | ✅ v0.1 | Same - written before the mini-project/emoji conventions existed |
+All at 🟡 v0.1 Draft in SUMMARY.md.
+
+| Topic | Mini project | Think-prompt | Emoji pass | Glossary | Notes |
+| --- | --- | --- | --- | --- | --- |
+| 2.1 Workshop Safety and Setup | ❌ owed | ❌ owed | ❌ owed | ✅ | Written pre-conventions |
+| 2.2 3D Printing Fundamentals | ❌ owed | ❌ owed | ❌ owed | ✅ | Written pre-conventions |
+| 2.3 Slicer Software and First Prints | ✅ | ✅ | ✅ | ✅ 2026-08-05 | |
+| 2.4 CAD Fundamentals | ✅ | ✅ | ✅ | ✅ 2026-08-05 | |
+| 2.5 Designing Simple Parts | ✅ | ✅ | ✅ | ✅ 2026-08-05 | |
+| 2.6 3D Printing Materials | ✅ | ✅ | ✅ | ✅ 2026-08-05 | |
+| 2.7 Hand Tools and Fasteners | ✅ | ✅ | ✅ | ✅ 2026-08-05 | |
+| 2.8 Cutting, Drilling and Finishing | ✅ | ✅ | ✅ | ✅ 2026-08-05 | |
+| 2.9 Soldering and Wire Connections | ✅ | ✅ | ✅ | ✅ 2026-08-05 | SUMMARY row fixed 2026-08-05 |
+
+## Outstanding Debts
+
+Carried by published topics; clear these when the topic is next revised or
+when Part 2 goes through its review pass.
+
+| Debt | Detail |
+| --- | --- |
+| 2.1 / 2.2 pre-convention gaps | Neither has a Topic Mini Project, a think-about-it prompt, or an emoji pass. Both predate those conventions. |
+| Part 2 review pass | Not started. No `backlog/part-2-*.md` files exist and every Part 2 topic is still v0.1 Draft. Part 1's equivalent pass is what took 1.x to v0.2. |
+| TROUBLESHOOTING.md unfed | No Topic 2.x references at all, though 2.3 (first prints) and 2.6 (materials) are natural feeders. |
+| TOOLS.md thin | 46 lines; references 2.2, 2.7 and 2.9 only. Topic 2.8 introduces cutting and drilling tools that are not listed. |
 
 ## Next Up (order per SUMMARY.md)
 
-1. 📋 Chapter 12 - Slicer Software and First Prints
-2. 📋 Chapter 13 - CAD Fundamentals
-3. 📋 Chapter 14 - Designing Simple Parts
-4. 📋 Part 1 Review Quiz (small, could slot in any time)
+1. 📋 Topic 2.10 - Workshop Skills Challenge (Part 2 capstone; the challenge
+   IS the project, so no separate mini project)
+2. 📋 Part 1 Review Quiz (small, could slot in any time)
+3. 📋 Topic 3.1 - Meet the RC Electronics (starts Part 3)
 
-The full queue (through Chapter 43) lives in SUMMARY.md - do not mirror
-it here; add a chapter to "In Flight" only when its research pass starts.
+The full queue (through Topic 5.4) lives in SUMMARY.md - do not mirror it
+here; add a topic to "In Flight" only when its research pass starts.
