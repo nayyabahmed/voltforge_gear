@@ -46,7 +46,7 @@ The full topic plan for VoltForge Gear — The Young Engineer's Handbook, with w
 | 2.6 | [3D Printing Materials](Part-2-Workshop-Skills/2.6-3D-Printing-Materials.md) | 🟡 v0.1 |
 | 2.7 | [Hand Tools and Fasteners](Part-2-Workshop-Skills/2.7-Hand-Tools-and-Fasteners.md) | 🟡 v0.1 |
 | 2.8 | [Cutting, Drilling and Finishing](Part-2-Workshop-Skills/2.8-Cutting-Drilling-and-Finishing.md) | 🟡 v0.1 |
-| 2.9 | Soldering and Wire Connections | 📋 |
+| 2.9 | [Soldering and Wire Connections](Part-2-Workshop-Skills/2.9-Soldering-and-Wire-Connections.md) | 🟡 v0.1 |
 | 2.10 | Workshop Skills Challenge | 📋 |
 
 ## Part 3 — RC Systems
