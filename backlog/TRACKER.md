@@ -14,14 +14,14 @@ Update the relevant row whenever a work item starts or finishes
 > (00-09), kept as internal review IDs; the reader now sees these as Topics
 > 0.0 and 1.1-1.9. See the mapping table in [PLAN.md](PLAN.md).
 
-Last updated: 2026-07-22
+Last updated: 2026-08-05
 
 ## Chapter Work
 
 | Chapter | Backlog file | Research pass | Review items | Mini project | Emoji pass | v0.2 bumped | Overall |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 00 How to Use This Handbook | ✅ | ➖ nothing to verify | ➖ not in review scope | ➖ by convention | ✅ | ✅ | ✅ done |
-| 01 What Are We Building? | ✅ | 🔨 two Learn More terms owe retro-check | ✅ | ✅ Cotton Reel Crawler | ✅ | ✅ | ✅ done (bar retro-check) |
+| 01 What Are We Building? | ✅ | ✅ (Learn More terms web-verified 2026-07-22) | ✅ | ✅ Cotton Reel Crawler | ✅ | ✅ | ✅ done |
 | 02 Systems Thinking | ✅ | ✅ | ✅ | ✅ Kitchen Chain Reaction | ✅ | ✅ (now honest) | ✅ done |
 | 03 How Machines Move | ✅ | ✅ | ✅ | ✅ cardboard gear pair | ✅ | ✅ | ✅ done |
 | 04 Forces and Why Parts Break | ✅ | ✅ | ✅ | ✅ Paper Bridge to Failure | ✅ | ✅ | ✅ done |
@@ -31,7 +31,7 @@ Last updated: 2026-07-22
 | 08 Engineering Drawings | ✅ created 2026-07-22 | ✅ | ✅ | ✅ the blueprint challenge | ✅ | ✅ (early bump now honest) | ✅ done (2026-07-22) |
 | 09 The Engineering Design Process | ✅ created 2026-07-22 | ✅ | ✅ | ✅ cardboard phone stand | ✅ | ✅ | ✅ done (2026-07-22) |
 | Part 1 Capstone | ✅ created 2026-07-22 | ✅ | ✅ | ➖ capstone IS the project | ✅ | ✅ | ✅ done (2026-07-22) |
-| Glossary | 📋 to create | ➖ | 🔨 1 of 2 items done + Suspension added | ➖ | ➖ | ➖ | 🔨 in progress |
+| Glossary | ➖ no backlog file needed | ➖ | ✅ both items done + Suspension added | ➖ | ➖ | ➖ | ✅ done (2026-07-22) |
 
 ## Book-Wide Sweeps (tick only when all of Part 1 is swept)
 
@@ -81,6 +81,9 @@ Last updated: 2026-07-22
    Book Is Organised" refreshed to the final template + Showcase Shelf added.
 
 **PART 1 REVIEW COMPLETE.** Every Part 1 topic (0.0, 1.1-1.9, capstone) is
-at v0.2 "Reviewed" and all book-wide sweeps are done. All work sits on
-`review-chapter-5` and is not yet merged to main.
-   template list; final book-wide ticks.
+at v0.2 "Reviewed" and all book-wide sweeps are done. The work was merged to
+`main` on 2026-07-22 via PR #4 (`review-chapter-5`, merge commit a97db2a).
+
+This board is now closed. Part 2's review has not started and will get its
+own backlog files and board rows; see the Outstanding Debts section of
+[WRITING-TRACKER.md](WRITING-TRACKER.md).
