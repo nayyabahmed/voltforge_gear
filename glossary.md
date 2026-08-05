@@ -463,6 +463,14 @@ The metal inside a wire that carries the electricity.
 
 ---
 
+### Confirmation Bias
+
+Seeing what you hoped to see rather than what is really there.
+
+In measurement, it means repeating a reading until you get the expected number instead of recording the honest result.
+
+---
+
 ### Constraint
 
 A limit within which a design must work.
@@ -477,14 +485,6 @@ Examples:
 
 In CAD, the word has a second, narrower meaning: a rule that controls a
 geometric relationship in a sketch, such as parallel, equal or centred.
-
----
-
-### Confirmation Bias
-
-Seeing what you hoped to see rather than what is really there.
-
-In measurement, it means repeating a reading until you get the expected number instead of recording the honest result.
 
 ---
 
@@ -658,14 +658,6 @@ An enlarged drawing view of a small feature.
 
 ---
 
-### Differential
-
-A gear system that sends motion to both driven wheels while letting them
-turn at different speeds, so the outside wheel can travel farther than
-the inside wheel during a turn.
-
----
-
 ### Diameter
 
 The distance across a circle through its centre.
@@ -675,6 +667,14 @@ The symbol is often:
 ```text
 Ø
 ```
+
+---
+
+### Differential
+
+A gear system that sends motion to both driven wheels while letting them
+turn at different speeds, so the outside wheel can travel farther than
+the inside wheel during a turn.
 
 ---
 
@@ -698,6 +698,12 @@ Using the wrong driver profile rounds the recess out.
 
 ---
 
+### Driveshaft
+
+A shaft that carries rotation and torque from one place to another.
+
+---
+
 ### Drivetrain
 
 The parts that carry motor rotation to the driven wheels.
@@ -710,12 +716,6 @@ Typical parts include:
 - driveshafts
 - axles
 - wheels
-
----
-
-### Driveshaft
-
-A shaft that carries rotation and torque from one place to another.
 
 ---
 
@@ -774,6 +774,12 @@ A battery stores electrical energy.
 
 ---
 
+### Engineer
+
+Someone who designs, tests, improves, and understands how things work.
+
+---
+
 ### Engineering Cycle
 
 A repeating process of:
@@ -787,12 +793,6 @@ Think -> Design -> Build -> Test -> Learn -> Improve
 ### Engineering Drawing
 
 A precise visual instruction describing the shape, size, and important details of a part or assembly.
-
----
-
-### Engineer
-
-Someone who designs, tests, improves, and understands how things work.
 
 ---
 
@@ -1902,6 +1902,12 @@ A screw designed to form or cut its own thread as it enters a suitable hole.
 
 ---
 
+### Service Loop
+
+A planned bit of spare wire left at a connection, so it can move or be repaired without pulling on the joint.
+
+---
+
 ### Serviceability
 
 How easily a part can be:
@@ -1911,12 +1917,6 @@ How easily a part can be:
 - cleaned
 - repaired
 - replaced
-
----
-
-### Service Loop
-
-A planned bit of spare wire left at a connection, so it can move or be repaired without pulling on the joint.
 
 ---
 
@@ -2090,12 +2090,6 @@ A smaller system inside a larger system.
 
 ---
 
-### Support-Free
-
-Designed to print in the chosen orientation without needing temporary support material.
-
----
-
 ### Support Material
 
 Sacrificial scaffolding printed under overhangs and removed after printing.
@@ -2108,9 +2102,9 @@ The route forces follow from the ground through the structure.
 
 ---
 
-### Swept Volume
+### Support-Free
 
-The full space occupied by a part as it moves.
+Designed to print in the chosen orientation without needing temporary support material.
 
 ---
 
@@ -2119,6 +2113,12 @@ The full space occupied by a part as it moves.
 The system that lets the wheels move up and down over bumps while staying attached to the car.
 
 It keeps the tyres pressed against the ground so the buggy stays controllable.
+
+---
+
+### Swept Volume
+
+The full space occupied by a part as it moves.
 
 ---
 
