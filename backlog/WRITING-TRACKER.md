@@ -43,7 +43,7 @@ Last updated: 2026-08-06
 
 ## Published - Part 2 (Workshop Skills)
 
-Topics 2.1-2.6 are at 🔵 v0.2 Reviewed; 2.7-2.9 are still at 🟡 v0.1 Draft. Review
+Topics 2.1-2.7 are at 🔵 v0.2 Reviewed; 2.8-2.9 are still at 🟡 v0.1 Draft. Review
 progress is tracked on the board in
 [part-2-book-wide.md](part-2-book-wide.md).
 
@@ -55,7 +55,7 @@ progress is tracked on the board in
 | 2.4 CAD Fundamentals | ✅ | ✅ | ✅ | ✅ | v0.2 Reviewed 2026-08-06 |
 | 2.5 Designing Simple Parts | ✅ | ✅ | ✅ | ✅ | v0.2 Reviewed 2026-08-06 |
 | 2.6 3D Printing Materials | ✅ | ✅ | ✅ | ✅ | v0.2 Reviewed 2026-08-06 |
-| 2.7 Hand Tools and Fasteners | ✅ | ✅ | ✅ | ✅ 2026-08-06 | |
+| 2.7 Hand Tools and Fasteners | ✅ | ✅ | ✅ | ✅ | v0.2 Reviewed 2026-08-06 |
 | 2.8 Cutting, Drilling and Finishing | ✅ | ✅ | ✅ | ✅ 2026-08-06 | |
 | 2.9 Soldering and Wire Connections | ✅ | ✅ | ✅ | ✅ 2026-08-06 | SUMMARY row fixed 2026-08-06 |
 

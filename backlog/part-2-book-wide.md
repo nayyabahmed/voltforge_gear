@@ -7,7 +7,7 @@ tick them here only when every Part 2 topic is swept.
 Legend: [T] textual, [C] context awareness, [V] visual aid, [E] external reference.
 
 Created 2026-08-06. Status: **IN PROGRESS** - Phase 1 complete (Topics 2.1
-and 2.2). Phase 2 under way: 2.3-2.6 done, 2.7 next.
+and 2.2). Phase 2 under way: 2.3-2.7 done, 2.8 next.
 
 ## Status board
 
@@ -28,7 +28,7 @@ Last updated: 2026-08-06
 | 2.4 CAD Fundamentals | ✅ created | ✅ | ✅ | ✅ | ✅ already | ✅ | ✅ done (2026-08-06) |
 | 2.5 Designing Simple Parts | ✅ created | ✅ | ✅ | ✅ | ✅ already | ✅ | ✅ done (2026-08-06) |
 | 2.6 3D Printing Materials | ✅ created | ✅ | ✅ | ✅ | ✅ already | ✅ | ✅ done (2026-08-06) |
-| 2.7 Hand Tools and Fasteners | ✅ created | 📋 | 📋 | ✅ already | ✅ already | 📋 | 📋 planned |
+| 2.7 Hand Tools and Fasteners | ✅ created | ✅ | ✅ | ✅ | ✅ already | ✅ | ✅ done (2026-08-06) |
 | 2.8 Cutting, Drilling and Finishing | ✅ created | 📋 | 📋 | ✅ already | ✅ already | 📋 | 📋 planned |
 | 2.9 Soldering and Wire Connections | ✅ created | 📋 | 📋 | ✅ already | ✅ already | 📋 | 📋 planned |
 | Book-wide sweeps | ✅ this file | ➖ | 📋 | ➖ | ➖ | ➖ | 📋 planned |
