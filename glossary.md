@@ -1245,6 +1245,15 @@ Movement along a path.
 
 ---
 
+### LiPo Bag
+
+A fire-resistant pouch that a rechargeable battery is charged inside.
+
+It contains flame and sparks if a pack fails, which buys time - it does not
+make charging unattended safe.
+
+---
+
 ### Load
 
 A force or combination of forces acting on a part.

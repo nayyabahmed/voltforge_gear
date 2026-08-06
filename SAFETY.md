@@ -27,7 +27,9 @@ disagree, tell an adult and trust the stricter rule.
 - Tie back long hair; no dangling cords, jewellery or loose gloves near
   anything that spins.
 - Safety glasses for drilling, cutting rigid material and clipping wire.
-  PPE is the last line of defence, not a substitute for a safe method.
+  Look for the EN 166 mark - ordinary spectacles are not impact-tested and
+  leave the sides open. PPE is the last line of defence, not a substitute
+  for a safe method.
 - Clamp the work before drilling - never hold a small part in your fingers.
 - Power off is the default: disconnect the battery before touching gears,
   wheels or wiring. Do not trust the transmitter switch alone.

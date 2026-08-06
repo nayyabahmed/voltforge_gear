@@ -22,7 +22,7 @@ Last updated: 2026-08-06
 
 | Topic | Backlog file | Research pass | Items applied | Emoji pass | Mini project | v0.2 bumped | Overall |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2.1 Workshop Safety and Setup | ✅ created | 📋 | 📋 | 📋 owed | 📋 owed | 📋 | 📋 planned |
+| 2.1 Workshop Safety and Setup | ✅ created | ✅ | ✅ | ✅ | ✅ Safety Card | ✅ | ✅ done (2026-08-06) |
 | 2.2 3D Printing Fundamentals | ✅ created | 📋 | 📋 | 📋 owed | 📋 owed | 📋 | 📋 planned |
 | 2.3 Slicer Software and First Prints | ✅ created | 📋 | 📋 | ✅ already | ✅ already | 📋 | 📋 planned |
 | 2.4 CAD Fundamentals | ✅ created | 📋 | 📋 | ✅ already | ✅ already | 📋 | 📋 planned |
