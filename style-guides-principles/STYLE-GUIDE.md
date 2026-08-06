@@ -279,6 +279,50 @@ and any New Word naming a physical thing gets a thumbnail.
 - **Source format is SVG** for anything drawn, so labels stay selectable and
   correctable, it scales to print, and it can be made theme-aware later.
   Photographs are raster; their labels are added as vector.
+- **SVG is the master. Any PNG is derived.** Never edit the PNG - regenerate
+  it from the SVG. If the two ever disagree, the SVG wins. A drawn figure
+  should not be committed as PNG only, because a raster label cannot be
+  corrected without redrawing the whole figure.
+- Avoid `<foreignObject>` in SVG. It renders on GitHub but WeasyPrint drops
+  it, so the figure comes out as an empty box in the PDF - the same failure
+  that forced Mermaid to be pre-rendered as PNG (see `BUILD.md`).
+
+### 7.6 Where figures live
+
+```text
+assets/figures/<topic number>/<figure number>-<slug>.svg
+```
+
+For example `assets/figures/1.4/1.4.A-five-ways-to-load-a-part.svg`, referenced
+from `Part-1-Engineering-Mindset/1.4-Forces-and-Why-Parts-Break.md` as
+`../assets/figures/1.4/1.4.A-five-ways-to-load-a-part.svg`.
+
+- Lower case, hyphenated, **no spaces** - a space in a path has to be escaped
+  as `%20` in Markdown and is a reliable source of broken links. (The topic
+  covers in `assets/topic_covers/` do use spaces; they are matched by
+  `build_book.py` rather than linked from prose, so the rule differs.)
+- One folder per topic. At roughly six figures per topic this keeps folders
+  small enough to scan.
+- The figure number in the filename must match the number in the caption.
+
+### 7.7 Replacing a placeholder with the real figure
+
+When the artwork arrives, the placeholder block becomes three things:
+
+```markdown
+![alt text goes here](../assets/figures/1.4/1.4.A-five-ways-to-load-a-part.svg)
+
+*Figure 1.4.A - the caption, unchanged.*
+
+<!-- figure brief (F5 force and motion overlay), kept for redraws: … -->
+```
+
+- The **alt text** moves into the `![…]` brackets. This is why alt text is
+  written as a standalone sentence rather than a note to ourselves.
+- The **caption stays exactly as it was.**
+- The **brief is kept as an HTML comment.** It renders nowhere, and it is what
+  you need if the figure ever has to be redrawn or a label turns out wrong.
+  Do not delete it when the first version arrives.
 - **Never generate accuracy-critical artwork.** A beautiful but wrong diagram
   is worse than no diagram, because a young reader cannot tell. Technical
   figures are drawn by a human, derived from CAD, or photographed.
