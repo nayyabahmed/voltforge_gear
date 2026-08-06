@@ -7,7 +7,7 @@ tick them here only when every Part 2 topic is swept.
 Legend: [T] textual, [C] context awareness, [V] visual aid, [E] external reference.
 
 Created 2026-08-06. Status: **IN PROGRESS** - Phase 1 complete (Topics 2.1
-and 2.2 at v0.2 Reviewed). Phase 2 next, starting with Topic 2.3.
+and 2.2). Phase 2 under way: 2.3-2.6 done, 2.7 next.
 
 ## Status board
 
@@ -24,10 +24,10 @@ Last updated: 2026-08-06
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2.1 Workshop Safety and Setup | ✅ created | ✅ | ✅ | ✅ | ✅ Safety Card | ✅ | ✅ done (2026-08-06) |
 | 2.2 3D Printing Fundamentals | ✅ created | ✅ | ✅ | ✅ | ✅ Contour Stack | ✅ | ✅ done (2026-08-06) |
-| 2.3 Slicer Software and First Prints | ✅ created | 📋 | 📋 | ✅ already | ✅ already | 📋 | 📋 planned |
-| 2.4 CAD Fundamentals | ✅ created | 📋 | 📋 | ✅ already | ✅ already | 📋 | 📋 planned |
-| 2.5 Designing Simple Parts | ✅ created | 📋 | 📋 | ✅ already | ✅ already | 📋 | 📋 planned |
-| 2.6 3D Printing Materials | ✅ created | 📋 | 📋 | ✅ already | ✅ already | 📋 | 📋 planned |
+| 2.3 Slicer Software and First Prints | ✅ created | ✅ | ✅ | ✅ | ✅ already | ✅ | ✅ done (2026-08-06) |
+| 2.4 CAD Fundamentals | ✅ created | ✅ | ✅ | ✅ | ✅ already | ✅ | ✅ done (2026-08-06) |
+| 2.5 Designing Simple Parts | ✅ created | ✅ | ✅ | ✅ | ✅ already | ✅ | ✅ done (2026-08-06) |
+| 2.6 3D Printing Materials | ✅ created | ✅ | ✅ | ✅ | ✅ already | ✅ | ✅ done (2026-08-06) |
 | 2.7 Hand Tools and Fasteners | ✅ created | 📋 | 📋 | ✅ already | ✅ already | 📋 | 📋 planned |
 | 2.8 Cutting, Drilling and Finishing | ✅ created | 📋 | 📋 | ✅ already | ✅ already | 📋 | 📋 planned |
 | 2.9 Soldering and Wire Connections | ✅ created | 📋 | 📋 | ✅ already | ✅ already | 📋 | 📋 planned |

@@ -43,7 +43,7 @@ Last updated: 2026-08-06
 
 ## Published - Part 2 (Workshop Skills)
 
-Topic 2.1 is at 🔵 v0.2 Reviewed; 2.2-2.9 are still at 🟡 v0.1 Draft. Review
+Topics 2.1-2.6 are at 🔵 v0.2 Reviewed; 2.7-2.9 are still at 🟡 v0.1 Draft. Review
 progress is tracked on the board in
 [part-2-book-wide.md](part-2-book-wide.md).
 
@@ -51,10 +51,10 @@ progress is tracked on the board in
 | --- | --- | --- | --- | --- | --- |
 | 2.1 Workshop Safety and Setup | ✅ Safety Card | ✅ | ✅ | ✅ | Debts cleared in the v0.2 review pass, 2026-08-06 |
 | 2.2 3D Printing Fundamentals | ✅ Contour Stack | ✅ | ✅ | ✅ | Debts cleared in the v0.2 review pass, 2026-08-06 |
-| 2.3 Slicer Software and First Prints | ✅ | ✅ | ✅ | ✅ 2026-08-06 | |
-| 2.4 CAD Fundamentals | ✅ | ✅ | ✅ | ✅ 2026-08-06 | |
-| 2.5 Designing Simple Parts | ✅ | ✅ | ✅ | ✅ 2026-08-06 | |
-| 2.6 3D Printing Materials | ✅ | ✅ | ✅ | ✅ 2026-08-06 | |
+| 2.3 Slicer Software and First Prints | ✅ | ✅ | ✅ | ✅ | v0.2 Reviewed 2026-08-06 |
+| 2.4 CAD Fundamentals | ✅ | ✅ | ✅ | ✅ | v0.2 Reviewed 2026-08-06 |
+| 2.5 Designing Simple Parts | ✅ | ✅ | ✅ | ✅ | v0.2 Reviewed 2026-08-06 |
+| 2.6 3D Printing Materials | ✅ | ✅ | ✅ | ✅ | v0.2 Reviewed 2026-08-06 |
 | 2.7 Hand Tools and Fasteners | ✅ | ✅ | ✅ | ✅ 2026-08-06 | |
 | 2.8 Cutting, Drilling and Finishing | ✅ | ✅ | ✅ | ✅ 2026-08-06 | |
 | 2.9 Soldering and Wire Connections | ✅ | ✅ | ✅ | ✅ 2026-08-06 | SUMMARY row fixed 2026-08-06 |
@@ -66,8 +66,8 @@ when Part 2 goes through its review pass.
 
 | Debt | Detail |
 | --- | --- |
-| 2.2 pre-convention gaps | No Topic Mini Project, no think-about-it prompt, no emoji pass - it predates those conventions. (Topic 2.1 had the same debts; cleared in its v0.2 review pass on 2026-08-06.) |
-| Part 2 review pass | Not started, but now scoped: backlog files exist at `backlog/topic-2.1.md` … `topic-2.9.md` plus [part-2-book-wide.md](part-2-book-wide.md) (written 2026-08-06). Every Part 2 topic is still v0.1 Draft. Part 1's equivalent pass is what took 1.x to v0.2. |
+| ~~2.1 / 2.2 pre-convention gaps~~ | CLEARED 2026-08-06. Both reached v0.2 with a mini project, think-prompts and the emoji pass applied. |
+| Part 2 review pass | IN PROGRESS. Phase 1 done (2.1, 2.2); Phase 2 under way (2.3 done, 2.4 next). Board and per-topic backlogs in [part-2-book-wide.md](part-2-book-wide.md) and `backlog/topic-2.N.md`. |
 | TROUBLESHOOTING.md unfed | No Topic 2.x references at all, though 2.3 (first prints) and 2.6 (materials) are natural feeders. |
 | TOOLS.md thin | 46 lines; references 2.2, 2.7 and 2.9 only. Topic 2.8 introduces cutting and drilling tools that are not listed. |
 
