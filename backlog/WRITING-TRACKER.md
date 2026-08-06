@@ -50,7 +50,7 @@ progress is tracked on the board in
 | Topic | Mini project | Think-prompt | Emoji pass | Glossary | Notes |
 | --- | --- | --- | --- | --- | --- |
 | 2.1 Workshop Safety and Setup | ✅ Safety Card | ✅ | ✅ | ✅ | Debts cleared in the v0.2 review pass, 2026-08-06 |
-| 2.2 3D Printing Fundamentals | ❌ owed | ❌ owed | ❌ owed | ✅ | Written pre-conventions |
+| 2.2 3D Printing Fundamentals | ✅ Contour Stack | ✅ | ✅ | ✅ | Debts cleared in the v0.2 review pass, 2026-08-06 |
 | 2.3 Slicer Software and First Prints | ✅ | ✅ | ✅ | ✅ 2026-08-06 | |
 | 2.4 CAD Fundamentals | ✅ | ✅ | ✅ | ✅ 2026-08-06 | |
 | 2.5 Designing Simple Parts | ✅ | ✅ | ✅ | ✅ 2026-08-06 | |

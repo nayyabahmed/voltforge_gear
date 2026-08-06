@@ -39,7 +39,7 @@ The full topic plan for VoltForge Gear — The Young Engineer's Handbook, with w
 | # | Topic | Status |
 | --- | --- | --- |
 | 2.1 | [Workshop Safety and Setup](Part-2-Workshop-Skills/2.1-Workshop-Safety-and-Setup.md) | 🔵 v0.2 |
-| 2.2 | [3D Printing Fundamentals](Part-2-Workshop-Skills/2.2-3D-Printing-Fundamentals.md) | 🟡 v0.1 |
+| 2.2 | [3D Printing Fundamentals](Part-2-Workshop-Skills/2.2-3D-Printing-Fundamentals.md) | 🔵 v0.2 |
 | 2.3 | [Slicer Software and First Prints](Part-2-Workshop-Skills/2.3-Slicer-Software-and-First-Prints.md) | 🟡 v0.1 |
 | 2.4 | [CAD Fundamentals](Part-2-Workshop-Skills/2.4-CAD-Fundamentals.md) | 🟡 v0.1 |
 | 2.5 | [Designing Simple Parts](Part-2-Workshop-Skills/2.5-Designing-Simple-Parts.md) | 🟡 v0.1 |

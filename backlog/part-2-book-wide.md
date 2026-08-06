@@ -6,8 +6,8 @@ tick them here only when every Part 2 topic is swept.
 
 Legend: [T] textual, [C] context awareness, [V] visual aid, [E] external reference.
 
-Created 2026-08-06. Status: **NOT STARTED** - no Part 2 topic has begun its
-review pass; all of 2.1-2.9 is still v0.1 Draft.
+Created 2026-08-06. Status: **IN PROGRESS** - Phase 1 complete (Topics 2.1
+and 2.2 at v0.2 Reviewed). Phase 2 next, starting with Topic 2.3.
 
 ## Status board
 
@@ -23,7 +23,7 @@ Last updated: 2026-08-06
 | Topic | Backlog file | Research pass | Items applied | Emoji pass | Mini project | v0.2 bumped | Overall |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2.1 Workshop Safety and Setup | ✅ created | ✅ | ✅ | ✅ | ✅ Safety Card | ✅ | ✅ done (2026-08-06) |
-| 2.2 3D Printing Fundamentals | ✅ created | 📋 | 📋 | 📋 owed | 📋 owed | 📋 | 📋 planned |
+| 2.2 3D Printing Fundamentals | ✅ created | ✅ | ✅ | ✅ | ✅ Contour Stack | ✅ | ✅ done (2026-08-06) |
 | 2.3 Slicer Software and First Prints | ✅ created | 📋 | 📋 | ✅ already | ✅ already | 📋 | 📋 planned |
 | 2.4 CAD Fundamentals | ✅ created | 📋 | 📋 | ✅ already | ✅ already | 📋 | 📋 planned |
 | 2.5 Designing Simple Parts | ✅ created | 📋 | 📋 | ✅ already | ✅ already | 📋 | 📋 planned |
