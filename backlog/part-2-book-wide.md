@@ -59,8 +59,10 @@ tick it as "considered, kept" rather than deleting it.
 
 Part 1's files keep legacy `chapter-NN.md` names because their internal
 review IDs predate the topic renumbering. Part 2 has no such legacy, so
-these files are named for the reader-facing topic number: `topic-2.1.md`
-through `topic-2.9.md`. No mapping table is needed.
+these files were named for the reader-facing topic number: `topic-2.1.md`
+through `topic-2.9.md`. All nine were completed and deleted on 2026-08-06;
+their items and research notes are in git history. This file is now the only
+live Part 2 record.
 
 ## Order of work
 
@@ -155,8 +157,8 @@ simply the reading order, with one exception at the front:
   Topics 2.3-2.9 already comply.
 - [ ] [T] **Topic Mini Projects (2.1 and 2.2 only).** Neither has one.
   Every other Part 2 topic does, with a Watch-the-build box and the
-  adult-check line. Candidates are proposed in `topic-2.1.md` and
-  `topic-2.2.md`.
+  adult-check line. Both were built during those topics' passes: the
+  Workshop Safety Card and the Contour Stack.
 
 - [ ] [V] **Audit each Mermaid block for spatial misuse.** Every Part 2 topic
   is already within the two-per-topic cap, so this is about correctness, not
@@ -196,7 +198,7 @@ Recording these so the review pass does not spend time re-deriving them:
   rule for tool-heavy topics.
 - **Adult-check line.** Present in all seven existing mini projects.
 - **Looking Ahead targets.** Correct in 2.1 and 2.3-2.9. Topic 2.2 is the
-  one exception (see `topic-2.2.md`).
+  one exception, resolved during its pass.
 - **Safety callout density.** Appropriate where it matters most: 2.8 has
   nine and 2.9 has eleven. Topic 2.1 is the one to re-examine.
 - **Code fences.** The 189 ```text blocks across the part are worked

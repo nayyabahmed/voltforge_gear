@@ -68,7 +68,7 @@ when Part 2 goes through its review pass.
 | Debt | Detail |
 | --- | --- |
 | ~~2.1 / 2.2 pre-convention gaps~~ | CLEARED 2026-08-06. Both reached v0.2 with a mini project, think-prompts and the emoji pass applied. |
-| Part 2 review pass | IN PROGRESS. Phase 1 done (2.1, 2.2); Phase 2 under way (2.3 done, 2.4 next). Board and per-topic backlogs in [part-2-book-wide.md](part-2-book-wide.md) and `backlog/topic-2.N.md`. |
+| Part 2 review pass | COMPLETE. All ten Part 2 topics at v0.2. Board and remaining sweeps in [part-2-book-wide.md](part-2-book-wide.md). |
 | TROUBLESHOOTING.md unfed | No Topic 2.x references at all, though 2.3 (first prints) and 2.6 (materials) are natural feeders. |
 | TOOLS.md thin | 46 lines; references 2.2, 2.7 and 2.9 only. Topic 2.8 introduces cutting and drilling tools that are not listed. |
 
