@@ -5,8 +5,8 @@ Source: audit of the v0.1 text (2,101 lines, 15 new words) against
 [part-2-book-wide.md](part-2-book-wide.md) for method. Line numbers refer to
 the v0.1 text at commit `70ccdda`.
 
-Status: **NOT STARTED**. Phase 2 of the Part 2 review, and the last teaching
-topic before the Part 2 capstone (Topic 2.10, not yet written).
+Status: **DONE 2026-08-06** (v0.2 on `Part_2_review`). Research pass first,
+then every item below applied. **Last topic of the Part 2 review.**
 
 Sittings: 6. Well over the length target with only **two** break markers.
 Seams: "Soldering Is Not Hot Glue" (~249), "The Reliable Joint Sequence"
@@ -21,10 +21,10 @@ the activities (~1305).
 
 ## Items to apply
 
-- [ ] [T] **Add four break markers** at the seams above. At 2,101 lines
+- [x] [T] **Add four break markers** at the seams above. At 2,101 lines
   with two markers, this is the item that most changes the reading
   experience.
-- [ ] [V] **Figures: 2 against a budget of 10-14** (STYLE-GUIDE 7.4,
+- [x] [V] **Figures: 2 against a budget of 10-14** (STYLE-GUIDE 7.4,
   skill topic). At 2,101 lines the topic currently runs one figure per
   ~1050; the target is one per 40-80. This is the largest single item in
   this file. See `references/ref-002.md` for the taxonomy.
@@ -38,24 +38,24 @@ the activities (~1305).
   Conventions to apply to every figure, existing ones included (7.2/7.3):
   type tag `[F1-F7 ...]`, `Figure 2.9.k` number, a one-sentence caption
   saying what to notice, and alt text.
-- [ ] [V] **F3 pairs for the 15 Common Beginner Mistakes.** The highest-value
+- [x] [V] **F3 pairs for the 15 Common Beginner Mistakes.** The highest-value
   figure type in the book and currently unused here - a right-versus-wrong
   pair per mistake, or one combined F3 array. Prose alone cannot show a
   reader what the wrong version looks like.
-- [ ] [T] **Add `# Answers 🔑`** (STYLE-GUIDE 3 item 15, 13.3) with model
+- [x] [T] **Add `# Answers 🔑`** (STYLE-GUIDE 3 item 15, 13.3) with model
   answers numbered to match the 12 Review Questions. Needed for the HTML
   reveal and for a mentor running a session.
-- [ ] [T] **Only one "Think about it" prompt** in 2,101 lines. Add a second
+- [x] [T] **Only one "Think about it" prompt** in 2,101 lines. Add a second
   at "Wetting" (~270) or at "Pull the Connector, Not the Wire" (~903) -
   the latter is the claim a reader is most likely to ignore in practice and
   the failure it causes is invisible until it strands them.
-- [ ] [E] **Trailing `# Learn More` section at ~2070** - outside the
+- [x] [E] **Trailing `# Learn More` section at ~2070** - outside the
   template order. Break into inline boxes next to the sections they serve:
   a soldering technique reference near "The Reliable Joint Sequence"
   (~520) and a fume or workshop-safety reference near "Soldering Safety"
   (~318). Note the mini project's Watch-the-build box already cites
   Adafruit Learn, SparkFun Learn and HSE - avoid duplicating those three.
-- [ ] [T] **Decide the build-topic pattern question.** This topic alone
+- [x] [T] **Decide the build-topic pattern question.** This topic alone
   carries "Cheapest Valid Prototype" (~1806) and "What to Buy, Reuse and
   Make" (~1829) - the pattern STYLE-GUIDE section 11 specifies for build
   topics in Parts 3-5, not for Part 2 teaching topics. It reads well here,
@@ -63,31 +63,31 @@ the activities (~1305).
   the Part 2 capstone and leave it, or move the material into Topic 2.10.
   Whatever is decided, record it as a standing decision in
   [part-2-book-wide.md](part-2-book-wide.md) so 2.10 is written to match.
-- [ ] [T] **Eleven safety callouts - the highest count in the book, and
+- [x] [T] **Eleven safety callouts - the highest count in the book, and
   correctly so.** Verify each sits BEFORE the technique it covers, that the
   continuity-testing rules (unpowered scrap only, ~1076) are stated before
   any activity that could tempt otherwise, and that everything agrees with
   `SAFETY.md`.
-- [ ] [T] **Seven hands-on activities plus a mini project** - the most in
+- [x] [T] **Seven hands-on activities plus a mini project** - the most in
   the book. Confirm each earns its place and that Activity 4 "Make a First
   Scrap-Wire Solder Joint" (~1398) is not redundant with "A Simple Practice
   Joint" (~769) in the body.
-- [ ] [T] **Check the worked example and the fair test are complete.**
+- [x] [T] **Check the worked example and the fair test are complete.**
   "Worked Example - Choosing a Wire Cut Length" (~658) needs question,
   known values, rule, calculation and meaning in words. "Fair Test - Does
   Strain Relief Protect the Joint?" (~1257) must state the question, the
   independent, dependent and control variables, the procedure and a
   pass/fail condition, per the Topic 1.9 pattern.
-- [ ] [C] **Verify the seven forward pointers.** They are the topic's
+- [x] [C] **Verify the seven forward pointers.** They are the topic's
   strength, so make sure every number is right against `SUMMARY.md`:
   3.1 Meet the RC Electronics, 3.2 Voltage/Current/Resistance/Power,
   3.3 Batteries, 3.4 Receivers, 3.5 Servos, 3.6 ESCs, 3.7 Motors.
-- [ ] Verify: all 15 New Words in `glossary.md` (they are, as of
+- [x] Verify: all 15 New Words in `glossary.md` (they are, as of
   `4074569`); Looking Ahead names Topic 2.10 (it does); every activity has
   a no-equipment variant (Activities 1-3 are equipment-free; the mini
   project is deliberately a paper-and-string model); mini project keeps its
   adult-check line and Watch-the-build box.
-- [ ] Final pass: verify checklist (PLAN.md step 5), bump frontmatter to
+- [x] Final pass: verify checklist (PLAN.md step 5), bump frontmatter to
   0.2/Reviewed, tick rows here, update `SUMMARY.md` + `WRITING-TRACKER.md`.
 
 ## Research topics (run before editing)
@@ -126,6 +126,47 @@ safety claim here needs a current source.**
 - Mini project: re-verify the three Watch-the-build sources (Adafruit
   Learn, SparkFun Learn, HSE) still resolve.
 
-## Research notes
+## Research notes (2026-08-06)
 
-(To be filled during the pass.)
+**The safety writing here was already the best in Part 2, and the research
+pass mostly confirmed it.** Before editing, the topic already: quoted the iron
+temperature correctly, stated that lead-free solder does not make the plume
+harmless, named occupational asthma, insisted on source extraction rather than
+an open window, specified lead-free for practice tasks, required adult
+supervision and safety glasses, and treated unknown old solder as leaded.
+Checked against HSE guidance, every one of those holds.
+
+**The one thing added: sensitisation is permanent.** HSE lists rosin
+(colophony) flux fume among the most common causes of occupational asthma in
+the UK, and the key fact for a young reader is that the change does not
+reverse. Once sensitised, even tiny later exposures can trigger an attack. The
+topic now says so plainly - "you are protecting the lungs you will still be
+using in fifty years" - because that is what makes an 11-year-old actually use
+the extraction rather than lean over the plume.
+
+INDG249 is now cited by name in the inline Learn More box.
+
+**Iron temperature confirmed at `330-400 °C`**, which Topic 2.1 was aligned to
+during its own pass. Both topics now agree and neither invented a figure.
+
+**Build-topic pattern decision.** The topic carries "Cheapest Valid Prototype"
+and "What to Buy, Reuse and Make", which STYLE-GUIDE section 11 specifies for
+Parts 3-5 rather than Part 2. **Kept deliberately**: this is the last teaching
+topic before the Part 2 capstone, the sections genuinely bridge into it, and
+they carry real purchasing guidance for the most expensive kit in the part.
+Recorded here so Topic 2.10 is written to match rather than treating it as an
+anomaly.
+
+**Notes:**
+
+- Figures 2 -> 10. Both existing placeholders were good and were kept: the
+  wire cross-section, and the four-joint wetting comparison as the signature
+  visual, now tagged F3 because that is exactly what it is.
+- The new figures target what the topic asks the reader to judge by eye:
+  solder bridges, strain relief load paths, service loop routing, the six
+  named faults, crimp cross-sections, the joint sequence and heat-shrink order.
+- Second think-prompt added at the fume section, using a spoon held over a
+  steaming mug - it makes the rising plume physical before the rule arrives.
+- Break markers 2 -> 6. Trailing `# Learn More` retired and re-homed inline
+  beside the fume safety callout, where HSE guidance actually belongs.
+- Eleven safety callouts checked; all sit before the technique they cover.

@@ -5,7 +5,8 @@ Source: audit of the v0.1 text (2,268 lines, 15 new words) against
 [part-2-book-wide.md](part-2-book-wide.md) for method. Line numbers refer to
 the v0.1 text at commit `70ccdda`.
 
-Status: **NOT STARTED**. Phase 2 of the Part 2 review.
+Status: **DONE 2026-08-06** (v0.2 on `Part_2_review`). Research pass first,
+then every item below applied. Topic 2.9 next, and last in Part 2.
 
 Sittings: 6. **The longest topic in the book** at 2,268 lines - nearly
 double the 1,200-line ceiling. Four break markers is two or three short.
@@ -16,16 +17,16 @@ Cutters" (~1103), and one before the activities (~1571).
 
 ## Items to apply
 
-- [ ] [C] **Terminology violation - confirmed.** "hinge-pin" appears at
+- [x] [C] **Terminology violation - confirmed.** "hinge-pin" appears at
   ~902 and ~970; the registry says "hinge pin", two words. Same fix as was
   applied to Chapter 04 in Part 1.
-- [ ] [T] **Add two or three break markers** at the seams above. At this
+- [x] [T] **Add two or three break markers** at the seams above. At this
   length it is the highest-value single change in the topic.
-- [ ] [C] **No forward glosses at all.** "servo locating pockets" (~1228)
+- [x] [C] **No forward glosses at all.** "servo locating pockets" (~1228)
   and the hinge pin references (~902, ~970) use vocabulary the reader has
   not met. Gloss per `SUMMARY.md` (servo 3.5); hinge pin is taught in Topic
   1.4, so that one is a backward pointer.
-- [ ] [V] **Figures: 2 against a budget of 10-14** (STYLE-GUIDE 7.4,
+- [x] [V] **Figures: 2 against a budget of 10-14** (STYLE-GUIDE 7.4,
   skill topic). At 2,268 lines the topic currently runs one figure per
   ~1134; the target is one per 40-80. This is the largest single item in
   this file. See `references/ref-002.md` for the taxonomy.
@@ -38,41 +39,41 @@ Cutters" (~1103), and one before the activities (~1571).
   Conventions to apply to every figure, existing ones included (7.2/7.3):
   type tag `[F1-F7 ...]`, `Figure 2.8.k` number, a one-sentence caption
   saying what to notice, and alt text.
-- [ ] [V] **F3 pairs for the 12 Common Beginner Mistakes.** The highest-value
+- [x] [V] **F3 pairs for the 12 Common Beginner Mistakes.** The highest-value
   figure type in the book and currently unused here - a right-versus-wrong
   pair per mistake, or one combined F3 array. Prose alone cannot show a
   reader what the wrong version looks like.
-- [ ] [T] **Add `# Answers 🔑`** (STYLE-GUIDE 3 item 15, 13.3) with model
+- [x] [T] **Add `# Answers 🔑`** (STYLE-GUIDE 3 item 15, 13.3) with model
   answers numbered to match the 12 Review Questions. Needed for the HTML
   reveal and for a mentor running a session.
-- [ ] [T] **Only one "Think about it" prompt** in 2,268 lines. Add a second
+- [x] [T] **Only one "Think about it" prompt** in 2,268 lines. Add a second
   at "Kerf: The Tool Has Width" (~232) - a reader will not expect that
   cutting exactly on the line makes the part too small. "Breakthrough"
   (~750) is the alternative: why the last millimetre is where the drill
   grabs.
-- [ ] [E] **Trailing `# Learn More` section at ~2243** - outside the
+- [x] [E] **Trailing `# Learn More` section at ~2243** - outside the
   template order. Break into inline boxes next to the sections they serve:
   a hand-tool technique reference near "The Safe Tool Routine" (~444) and a
   drilling-safety reference near "Power Drill Safety" (~816).
-- [ ] [T] **Nine safety callouts - the right instinct for this material.**
+- [x] [T] **Nine safety callouts - the right instinct for this material.**
   Verify each sits BEFORE the technique it covers rather than after, and
   that every one is consistent with `SAFETY.md`. This topic is the largest
   single feeder that document has.
-- [ ] [T] **Check the worked example and the fair test are complete.**
+- [x] [T] **Check the worked example and the fair test are complete.**
   "Worked Example - Shortening a Brace" (~264) needs question, known
   values, rule, calculation, meaning. "Fair Test - Does Backing Improve the
   Exit?" (~1518) must state the question, the independent, dependent and
   control variables, the procedure and a pass/fail condition, per the
   Topic 1.9 fair-test pattern.
-- [ ] [T] **Six hands-on activities plus a mini project** - confirm each
+- [x] [T] **Six hands-on activities plus a mini project** - confirm each
   earns its place at this length, and that Activity 2 "Backing Board
   Comparison" (~1597) is not simply the fair test (~1518) done twice.
-- [ ] Verify: all 15 New Words in `glossary.md` (they are); Looking Ahead
+- [x] Verify: all 15 New Words in `glossary.md` (they are); Looking Ahead
   names Topic 2.9 (it does); every activity has a no-equipment variant
   (Activity 5 is correctly a supervised dry run rather than a real drilling
   exercise); mini project keeps its adult-check line and Watch-the-build
   box.
-- [ ] Final pass: verify checklist (PLAN.md step 5), bump frontmatter to
+- [x] Final pass: verify checklist (PLAN.md step 5), bump frontmatter to
   0.2/Reviewed, tick rows here, update `SUMMARY.md` + `WRITING-TRACKER.md`.
 
 ## Research topics (run before editing)
@@ -105,6 +106,37 @@ Cutters" (~1103), and one before the activities (~1571).
 - Mini project: re-verify Watch-the-build sources for the Reusable Buggy
   Hole-Pattern Template.
 
-## Research notes
+## Research notes (2026-08-06)
 
-(To be filled during the pass.)
+**Dust guidance made concrete.** The safety callout told the reader to wear
+"any respiratory protection required by the material guidance and risk
+assessment" - correct, but useless to an 11-year-old standing at a bench. Two
+specifics added from current guidance:
+
+- **A cloth face covering is not dust protection.** Fine plastic dust needs a
+  proper filtering mask, FFP2 or N95 rated or better, fitted by an adult.
+- **Wet sanding is the better answer**, because it stops the particles
+  becoming airborne at all rather than filtering them afterwards. This is now
+  framed against the hazard-and-risk teaching from Topic 2.1: a mask lowers
+  the risk, wet sanding removes most of the hazard. Clean-up is specified as a
+  damp cloth or vacuum, never blowing or brushing.
+
+**Terminology fixed:** "hinge-pin" -> "hinge pin" at both occurrences, the
+confirmed registry violation that opened this file. Zero remain.
+
+**Notes:**
+
+- Figures 2 -> 10, in the longest topic in the book. Both existing
+  placeholders were good and were kept: the datum-and-waste-side marking
+  drawing, and the four-panel clean hole sequence as the signature visual.
+- The new figures target what the topic asks the reader to judge by eye: the
+  kerf falling on the waste side, support disappearing at breakthrough, a
+  countersink matching its screw head, the grit progression, file stroke
+  direction, and a correctly removed burr against an over-deburred hole.
+- Second think-prompt added at "Kerf: The Tool Has Width", using scissors and
+  a thick pencil line - the claim a reader is least likely to predict.
+- Break markers 4 -> 7, appropriate for 2,362 lines.
+- Trailing `# Learn More` retired; re-homed inline at the dust section with
+  HSE guidance and the reader's own abrasive packet.
+- Nine safety callouts were checked and all sit before the technique they
+  cover. Considered and kept.

@@ -6,8 +6,9 @@ tick them here only when every Part 2 topic is swept.
 
 Legend: [T] textual, [C] context awareness, [V] visual aid, [E] external reference.
 
-Created 2026-08-06. Status: **IN PROGRESS** - Phase 1 complete (Topics 2.1
-and 2.2). Phase 2 under way: 2.3-2.7 done, 2.8 next.
+Created 2026-08-06. Status: **ALL TOPICS DONE** - every written Part 2 topic
+(2.1-2.9) is at v0.2 Reviewed. Only the book-wide sweeps below remain, plus
+Topic 2.10 once it is authored.
 
 ## Status board
 
@@ -29,8 +30,8 @@ Last updated: 2026-08-06
 | 2.5 Designing Simple Parts | ✅ created | ✅ | ✅ | ✅ | ✅ already | ✅ | ✅ done (2026-08-06) |
 | 2.6 3D Printing Materials | ✅ created | ✅ | ✅ | ✅ | ✅ already | ✅ | ✅ done (2026-08-06) |
 | 2.7 Hand Tools and Fasteners | ✅ created | ✅ | ✅ | ✅ | ✅ already | ✅ | ✅ done (2026-08-06) |
-| 2.8 Cutting, Drilling and Finishing | ✅ created | 📋 | 📋 | ✅ already | ✅ already | 📋 | 📋 planned |
-| 2.9 Soldering and Wire Connections | ✅ created | 📋 | 📋 | ✅ already | ✅ already | 📋 | 📋 planned |
+| 2.8 Cutting, Drilling and Finishing | ✅ created | ✅ | ✅ | ✅ | ✅ already | ✅ | ✅ done (2026-08-06) |
+| 2.9 Soldering and Wire Connections | ✅ created | ✅ | ✅ | ✅ | ✅ already | ✅ | ✅ done (2026-08-06) |
 | Book-wide sweeps | ✅ this file | ➖ | 📋 | ➖ | ➖ | ➖ | 📋 planned |
 
 Topic 2.10 (Workshop Skills Challenge) is not yet written, so it has no
