@@ -111,8 +111,11 @@ use provisional letters (`Figure 1.5.A`) rather than numbers, because they
 were added across several passes - a single renumbering sweep should run once
 Part 1 is otherwise stable.
 
-**Still outstanding for Part 1:** the Part 1 Review Quiz, never written and
-still shown as planned in `SUMMARY.md`. And the 65 figure briefs are
+**Part 1 Review Quiz: WRITTEN 2026-08-06** at v0.1 Draft - 39 questions in
+five escalating parts, every answer tagged with the topic to revisit, and a
+revision map that turns wrong answers into a reading list rather than a score.
+
+**Still outstanding for Part 1:** the 65 figure briefs are
 specifications, not drawings - see `references/ref-002.md` for the production
 streams and REF-001 for why that is the book's critical path.
 

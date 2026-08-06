@@ -74,8 +74,7 @@ when Part 2 goes through its review pass.
 
 ## Next Up (order per SUMMARY.md)
 
-1. 📋 Part 1 Review Quiz (small, could slot in any time)
-2. 📋 Part 3 review pass - ten topics landed and revised externally; they
+1. 📋 Part 3 review pass - ten topics landed and revised externally; they
    need backlog files and a board, as Part 2 had
 3. 📋 Topic 4.1 - Build Strategy and Cost Plan (starts Part 4)
 
