@@ -116,11 +116,23 @@ at v0.2 "Reviewed" and all book-wide sweeps are done. The work was merged to
    On inspection, Topics 1.2 and 1.9 use Mermaid heavily and correctly, because
    flows, boundaries and cause-effect chains are literally their subject matter.
    STYLE-GUIDE 7.1 was amended on 2026-08-06 to make the F0 rule about fitness
-   with count as a signal, not a hard limit. **Genuine spatial misuse is
-   confined to Topic 1.5**, where a caliper gripping a part and a swept volume
-   are drawn as flowcharts; Topic 1.3 has one or two borderline load-path
-   chains worth a second look. That is a small, targeted job, not a sweep of 54
-   blocks.
+   with count as a signal, not a hard limit. **The genuine misuse was fixed the
+   same day** and is now closed:
+   - **Topic 1.5: all six Mermaid blocks removed.** Four were spatial ideas
+     drawn as flowcharts (caliper jaws on a part, a battery's packaging
+     envelope, three measurement positions on a cylinder, and swept volume) and
+     became figures with captions and alt text. Two were bullet lists drawn as
+     boxes and became tables; the duplicated prose lists were deleted with
+     them. Measurement is an inherently spatial subject, so zero Mermaid is the
+     honest answer for this topic.
+   - **Topic 1.3: the support path became an F5 overlay.** A force path
+     travelling through physical structure cannot be boxes and arrows. It is
+     now one figure showing the motion path and the support path on the same
+     buggy outline, which serves the section better than the two separate
+     diagrams did. The other seven blocks are genuine flows and were kept.
+   - The new figures in 1.3 and 1.5 use provisional letters (`Figure 1.5.A`)
+     rather than numbers, because the older placeholders in those topics have
+     no numbers yet. The v0.3 pass should renumber all of them together.
 
 Recorded debt, cleared at v0.3 Prototype-tested - see `references/ref-002.md`.
 
