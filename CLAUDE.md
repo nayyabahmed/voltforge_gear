@@ -41,6 +41,13 @@ Read these before writing or editing any topic:
   status board (done / in progress / planned per topic and activity). Check
   TRACKER.md first when asked about review status, and keep its rows and
   "Last updated" date current whenever topic work starts or finishes.
+  TRACKER.md covers Part 1 only and is now closed. **Part 2's review** has
+  its own set: `backlog/topic-2.1.md` … `topic-2.9.md` hold the per-topic
+  items (named for the reader-facing topic number, since Part 2 has no
+  legacy chapter IDs), and `backlog/part-2-book-wide.md` holds both the
+  cross-topic sweeps and Part 2's status board. Those items were derived by
+  auditing the topics against the style guide, not from a frozen external
+  review as in Part 1.
   `backlog/WRITING-TRACKER.md` is the equivalent board for AUTHORING new
   topics (Topic 2.3 onwards): it tracks each in-flight topic through the
   research -> draft -> mini project -> glossary -> reference docs ->

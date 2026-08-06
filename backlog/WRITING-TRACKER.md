@@ -11,7 +11,7 @@ either.
 
 **Legend:** ✅ done | 🔨 in progress | 📋 planned | ➖ not applicable
 
-Last updated: 2026-08-05
+Last updated: 2026-08-06
 
 ## Pipeline Stages (every new topic, in order)
 
@@ -44,13 +44,13 @@ All at 🟡 v0.1 Draft in SUMMARY.md.
 | --- | --- | --- | --- | --- | --- |
 | 2.1 Workshop Safety and Setup | ❌ owed | ❌ owed | ❌ owed | ✅ | Written pre-conventions |
 | 2.2 3D Printing Fundamentals | ❌ owed | ❌ owed | ❌ owed | ✅ | Written pre-conventions |
-| 2.3 Slicer Software and First Prints | ✅ | ✅ | ✅ | ✅ 2026-08-05 | |
-| 2.4 CAD Fundamentals | ✅ | ✅ | ✅ | ✅ 2026-08-05 | |
-| 2.5 Designing Simple Parts | ✅ | ✅ | ✅ | ✅ 2026-08-05 | |
-| 2.6 3D Printing Materials | ✅ | ✅ | ✅ | ✅ 2026-08-05 | |
-| 2.7 Hand Tools and Fasteners | ✅ | ✅ | ✅ | ✅ 2026-08-05 | |
-| 2.8 Cutting, Drilling and Finishing | ✅ | ✅ | ✅ | ✅ 2026-08-05 | |
-| 2.9 Soldering and Wire Connections | ✅ | ✅ | ✅ | ✅ 2026-08-05 | SUMMARY row fixed 2026-08-05 |
+| 2.3 Slicer Software and First Prints | ✅ | ✅ | ✅ | ✅ 2026-08-06 | |
+| 2.4 CAD Fundamentals | ✅ | ✅ | ✅ | ✅ 2026-08-06 | |
+| 2.5 Designing Simple Parts | ✅ | ✅ | ✅ | ✅ 2026-08-06 | |
+| 2.6 3D Printing Materials | ✅ | ✅ | ✅ | ✅ 2026-08-06 | |
+| 2.7 Hand Tools and Fasteners | ✅ | ✅ | ✅ | ✅ 2026-08-06 | |
+| 2.8 Cutting, Drilling and Finishing | ✅ | ✅ | ✅ | ✅ 2026-08-06 | |
+| 2.9 Soldering and Wire Connections | ✅ | ✅ | ✅ | ✅ 2026-08-06 | SUMMARY row fixed 2026-08-06 |
 
 ## Outstanding Debts
 
@@ -60,7 +60,7 @@ when Part 2 goes through its review pass.
 | Debt | Detail |
 | --- | --- |
 | 2.1 / 2.2 pre-convention gaps | Neither has a Topic Mini Project, a think-about-it prompt, or an emoji pass. Both predate those conventions. |
-| Part 2 review pass | Not started. No `backlog/part-2-*.md` files exist and every Part 2 topic is still v0.1 Draft. Part 1's equivalent pass is what took 1.x to v0.2. |
+| Part 2 review pass | Not started, but now scoped: backlog files exist at `backlog/topic-2.1.md` … `topic-2.9.md` plus [part-2-book-wide.md](part-2-book-wide.md) (written 2026-08-06). Every Part 2 topic is still v0.1 Draft. Part 1's equivalent pass is what took 1.x to v0.2. |
 | TROUBLESHOOTING.md unfed | No Topic 2.x references at all, though 2.3 (first prints) and 2.6 (materials) are natural feeders. |
 | TOOLS.md thin | 46 lines; references 2.2, 2.7 and 2.9 only. Topic 2.8 introduces cutting and drilling tools that are not listed. |
 

@@ -14,7 +14,7 @@ Update the relevant row whenever a work item starts or finishes
 > (00-09), kept as internal review IDs; the reader now sees these as Topics
 > 0.0 and 1.1-1.9. See the mapping table in [PLAN.md](PLAN.md).
 
-Last updated: 2026-08-05
+Last updated: 2026-08-06
 
 ## Chapter Work
 
