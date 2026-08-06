@@ -86,10 +86,43 @@ at v0.2 "Reviewed" and all book-wide sweeps are done. The work was merged to
 
 **Deferred to v0.3 (do not reopen at v0.2).** Two conventions arrived on
 2026-08-06, after every Part 1 topic reached v0.2: the figure system
-(STYLE-GUIDE section 7) and Review Question answers (section 13.3). Part 1
-averages one figure per 394 lines against a target of one per 40-80, and has
-54 Mermaid blocks that need auditing for spatial misuse. This is recorded
-debt, cleared at v0.3 Prototype-tested - see `references/ref-002.md`.
+(STYLE-GUIDE section 7) and Review Question answers (section 13.3). A sweep on
+2026-08-06 measured the gap precisely.
+
+| Topic | Lines | Figures | Budget 6-8 | Mermaid | Review Qs | Answers |
+| --- | ---: | ---: | --- | ---: | ---: | --- |
+| 0.0 How to Use This Handbook | 430 | 0 | n/a, no technical content | 2 | 6 | none |
+| 1.1 What Are We Building? | 571 | 2 | short by 4-6 | 2 | 10 | none |
+| 1.2 Systems Thinking | 1,124 | 2 | short by 4-6 | 18 | 10 | none |
+| 1.3 How Machines Move | 1,481 | 6 | met | 8 | 18 | none |
+| 1.4 Forces and Why Parts Break | 1,577 | 10 | met | 4 | 25 | none |
+| 1.5 Measurement | 1,836 | 4 | short by 2-4 | 6 | 25 | none |
+| 1.6 Accuracy, Precision and Error | 1,469 | 4 | short by 2-4 | 1 | 25 | none |
+| 1.7 Tolerances and Fits | 1,931 | 6 | met | 1 | 30 | none |
+| 1.8 Engineering Drawings | 1,642 | 2 | short by 4-6 | 4 | 30 | none |
+| 1.9 The Engineering Design Process | 1,896 | 1 | short by 5-7 | 5 | 40 | none |
+| Part 1 Capstone | 1,436 | 2 | short by 2-4 | 3 | 25 | none |
+
+**Three findings:**
+
+1. **Figures: 39 against a budget of roughly 70.** The two worst are the two
+   that should be strongest - Topic 1.9 has one figure across 1,896 lines, and
+   Topic 1.8 *Engineering Drawings* has two, in what is the most inherently
+   visual subject in Part 1.
+2. **Answers: none, against 244 review questions.** This is the largest single
+   authoring job in the Part 1 debt.
+3. **Mermaid: mostly legitimate, and the sweep corrected the rule rather than
+   the topics.** The original two-per-topic cap flagged seven of eleven topics.
+   On inspection, Topics 1.2 and 1.9 use Mermaid heavily and correctly, because
+   flows, boundaries and cause-effect chains are literally their subject matter.
+   STYLE-GUIDE 7.1 was amended on 2026-08-06 to make the F0 rule about fitness
+   with count as a signal, not a hard limit. **Genuine spatial misuse is
+   confined to Topic 1.5**, where a caliper gripping a part and a swept volume
+   are drawn as flowcharts; Topic 1.3 has one or two borderline load-path
+   chains worth a second look. That is a small, targeted job, not a sweep of 54
+   blocks.
+
+Recorded debt, cleared at v0.3 Prototype-tested - see `references/ref-002.md`.
 
 This board is now closed. Part 2's review has not started and will get its
 own backlog files and board rows; see the Outstanding Debts section of

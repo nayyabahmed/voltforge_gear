@@ -212,11 +212,19 @@ book.
 | F6 | Measured drawing | Dimensioned and to scale | Part briefs, coupons, hole patterns |
 | F7 | Comparison array | 3+ variants side by side | Materials, infill percentages, gear ratios |
 
-**F0 is capped at two per topic.** Mermaid draws *relationships*; it cannot
-draw *things*. Never use it for a spatial or physical idea - a bending beam is
-not a flowchart, and a bench layout is not a tree. If the reader needs to know
-what something looks like, where it is, or which way a force points, it is not
-Mermaid.
+**The F0 rule is about fitness, not count.** Mermaid draws *relationships*; it
+cannot draw *things*. Never use it for a spatial or physical idea - a bending
+beam is not a flowchart, a caliper gripping a part is not a flowchart, and a
+bench layout is not a tree. If the reader needs to know what something looks
+like, where it is, or which way a force points, it is not Mermaid.
+
+Most topics need no more than **two** F0 blocks, and more than that is usually
+a signal that Mermaid is standing in for illustration that has not been drawn
+yet. But it is a signal to check, not a limit to enforce: a topic whose subject
+genuinely *is* flows, cycles, boundaries or system trees may legitimately need
+many. Topic 1.2 (Systems Thinking) carries eighteen and nearly all of them are
+correct, because chains and boundaries are what that topic teaches. Judge each
+block by what it draws, never by the count alone.
 
 **Tables** remain the right answer for comparisons of 3+ similar things,
 decision matrices and specs. Small ASCII line samples (`- - - -`) are fine for
