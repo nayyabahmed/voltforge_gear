@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Figure 1.4.B — Push, bend, and follow the force</title>
+  <desc id="desc">A simple beam rests on two mounts and bends down under a push in the middle. The top is labelled squashed, or compression, the bottom stretched, or tension, and a dashed neutral line lies between. Orange arrows show the force travelling to both mounts. A small buggy link below highlights a thin neck beside a hole as a place to check first.</desc>
+
+  <defs>
+    <marker id="orangeArrow" markerWidth="18" markerHeight="18" refX="15" refY="9" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0 0 L18 9 L0 18 Z" fill="#F26335"/>
+    </marker>
+    <marker id="orangeArrowSmall" markerWidth="13" markerHeight="13" refX="11" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0 0 L13 6.5 L0 13 Z" fill="#F26335"/>
+    </marker>
+    <marker id="greyArrowSmall" markerWidth="13" markerHeight="13" refX="11" refY="6.5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0 0 L13 6.5 L0 13 Z" fill="#53636B"/>
+    </marker>
+    <pattern id="metal" width="18" height="18" patternUnits="userSpaceOnUse" patternTransform="rotate(25)">
+      <rect width="18" height="18" fill="#E3EAED"/>
+      <line x1="0" y1="0" x2="0" y2="18" stroke="#CAD5DA" stroke-width="5"/>
+    </pattern>
+    <style>
+      .title { font: 700 42px "Trebuchet MS", Arial, sans-serif; fill: #173E4E; text-anchor: middle; }
+      .subtitle { font: 600 23px "Trebuchet MS", Arial, sans-serif; fill: #485860; text-anchor: middle; }
+      .step { font: 700 21px "Trebuchet MS", Arial, sans-serif; fill: #FFFFFF; text-anchor: middle; dominant-baseline: middle; }
+      .big { font: 700 27px "Trebuchet MS", Arial, sans-serif; fill: #22343D; }
+      .medium { font: 700 22px "Trebuchet MS", Arial, sans-serif; fill: #22343D; }
+      .small { font: 600 18px "Trebuchet MS", Arial, sans-serif; fill: #53636B; }
+      .tiny { font: 600 16px "Trebuchet MS", Arial, sans-serif; fill: #53636B; }
+      .orange { fill: #B83D18; }
+      .blue { fill: #176B87; }
+      .outline { fill: none; stroke: #22343D; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+      .force { fill: none; stroke: #F26335; stroke-width: 11; stroke-linecap: round; marker-end: url(#orangeArrow); }
+      .force-small { fill: none; stroke: #F26335; stroke-width: 6; stroke-linecap: round; marker-end: url(#orangeArrowSmall); }
+      .leader { fill: none; stroke: #64737A; stroke-width: 3; stroke-dasharray: 8 7; stroke-linecap: round; }
+      * { vector-effect: non-scaling-stroke; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1000" fill="#F2F6F7"/>
+  <rect x="34" y="30" width="1532" height="936" rx="30" fill="#FFFFFF" stroke="#C8D3D8" stroke-width="3"/>
+  <path d="M64 30 H1536 Q1566 30 1566 60 V158 H34 V60 Q34 30 64 30 Z" fill="#EAF4F7"/>
+
+  <text class="title" x="800" y="91">Push, bend, and follow the force</text>
+  <text class="subtitle" x="800" y="130">Imagine a ruler resting on two blocks.</text>
+
+  <!-- Step 1: one obvious push -->
+  <circle cx="800" cy="194" r="25" fill="#F26335"/>
+  <text class="step" x="800" y="195">1</text>
+  <text class="big orange" x="800" y="240" text-anchor="middle">PUSH HERE</text>
+  <line class="force" x1="800" y1="258" x2="800" y2="405"/>
+
+  <!-- The straight beam before loading -->
+  <path d="M273 352 H1327" fill="none" stroke="#AAB6BB" stroke-width="4" stroke-dasharray="12 11"/>
+  <text class="small" x="1198" y="335">before the push</text>
+
+  <!-- Bowed beam, split into compression and tension halves -->
+  <path d="M270 352 C500 362 626 422 800 450 C974 422 1100 362 1330 352
+           L1330 397 C1100 407 974 467 800 495 C626 467 500 407 270 397 Z"
+        fill="#FFE1D5"/>
+  <path d="M270 397 C500 407 626 467 800 495 C974 467 1100 407 1330 397
+           L1330 442 C1100 452 974 512 800 540 C626 512 500 452 270 442 Z"
+        fill="#DDF2F8"/>
+  <path class="outline" d="M270 352 C500 362 626 422 800 450 C974 422 1100 362 1330 352
+           L1330 442 C1100 452 974 512 800 540 C626 512 500 452 270 442 Z"/>
+  <path d="M270 397 C500 407 626 467 800 495 C974 467 1100 407 1330 397"
+        fill="none" stroke="#53636B" stroke-width="4" stroke-dasharray="14 11"/>
+
+  <!-- Child-first labels: plain word first, engineering word second -->
+  <rect x="92" y="205" width="396" height="105" rx="19" fill="#FFF6F1" stroke="#F26335" stroke-width="3"/>
+  <text class="big orange" x="120" y="248">TOP GETS SQUASHED</text>
+  <text class="small" x="120" y="282">Engineers call this compression.</text>
+  <path class="leader" d="M405 310 C442 338 478 359 522 381"/>
+  <circle cx="522" cy="381" r="7" fill="#F26335"/>
+
+  <rect x="1090" y="205" width="410" height="105" rx="19" fill="#F0F9FC" stroke="#176B87" stroke-width="3"/>
+  <text class="big blue" x="1118" y="248">BOTTOM GETS STRETCHED</text>
+  <text class="small" x="1118" y="282">Engineers call this tension.</text>
+  <path class="leader" d="M1178 310 C1146 356 1075 431 986 480"/>
+  <circle cx="986" cy="480" r="7" fill="#176B87"/>
+
+  <rect x="404" y="468" width="330" height="82" rx="17" fill="#FFFFFF" stroke="#87969D" stroke-width="3"/>
+  <text class="medium" x="430" y="502">MIDDLE LINE</text>
+  <text class="tiny" x="430" y="530">Almost no squeeze or stretch.</text>
+  <path class="leader" d="M548 468 L560 449"/>
+  <circle cx="560" cy="449" r="7" fill="#53636B"/>
+
+  <!-- Step 2: bending cue -->
+  <circle cx="800" cy="574" r="25" fill="#176B87"/>
+  <text class="step" x="800" y="575">2</text>
+  <text class="medium blue" x="800" y="617" text-anchor="middle">THE BEAM BENDS</text>
+
+  <!-- Supports and outgoing force -->
+  <path d="M270 442 L218 520 H322 Z" fill="#DCE5E8" stroke="#22343D" stroke-width="6" stroke-linejoin="round"/>
+  <line x1="193" y1="520" x2="347" y2="520" stroke="#22343D" stroke-width="6" stroke-linecap="round"/>
+  <path d="M1330 442 L1278 520 H1382 Z" fill="#DCE5E8" stroke="#22343D" stroke-width="6" stroke-linejoin="round"/>
+  <line x1="1253" y1="520" x2="1407" y2="520" stroke="#22343D" stroke-width="6" stroke-linecap="round"/>
+  <line class="force-small" x1="270" y1="448" x2="270" y2="500"/>
+  <line class="force-small" x1="1330" y1="448" x2="1330" y2="500"/>
+  <text class="medium" x="270" y="563" text-anchor="middle">MOUNT</text>
+  <text class="medium" x="1330" y="563" text-anchor="middle">MOUNT</text>
+  <circle cx="800" cy="664" r="25" fill="#F26335"/>
+  <text class="step" x="800" y="665">3</text>
+  <text class="medium orange" x="800" y="706" text-anchor="middle">THE FORCE REACHES BOTH MOUNTS</text>
+
+  <!-- One small transfer example, not a second full lesson -->
+  <rect x="76" y="742" width="1448" height="188" rx="23" fill="#F7FAFB" stroke="#C8D3D8" stroke-width="3"/>
+  <text class="medium" x="108" y="783">NOW LOOK AT A BUGGY PART</text>
+  <text class="small" x="108" y="815">Force travels through the part. A thin place has less material to carry it.</text>
+
+  <path d="M480 840 H1030 L1086 870 L1030 900 H480 Q440 900 440 870 Q440 840 480 840 Z"
+        fill="url(#metal)" stroke="#22343D" stroke-width="5" stroke-linejoin="round"/>
+  <circle cx="492" cy="870" r="23" fill="#F7FAFB" stroke="#22343D" stroke-width="5"/>
+  <circle cx="1033" cy="870" r="23" fill="#F7FAFB" stroke="#22343D" stroke-width="5"/>
+  <line class="force-small" x1="750" y1="770" x2="750" y2="832"/>
+  <text class="small orange" x="776" y="799">FORCE IN</text>
+  <path d="M725 870 C650 870 590 870 526 870" fill="none" stroke="#F26335" stroke-width="6" stroke-dasharray="5 11" marker-end="url(#orangeArrowSmall)"/>
+  <path d="M775 870 C850 870 930 870 997 870" fill="none" stroke="#F26335" stroke-width="6" stroke-dasharray="5 11" marker-end="url(#orangeArrowSmall)"/>
+  <path d="M1005 841 Q1033 832 1061 846 M1005 899 Q1033 908 1061 894" fill="none" stroke="#F26335" stroke-width="7" stroke-linecap="round"/>
+
+  <rect x="1140" y="796" width="328" height="101" rx="17" fill="#FFF6F1" stroke="#F26335" stroke-width="3"/>
+  <text class="medium orange" x="1166" y="836">CHECK THIS THIN SPOT</text>
+  <text class="small" x="1166" y="869">Less material carries the force.</text>
+  <path d="M1140 848 C1111 843 1088 843 1061 846" fill="none" stroke="#53636B" stroke-width="3" stroke-dasharray="8 7" marker-end="url(#greyArrowSmall)"/>
+</svg>

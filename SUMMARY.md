@@ -72,16 +72,16 @@ The full topic plan for VoltForge Gear — The Young Engineer's Handbook, with w
 
 | # | Topic | Status |
 | --- | --- | --- |
-| 4.1 | Build Strategy and Cost Plan | 📋 |
-| 4.2 | Paper and Cardboard Layout | 📋 |
-| 4.3 | Rolling Cardboard Chassis | 📋 |
-| 4.4 | Low-Power Wire-Frame Car | 📋 |
-| 4.5 | Radio-Controlled Prototype | 📋 |
-| 4.6 | Choosing and Measuring Donor Parts | 📋 |
-| 4.7 | Modular Printed Chassis | 📋 |
-| 4.8 | Final Mechanical Assembly | 📋 |
-| 4.9 | Electronics Installation | 📋 |
-| 4.10 | Testing, Debugging and Version 1 | 📋 |
+| 4.1 | [Build Strategy and Cost Plan](Part-4-Design-and-Build/4.1-Build-Strategy-and-Cost-Plan.md) | 🟡 v0.1 |
+| 4.2 | [Paper and Cardboard Layout](Part-4-Design-and-Build/4.2-Paper-and-Cardboard-Layout.md) | 🟡 v0.1 |
+| 4.3 | [Rolling Cardboard Chassis](Part-4-Design-and-Build/4.3-Rolling-Cardboard-Chassis.md) | 🟡 v0.1 |
+| 4.4 | [Low-Power Wire-Frame Car](Part-4-Design-and-Build/4.4-Low-Power-Wire-Frame-Car.md) | 🟡 v0.1 |
+| 4.5 | [Radio-Controlled Prototype](Part-4-Design-and-Build/4.5-Radio-Controlled-Prototype.md) | 🟡 v0.1 |
+| 4.6 | [Choosing and Measuring Donor Parts](Part-4-Design-and-Build/4.6-Choosing-and-Measuring-Donor-Parts.md) | 🟡 v0.1 |
+| 4.7 | [Modular Printed Chassis](Part-4-Design-and-Build/4.7-Modular-Printed-Chassis.md) | 🟡 v0.1 |
+| 4.8 | [Final Mechanical Assembly](Part-4-Design-and-Build/4.8-Final-Mechanical-Assembly.md) | 🟡 v0.1 |
+| 4.9 | [Electronics Installation](Part-4-Design-and-Build/4.9-Electronics-Installation.md) | 🟡 v0.1 |
+| 4.10 | [Testing, Debugging and Version 1](Part-4-Design-and-Build/4.10-Testing-Debugging-and-Version-1.md) | 🟡 v0.1 |
 
 ## Part 5 — Advanced Topics
 
