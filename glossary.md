@@ -60,7 +60,7 @@ A measurement can be precise without being accurate.
 
 ---
 
-### Ackermann Geometry
+### Ackermann Steering Geometry
 
 A steering layout that turns the inside wheel more sharply than the outside one.
 
@@ -202,6 +202,14 @@ Charging that watches each cell group in a pack and keeps them level with each o
 
 ---
 
+### Balance Lead
+
+The thin extra plug on a battery pack that lets a charger read each cell group separately.
+
+The fat main lead carries the current; the balance lead carries the information. A balance charger uses it to keep every cell at the same voltage.
+
+---
+
 ### Baseline Dimensioning
 
 A way of locating several features from one common reference, or datum.
@@ -318,6 +326,14 @@ Suspension reaching the end of its travel with a hard thump.
 
 ---
 
+### Brake Force
+
+How hard an ESC asks the motor to resist turning when you brake.
+
+It is a setting, not a fixed property of the buggy. Too little and it runs on past the corner; too much and the wheels lock and slide.
+
+---
+
 ### Breakthrough
 
 The moment a drill reaches the far side of the material.
@@ -395,6 +411,38 @@ A rough or sharp edge left behind by cutting, drilling or another process.
 ---
 
 ## C
+
+### Camber Gain
+
+The way a wheel's lean changes as the suspension moves up and down.
+
+A wheel that stands upright when parked may lean when the suspension compresses. Camber gain decides how much tyre stays flat on the ground in a corner.
+
+---
+
+### Cell Count
+
+How many cells are joined in a line inside a battery pack, written with an S.
+
+A 3S pack has three cells in series. More cells means more voltage, not more capacity.
+
+---
+
+### Compound Gear Train
+
+Two or more gear ratio stages working one after the other.
+
+Each stage multiplies the one before it, so two modest reductions produce a large one. This is how a fast, weak motor turns a wheel slowly and strongly.
+
+---
+
+### Coulomb
+
+The unit for an amount of electric charge, written C.
+
+One amp flowing for one second moves one coulomb. It counts charge the way a litre counts water.
+
+---
 
 ### C-Rating
 
@@ -932,6 +980,14 @@ Producing many possible ideas before judging them.
 
 ---
 
+### Drag Brake
+
+A gentle braking effort some ESCs apply when the throttle sits at neutral.
+
+It stops a buggy rolling away on a slope. Useful for a crawler, annoying for a racer, and a setting either way.
+
+---
+
 ### Driver Profile
 
 The shaped recess in a screw head, and the matching tool shape that turns it.
@@ -1025,6 +1081,14 @@ A temporary change in shape that disappears after the load is removed.
 ### Elasticity
 
 How well a material springs back towards its original shape once a load is removed.
+
+---
+
+### Electronic Commutation
+
+Switching the power between a brushless motor's windings electronically, in time with the rotor.
+
+A brushed motor does this with sliding metal brushes. A brushless motor gives the job to the ESC, which is why it needs three wires and cleverer electronics.
 
 ---
 
@@ -1262,6 +1326,14 @@ A crack or complete break.
 
 ---
 
+### Free Play
+
+Small unwanted movement in a linkage before anything actually moves.
+
+Wiggle a steering rod and feel the slack before the wheel turns. Free play makes a buggy feel vague, and it adds up through every joint.
+
+---
+
 ### Frequency
 
 How many repeating cycles happen each second.
@@ -1429,6 +1501,14 @@ Hygroscopic filament prints badly unless it is kept dry.
 
 ## I
 
+### Idler Gear
+
+A gear placed between two others mainly to pass motion along or reverse its direction.
+
+It changes which way the output turns and can bridge a gap, but it does not change the overall ratio.
+
+---
+
 ### Impact Load
 
 A force applied very quickly.
@@ -1589,6 +1669,14 @@ Movement along a path.
 
 ---
 
+### Linkage Route
+
+The path a moving connection follows between its pivots.
+
+Two linkages can join the same two points and still behave differently, because the route decides what the movement feels like at each end.
+
+---
+
 ### LiPo
 
 A rechargeable lithium-polymer battery, the type most used in radio-controlled models.
@@ -1622,13 +1710,21 @@ The route a load follows through a structure or machine.
 
 ---
 
+### Load Transfer
+
+The way weight shifts between tyres when a vehicle accelerates, brakes or corners.
+
+Brake hard and the front tyres are pressed down while the rear tyres go light. The buggy's total weight has not changed, only where it is carried.
+
+---
+
 ### Locational Fit
 
 A fit used to position one part accurately.
 
 ---
 
-### Low-Voltage Cut-Off
+### Low-Voltage Cut-Off (LVC)
 
 An ESC setting that reduces power when the battery drops to a set voltage.
 
@@ -1647,6 +1743,14 @@ The smallest acceptable size allowed by a tolerance.
 ### Machine
 
 Something made from parts working together to perform useful work.
+
+---
+
+### Main Lead
+
+The thick pair of wires carrying the working current between a battery and the ESC or charger.
+
+Thick because it carries the whole current the motor asks for. Not to be confused with the thin balance lead.
 
 ---
 
@@ -1705,6 +1809,14 @@ A force increase gained by trading speed or distance.
 
 ---
 
+### Mechanical Stop
+
+A physical feature that will not let a part move any further.
+
+Once a servo reaches a mechanical stop, extra command becomes heat and force instead of movement. Finding the stops before powering up protects the servo.
+
+---
+
 ### Millimetre
 
 A metric unit of length equal to one thousandth of a metre.
@@ -1749,6 +1861,14 @@ A device that converts electrical energy into rotation.
 
 ---
 
+### Movement Envelope
+
+Every position a part passes through when all its movements are combined.
+
+A steering arm sweeps a shape, not a line. Nothing else may be put inside that shape.
+
+---
+
 ### Multimeter
 
 An instrument for measuring electrical quantities such as voltage, current and resistance.
@@ -1773,9 +1893,25 @@ Near misses are free lessons and should be recorded.
 
 ---
 
+### Neutral
+
+The command a spring-centred control gives when you let go of it.
+
+Neutral steering means straight ahead; neutral throttle means no drive requested. Checking neutral is the first step of almost every setup.
+
+---
+
 ### NiMH
 
 A rechargeable nickel-metal hydride battery, tougher and heavier than a LiPo.
+
+---
+
+### No-Load Speed
+
+How fast a motor spins with nothing attached to its shaft.
+
+It is the fastest a motor will ever turn and the least useful, because a motor doing no work produces no useful output.
 
 ---
 
@@ -1792,6 +1928,14 @@ A "3.7 V" cell is named that way; the real voltage moves around as it charges an
 The named or target size of a part.
 
 The actual measured size may differ.
+
+---
+
+### Nominal Voltage
+
+The convenient named voltage used to label a cell or pack.
+
+A LiPo cell is called 3.7 V even though it is 4.2 V when full and lower when nearly empty. The name is for classifying; the measurement is for deciding.
 
 ---
 
@@ -1979,6 +2123,14 @@ A shape change that remains after the load is removed.
 
 ---
 
+### Phase
+
+One of the separately switched winding paths in a brushless motor.
+
+A brushless motor has three, which is why it has three fat wires. The ESC energises them in turn to pull the rotor round.
+
+---
+
 ### Pilot Hole
 
 A smaller hole drilled first to guide a later, larger one.
@@ -2015,6 +2167,14 @@ Getting polarity wrong can destroy electronics instantly.
 
 ---
 
+### Position Error
+
+The difference between where a servo has been told to go and where it actually is.
+
+The servo's electronics keep measuring this gap and driving the motor until it is small. A gap that will not close means something is blocking the linkage.
+
+---
+
 ### Positive Feedback
 
 Feedback that makes a change grow larger.
@@ -2047,6 +2207,14 @@ Things worn to reduce harm, such as safety glasses and closed shoes.
 ### Precision
 
 How closely repeated measurements agree with one another.
+
+---
+
+### Preload
+
+Spring compression already present before the suspension takes any load.
+
+Winding a collar down squeezes the spring in advance. It changes ride height and the initial stiffness, not the spring itself.
 
 ---
 
@@ -2105,7 +2273,7 @@ Its purpose is to answer questions.
 
 ---
 
-### Pulse-Width Modulation
+### Pulse-Width Modulation (PWM)
 
 Controlling power by switching it on and off very fast and changing how long it stays on.
 
@@ -2199,6 +2367,14 @@ A tool that removes a small amount from an existing hole to bring it to its fina
 ### Receiver
 
 The module on the buggy that picks up radio commands from the transmitter.
+
+---
+
+### Reduction
+
+A gear arrangement where the output turns fewer times than the input.
+
+Reduction trades speed for turning force. A motor that spins fast and weakly becomes a wheel that turns slowly and strongly.
 
 ---
 
@@ -2325,6 +2501,14 @@ A measure of rotational speed.
 A fit designed for repeated movement.
 
 ---
+### Running Mode
+
+The set of rules an ESC follows for forward, braking and reverse.
+
+Forward-and-brake-only suits racing; forward-brake-reverse suits a bashing buggy. Trigger position does not tell you what will happen until you know the mode.
+
+---
+
 
 ## S
 
@@ -2392,11 +2576,19 @@ A screw designed to form or cut its own thread as it enters a suitable hole.
 
 ---
 
-### Sensored Motor
+### Sensored
 
 A brushless motor with sensors that report where the rotor is.
 
 Knowing the rotor position lets the ESC start it smoothly from a standstill.
+
+---
+
+### Sensorless
+
+A brushless system that works out the rotor position from the motor's own electrical behaviour.
+
+Fewer wires and cheaper than a sensored system, but starting from a standstill can be less smooth because there is nothing to sense yet.
 
 ---
 
@@ -2429,6 +2621,14 @@ How easily a part can be:
 ### Servo
 
 An actuator that moves to a commanded position and holds it.
+
+---
+
+### Servo Angle
+
+How far the servo's output shaft has rotated.
+
+It is not the same as the wheel angle: the linkage in between changes one into the other.
 
 ---
 
@@ -2580,9 +2780,33 @@ The part of a motor that stays still.
 
 ---
 
+### Steering Arm
+
+The short lever on a steering knuckle where the steering link attaches.
+
+Its length decides how much wheel angle you get for a given amount of servo movement.
+
+---
+
 ### Steering Axis
 
 The line a wheel knuckle pivots around when you steer.
+
+---
+
+### Steering Centre
+
+The repeatable straight-ahead condition of the whole steering system.
+
+Centre is something you set and check, not something you hope for. A buggy that will not hold centre will not drive straight.
+
+---
+
+### Steering Link
+
+The rod that carries push and pull between the steering parts.
+
+It has to be stiff in both directions, because a rod that flexes turns a clear command into a vague one.
 
 ---
 
@@ -2793,6 +3017,14 @@ A written description of:
 
 ---
 
+### Thermal Protection
+
+An ESC or motor response that cuts power when it gets too hot.
+
+It is evidence, not a fault to reset past. Something is asking more of the system than it can deliver without overheating.
+
+---
+
 ### Thermoplastic
 
 Plastic that softens when heated and hardens again when cooled.
@@ -2893,6 +3125,14 @@ The solid layers that close the upper surfaces of a print.
 ### Top View
 
 An orthographic view looking down on an object.
+
+---
+
+### Topping Out
+
+When suspension reaches the far end of its extension and can droop no further.
+
+The wheel stops following the ground and the buggy goes light. You hear it as a knock over crests. The opposite of bottoming out.
 
 ---
 
@@ -3123,6 +3363,14 @@ A change in how strongly different tyres are pressed against the ground during:
 ### Wetting
 
 Molten solder spreading across the metal and bonding to it, instead of balling up on top of it.
+
+---
+
+### Wheel Angle
+
+How far a steered wheel points away from straight ahead.
+
+This is the angle that actually decides where the buggy goes, which is why it is measured at the wheel and not at the servo.
 
 ---
 
