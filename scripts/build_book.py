@@ -420,6 +420,10 @@ def build_pdf(combined: Path) -> None:
     DIST.mkdir(exist_ok=True)
     run([
         "pandoc", str(combined.relative_to(ROOT)),
+        # Keep alt text as a real alt attribute for accessibility, but stop
+        # Pandoc promoting a lone image into a <figure> and printing the alt
+        # text as a caption - the topic supplies its own italic caption line.
+        "-f", "markdown-implicit_figures",
         "-o", "dist/VoltForgeGear.pdf",
         "--pdf-engine=weasyprint",
         "--css", str(CSS.relative_to(ROOT)),
@@ -436,6 +440,10 @@ def build_epub(combined: Path) -> None:
     DIST.mkdir(exist_ok=True)
     cmd = [
         "pandoc", str(combined.relative_to(ROOT)),
+        # Keep alt text as a real alt attribute for accessibility, but stop
+        # Pandoc promoting a lone image into a <figure> and printing the alt
+        # text as a caption - the topic supplies its own italic caption line.
+        "-f", "markdown-implicit_figures",
         "-o", "dist/VoltForgeGear.epub",
         "--toc", "--toc-depth=2",
         "--resource-path", ".",
@@ -453,6 +461,10 @@ def build_html(combined: Path) -> None:
     DIST.mkdir(exist_ok=True)
     run([
         "pandoc", str(combined.relative_to(ROOT)),
+        # Keep alt text as a real alt attribute for accessibility, but stop
+        # Pandoc promoting a lone image into a <figure> and printing the alt
+        # text as a caption - the topic supplies its own italic caption line.
+        "-f", "markdown-implicit_figures",
         "-o", "dist/VoltForgeGear.html",
         "--standalone",
         "--css", str(CSS.relative_to(ROOT)),
