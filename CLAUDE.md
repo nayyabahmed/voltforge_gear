@@ -34,13 +34,20 @@ Read these before writing or editing any topic:
 - `style-guides-principles/improvement-suggestions.md` - the original
   readability review of the Part 1 topics (2026-07-11), kept frozen as a
   record (it still uses the old chapter numbering). The WORKING copies live
-  in `backlog/`: `backlog/PLAN.md` is the phased implementation plan (per-topic
-  loop with research pass), the `backlog/chapter-NN.md` files hold the live
-  per-topic items (these working files keep their old sequence-numbered names;
-  they are not book content), and `backlog/TRACKER.md` is the at-a-glance
-  status board (done / in progress / planned per topic and activity). Check
-  TRACKER.md first when asked about review status, and keep its rows and
-  "Last updated" date current whenever topic work starts or finishes.
+  in `backlog/`: `backlog/PLAN.md` is the phased implementation plan (its
+  per-topic loop with research pass is still the procedure every review
+  follows), and `backlog/TRACKER.md` is the Part 1 status board, now closed -
+  it records what was done, the conventions backfill and what remains.
+  `backlog/part-2-book-wide.md` holds Part 2's status board and its
+  outstanding cross-topic sweeps.
+
+  **Completed per-topic backlogs are deleted, not archived.** Part 1's
+  `chapter-NN.md` / `capstone.md` / `book-wide.md` and Part 2's
+  `topic-2.N.md` files were removed on 2026-08-06 once every item in them
+  was ticked. Their full content, including the research notes recording what
+  was verified and corrected, is in git history - `git log --diff-filter=D
+  --stat` finds them. Delete a per-topic backlog when its topic is done
+  rather than leaving ticked files lying around.
   `backlog/WRITING-TRACKER.md` is the equivalent board for AUTHORING new
   topics (Topic 2.3 onwards): it tracks each in-flight topic through the
   research -> draft -> mini project -> glossary -> reference docs ->

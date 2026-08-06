@@ -32,31 +32,20 @@ here as they are applied.
 
 ---
 
-## Current State (as of 2026-07-12)
+## Status
 
-> Live status now lives in [TRACKER.md](TRACKER.md) - the table below is
-> the state when this plan was written and is not updated.
+**The Part 1 review this plan describes is complete.** Every topic reached
+v0.2 on 2026-07-22, and the conventions backfill (figures and answers)
+followed on 2026-08-06. See [TRACKER.md](TRACKER.md) for what was done and
+what remains.
 
-| Chapter | File | Status | Backlog file |
-| --- | --- | --- | --- |
-| 00 How to Use This Handbook | `00-...md` | v0.2 done (dd772e8) | none (not in review scope) |
-| 01 What Are We Building? | `01-...md` | v0.1, no backlog exists | to be generated (see Phase 4) |
-| 02 Systems Thinking | `02-...md` | bumped to v0.2 but ~half applied | [chapter-02.md](chapter-02.md) |
-| 03 How Machines Move | `03-...md` | not started | [chapter-03.md](chapter-03.md) |
-| 04 Forces and Why Parts Break | `04-...md` | not started | [chapter-04.md](chapter-04.md) |
-| 05 Measurement | `05-...md` | not started | [chapter-05.md](chapter-05.md) |
-| 06 Accuracy, Precision and Error | `06-...md` | bumped to v0.2 but ~half applied | [chapter-06.md](chapter-06.md) |
-| 07 Tolerances and Fits | `07-...md` | not started | [chapter-07.md](chapter-07.md) |
-| 08 Engineering Drawings | `08-...md` | bumped to v0.2 but ~half applied | [chapter-08.md](chapter-08.md) |
-| 09 The Engineering Design Process | `09-...md` | not started | [chapter-09.md](chapter-09.md) |
-| Part 1 Capstone | `Part-1-Capstone-...md` | not started | [capstone.md](capstone.md) |
-| Glossary | `glossary.md` | one of two items done | [glossary.md](glossary.md) |
-| Book-wide items | (all chapters) | applied per chapter as we go | [book-wide.md](book-wide.md) |
+The per-chapter backlog files this plan used to link to - `chapter-NN.md`,
+`capstone.md`, `book-wide.md` - were deleted once every item in them was
+ticked. Their contents are in git history.
 
-Note: the original review calls the capstone "Chapter 10" - numbering has
-since changed (Chapter 10 is now Part 2's Workshop Safety). Backlog gloss
-pointers written against the old numbering must be re-verified against
-`SUMMARY.md` before use (e.g. ESC's home chapter is 25, not 22).
+**What is still live in this file is the per-chapter loop below.** It is the
+procedure every review since has followed, including all of Part 2, and it is
+the reason this plan is kept rather than deleted with the rest.
 
 ## Order of Work
 
@@ -67,7 +56,7 @@ honest, then take the rest in numeric order.
 2. **Phase 2 - untouched chapters, numeric order:** Chapter 03, Chapter 04,
    Chapter 05, Chapter 07, Chapter 09, Capstone.
 3. **Phase 3 - cross-chapter sweep:** glossary items, terminology
-   reconciliation (book-wide.md), and a final check that every applied gloss
+   reconciliation, and a final check that every applied gloss
    points at the correct chapter number per `SUMMARY.md`.
 4. **Phase 4 - Chapter 01:** it was never reviewed, so review it against the
    style guide first, write its backlog file here, then apply it.
@@ -89,7 +78,7 @@ For each chapter, in this order:
    c. Check explanations are pitched right by comparing against how the UK
       KS2/KS3 curriculum introduces the same idea (Bitesize is the
       reference).
-   d. Confirm the chapter's mini-project candidate (list in book-wide.md)
+   d. Confirm the chapter's mini-project candidate
       is buildable from household materials, its reference activity still
       exists, and the build genuinely embodies the chapter's core idea.
    e. Record findings as a short "Research notes" section at the bottom of
@@ -100,15 +89,17 @@ For each chapter, in this order:
    break markers at the listed seams, and the Topic Mini Project
    (STYLE-GUIDE section 3 "learning by doing" rules) - correcting any
    facts the research pass flagged.
-4. Apply any book-wide items that touch this chapter (see book-wide.md).
+4. Apply any book-wide items that touch this chapter (for Part 2 onwards,
+   see the part's own book-wide file).
 5. Verify: emoji and characters follow STYLE-GUIDE section 6 (fixed
    callout markers, at most one emoji per heading, emoji-free tables and
    frontmatter), every gloss chapter number matches `SUMMARY.md`,
    "Looking Ahead" names the real next chapter, New Words entries exist
    in `glossary.md`.
 6. Set frontmatter `version: "0.2"` / `status: "Reviewed"` (only now).
-7. Tick the chapter's items in its backlog file (and in book-wide.md where
-   relevant).
+7. Tick the chapter's items in its backlog file (and the part's book-wide
+   file where relevant). Delete the per-topic backlog once every item is
+   ticked - git history keeps it.
 8. Update the chapter's row in `SUMMARY.md` (v0.1 yellow -> v0.2 blue) and
    in `TRACKER.md` (the at-a-glance status board - also bump its
    "Last updated" date).

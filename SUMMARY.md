@@ -30,7 +30,7 @@ The full topic plan for VoltForge Gear — The Young Engineer's Handbook, with w
 | 1.8 | [Engineering Drawings](Part-1-Engineering-Mindset/1.8-Engineering-Drawings.md) | 🔵 v0.2 |
 | 1.9 | [The Engineering Design Process](Part-1-Engineering-Mindset/1.9-The-Engineering-Design-Process.md) | 🔵 v0.2 |
 | — | [Part 1 Capstone: First Engineering Challenge](Part-1-Engineering-Mindset/Part-1-Capstone-First-Engineering-Challenge.md) | 🔵 v0.2 |
-| — | Part 1 Review Quiz | 📋 |
+| — | [Part 1 Review Quiz](Part-1-Engineering-Mindset/Part-1-Review-Quiz.md) | 🟡 v0.1 |
 
 ## Part 2 — Workshop Skills
 
@@ -38,33 +38,33 @@ The full topic plan for VoltForge Gear — The Young Engineer's Handbook, with w
 
 | # | Topic | Status |
 | --- | --- | --- |
-| 2.1 | [Workshop Safety and Setup](Part-2-Workshop-Skills/2.1-Workshop-Safety-and-Setup.md) | 🟡 v0.1 |
-| 2.2 | [3D Printing Fundamentals](Part-2-Workshop-Skills/2.2-3D-Printing-Fundamentals.md) | 🟡 v0.1 |
-| 2.3 | [Slicer Software and First Prints](Part-2-Workshop-Skills/2.3-Slicer-Software-and-First-Prints.md) | 🟡 v0.1 |
-| 2.4 | [CAD Fundamentals](Part-2-Workshop-Skills/2.4-CAD-Fundamentals.md) | 🟡 v0.1 |
-| 2.5 | [Designing Simple Parts](Part-2-Workshop-Skills/2.5-Designing-Simple-Parts.md) | 🟡 v0.1 |
-| 2.6 | [3D Printing Materials](Part-2-Workshop-Skills/2.6-3D-Printing-Materials.md) | 🟡 v0.1 |
-| 2.7 | [Hand Tools and Fasteners](Part-2-Workshop-Skills/2.7-Hand-Tools-and-Fasteners.md) | 🟡 v0.1 |
-| 2.8 | [Cutting, Drilling and Finishing](Part-2-Workshop-Skills/2.8-Cutting-Drilling-and-Finishing.md) | 🟡 v0.1 |
-| 2.9 | Soldering and Wire Connections | 📋 |
-| 2.10 | Workshop Skills Challenge | 📋 |
+| 2.1 | [Workshop Safety and Setup](Part-2-Workshop-Skills/2.1-Workshop-Safety-and-Setup.md) | 🔵 v0.2 |
+| 2.2 | [3D Printing Fundamentals](Part-2-Workshop-Skills/2.2-3D-Printing-Fundamentals.md) | 🔵 v0.2 |
+| 2.3 | [Slicer Software and First Prints](Part-2-Workshop-Skills/2.3-Slicer-Software-and-First-Prints.md) | 🔵 v0.2 |
+| 2.4 | [CAD Fundamentals](Part-2-Workshop-Skills/2.4-CAD-Fundamentals.md) | 🔵 v0.2 |
+| 2.5 | [Designing Simple Parts](Part-2-Workshop-Skills/2.5-Designing-Simple-Parts.md) | 🔵 v0.2 |
+| 2.6 | [3D Printing Materials](Part-2-Workshop-Skills/2.6-3D-Printing-Materials.md) | 🔵 v0.2 |
+| 2.7 | [Hand Tools and Fasteners](Part-2-Workshop-Skills/2.7-Hand-Tools-and-Fasteners.md) | 🔵 v0.2 |
+| 2.8 | [Cutting, Drilling and Finishing](Part-2-Workshop-Skills/2.8-Cutting-Drilling-and-Finishing.md) | 🔵 v0.2 |
+| 2.9 | [Soldering and Wire Connections](Part-2-Workshop-Skills/2.9-Soldering-and-Wire-Connections.md) | 🔵 v0.2 |
+| 2.10 | [Workshop Skills Challenge](Part-2-Workshop-Skills/2.10-Workshop-Skills-Challenge.md) | 🟡 v0.1 |
 
-## Part 3 — RC Systems
+## Part 3 — Electronics and Vehicle Systems
 
 *Every subsystem of the buggy, one at a time: what it does, how it works, how to choose one.*
 
 | # | Topic | Status |
 | --- | --- | --- |
-| 3.1 | Meet the RC Electronics | 📋 |
-| 3.2 | Voltage, Current, Resistance and Power | 📋 |
-| 3.3 | Batteries and Battery Safety | 📋 |
-| 3.4 | Radio Transmitters and Receivers | 📋 |
-| 3.5 | Steering Servos | 📋 |
-| 3.6 | Electronic Speed Controllers | 📋 |
-| 3.7 | Brushed and Brushless Motors | 📋 |
-| 3.8 | Gears and the Drivetrain | 📋 |
-| 3.9 | Steering Systems | 📋 |
-| 3.10 | Suspension, Wheels and Grip | 📋 |
+| 3.1 | [Meet the RC Electronics](Part-3-Electronics-and-Vehicle-Systems/3.1-Meet-the-RC-Electronics.md) | 🟡 v0.1 |
+| 3.2 | [Voltage, Current, Resistance and Power](Part-3-Electronics-and-Vehicle-Systems/3.2-Voltage-Current-Resistance-and-Power.md) | 🟡 v0.1 |
+| 3.3 | [Batteries and Battery Safety](Part-3-Electronics-and-Vehicle-Systems/3.3-Batteries-and-Battery-Safety.md) | 🟡 v0.1 |
+| 3.4 | [Radio Transmitters and Receivers](Part-3-Electronics-and-Vehicle-Systems/3.4-Radio-Transmitters-and-Receivers.md) | 🟡 v0.1 |
+| 3.5 | [Steering Servos](Part-3-Electronics-and-Vehicle-Systems/3.5-Steering-Servos.md) | 🟡 v0.1 |
+| 3.6 | [Electronic Speed Controllers](Part-3-Electronics-and-Vehicle-Systems/3.6-Electronic-Speed-Controllers.md) | 🟡 v0.1 |
+| 3.7 | [Brushed and Brushless Motors](Part-3-Electronics-and-Vehicle-Systems/3.7-Brushed-and-Brushless-Motors.md) | 🟡 v0.1 |
+| 3.8 | [Gears and the Drivetrain](Part-3-Electronics-and-Vehicle-Systems/3.8-Gears-and-the-Drivetrain.md) | 🟡 v0.1 |
+| 3.9 | [Steering Systems](Part-3-Electronics-and-Vehicle-Systems/3.9-Steering-Systems.md) | 🟡 v0.1 |
+| 3.10 | [Suspension, Wheels and Grip](Part-3-Electronics-and-Vehicle-Systems/3.10-Suspension-Wheels-and-Grip.md) | 🟡 v0.1 |
 
 ## Part 4 — Design and Build
 
@@ -72,16 +72,16 @@ The full topic plan for VoltForge Gear — The Young Engineer's Handbook, with w
 
 | # | Topic | Status |
 | --- | --- | --- |
-| 4.1 | Build Strategy and Cost Plan | 📋 |
-| 4.2 | Paper and Cardboard Layout | 📋 |
-| 4.3 | Rolling Cardboard Chassis | 📋 |
-| 4.4 | Low-Power Wire-Frame Car | 📋 |
-| 4.5 | Radio-Controlled Prototype | 📋 |
-| 4.6 | Choosing and Measuring Donor Parts | 📋 |
-| 4.7 | Modular Printed Chassis | 📋 |
-| 4.8 | Final Mechanical Assembly | 📋 |
-| 4.9 | Electronics Installation | 📋 |
-| 4.10 | Testing, Debugging and Version 1 | 📋 |
+| 4.1 | [Build Strategy and Cost Plan](Part-4-Design-and-Build/4.1-Build-Strategy-and-Cost-Plan.md) | 🟡 v0.1 |
+| 4.2 | [Paper and Cardboard Layout](Part-4-Design-and-Build/4.2-Paper-and-Cardboard-Layout.md) | 🟡 v0.1 |
+| 4.3 | [Rolling Cardboard Chassis](Part-4-Design-and-Build/4.3-Rolling-Cardboard-Chassis.md) | 🟡 v0.1 |
+| 4.4 | [Low-Power Wire-Frame Car](Part-4-Design-and-Build/4.4-Low-Power-Wire-Frame-Car.md) | 🟡 v0.1 |
+| 4.5 | [Radio-Controlled Prototype](Part-4-Design-and-Build/4.5-Radio-Controlled-Prototype.md) | 🟡 v0.1 |
+| 4.6 | [Choosing and Measuring Donor Parts](Part-4-Design-and-Build/4.6-Choosing-and-Measuring-Donor-Parts.md) | 🟡 v0.1 |
+| 4.7 | [Modular Printed Chassis](Part-4-Design-and-Build/4.7-Modular-Printed-Chassis.md) | 🟡 v0.1 |
+| 4.8 | [Final Mechanical Assembly](Part-4-Design-and-Build/4.8-Final-Mechanical-Assembly.md) | 🟡 v0.1 |
+| 4.9 | [Electronics Installation](Part-4-Design-and-Build/4.9-Electronics-Installation.md) | 🟡 v0.1 |
+| 4.10 | [Testing, Debugging and Version 1](Part-4-Design-and-Build/4.10-Testing-Debugging-and-Version-1.md) | 🟡 v0.1 |
 
 ## Part 5 — Advanced Topics
 

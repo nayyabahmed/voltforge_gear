@@ -289,6 +289,39 @@ def render_mermaid(md: str, slug: str, enabled: bool) -> str:
     return MERMAID_RE.sub(repl, md)
 
 
+IMG_RE = re.compile(r"!\[([^\]]*)\]\(([^)\s]+)\)")
+
+
+def rewrite_image_paths(md: str, source: Path) -> str:
+    """Make author-written image paths work from build/combined.md.
+
+    A topic links its figures relative to itself, e.g.
+    `../assets/figures/1.4/x.svg`, which is what GitHub and editor previews
+    need. Once every topic is concatenated into build/combined.md that `../`
+    resolves to the repo's PARENT, so Pandoc cannot find the file. Rewrite
+    each relative path to be relative to ROOT instead, which is what
+    `--resource-path .` expects.
+
+    Runs BEFORE render_mermaid, whose generated paths are already
+    root-relative and must not be rewritten again.
+    """
+    def repl(m: re.Match) -> str:
+        alt, target = m.group(1), m.group(2)
+        if target.startswith(("http://", "https://", "data:", "/", "#")):
+            return m.group(0)
+        resolved = (source.parent / target).resolve()
+        try:
+            rel = resolved.relative_to(ROOT).as_posix()
+        except ValueError:
+            print(f"  ! image outside the repo, left as-is: {target}")
+            return m.group(0)
+        if not resolved.exists():
+            print(f"  ! missing image: {target} (from {source.name})")
+        return f"![{alt}]({rel})"
+
+    return IMG_RE.sub(repl, md)
+
+
 def cover_block(cover: Path) -> str:
     rel = cover.relative_to(ROOT).as_posix()
     # Raw HTML passes through Pandoc; print.css makes .chapter-cover a full page.
@@ -324,6 +357,7 @@ def assemble(items: list[dict], mermaid: bool, include_glossary: bool) -> Path:
         path: Path = it["path"]
         slug = path.stem
         md = strip_frontmatter(path.read_text(encoding="utf-8"))
+        md = rewrite_image_paths(md, path)
         md = render_mermaid(md, slug, mermaid)
         md = demote_sections(md)
         # Tag the chapter title so print.css starts a new page there and only
@@ -386,6 +420,10 @@ def build_pdf(combined: Path) -> None:
     DIST.mkdir(exist_ok=True)
     run([
         "pandoc", str(combined.relative_to(ROOT)),
+        # Keep alt text as a real alt attribute for accessibility, but stop
+        # Pandoc promoting a lone image into a <figure> and printing the alt
+        # text as a caption - the topic supplies its own italic caption line.
+        "-f", "markdown-implicit_figures",
         "-o", "dist/VoltForgeGear.pdf",
         "--pdf-engine=weasyprint",
         "--css", str(CSS.relative_to(ROOT)),
@@ -402,6 +440,10 @@ def build_epub(combined: Path) -> None:
     DIST.mkdir(exist_ok=True)
     cmd = [
         "pandoc", str(combined.relative_to(ROOT)),
+        # Keep alt text as a real alt attribute for accessibility, but stop
+        # Pandoc promoting a lone image into a <figure> and printing the alt
+        # text as a caption - the topic supplies its own italic caption line.
+        "-f", "markdown-implicit_figures",
         "-o", "dist/VoltForgeGear.epub",
         "--toc", "--toc-depth=2",
         "--resource-path", ".",
@@ -419,6 +461,10 @@ def build_html(combined: Path) -> None:
     DIST.mkdir(exist_ok=True)
     run([
         "pandoc", str(combined.relative_to(ROOT)),
+        # Keep alt text as a real alt attribute for accessibility, but stop
+        # Pandoc promoting a lone image into a <figure> and printing the alt
+        # text as a caption - the topic supplies its own italic caption line.
+        "-f", "markdown-implicit_figures",
         "-o", "dist/VoltForgeGear.html",
         "--standalone",
         "--css", str(CSS.relative_to(ROOT)),

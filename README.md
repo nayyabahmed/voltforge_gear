@@ -50,8 +50,8 @@ A growing [`glossary.md`](glossary.md) collects every term the moment it is form
 | Part | Theme | Status |
 | --- | --- | --- |
 | **Part 1 — Engineering Mindset** | Systems thinking, motion, forces, measurement, tolerances, drawings, the design process | ✅ Topic 0.0 + Topics 1.1–1.9 + capstone written (review quiz pending) |
-| **Part 2 — Workshop Skills** | Workshop safety, 3D printing, slicers, CAD, materials, hand tools, soldering | ✍️ In progress (Topic 2.2 drafted) |
-| **Part 3 — RC Systems** | Electricity basics, batteries, radio, servos, ESCs, motors, drivetrain, steering, suspension | 📋 Planned |
+| **Part 2 — Workshop Skills** | Workshop safety, 3D printing, slicers, CAD, materials, hand tools, soldering | ✍️ In progress (Topics 2.1–2.9 drafted, 2.1 reviewed; challenge pending) |
+| **Part 3 — Electronics and Vehicle Systems** | Electricity basics, batteries, radio, servos, ESCs, motors, drivetrain, steering, suspension | ✍️ In progress (Topics 3.1–3.10 drafted) |
 | **Part 4 — Design and Build** | From cardboard mock-up to driving buggy, one working stage at a time | 📋 Planned |
 | **Part 5 — Advanced Topics** | Maintenance, sensors & telemetry, advanced materials, design your own variant | 📋 Planned |
 
@@ -79,7 +79,7 @@ rc-buggy-handbook/
 │
 ├── Part-1-Engineering-Mindset/    Topic 0.0 + Topics 1.1–1.9 + capstone
 ├── Part-2-Workshop-Skills/        Topics 2.1–2.10
-├── Part-3-RC-Systems/             Topics 3.1–3.10
+├── Part-3-Electronics-and-Vehicle-Systems/  Topics 3.1–3.10
 ├── Part-4-Design-and-Build/       Topics 4.1–4.10
 ├── Part-5-Advanced-Topics/        Topics 5.1–5.4
 │
