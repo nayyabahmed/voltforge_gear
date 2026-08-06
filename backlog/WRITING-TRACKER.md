@@ -41,6 +41,26 @@ Last updated: 2026-08-06
 | --- | --- | --- | --- | --- | --- | --- |
 | (none) | | | | | | |
 
+## Published - Part 4 (Design and Build)
+
+Every Part 4 topic (4.1-4.10) is at 🔵 v0.2 Reviewed as of 2026-08-06. The
+review is written up in
+[review-reports/part-4-review-report.md](../review-reports/part-4-review-report.md);
+the board is in [part-4-book-wide.md](part-4-book-wide.md).
+
+| Topic | Section 11 | Figures 7.7 | Safety | Glossary | Notes |
+| --- | --- | --- | --- | --- | --- |
+| 4.1 Build Strategy and Cost Plan | ✅ | ✅ already correct | ✅ 2 callouts | ✅ | The format model for the rest of the part |
+| 4.2 Paper and Cardboard Layout | ✅ | ✅ converted | ✅ | ✅ | Learning Goal heading added |
+| 4.3 Rolling Cardboard Chassis | ✅ | ✅ converted | ✅ | ✅ | |
+| 4.4 Low-Power Wire-Frame Car | ✅ | ✅ converted | ✅ | ✅ | First powered build |
+| 4.5 Radio-Controlled Prototype | ✅ | ✅ converted | ✅ | ✅ | |
+| 4.6 Choosing and Measuring Donor Parts | ✅ | ✅ converted | ✅ | ✅ | Whole New Words table was missing from the glossary |
+| 4.7 Modular Printed Chassis | ✅ | ✅ converted | ✅ | ✅ | |
+| 4.8 Final Mechanical Assembly | ✅ | ✅ converted | ✅ callout added | ✅ | Thread-locker chemical guidance now a callout |
+| 4.9 Electronics Installation | ✅ | ✅ converted | ✅ 2 callouts added | ✅ | LiPo rules moved into a callout; think-prompt added |
+| 4.10 Testing, Debugging and Version 1 | ✅ | ✅ converted | ✅ | ✅ | Closes Part 4, hands over to Topic 5.1 |
+
 ## Published - Part 3 (Electronics and Vehicle Systems)
 
 Every Part 3 topic (3.1-3.10) is at 🔵 v0.2 Reviewed as of 2026-08-06. The
@@ -91,6 +111,10 @@ when Part 2 goes through its review pass.
 | ~~2.1 / 2.2 pre-convention gaps~~ | CLEARED 2026-08-06. Both reached v0.2 with a mini project, think-prompts and the emoji pass applied. |
 | Part 2 review pass | COMPLETE. All ten Part 2 topics at v0.2. Board and remaining sweeps in [part-2-book-wide.md](part-2-book-wide.md). |
 | Part 3 review pass | COMPLETE 2026-08-06. All ten Part 3 topics at v0.2. Report in [review-reports/part-3-review-report.md](../review-reports/part-3-review-report.md). |
+| Part 4 review pass | COMPLETE 2026-08-06. All ten Part 4 topics at v0.2. Report in [review-reports/part-4-review-report.md](../review-reports/part-4-review-report.md). |
+| Reference docs unfed by Part 4 | BOM.md, COST-LEDGER.md, TOOLS.md and TROUBLESHOOTING.md name no Topic 4.x, though 4.1 (cost plan), 4.6 (donor parts) and 4.10 (debugging) are the most natural feeders in the book. Now the largest gap in the reference docs. |
+| Curly quotes, book-wide | 138 across Parts 2, 3 and 4; none in Part 1. Needs one decision and one sweep, not a per-part fix. |
+| Part 4 second think-prompts | 4.3-4.8 and 4.10 carry one each. Not a breach, but each has a second claim worth earning. Deferred to v0.3. |
 | Part 3 reference docs unfed | SAFETY.md, TOOLS.md, BOM.md, COST-LEDGER.md and TROUBLESHOOTING.md do not name any Topic 3.x as a feeder, though 3.3, 3.6 and 3.8 are natural sources. |
 | 3 links fail automated checks | The Science Buddies pages in 3.2 and 3.5 return 403 to bots. Verified live by other means; expect any link-checker to keep flagging them. |
 | TROUBLESHOOTING.md unfed | No Topic 2.x references at all, though 2.3 (first prints) and 2.6 (materials) are natural feeders. |
@@ -99,8 +123,9 @@ when Part 2 goes through its review pass.
 ## Next Up (order per SUMMARY.md)
 
 1. ✅ Part 3 review pass - COMPLETE 2026-08-06 on `Part_3_review`
-2. 📋 Part 4 review pass - Topics 4.1-4.10 are at v0.1 and have no backlog yet
-3. 📋 Part 5 - Topics 5.1-5.4 not yet written
+2. ✅ Part 4 review pass - COMPLETE 2026-08-06 on the same branch
+3. 📋 Topic 5.1 - Maintenance, Repairs and Spare Parts (starts Part 5, not
+   yet written)
 
 The full queue (through Topic 5.4) lives in SUMMARY.md - do not mirror it
 here; add a topic to "In Flight" only when its research pass starts.

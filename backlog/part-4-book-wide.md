@@ -8,7 +8,9 @@ Legend: [T] textual, [C] context awareness, [V] visual aid, [E] external
 reference, [S] safety.
 
 Created 2026-08-06 from a direct audit of the ten topics as published at
-`6efa822`. Status: **NOT STARTED**.
+`6efa822`. **Status: COMPLETE** - all ten topics reached v0.2 on 2026-08-06.
+The outcome is written up in
+[review-reports/part-4-review-report.md](../review-reports/part-4-review-report.md).
 
 ## How Part 4 differs from Part 3
 
@@ -35,23 +37,23 @@ Last updated: 2026-08-06
 
 | Topic | Backlog file | Research pass | Items applied | v0.2 bumped | Overall |
 | --- | --- | --- | --- | --- | --- |
-| 4.1 Build Strategy and Cost Plan | ✅ created | 📋 | 📋 | 📋 | 📋 planned |
-| 4.2 Paper and Cardboard Layout | ✅ created | 📋 | 📋 | 📋 | 📋 planned |
-| 4.3 Rolling Cardboard Chassis | ✅ created | 📋 | 📋 | 📋 | 📋 planned |
-| 4.4 Low-Power Wire-Frame Car | ✅ created | 📋 | 📋 | 📋 | 📋 planned |
-| 4.5 Radio-Controlled Prototype | ✅ created | 📋 | 📋 | 📋 | 📋 planned |
-| 4.6 Choosing and Measuring Donor Parts | ✅ created | 📋 | 📋 | 📋 | 📋 planned |
-| 4.7 Modular Printed Chassis | ✅ created | 📋 | 📋 | 📋 | 📋 planned |
-| 4.8 Final Mechanical Assembly | ✅ created | 📋 | 📋 | 📋 | 📋 planned |
-| 4.9 Electronics Installation | ✅ created | 📋 | 📋 | 📋 | 📋 planned |
-| 4.10 Testing, Debugging and Version 1 | ✅ created | 📋 | 📋 | 📋 | 📋 planned |
-| Book-wide sweeps | ✅ this file | ➖ | 📋 | ➖ | 📋 planned |
+| 4.1 Build Strategy and Cost Plan | ✅ deleted | ✅ | ✅ | ✅ | ✅ done |
+| 4.2 Paper and Cardboard Layout | ✅ deleted | ✅ | ✅ | ✅ | ✅ done |
+| 4.3 Rolling Cardboard Chassis | ✅ deleted | ✅ | ✅ | ✅ | ✅ done |
+| 4.4 Low-Power Wire-Frame Car | ✅ deleted | ✅ | ✅ | ✅ | ✅ done |
+| 4.5 Radio-Controlled Prototype | ✅ deleted | ✅ | ✅ | ✅ | ✅ done |
+| 4.6 Choosing and Measuring Donor Parts | ✅ deleted | ✅ | ✅ | ✅ | ✅ done |
+| 4.7 Modular Printed Chassis | ✅ deleted | ✅ | ✅ | ✅ | ✅ done |
+| 4.8 Final Mechanical Assembly | ✅ deleted | ✅ | ✅ | ✅ | ✅ done |
+| 4.9 Electronics Installation | ✅ deleted | ✅ | ✅ | ✅ | ✅ done |
+| 4.10 Testing, Debugging and Version 1 | ✅ deleted | ✅ | ✅ | ✅ | ✅ done |
+| Book-wide sweeps | ✅ this file | ➖ | ✅ | ➖ | ✅ done |
 
 ## Items to apply
 
 ### The big one
 
-- [ ] [V] **The figure format splits the part in two, and 144 figures are on
+- [x] [V] **The figure format splits the part in two, and 144 figures are on
   the wrong side of it.** Topic 4.1 uses the section 7.7 form - brief
   blockquote, then a separate `*Figure 4.1.1 - caption.*` line, then a
   separate `*Alt text: …*` line. **Topics 4.2-4.10 fuse all three into one
@@ -75,7 +77,7 @@ Last updated: 2026-08-06
 
 ### Safety
 
-- [ ] [S] **Topic 4.9's LiPo rules are not in a safety callout.** The section
+- [x] [S] **Topic 4.9's LiPo rules are not in a safety callout.** The section
   "LiPo and Rechargeable Battery Boundary" lists nine correct
   non-negotiables - adult-supervised charging, correct chemistry and cell
   count, balance connection, charging bag, never unattended, never a damaged
@@ -84,12 +86,12 @@ Last updated: 2026-08-06
   form for anything electrical or chemical, and section 13.2 is explicit that
   the fixed markers are what let the HTML build make a warning unskippable.
   This is the highest-priority safety item in the part.
-- [ ] [S] **Topic 4.8's thread-locking section needs a callout.** It gives
+- [x] [S] **Topic 4.8's thread-locking section needs a callout.** It gives
   chemical-handling instructions - keep away from incompatible plastics, tiny
   controlled amount, stated cure time, adult handles the chemical and reads
   the safety data - in a bullet list. Section 9 names chemical hazards
   explicitly.
-- [ ] [S] **Hazard content precedes the single safety callout in six topics.**
+- [x] [S] **Hazard content precedes the single safety callout in six topics.**
   Each topic carries one `⚠️ SAFETY` callout placed before its Topic Build /
   Topic Project. Hazardous instruction appears earlier than that callout in
   4.2, 4.4, 4.6, 4.7, 4.8 and 4.9. Section 9: callouts come BEFORE the
@@ -98,10 +100,10 @@ Last updated: 2026-08-06
 
 ### Vocabulary and consistency
 
-- [ ] [C] **71 New Words are missing from `glossary.md`** - twice Part 3's gap
+- [x] [C] **71 New Words are missing from `glossary.md`** - twice Part 3's gap
   and the largest in the book. Per-topic lists are in the topic files. No
   topic is fully covered; 4.6 is entirely absent (8 of 8 missing).
-- [ ] [T] **Terminology registry breaches.** Section 5 fixes these spellings
+- [x] [T] **Terminology registry breaches.** Section 5 fixes these spellings
   and Part 4 varies them:
 
   | Registry term | Used in Part 4 as | Hits | Topics |
@@ -111,49 +113,53 @@ Last updated: 2026-08-06
 
   `Captive Nut` is already the glossary entry, so `captured nut` is
   inconsistent with the book's own dictionary as well as the registry.
-- [ ] [T] **The project heading changes name halfway through the part.**
+- [x] [T] **The project heading changes name halfway through the part.**
   Topics 4.1-4.5 use `# Topic Build - …`, Topics 4.6-4.10 use
   `# Topic Project - …`. Section 13.3 makes headings anchors and navigation
   entries, so one name has to win. **Recommendation: `# Topic Build`** - Part
   4 builds the buggy, and it distinguishes these from the household `Topic
   Mini Project` of the teaching parts.
-- [ ] [T] **Topic 4.2 has no `# Learning Goal` heading**, where the other nine
+- [x] [T] **Topic 4.2 has no `# Learning Goal` heading**, where the other nine
   do. Section 11 lists it first among the build-topic requirements.
-- [ ] [T] **Curly quotes in Topic 4.1's Learn More box** (`“design
-  specification”`) where the rest of the book uses straight quotes.
+- [x] [T] ~~**Curly quotes in Topic 4.1's Learn More box**~~ **Withdrawn -
+  out of scope.** Curly quotes are book-wide (69 in Part 2, 18 in Part 3, 51
+  in Part 4). Fixing Part 4 alone would make the book less consistent. Carried
+  as a book-wide debt in the review report.
 
 ### Pacing and prompts
 
-- [ ] [T] **Break markers: one per topic, across 876-1,200 lines.** Identical
+- [x] [T] **Break markers: one per topic, across 876-1,200 lines.** Identical
   to the Part 3 finding. The guide wants a seam roughly every 25-30 minutes;
   at these lengths that is three. All ten topics need two more.
-- [ ] [T] **Topic 4.9 has no think-about-it prompt at all**, the only topic in
+- [x] [T] **Topic 4.9 has no think-about-it prompt at all**, the only topic in
   Parts 3 or 4 without one. Section 2 asks for one or two at the most
   counter-intuitive claims, and this topic has an obvious candidate: a system
   that worked perfectly in Topic 4.5 must be recommissioned from zero anyway.
-- [ ] [T] **Seven topics have exactly one prompt** (4.3-4.8, 4.10). Not a
-  breach - the guide says one or two - but each has a second claim worth
-  making the reader work for. Add where it earns its place, not to hit a
-  number.
+- [ ] [T] **Seven topics have exactly one prompt** (4.3-4.8, 4.10). **Deferred
+  to v0.3, not done in this pass.** It is not a breach - section 2 says one or
+  two - and adding six prompts to hit a number is exactly what that section
+  warns against. Each topic does have a second claim worth making the reader
+  work for; that is a writing job, not a sweep. Carried as a debt in the
+  review report.
 
 ### References
 
-- [ ] [E] **Verify all 19 links and flag anything wrong.** The automated check
+- [x] [E] **Verify all 19 links and flag anything wrong.** The automated check
   on 2026-08-06 returned **HTTP 200 for all 19**. Confirm during each topic's
   research pass that the page still says what the topic claims.
-- [ ] [E] **Add search fallbacks to the 8 rot-prone paths.** Keep the URL and
+- [x] [E] **Add search fallbacks to the 8 rot-prone paths.** Keep the URL and
   name the search term: the two Spektrum/Horizon CDN hash manuals (4.5, 4.9),
   the Firma manual (4.9), Futaba (4.5), Energizer (4.4), Mitutoyo (4.3), and
   the two NASA `wp-content` PDFs (4.1/4.2/4.10 and 4.3).
-- [ ] [E] **Six links are cited twice inside one topic** for the same reason:
+- [x] [E] **Six links are cited twice inside one topic** for the same reason:
   JPL in 4.1 and 4.2, all three printing references in 4.7, the Firma manual
   in 4.9, and NASA V&V plus JPL in 4.10. Keep the instance that teaches.
-- [ ] [E] **One Learn More box per topic, at the very end**, under a
+- [x] [E] **One Learn More box per topic, at the very end**, under a
   `# Learn More` heading that is not in the section 3 template - the same
   finding as Part 3, and the same fix. Split each box and place the entries
   beside the sections they serve. The mid-topic `🎬 Watch the build` boxes are
   already correctly placed.
-- [ ] [V] **Confirm the four Mermaid blocks are genuine flows** (4.7, 4.8,
+- [x] [V] **Confirm the four Mermaid blocks are genuine flows** (4.7, 4.8,
   4.9, 4.10). Section 7.1: if it shows what something looks like, where it is
   or which way a force points, it is not Mermaid.
 
