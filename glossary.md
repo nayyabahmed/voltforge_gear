@@ -1,7 +1,7 @@
 ---
 title: "Glossary"
 project: "VoltForge Gear — The Young Engineer's Handbook"
-scope: "Seeded from Topics 1.1-2.1, growing with each new topic (currently through Topic 3.10, plus Topic 2.10)"
+scope: "Seeded from Topics 1.1-2.1, growing with each new topic (currently through Topic 4.10)"
 version: "0.1"
 status: "Draft (living document)"
 ---
@@ -27,6 +27,14 @@ Unlike an STL, a 3MF remembers how you set the print up.
 ---
 
 ## A
+
+### Abrasion
+
+Wear caused by one surface repeatedly rubbing against another.
+
+A wire resting on a sharp printed edge does not fail on day one. It fails after a hundred bumps have worn through the insulation.
+
+---
 
 ### Abrasive
 
@@ -114,6 +122,14 @@ Often shortened to "amp".
 
 ---
 
+### Anisotropic
+
+Having different properties in different directions.
+
+A printed part is anisotropic: strong across its layers, weaker between them. See also Anisotropy.
+
+---
+
 ### Anisotropy
 
 A condition where a material behaves differently in different directions.
@@ -147,6 +163,14 @@ It may include:
 The order in which parts and fasteners have to be fitted.
 
 Some parts can only go in before others, so the sequence is part of the design.
+
+---
+
+### Assembly Traveller
+
+A checklist that travels with the build, recording what was done and checked at each step.
+
+It is how you answer "did I actually tighten that one?" three sessions later without taking the buggy apart.
 
 ---
 
@@ -215,6 +239,14 @@ The fat main lead carries the current; the balance lead carries the information.
 A way of locating several features from one common reference, or datum.
 
 This can reduce accumulated positional error.
+
+---
+
+### Baseline Test
+
+A test that records how something behaves BEFORE you change anything.
+
+Without a baseline you cannot say an upgrade improved the buggy. You can only say it feels different.
 
 ---
 
@@ -293,6 +325,14 @@ Example:
 A list of the parts and quantities required for an assembly.
 
 It is often shortened to **BOM**.
+
+---
+
+### Bill Of Materials (BOM)
+
+The controlled list of every item and quantity a design needs.
+
+A shopping list that has been checked. If it is not on the BOM, it does not exist on the buggy.
 
 ---
 
@@ -409,6 +449,14 @@ Unwanted steering change caused by the suspension moving up and down.
 A rough or sharp edge left behind by cutting, drilling or another process.
 
 ---
+### Bush
+
+A plain sleeve that supports a rotating or sliding shaft.
+
+Simpler and cheaper than a ball bearing, and good enough for a cardboard prototype's axles.
+
+---
+
 
 ## C
 
@@ -428,6 +476,46 @@ A 3S pack has three cells in series. More cells means more voltage, not more cap
 
 ---
 
+### Centre Of Mass
+
+The single balance point of all the mass in an object or system.
+
+Balance a ruler on one finger and you have found its centre of mass. Where the buggy's sits decides how it behaves in a corner.
+
+---
+
+### Clamp
+
+To hold two mating faces together with a controlled force.
+
+One of the four jobs a fastener can do, alongside locate, retain and adjust. A screw clamps; it should not be asked to locate as well.
+
+---
+
+### Command Matrix
+
+A table matching every driver input to the response you expect and the response you actually saw.
+
+Written before the first powered test, so a wrong answer is obvious rather than a surprise.
+
+---
+
+### Commissioning
+
+The controlled sequence of checks run when a new system is first switched on.
+
+Not "turning it on" - a planned order of steps where each one is proved before the next is allowed.
+
+---
+
+### Component Model
+
+A simplified stand-in that keeps the dimensions and interfaces a test needs.
+
+A card box the size of your ESC, with its wires drawn on. It cannot control a motor, but it can prove the ESC will not fit.
+
+---
+
 ### Compound Gear Train
 
 Two or more gear ratio stages working one after the other.
@@ -436,11 +524,59 @@ Each stage multiplies the one before it, so two modest reductions produce a larg
 
 ---
 
+### Configuration Baseline
+
+The controlled record of exactly which parts, settings and conditions define one version.
+
+Without it, a test result belongs to no particular buggy and cannot be compared with anything.
+
+---
+
+### Contingency
+
+Money set aside for uncertainty you have already identified.
+
+Not a slush fund and not optimism. It is the honest admission that some parts will cost more than the first estimate.
+
+---
+
+### Controlled Dimension
+
+A recorded value that can only change through a documented revision.
+
+Controlled does not mean permanent. It means a change needs a reason, a new revision and updated evidence.
+
+---
+
+### Corrective Action
+
+A change made to remove or control the cause of a known problem.
+
+Fixing the symptom is a repair. Fixing the cause so it cannot happen again is corrective action.
+
+---
+
+### Cost Ledger
+
+The running record of what the project was estimated to cost and what it actually cost.
+
+The gap between the two columns is where the learning is.
+
+---
+
 ### Coulomb
 
 The unit for an amount of electric charge, written C.
 
 One amp flowing for one second moves one coulomb. It counts charge the way a litre counts water.
+
+---
+
+### Coupon Ladder
+
+A single test print containing several labelled size variants of the same feature.
+
+Print one ladder of hole sizes and measure which fits, instead of reprinting a whole chassis to find out.
 
 ---
 
@@ -831,6 +967,14 @@ Checking a result using a second method.
 
 ---
 
+### Cross-Member
+
+A structural piece connecting two chassis rails.
+
+It stops the rails moving relative to each other, which is what turns two beams into a frame.
+
+---
+
 ### Cross-Threading
 
 Thread damage caused by a screw starting crooked and cutting a new, wrong thread.
@@ -861,6 +1005,14 @@ A chosen reference point, line, or surface used for measurement or dimensioning.
 
 ---
 
+### Debugging
+
+The structured process of finding and correcting the cause of unwanted behaviour.
+
+Structured is the important word. Changing things until the symptom disappears is guessing, and it teaches you nothing.
+
+---
+
 ### Deburring
 
 Removing burrs without changing the shape the part is meant to be.
@@ -872,6 +1024,14 @@ Removing burrs without changing the shape the part is meant to be.
 A digit position to the right of a decimal point.
 
 More decimal places do not automatically mean a more trustworthy measurement.
+
+---
+
+### Decision Log
+
+A record of a choice, the evidence behind it, and what would make you revisit it.
+
+Six weeks later it answers "why did I do it this way?" - a question you will definitely ask.
 
 ---
 
@@ -974,9 +1134,33 @@ A numerical description of a feature's size or location.
 
 ---
 
+### Discriminating Test
+
+A test chosen specifically to tell two competing explanations apart.
+
+If both explanations predict the same result, the test proves nothing. Design one where they disagree.
+
+---
+
 ### Divergent Thinking
 
 Producing many possible ideas before judging them.
+
+---
+
+### Donor
+
+An existing product or assembly used to supply proven parts for a new design.
+
+Buy precision, build structure: the donor supplies the bearings, gears and hinge pins you cannot make.
+
+---
+
+### Donor Interface Atlas
+
+The controlled record of a donor's identity, condition, datums, dimensions, motion and service interfaces.
+
+Everything you measured off the donor, written down once, so the CAD never has to guess.
 
 ---
 
@@ -985,6 +1169,14 @@ Producing many possible ideas before judging them.
 A gentle braking effort some ESCs apply when the throttle sits at neutral.
 
 It stops a buggy rolling away on a slope. Useful for a crawler, annoying for a racer, and a setting either way.
+
+---
+
+### Drive Ratio
+
+The relationship between input and output rotation in a transmission.
+
+The same idea as a gear ratio, whether it is achieved with gears, pulleys or friction.
 
 ---
 
@@ -1032,6 +1224,14 @@ A setting that changes how much total movement a channel commands.
 ### Ductile
 
 A material behaviour where noticeable bending or stretching happens before failure.
+
+---
+
+### Dummy Battery
+
+An inert block matching a real battery's size and weight, used for fit tests.
+
+It lets you prove the tray, strap and removal path with no stored energy anywhere near the bench.
 
 ---
 
@@ -1114,6 +1314,14 @@ A set limit on how far a channel is allowed to move in one direction.
 
 ---
 
+### Endurance
+
+The ability to keep working through a defined time or number of cycles.
+
+One good lap proves the buggy can move. Twenty laps prove it was built.
+
+---
+
 ### Energy
 
 The ability to do work or cause change.
@@ -1170,6 +1378,14 @@ Measurements, observations, photographs, or test results used to support a concl
 
 ---
 
+### Exploded Diagram
+
+A drawing showing every part of an assembly separated but still in order.
+
+The picture in a flat-pack instruction sheet. Photograph your own before dismantling a donor.
+
+---
+
 ### Exploded View
 
 An assembly view showing parts separated along their assembly direction.
@@ -1217,6 +1433,14 @@ False precision can make weak data look more scientific than it really is.
 ### Fastener
 
 Any part whose job is to hold other parts together: a screw, nut, pin or clip.
+
+---
+
+### Fastener Map
+
+A record matching every screw, nut, washer and spacer to the position it came from.
+
+Made during disassembly, when you still know. Not attempted afterwards from a pile.
 
 ---
 
@@ -1294,6 +1518,14 @@ A record of tested dimensions and the real fits they produced.
 
 ---
 
+### Fit Template
+
+A cheap physical pattern used to check an interface before committing material.
+
+A piece of card with the hole pattern on it costs nothing and catches the mistake a printed chassis would make expensive.
+
+---
+
 ### Five Whys
 
 A method of repeatedly asking "why?" to trace a problem back to its root cause.
@@ -1305,6 +1537,14 @@ A method of repeatedly asking "why?" to trace a problem back to its root cause.
 A material that cleans hot metal so solder can flow across it and stick.
 
 Most electronics solder has flux built into its core.
+
+---
+
+### Footprint
+
+The area a stationary part occupies in one view.
+
+Only the first of three questions. Movement envelope and service envelope are the other two, and they are usually bigger.
 
 ---
 
@@ -1348,9 +1588,25 @@ Friction can be useful or wasteful.
 
 ---
 
+### Friction Drive
+
+A transmission that drives another surface by rubbing directly against it.
+
+Simple enough to build from a motor and a rubber band, and it slips when overloaded - which for a first prototype is a feature.
+
+---
+
 ### Front View
 
 An orthographic view chosen to show the most useful front-facing shape of a part.
+
+---
+
+### Full Scale
+
+A representation whose measurements match the real object exactly, written 1:1.
+
+Half-size looks convincing and proves nothing. You cannot check finger access on a small drawing.
 
 ---
 
@@ -1521,6 +1777,14 @@ Examples:
 
 ---
 
+### Incremental Freedom Testing
+
+Checking that everything still moves freely after each part is added.
+
+When something binds, you know which part caused it, because it moved a moment ago.
+
+---
+
 ### Independent Variable
 
 The factor deliberately changed during a test.
@@ -1567,6 +1831,14 @@ A completed table of checks with real results, kept as evidence.
 
 ---
 
+### Installation Order
+
+A planned sequence for fitting parts that preserves access, inspection and safe commissioning.
+
+Fit the thing that traps other things last, not first.
+
+---
+
 ### Installation Sequence
 
 The order in which parts are fitted during assembly.
@@ -1594,6 +1866,14 @@ A drawing focused on how one component connects to another.
 ### Interface Requirement
 
 A requirement describing how parts or systems must connect.
+
+---
+
+### Interface-Control Table
+
+A record of the datums, dimensions and rules shared by two connected modules.
+
+It is the agreement between two parts. Change one side without updating it and the parts stop fitting.
 
 ---
 
@@ -1642,6 +1922,14 @@ A higher kV motor spins faster but pulls harder on the battery.
 ---
 
 ## L
+
+### Lateral Runout
+
+Side-to-side wobble of a rotating part.
+
+A wheel with lateral runout scrubs the tyre sideways every revolution and steals motion.
+
+---
 
 ### Layer Height
 
@@ -1718,9 +2006,33 @@ Brake hard and the front tyres are pressed down while the rear tyres go light. T
 
 ---
 
+### Local Modifier
+
+A region of a model given different slicer settings from the rest.
+
+It lets you put solid material only where a screw goes, instead of printing the whole part solid.
+
+---
+
+### Locate
+
+To place a part accurately using a datum or feature.
+
+One of the four fastener jobs. A tab or a datum face locates; a screw should not be forced to.
+
+---
+
 ### Locational Fit
 
 A fit used to position one part accurately.
+
+---
+
+### Low-Power Prototype
+
+A version built with deliberately limited energy so its behaviour can be studied safely.
+
+It still teaches you drive ratio, torque reaction and commissioning - just without enough power to hurt anyone.
 
 ---
 
@@ -1751,6 +2063,14 @@ Something made from parts working together to perform useful work.
 The thick pair of wires carrying the working current between a battery and the ESC or charger.
 
 Thick because it carries the whole current the motor asks for. Not to be confused with the thin balance lead.
+
+---
+
+### Manual Card
+
+A short controlled record of one component's exact identity, instructions and warnings.
+
+So that "check the manual" means one specific document rather than a search.
 
 ---
 
@@ -1817,6 +2137,14 @@ Once a servo reaches a mechanical stop, extra command becomes heat and force ins
 
 ---
 
+### Median
+
+The middle value once results are put in order.
+
+Less easily fooled by one strange run than the mean. Topic 1.6 introduces it; Topic 4.10 uses it on real test data.
+
+---
+
 ### Millimetre
 
 A metric unit of length equal to one thousandth of a metre.
@@ -1832,6 +2160,22 @@ mm
 ### Minimum Viable Prototype
 
 The simplest prototype that can answer the current design question.
+
+---
+
+### Mission
+
+A short statement of what the project should become and how it will be used.
+
+Written before anything is bought. It is what every later argument gets settled against.
+
+---
+
+### Module
+
+A group of parts with one clear job and defined connections.
+
+The steering module, the drivetrain module. Modules can be changed one at a time, which is the whole reason for them.
 
 ---
 
@@ -1979,6 +2323,14 @@ Cutting, drilling and sanding are all one-way: the material does not go back on.
 
 ---
 
+### Operating Envelope
+
+The range of conditions in which something has been shown to work acceptably.
+
+Outside it you are not driving your buggy, you are testing an untested one.
+
+---
+
 ### Operation Plan
 
 A written list of every stage of a build, in order, with the safety check for each one.
@@ -2043,6 +2395,14 @@ Beyond about 45 degrees it usually needs support material.
 
 ## P
 
+### Packaging Board
+
+A full-size layout used to test component space, movement, routes and access.
+
+The cheapest experiment in the whole build, and the one that catches the most expensive mistakes.
+
+---
+
 ### Packaging Envelope
 
 The total space needed for a component, including:
@@ -2064,6 +2424,14 @@ A simplified model used to test component size, position, and arrangement.
 ### Parallax Error
 
 A reading error caused by viewing a scale from an angle.
+
+---
+
+### Parallelism
+
+The condition where two lines or surfaces stay the same distance apart.
+
+Axles that are not parallel fight each other, and the buggy curves even with perfect steering.
 
 ---
 
@@ -2151,6 +2519,14 @@ The small gear attached to the motor shaft.
 
 ---
 
+### Pinout
+
+A record of what each contact in a connector does, and its polarity.
+
+Two plugs can mate perfectly and still have their pinouts in a different order.
+
+---
+
 ### Pitch
 
 The distance from one thread ridge to the next.
@@ -2224,6 +2600,14 @@ An interference fit assembled using force.
 
 ---
 
+### Pre-Test Certificate
+
+A signed checklist confirming the required safety and function evidence exists before driving.
+
+The moment where the answer to "is it ready?" stops being a feeling and becomes a record.
+
+---
+
 ### Preview
 
 The slicer's layer-by-layer view of the paths the printer will actually attempt.
@@ -2273,6 +2657,14 @@ Its purpose is to answer questions.
 
 ---
 
+### Provisional
+
+Chosen for the current test, but still open to change on evidence.
+
+The opposite of a controlled dimension. Keep provisional values visible, so they are never frozen by accident.
+
+---
+
 ### Pulse-Width Modulation (PWM)
 
 Controlling power by switching it on and off very fast and changing how long it stays on.
@@ -2313,6 +2705,14 @@ Examples:
 ### Radial Load
 
 A force acting sideways across a shaft.
+
+---
+
+### Radial Runout
+
+Apparent up-and-down movement of a rotating rim or surface.
+
+A wheel with radial runout bounces once per revolution, even on a flat floor.
 
 ---
 
@@ -2384,6 +2784,14 @@ A trusted known dimension used to help interpret other dimensions.
 
 ---
 
+### Regression Testing
+
+Repeating earlier tests to check that a change has not broken something that used to pass.
+
+Fixing the steering can quietly break the throttle. Only a repeated test finds that out before the floor does.
+
+---
+
 ### Repeatability
 
 Getting similar results when the same person measures the same thing with the same method and tool.
@@ -2420,15 +2828,39 @@ The smallest change a measuring tool can display or distinguish.
 
 ---
 
+### Retain
+
+To stop a part escaping from its intended position.
+
+One of the four fastener jobs. A clip retains a battery; it does not locate or clamp it.
+
+---
+
 ### Retention
 
 The method used to prevent a part from moving or escaping.
 
 ---
 
+### Reverse Engineering
+
+Learning enough about an existing part to describe it, connect to it, or improve on it.
+
+You are not copying the donor. You are measuring it well enough to design something that fits it.
+
+---
+
 ### Revision
 
 A recorded version of a design or drawing.
+
+---
+
+### Revision ID
+
+A label identifying one documented state of a design.
+
+Two parts that fit are usually two parts from the same revision. Write it on the physical part.
 
 ---
 
@@ -2508,6 +2940,14 @@ The set of rules an ESC follows for forward, braking and reverse.
 Forward-and-brake-only suits racing; forward-brake-reverse suits a bashing buggy. Trigger position does not tell you what will happen until you know the mode.
 
 ---
+### Runout
+
+How far a rotating surface departs from the path it is supposed to follow.
+
+Measured as the difference between the largest and smallest reading during one full turn.
+
+---
+
 
 
 ## S
@@ -2600,6 +3040,14 @@ Two 3.7 V cells in series give 7.4 V.
 
 ---
 
+### Service Envelope
+
+The space needed to install, disconnect, inspect or remove a part.
+
+The suitcase analogy again: the case has to fit, and you still need room to open it and grab the handle.
+
+---
+
 ### Service Loop
 
 A planned bit of spare wire left at a connection, so it can move or be repaired without pulling on the joint.
@@ -2676,6 +3124,14 @@ Digits that meaningfully describe a measurement.
 
 ---
 
+### Skeleton CAD
+
+An early model containing only datums, axes, envelopes and interfaces.
+
+Get the relationships right while they are still cheap to move, then add material.
+
+---
+
 ### Sketch
 
 A controlled two-dimensional drawing used to create or locate three-dimensional features.
@@ -2745,6 +3201,14 @@ The part of the buggy's mass held up by the suspension.
 ### Spur Gear
 
 The larger gear driven by the pinion.
+
+---
+
+### Stage Gate
+
+An evidence check that has to pass before the next commitment is made.
+
+It is what stops a build spending money to find out something a piece of card could have told you.
 
 ---
 
@@ -2890,6 +3354,22 @@ Common causes include:
 
 ---
 
+### Structural Acceptance
+
+The decision that a printed part is fit for the load-bearing job it was designed for.
+
+A decision made on coupon evidence, not on how solid the part feels in your hand.
+
+---
+
+### Structural Depth
+
+The distance through a beam or folded section that helps it resist bending.
+
+Fold a flat card strip into a U and it barely bends. Same card, same span - the depth did that.
+
+---
+
 ### Sub-Assembly
 
 A group of parts joined together that then becomes one part of a larger assembly.
@@ -2923,6 +3403,14 @@ The route forces follow from the ground through the structure.
 ### Support-Free
 
 Designed to print in the chosen orientation without needing temporary support material.
+
+---
+
+### Surface Radio
+
+A transmitter and receiver system intended for ground or water models.
+
+Not interchangeable with an aircraft system, even where the plugs fit.
 
 ---
 
@@ -2977,6 +3465,14 @@ Studying the whole system and the relationships between its parts.
 ---
 
 ## T
+
+### Target
+
+A level of performance you want, which may be traded against another target.
+
+Different from a requirement: a requirement must be met, a target is what you aim at.
+
+---
 
 ### Template
 
@@ -3049,9 +3545,25 @@ A liquid applied to suitable threads to stop them shaking loose.
 
 ---
 
+### Thread-Locking Product
+
+A chemical used in specified metal threaded joints to resist loosening.
+
+A chemical, so it comes with chemical rules and an adult handles it. Never used on printed plastic threads.
+
+---
+
 ### Throttle Calibration
 
 Teaching the ESC which receiver commands mean full forward, neutral and full reverse.
+
+---
+
+### Throttle Limit
+
+A setting or design choice that reduces the maximum motor output that can be commanded.
+
+The single most useful safety setting on a first drive, and the easiest to forget to restore afterwards.
 
 ---
 
@@ -3142,6 +3654,14 @@ Twisting force around a centre.
 
 ---
 
+### Torque Reaction
+
+The opposite turning effect felt by a motor and its mount when the motor drives a load.
+
+Hold a running drill and feel it twist against your hand. The buggy's motor mount feels the same thing.
+
+---
+
 ### Torsion
 
 A twisting load along the length of a part.
@@ -3169,6 +3689,14 @@ The ability to follow a measurement or design decision back to:
 
 The same idea applies to materials: being able to connect a result back to the
 exact filament and settings that produced it.
+
+---
+
+### Track Width
+
+The distance between the stated left and right wheel reference positions.
+
+Manufacturers measure it from different places, so write down which reference you used.
 
 ---
 
@@ -3209,6 +3737,14 @@ A small adjustment that shifts a channel's neutral point.
 Use it when the buggy pulls slightly to one side while you are holding the steering straight.
 
 ---
+### Tuning
+
+Adjusting a working system to trade one acceptable behaviour for another.
+
+Tuning is not debugging. Debugging fixes something wrong; tuning chooses between two things that both work.
+
+---
+
 
 ## U
 
@@ -3268,6 +3804,14 @@ Replacing stale or contaminated air with cleaner air.
 ### Verification
 
 Checking that a design meets a stated requirement.
+
+---
+
+### Verification Method
+
+The way evidence is produced: inspection, measurement, demonstration, test or calculation.
+
+Every requirement needs one. A requirement nobody can check is a wish.
 
 ---
 
@@ -3374,9 +3918,33 @@ This is the angle that actually decides where the buggy goes, which is why it is
 
 ---
 
+### Wheelbase
+
+The distance between the front and rear axle lines.
+
+One of the two numbers that set how the buggy turns; track width is the other.
+
+---
+
 ### Wheelspin
 
 A condition where a driven tyre rotates faster than the vehicle moves.
+
+---
+
+### Wheels-Up Test
+
+A powered check with the driven wheels safely raised off the surface.
+
+The buggy cannot run away from you, so a wrong setting is a lesson rather than a chase.
+
+---
+
+### Whole Cost
+
+The full cost of something including delivery, missing items, service parts and adapters.
+
+The cheap donor that needs two adapters and a new set of bearings was not the cheap donor.
 
 ---
 
