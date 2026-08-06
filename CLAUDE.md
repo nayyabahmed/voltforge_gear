@@ -39,7 +39,10 @@ Read these before writing or editing any topic:
   follows), and `backlog/TRACKER.md` is the Part 1 status board, now closed -
   it records what was done, the conventions backfill and what remains.
   `backlog/part-2-book-wide.md` holds Part 2's status board and its
-  outstanding cross-topic sweeps.
+  outstanding cross-topic sweeps, and `backlog/part-3-book-wide.md` plus
+  `backlog/topic-3.1.md` … `topic-3.10.md` do the same for Part 3. Part 3
+  arrived already revised against the style guide, so its backlog is short
+  and weighted towards external references and the glossary.
 
   **Completed per-topic backlogs are deleted, not archived.** Part 1's
   `chapter-NN.md` / `capstone.md` / `book-wide.md` and Part 2's

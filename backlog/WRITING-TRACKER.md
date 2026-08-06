@@ -74,8 +74,8 @@ when Part 2 goes through its review pass.
 
 ## Next Up (order per SUMMARY.md)
 
-1. 📋 Part 3 review pass - ten topics landed and revised externally; they
-   need backlog files and a board, as Part 2 had
+1. 📋 Part 3 review pass - backlogs written 2026-08-06 on `Part_3_review`;
+   board in [part-3-book-wide.md](part-3-book-wide.md)
 3. 📋 Topic 4.1 - Build Strategy and Cost Plan (starts Part 4)
 
 The full queue (through Topic 5.4) lives in SUMMARY.md - do not mirror it
