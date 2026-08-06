@@ -1,41 +1,60 @@
 # Backlog - Topic 3.3 - Batteries and Battery Safety
 
-Source: audit of the merged text (1,200 lines) against `STYLE-GUIDE.md`
-on 2026-08-06. Part 3 arrived already revised against the style guide and the
-figure system, so this is a short list - see
-[part-3-book-wide.md](part-3-book-wide.md) for method and for the sweeps that
-apply to every topic.
+Source: audit of the merged text (1,200 lines) against `STYLE-GUIDE.md` on
+2026-08-06, re-audited the same day against the section 13 conventions. See
+[part-3-book-wide.md](part-3-book-wide.md) for method, for the standing
+decision that deep links are KEPT, and for the sweeps that apply to every
+topic.
 
-Status: **NOT STARTED**.
+Status: **NOT STARTED**. **This is the highest-risk topic in Part 3** - it
+carries the LiPo safety content, so its research pass is not optional.
 
 ## What this topic already has
 
-- **Figures: 12**, all tagged, numbered, captioned and with alt text. Budget
-  for a component topic is 10-12, so this is met. **Do not add figures.**
+- **Figures: 12**, all tagged, numbered, captioned and with alt text. **Do not
+  add figures.**
 - **Answers:** 12, matching its 12 review questions.
-- **Think-about-it prompts:** 2.
-- **Length:** 1,200 lines, inside the 700-1,200 target.
-- **Looking Ahead** names the correct next topic.
+- **Think-about-it prompts:** 2, each followed immediately by its resolution.
+- **Break markers: 2** - only 3.1 has more.
+- **Length:** 1,200 lines, at the top of the target.
+- **Looking Ahead** names the correct next topic (3.4).
+- **Safety: agrees with `SAFETY.md`.** All three LiPo non-negotiables are
+  present and expanded - fire-resistant bag, never unattended, never a puffed
+  or damaged pack, correct charger and settings, plus balance charging. This
+  is the failure that had to be corrected in Topic 2.1 and it did not recur.
+
+## Links in this topic (keep them - verify and flag)
+
+| Link | Where | Check result 2026-08-06 |
+| --- | --- | --- |
+| London Fire Brigade - Batteries and chargers | Learn More, Watch the build | 200, cited 2× |
+| Spektrum - LiPo Battery Safety Sheet (PDF) | Learn More | 200 - **rot-prone CDN path** |
+| GOV.UK - Recycling batteries and electrical waste | Learn More | 200 |
+| Horizon Hobby - How to charge RC batteries | Watch the build | 200 |
 
 ## Items to apply
 
-- [ ] [E] **5 deep URLs to convert to search form** (STYLE-GUIDE section 8).
-  Decide the approved-source question in part-3-book-wide.md first, then
-  rewrite. Keep the half-line explaining why each link is worth the reader's
-  time.
-- [ ] [E] **Split the single Learn More box** into inline boxes next to the
-  sections they serve. Same lines as the URL rewrite - do both together.
-- [ ] [C] **4 New Words missing from `glossary.md`:** `Balance lead`, `Cell count`, `Main lead`, `Nominal voltage`.
+- [ ] [E] **Verify all four links and flag anything wrong.** Safety guidance
+  changes; confirm the LFB and GOV.UK pages still say what the topic claims
+  before this topic reaches v0.2.
+- [ ] [E] **Add the search fallback to the Spektrum PDF.** Keep the URL and
+  name the site and search term, so a reader can find the safety sheet again
+  when the CDN path changes.
+- [ ] [E] **No BBC Bitesize entry.** Chemical energy stores and cells are KS3
+  physics; one entry using national-curriculum wording would connect the
+  topic to what the reader hears at school.
+- [ ] [E] **Split the single Learn More box** into inline boxes: LFB and the
+  Spektrum safety sheet beside the charging-safety section, GOV.UK beside the
+  disposal section. The LFB link then appears twice within a few screens -
+  keep the Watch the build instance and drop the duplicate wording, not the
+  link.
+- [ ] [C] **4 New Words missing from `glossary.md`:** `Balance lead`,
+  `Cell count`, `Main lead`, `Nominal voltage`.
 - [ ] [T] **Break markers: 2.** At 1,200 lines this wants three or four.
-  Place them at the natural seams where the topic changes subject.
-- [ ] [T] **Two safety callouts in the most dangerous topic in the book.**
-  The content is right - every `SAFETY.md` non-negotiable is covered - but
-  two callouts across 1,200 lines of LiPo material is thin placement rather
-  than thin content. Check that a callout sits before each hazard as it
-  arrives: charging, storage, damage and disposal, physical handling.
-- [ ] [E] **Every battery figure and claim needs a current source.** Charge
-  rates, storage voltage, cell counts and disposal routes all change. This is
-  the topic where a stale number is most costly.
+- [ ] [T] **Re-check every stated cell voltage and charge rate** against
+  `SAFETY.md` and manufacturer guidance - 3.7 V nominal, 4.2 V full, the
+  storage voltage, the 1C default. A wrong number here is the one error in
+  the book that could hurt someone.
 - [ ] Verify: New Words in `glossary.md`; every gloss number correct against
   `SUMMARY.md`; every activity has a no-equipment variant; safety callouts sit
   before the hazard and agree with `SAFETY.md`.
@@ -45,11 +64,10 @@ Status: **NOT STARTED**.
 
 ## Research topics (run before editing)
 
-- Verify every external source still exists and says what the topic claims,
-  and re-express it in search form.
-- Verify any number the topic states - this part is full of ratings,
-  voltages, ratios and angles a reader will act on.
-- Cross-check every safety-adjacent statement against `SAFETY.md`.
+- Re-verify every LiPo safety statement against current UK guidance and
+  `SAFETY.md`.
+- Confirm the GOV.UK recycling route is still current.
+- Re-check every stated voltage, capacity, C-rating and charge current.
 
 ## Research notes
 
