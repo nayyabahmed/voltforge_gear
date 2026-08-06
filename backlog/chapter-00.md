@@ -10,10 +10,11 @@ glossary). Logged here for completeness.
   registry (🎯 👋 🍰 🏁 🔄 💭 🧰 🧭 🗺️ 📓 🚀 ⭐ 📝 📖 ❓ ✅ 🔭); the five
   workshop rules renamed to `## Rule N - Name` headings for scannability;
   Looking Ahead now names Chapter 1 explicitly.
-- [ ] Possible future item: "How This Book Is Organised" chapter-pattern
+- [x] "How This Book Is Organised" chapter-pattern
   list predates the Topic Mini Project and Think-about-it conventions -
   refresh the list when Part 1 is fully swept so it matches the real
-  template.
+  template. DONE 2026-07-22 - Mini Project and Common Beginner Mistakes
+  added to the list, plus a Showcase Shelf section.
 
 ## Research notes
 

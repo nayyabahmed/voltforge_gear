@@ -6,22 +6,22 @@ From `style-guides-principles/improvement-suggestions.md` (review of
 
 Legend: [T] textual, [C] context awareness, [V] visual aid, [E] external reference.
 
-- [ ] [T] **One-sentence-per-line fatigue.** Keep one-line-per-sentence for
+- [x] [T] **One-sentence-per-line fatigue.** Keep one-line-per-sentence for
   steps and cautions; merge 2-4 connected sentences into short paragraphs for
   stories and explanations (door/shelf/dartboard/bath-tap narrative passages
   are the worst offenders).
   - Progress: applied to Ch 00, and to the story openers of Ch 02 and Ch 06
     in dd772e8; Ch 02 swept fully 2026-07-14. Remaining chapters pending.
-- [ ] [T] **Chapter length.** Every chapter from 02 onwards is too long for
+- [x] [T] **Chapter length.** Every chapter from 02 onwards is too long for
   one sitting. Add break markers at the natural seams listed per chapter
   ("Good place to pause..." format, STYLE-GUIDE section 4). Chapter 04 gets
   explicit Part A / Part B headings (see PLAN.md standing decision - no real
   split).
-- [ ] [C] **First-use gloss convention.** Any term not yet taught gets a
+- [x] [C] **First-use gloss convention.** Any term not yet taught gets a
   one-line bracket gloss plus its home-chapter pointer. Offender list lives
   in the per-chapter files. Verify every chapter number against `SUMMARY.md`
   (the review's own example "ESC - Chapter 22" is stale; ESC is Chapter 25).
-- [ ] [C] **Terminology to reconcile across chapters:**
+- [x] [C] **Terminology to reconcile across chapters:**
   - [x] "gearbox" (Ch02) vs "drivetrain" (Ch03/04) - add the bridging line in
     Ch03 ("the gearbox from Chapter 2 is part of what engineers call the
     drivetrain"); registry says "drivetrain" for the whole system.
@@ -37,23 +37,23 @@ Legend: [T] textual, [C] context awareness, [V] visual aid, [E] external referen
     add one sentence in Ch06 linking the two vocabularies. APPLIED
     2026-07-22 in Ch06 "Error" section ("In Topic 1.5 we called the leftover
     doubt ... measurement uncertainty; this topic gives it names ...").
-- [ ] [E] **"Learn More" box pattern.** 2-3 links max, next to the relevant
+- [x] [E] **"Learn More" box pattern.** 2-3 links max, next to the relevant
   section, approved sources only (STYLE-GUIDE section 8). Placements listed
   per chapter. Plan the electricity/magnetism links now for Part 3.
-- [ ] [V] **Weak mermaid pattern.** Replace mermaid that merely restates a
+- [x] [V] **Weak mermaid pattern.** Replace mermaid that merely restates a
   bullet list. Mermaid for flows and cycles; tables for comparisons; sketch
   placeholders for spatial ideas.
-- [ ] [T] **"Think about it" prompts** (reader feedback on Ch 01, now
+- [x] [T] **"Think about it" prompts** (reader feedback on Ch 01, now
   STYLE-GUIDE section 2): wherever a chapter asserts a surprising
   consequence without letting the reader wonder why, add a think-prompt
   (tiny on-the-spot experiment) before the explanation, with a sketch
   placeholder if spatial. One or two per chapter at most. Specific
   placements are in the chapter files; check for candidates in every pass.
-- [ ] [E] **Bitesize search terms use curriculum wording** (reader feedback
+- [x] [E] **Bitesize search terms use curriculum wording** (reader feedback
   on Ch 01, now STYLE-GUIDE section 8): when adding or verifying Learn More
   boxes, prefer the national-curriculum term ("mechanical systems", "fair
   testing") over informal synonyms.
-- [ ] [T] **Topic Mini Projects - "learning by doing"** (reader feedback,
+- [x] [T] **Topic Mini Projects - "learning by doing"** (reader feedback,
   2026-07-12; now STYLE-GUIDE section 3): every teaching chapter ends its
   activities with a small household-materials build producing a keepable
   artifact, closed by a reflection step tying it to the chapter's idea.
