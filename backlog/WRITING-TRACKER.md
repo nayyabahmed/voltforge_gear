@@ -28,7 +28,12 @@ Last updated: 2026-08-06
 5. **Reference docs** - feed SAFETY.md, TOOLS.md, BOM.md, COST-LEDGER.md,
    TROUBLESHOOTING.md where the topic touches them (check their
    frontmatter feeds lists).
-6. **Publish** - SUMMARY.md row to 🟡 v0.1, this board updated, one commit.
+6. **Figures** - specify the topic's figure list against the section 7
+   budget and tag each placeholder F1-F7. A topic does not reach v0.1
+   without it; retrofitting figures into finished prose is the expensive
+   path (`references/ref-002.md`).
+7. **Answers** - `# Answers 🔑` numbered to match the Review Questions.
+8. **Publish** - SUMMARY.md row to 🟡 v0.1, this board updated, one commit.
 
 ## In Flight
 

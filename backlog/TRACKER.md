@@ -84,6 +84,13 @@ Last updated: 2026-08-06
 at v0.2 "Reviewed" and all book-wide sweeps are done. The work was merged to
 `main` on 2026-07-22 via PR #4 (`review-chapter-5`, merge commit a97db2a).
 
+**Deferred to v0.3 (do not reopen at v0.2).** Two conventions arrived on
+2026-08-06, after every Part 1 topic reached v0.2: the figure system
+(STYLE-GUIDE section 7) and Review Question answers (section 13.3). Part 1
+averages one figure per 394 lines against a target of one per 40-80, and has
+54 Mermaid blocks that need auditing for spatial misuse. This is recorded
+debt, cleared at v0.3 Prototype-tested - see `references/ref-002.md`.
+
 This board is now closed. Part 2's review has not started and will get its
 own backlog files and board rows; see the Outstanding Debts section of
 [WRITING-TRACKER.md](WRITING-TRACKER.md).

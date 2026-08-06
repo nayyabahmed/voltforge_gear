@@ -23,14 +23,24 @@ Part - A Two-Hole Mounting Plate" (~737), and one before the activities
   servo brackets, bumpers and adapters" (~65) is the offending cluster.
   Gloss on first use with home topics per `SUMMARY.md` (servo 3.5,
   batteries 3.3).
-- [ ] [V] **Three placeholders across 1,510 lines, in the most spatial
-  subject in Part 2.** The hardest idea is already covered: the `[Signature
-  visual:` at ~540 is a four-panel constrained-sketch sequence, which serves
-  the under/fully/over-defined material at ~485. The remaining gaps are the
-  foundational ones a reader meets first:
-  - "X, Y and Z" (~255) - the axes as they appear on screen.
-  - "Workplanes" (~285) - a sketch sitting on a plane through a solid.
-  - "Extrusion: Giving a Sketch Thickness" (~520) - flat profile to solid.
+- [ ] [V] **Figures: 3 against a budget of 10-14** (STYLE-GUIDE 7.4,
+  skill topic). At 1,510 lines the topic currently runs one figure per
+  ~503; the target is one per 40-80. This is the largest single item in
+  this file. See `references/ref-002.md` for the taxonomy.
+  The `[Signature visual:` at ~540 covers the under/fully/over-defined
+  sequence - leave it. Gaps: "X, Y and Z" (~255), "Workplanes" (~285),
+  "Extrusion" (~520), "Features and Feature History" (~546) as an F4 strip,
+  and "The Native File and the Export" (~671) as an F7 format array.
+  Conventions to apply to every figure, existing ones included (7.2/7.3):
+  type tag `[F1-F7 ...]`, `Figure 2.4.k` number, a one-sentence caption
+  saying what to notice, and alt text.
+- [ ] [V] **F3 pairs for the 8 Common Beginner Mistakes.** The highest-value
+  figure type in the book and currently unused here - a right-versus-wrong
+  pair per mistake, or one combined F3 array. Prose alone cannot show a
+  reader what the wrong version looks like.
+- [ ] [T] **Add `# Answers 🔑`** (STYLE-GUIDE 3 item 15, 13.3) with model
+  answers numbered to match the 14 Review Questions. Needed for the HTML
+  reveal and for a mentor running a session.
 - [ ] [T] **Add one or two break markers** at the seams above. The guided
   build from ~737 to ~1063 is a single long run of instructions.
 - [ ] [E] **One Learn More box in 1,510 lines.** Tinkercad Learn and the

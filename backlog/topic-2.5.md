@@ -29,12 +29,24 @@ activities (~1333).
   relevant sections: design-for-printing guidance at "Design for
   Support-Free Printing" (~656) and a structures reference at "Shape Beats
   Bulk" (~341) or "Ribs" (~388).
-- [ ] [V] **Five sketch placeholders is the best count in Part 2**, but the
-  topic is also the second longest and almost every section is spatial.
-  Gaps worth filling: "Keep Holes Away from Edges" (~504), "Capturing a
-  Nut" (~574), "Avoid Knife-Edge Features" (~638). Confirm the signature
-  visual is unambiguous - the load-path or shape-beats-bulk illustration is
-  the right candidate for the hardest idea.
+- [ ] [V] **Figures: 5 against a budget of 10-14** (STYLE-GUIDE 7.4,
+  skill topic). At 1,922 lines the topic currently runs one figure per
+  ~384; the target is one per 40-80. This is the largest single item in
+  this file. See `references/ref-002.md` for the taxonomy.
+  Best existing count in Part 2, but the topic is nearly all spatial. Gaps:
+  "Keep Holes Away from Edges" (~504), "Capturing a Nut" (~574), "Avoid
+  Knife-Edge Features" (~638), "Ribs" (~388) and "Gussets" (~419) as an F5
+  load-path overlay, "Chamfers Guide Assembly" (~593) as an F4 strip.
+  Conventions to apply to every figure, existing ones included (7.2/7.3):
+  type tag `[F1-F7 ...]`, `Figure 2.5.k` number, a one-sentence caption
+  saying what to notice, and alt text.
+- [ ] [V] **F3 pairs for the 12 Common Beginner Mistakes.** The highest-value
+  figure type in the book and currently unused here - a right-versus-wrong
+  pair per mistake, or one combined F3 array. Prose alone cannot show a
+  reader what the wrong version looks like.
+- [ ] [T] **Add `# Answers 🔑`** (STYLE-GUIDE 3 item 15, 13.3) with model
+  answers numbered to match the 16 Review Questions. Needed for the HTML
+  reveal and for a mentor running a session.
 - [ ] [T] **Two "Think about it" prompts already present** - confirm
   placement. The strongest candidate in the topic is "Shape Beats Bulk"
   (~341): a sheet of paper held flat versus folded into a channel. It is

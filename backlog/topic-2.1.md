@@ -8,6 +8,15 @@ derived. Line numbers refer to the v0.1 text at commit `70ccdda`.
 Status: **DONE 2026-08-06** (v0.2 on `Part_2_review`). Research pass first,
 then every item below applied. Phase 1 of the Part 2 review; Topic 2.2 next.
 
+> **Deferred to v0.3 - do not reopen at v0.2.** The figure system
+> (STYLE-GUIDE section 7) and `# Answers 🔑` (section 3 item 15) were adopted
+> later the same day, after this topic was signed off. Topic 2.1 currently
+> has 2 figures against the 10-14 budget for a skill topic, neither carrying
+> a type tag, number, caption or alt text, no F3 pairs for its 7 Common
+> Beginner Mistakes, and no answers for its 11 Review Questions. Per
+> STYLE-GUIDE 13.5 this is recorded debt, cleared at v0.3 Prototype-tested,
+> rather than a reason to reopen finished work. See `references/ref-002.md`.
+
 Sittings: 1-2. The topic is comfortably inside the length target; its two
 existing break markers are adequate. Natural seam is at "Your Workshop Can
 Be a Table" (~242), where the topic turns from hazards to workspace setup.

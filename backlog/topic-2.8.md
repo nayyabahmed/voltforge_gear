@@ -25,18 +25,26 @@ Cutters" (~1103), and one before the activities (~1571).
   and the hinge pin references (~902, ~970) use vocabulary the reader has
   not met. Gloss per `SUMMARY.md` (servo 3.5); hinge pin is taught in Topic
   1.4, so that one is a backward pointer.
-- [ ] [V] **Two placeholders across 2,268 lines** - the thinnest visual
-  coverage in the book relative to length, in a topic that is almost
-  entirely about physical technique. Both existing ones are good and should
-  be left alone: the `[Signature visual:` at ~738 is the four-panel clean
-  hole sequence, and the `[Sketch:` at ~160 already shows the datum, witness
-  line and shaded waste side. Priority additions:
-  - "Breakthrough: The Last Millimetre Is Different" (~750) - why the exit
-    is where the drill grabs.
-  - "Countersinks and Chamfers" (~980) - a cross-section with the screw
-    head sitting flush.
-  - "A Sensible Grit Progression" (~1125) - a strip showing coarse to fine.
-  - "Files Cut Best with a Plan" (~1084) - stroke direction.
+- [ ] [V] **Figures: 2 against a budget of 10-14** (STYLE-GUIDE 7.4,
+  skill topic). At 2,268 lines the topic currently runs one figure per
+  ~1134; the target is one per 40-80. This is the largest single item in
+  this file. See `references/ref-002.md` for the taxonomy.
+  The longest topic in the book with two placeholders. The `[Signature
+  visual:` at ~738 (clean hole sequence) and the `[Sketch:` at ~160 (datum,
+  witness line, waste side) are both good - leave them. Gaps: "Breakthrough"
+  (~750), "Countersinks and Chamfers" (~980) as an F2 cross-section, "A
+  Sensible Grit Progression" (~1125) as an F7 array, "Files Cut Best with a
+  Plan" (~1084) as an F5 stroke-direction overlay, "Burrs" (~1016).
+  Conventions to apply to every figure, existing ones included (7.2/7.3):
+  type tag `[F1-F7 ...]`, `Figure 2.8.k` number, a one-sentence caption
+  saying what to notice, and alt text.
+- [ ] [V] **F3 pairs for the 12 Common Beginner Mistakes.** The highest-value
+  figure type in the book and currently unused here - a right-versus-wrong
+  pair per mistake, or one combined F3 array. Prose alone cannot show a
+  reader what the wrong version looks like.
+- [ ] [T] **Add `# Answers 🔑`** (STYLE-GUIDE 3 item 15, 13.3) with model
+  answers numbered to match the 12 Review Questions. Needed for the HTML
+  reveal and for a mentor running a session.
 - [ ] [T] **Only one "Think about it" prompt** in 2,268 lines. Add a second
   at "Kerf: The Tool Has Width" (~232) - a reader will not expect that
   cutting exactly on the line makes the part too small. "Breakthrough"

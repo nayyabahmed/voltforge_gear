@@ -24,17 +24,27 @@ the activities (~1305).
 - [ ] [T] **Add four break markers** at the seams above. At 2,101 lines
   with two markers, this is the item that most changes the reading
   experience.
-- [ ] [V] **Two placeholders across 2,101 lines.** The hardest idea is
-  already covered - the `[Signature visual:` at ~292 is a four-panel
-  comparison of good wetting against faulty joints, serving "Wetting"
-  (~270) - and the `[Sketch:` at ~155 is the wire cross-section. Leave both.
-  The topic is still full of ideas a reader must recognise by eye:
-  - "Common Joint Faults and What They Teach" (~1176) - the whole section is
-    about visual recognition and has no visual. Check first whether the
-    signature visual at ~292 already covers these faults; if it does, cross-
-    reference back to it rather than drawing them twice.
-  - "Strain Relief: Move the Load Away" (~827) and "Service Loops" (~854) -
-    both are spatial routing ideas carried entirely in prose.
+- [ ] [V] **Figures: 2 against a budget of 10-14** (STYLE-GUIDE 7.4,
+  skill topic). At 2,101 lines the topic currently runs one figure per
+  ~1050; the target is one per 40-80. This is the largest single item in
+  this file. See `references/ref-002.md` for the taxonomy.
+  The `[Signature visual:` at ~292 covers wetting and the `[Sketch:` at ~155
+  the wire cross-section - leave both. Gaps: "Common Joint Faults and What
+  They Teach" (~1176) is a whole section about visual recognition with no
+  visual (check the signature visual does not already cover these before
+  drawing them twice); "Strain Relief" (~827) and "Service Loops" (~854) as
+  F5 routing overlays; "The Reliable Joint Sequence" (~520) as an F4 strip;
+  "Crimping" (~953) as an F4 strip.
+  Conventions to apply to every figure, existing ones included (7.2/7.3):
+  type tag `[F1-F7 ...]`, `Figure 2.9.k` number, a one-sentence caption
+  saying what to notice, and alt text.
+- [ ] [V] **F3 pairs for the 15 Common Beginner Mistakes.** The highest-value
+  figure type in the book and currently unused here - a right-versus-wrong
+  pair per mistake, or one combined F3 array. Prose alone cannot show a
+  reader what the wrong version looks like.
+- [ ] [T] **Add `# Answers 🔑`** (STYLE-GUIDE 3 item 15, 13.3) with model
+  answers numbered to match the 12 Review Questions. Needed for the HTML
+  reveal and for a mentor running a session.
 - [ ] [T] **Only one "Think about it" prompt** in 2,101 lines. Add a second
   at "Wetting" (~270) or at "Pull the Connector, Not the Wire" (~903) -
   the latter is the claim a reader is most likely to ignore in practice and

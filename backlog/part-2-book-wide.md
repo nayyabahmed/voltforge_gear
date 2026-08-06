@@ -106,16 +106,19 @@ simply the reading order, with one exception at the front:
   and 2.7 use inline boxes. Style guide section 8 wants the box "next to the
   relevant section". Standardise on inline boxes and retire the trailing
   sections.
-- [ ] [V] **Visual placeholders are thin in the longest topics.** Counts,
-  including both the `[Sketch:` and `[Signature visual:` markers:
+- [ ] [V] **Figure shortfall across the whole part.** Every Part 2 topic is a
+  skill topic, so the budget is 10-14 figures (STYLE-GUIDE 7.4). Current
+  counts, including both the `[Sketch:` and `[Signature visual:` markers:
 
   | Topic | 2.1 | 2.2 | 2.3 | 2.4 | 2.5 | 2.6 | 2.7 | 2.8 | 2.9 |
   | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-  | Placeholders | 1 | 4 | 4 | 3 | 5 | 1 | 3 | 2 | 2 |
-  | Lines | 543 | 530 | 1,172 | 1,510 | 1,922 | 1,998 | 1,917 | 2,268 | 2,101 |
+  | Figures now | 2 | 4 | 4 | 3 | 5 | 1 | 3 | 2 | 2 |
+  | Lines | 631 | 530 | 1,172 | 1,510 | 1,922 | 1,998 | 1,917 | 2,268 | 2,101 |
+  | Lines per figure | 316 | 133 | 293 | 503 | 384 | **1,998** | 639 | **1,134** | **1,051** |
 
-  The problem cases are 2.6 (one across 1,998 lines), 2.8 (two across 2,268)
-  and 2.9 (two across 2,101). Per-topic priorities are in the topic files.
+  Target is one figure per 40-80 lines. The worst cases are 2.6, 2.8 and 2.9.
+  Per-topic placements, type tags and F3 pair counts are in the topic files;
+  this row exists so the part can be tracked as a whole.
   **Check the existing signature visual before adding anything** - several
   topics already cover their hardest idea well, and the first draft of this
   backlog recommended visuals that turned out to exist.
@@ -124,9 +127,10 @@ simply the reading order, with one exception at the front:
   and 2.9 also use `> **[Signature visual: …]**` for their headline
   illustration - while 2.6 marks its signature visual with a plain
   `[Sketch:` under a section titled "The Signature Visual", and 2.1, 2.2 and
-  2.5 have no signature marker at all. The two-marker convention is a good
-  idea; either adopt it in STYLE-GUIDE section 7 and apply it everywhere, or
-  drop it. Do not leave it half-applied.
+  2.5 have no signature marker at all. **Resolved 2026-08-06:** the two-marker
+  convention is adopted in STYLE-GUIDE section 7.2, now with a type tag
+  (`[F2 cross-section: …]` / `[Signature visual, F4: …]`). Apply it to every
+  Part 2 placeholder during each topic's pass.
 - [ ] [C] **Terminology registry.** One confirmed violation: "hinge-pin"
   appears twice in Topic 2.8 (~902, ~970); the registry says "hinge pin",
   two words. This is the same fix applied to Chapter 04 in Part 1. Re-run
@@ -150,6 +154,24 @@ simply the reading order, with one exception at the front:
   Every other Part 2 topic does, with a Watch-the-build box and the
   adult-check line. Candidates are proposed in `topic-2.1.md` and
   `topic-2.2.md`.
+
+- [ ] [V] **Audit each Mermaid block for spatial misuse.** Every Part 2 topic
+  is already within the two-per-topic cap, so this is about correctness, not
+  count: Mermaid may only carry flows and cycles. Topic 2.1's four-zone
+  workspace - a bench layout - was drawn as a flowchart with a sketch of the
+  same thing directly beneath it, and the review pass deleted the Mermaid.
+  Assume the pattern repeats; reclassify each block as keep (F0), convert to
+  a figure type, or delete.
+- [ ] [T] **Review Question answers (STYLE-GUIDE section 3 item 15, 13.3).**
+  Add `# Answers 🔑` to each topic, numbered to match its Review Questions.
+  Needed for the HTML reveal and for mentors running the weekly sessions.
+  Per-topic question counts are in the topic files.
+
+> **Transition note.** The figure system and the Answers section were adopted
+> on 2026-08-06, after Topic 2.1 was signed off at v0.2. Per STYLE-GUIDE 13.5
+> the remaining topics pick both up during their own review pass rather than
+> as a separate sweep, and Topic 2.1 carries its gap as recorded v0.3 debt
+> rather than being reopened.
 
 ## Checked and found compliant (do not re-litigate)
 

@@ -34,14 +34,25 @@ one before the activities (~1375).
   actively disbelieve. Hands-On Activity 1 "The Door Torque Test" (~1375)
   is the ready-made physical hook; the analogy bank already assigns the
   door-hinge analogy to torque.
-- [ ] [V] **Three placeholders across 1,917 lines.** The foundation is
-  already covered: the `[Signature visual:` at ~155 is the ramp wrapped
-  around a screw, serving "A Screw Is a Spiral Ramp" (~129). Remaining gaps,
-  all spatial and all currently text-only:
-  - "The Four Jobs in Every Screw Joint" (~246) - a cross-section with the
-    clamp force arrows.
-  - "Reading a Metric Fastener Name" (~284) - a labelled M3 × 12 screw.
-  - "Heat-Set Inserts" (~926) - before, during and after installation.
+- [ ] [V] **Figures: 3 against a budget of 10-14** (STYLE-GUIDE 7.4,
+  skill topic). At 1,917 lines the topic currently runs one figure per
+  ~639; the target is one per 40-80. This is the largest single item in
+  this file. See `references/ref-002.md` for the taxonomy.
+  The `[Signature visual:` at ~155 covers the spiral ramp - leave it. Gaps:
+  "The Four Jobs in Every Screw Joint" (~246) as an F2 cross-section with
+  clamp-force arrows, "Reading a Metric Fastener Name" (~284) as a labelled
+  M3 x 12, "Heat-Set Inserts" (~926) as an F4 strip, "Driver Profiles" (~444)
+  as an F7 array, "Washers" (~819) as an F5 overlay.
+  Conventions to apply to every figure, existing ones included (7.2/7.3):
+  type tag `[F1-F7 ...]`, `Figure 2.7.k` number, a one-sentence caption
+  saying what to notice, and alt text.
+- [ ] [V] **F3 pairs for the 10 Common Beginner Mistakes.** The highest-value
+  figure type in the book and currently unused here - a right-versus-wrong
+  pair per mistake, or one combined F3 array. Prose alone cannot show a
+  reader what the wrong version looks like.
+- [ ] [T] **Add `# Answers 🔑`** (STYLE-GUIDE 3 item 15, 13.3) with model
+  answers numbered to match the 12 Review Questions. Needed for the HTML
+  reveal and for a mentor running a session.
 - [ ] [E] **Three Learn More boxes - the best coverage in Part 2.** Verify
   all three sources still exist and use curriculum wording for any Bitesize
   search term, but no new boxes are needed.

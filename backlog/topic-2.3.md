@@ -33,11 +33,24 @@ Launch Routine" (~548), and one before the activities (~819).
   adhesion reference at "Watch the First Layer" (~688). Manufacturer
   knowledge bases (Prusa, Bambu) are approved sources and are the right fit
   here.
-- [ ] [V] **Visuals are in good shape - no action likely needed.** Four
-  placeholders across 1,172 lines: three `[Sketch:` plus a `[Signature
-  visual:` at ~457 that is exactly the labelled slicer-preview panel the
-  preview section needs. Verify the signature visual reads clearly and
-  leave the rest alone.
+- [ ] [V] **Figures: 4 against a budget of 10-14** (STYLE-GUIDE 7.4,
+  skill topic). At 1,172 lines the topic currently runs one figure per
+  ~293; the target is one per 40-80. This is the largest single item in
+  this file. See `references/ref-002.md` for the taxonomy.
+  The `[Signature visual:` at ~457 already covers the slicer preview well -
+  leave it. Gaps: "Orientation" (~294) beyond the existing sketch, "The Seam"
+  (~425), "Bed Adhesion Helpers" (~385) as an F7 skirt/brim/raft array, and
+  "Removing and Inspecting the Print" (~723).
+  Conventions to apply to every figure, existing ones included (7.2/7.3):
+  type tag `[F1-F7 ...]`, `Figure 2.3.k` number, a one-sentence caption
+  saying what to notice, and alt text.
+- [ ] [V] **F3 pairs for the 10 Common Beginner Mistakes.** The highest-value
+  figure type in the book and currently unused here - a right-versus-wrong
+  pair per mistake, or one combined F3 array. Prose alone cannot show a
+  reader what the wrong version looks like.
+- [ ] [T] **Add `# Answers 🔑`** (STYLE-GUIDE 3 item 15, 13.3) with model
+  answers numbered to match the 12 Review Questions. Needed for the HTML
+  reveal and for a mentor running a session.
 - [ ] [T] **Check the estimate section (~495) has a fully worked example.**
   Style guide section 2 requires any maths to show question, known values,
   rule, calculation, then the meaning in words. Verify the print-time and

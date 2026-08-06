@@ -62,11 +62,23 @@ topic turns from how printing works to what it costs and constrains.
   this length - verify both sources still exist, use approved sources, and
   use curriculum wording for any Bitesize search term. Consider a third at
   "Layers Are the Weak Direction" if a good anisotropy explainer verifies.
-- [ ] [V] **Visuals are in reasonable shape** - four sketch placeholders,
-  two mermaid blocks. Confirm the mermaid at each location is a genuine flow
-  or cycle rather than a bullet list drawn as boxes (visuals policy), and
-  confirm the topic has one clear signature visual for its hardest idea
-  (layer adhesion / the weak direction is the right candidate).
+- [ ] [V] **Figures: 4 against a budget of 10-14** (STYLE-GUIDE 7.4,
+  skill topic). At 530 lines the topic currently runs one figure per
+  ~132; the target is one per 40-80. This is the largest single item in
+  this file. See `references/ref-002.md` for the taxonomy.
+  Existing four are sound. Gaps: "Layers Are the Weak Direction" (~193) is
+  the hardest idea and wants the signature visual (deck-of-cards analogy);
+  "Overhangs and Supports" (~269); "The First Layer" (~235); "Infill" (~290).
+  Conventions to apply to every figure, existing ones included (7.2/7.3):
+  type tag `[F1-F7 ...]`, `Figure 2.2.k` number, a one-sentence caption
+  saying what to notice, and alt text.
+- [ ] [V] **F3 pairs for the 6 Common Beginner Mistakes.** The highest-value
+  figure type in the book and currently unused here - a right-versus-wrong
+  pair per mistake, or one combined F3 array. Prose alone cannot show a
+  reader what the wrong version looks like.
+- [ ] [T] **Add `# Answers 🔑`** (STYLE-GUIDE 3 item 15, 13.3) with model
+  answers numbered to match the 9 Review Questions. Needed for the HTML
+  reveal and for a mentor running a session.
 - [ ] Verify: all 15 New Words in `glossary.md` (they are); every activity
   has a no-equipment variant (Activities 1 and 2 are equipment-free,
   Activity 3 is correctly marked "if you have a printer"); `estimated_time`

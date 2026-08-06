@@ -86,6 +86,9 @@ revisions of existing ones. Derived from the readability review of Topics
     application and troubleshooting.
 13. `# Topic Checklist` - `- [ ]` items confirming meaningful capability.
 14. `# Looking Ahead` - preview of the ACTUAL next topic (verify the number).
+15. `# Answers` - model answers, numbered to match the Review Questions. Last
+    in the topic so the reader has to travel to reach them, and so the HTML
+    build can collapse them behind a reveal (section 13.3).
 
 Connect the topic to the buggy within the first 150 words of the topic.
 
@@ -175,7 +178,7 @@ purposeful markers, not confetti.
 - **Template headings** carry a fixed emoji at the END of the heading:
   Learning Objectives 🎯, Topic Mini Project 🛠️, Common Beginner
   Mistakes ❌, Topic Summary 📝, New Words 📖, Review Questions ❓,
-  Topic Checklist ✅, Looking Ahead 🔭.
+  Topic Checklist ✅, Looking Ahead 🔭, Answers 🔑.
 - **Content headings**: at most one emoji, at the end, meaningfully chosen
   ("# System 1 - The Brain 🧠"). Not every heading needs one.
 - **Body prose stays emoji-light**: an emoji earns its place by marking
@@ -188,25 +191,96 @@ purposeful markers, not confetti.
 
 ## 7. Visuals Policy
 
-Pick the form that fits the idea:
-- **Mermaid**: flows, cycles, cause-effect chains, system trees. Never use
-  mermaid to restate a bullet list as boxes, and never for spatial/physical
-  ideas (a bending beam is not a flowchart).
-- **Tables**: comparisons (3+ similar things), decision matrices, specs.
-- **Sketch placeholders**: spatial ideas (fits, views, force arrows, part
-  anatomy). Format:
+This is an engineering book. A reader learns what a cross-threaded screw looks
+like by *seeing one*, not by reading a paragraph about it. Figures are teaching,
+not decoration, and the budget below is a floor rather than a ceiling.
 
-  > **[Sketch: three-view drawing of a simple bracket, holes aligned across
-  > views]**
+### 7.1 Figure types
 
-  These mark where a real illustration or photo belongs.
-- Small ASCII line samples (`- - - -`) are fine for line types and dimension
-  arrows. Never keep weak ASCII art just because it already exists - replace
-  it with a sketch placeholder.
-- **Signature visual**: every technical topic gets one strong visual for its
-  hardest idea (four-dartboard panel for accuracy, three-fit cross-section for
-  fits, aligned three views for drawings, dashed envelope for packaging, a
-  meshing gear pair for ratios).
+Every figure is one of these. Naming the type lets a topic's figures be
+specified before anything is drawn, and keeps the whole book looking like one
+book.
+
+| Tag | Type | What it does | Typical use |
+| --- | --- | --- | --- |
+| F0 | Mermaid | Flows, cycles, cause-effect chains, system trees | The design cycle, input-process-output |
+| F1 | Annotated photograph | A real object with labels | Tools, fasteners, filament, a finished joint |
+| F2 | Cross-section | Cuts a part open to show the invisible | Fits, countersinks, inserts, layer structure |
+| F3 | Right-versus-wrong pair | Correct beside incorrect | Every Common Beginner Mistake |
+| F4 | Sequence strip | 3-5 panels of a process over time | Drilling a clean hole, making a joint |
+| F5 | Force / motion overlay | Arrows on a real shape | Load paths, torque, weight transfer |
+| F6 | Measured drawing | Dimensioned and to scale | Part briefs, coupons, hole patterns |
+| F7 | Comparison array | 3+ variants side by side | Materials, infill percentages, gear ratios |
+
+**F0 is capped at two per topic.** Mermaid draws *relationships*; it cannot
+draw *things*. Never use it for a spatial or physical idea - a bending beam is
+not a flowchart, and a bench layout is not a tree. If the reader needs to know
+what something looks like, where it is, or which way a force points, it is not
+Mermaid.
+
+**Tables** remain the right answer for comparisons of 3+ similar things,
+decision matrices and specs. Small ASCII line samples (`- - - -`) are fine for
+line types and dimension arrows. Never keep weak ASCII art because it already
+exists.
+
+### 7.2 Placeholder format
+
+Until the artwork exists, mark its place - with the type tag, so figures can be
+counted and costed per production stream:
+
+> **[F2 cross-section: a printed boss with a heat-set insert pressed in.
+> Callouts on the insert's knurling, the melt zone, and the screw engaging
+> the metal thread.]**
+
+The signature visual of a topic uses the same form with `Signature visual`:
+
+> **[Signature visual, F4: four panels of the same plate being drilled...]**
+
+Write the placeholder as a real art brief - what is shown, what is labelled,
+what the reader should notice. A vague placeholder becomes a vague figure.
+
+### 7.3 Numbering, captions and alt text
+
+Every figure carries all three:
+
+- **Number** - `Figure N.M.k` in topic order, so prose can say "see Figure
+  3.9.2" instead of "the sketch above".
+- **Caption** - one sentence saying *what to notice*, never a restatement of
+  the title. The caption is where the teaching lands.
+- **Alt text** - one sentence describing the figure for a reader who cannot
+  see it. It is also the fastest test of whether a figure has a point: if the
+  alt text is hard to write, the figure is unclear.
+
+### 7.4 Figure budget per topic
+
+| Topic type | Figures |
+| --- | --- |
+| Concept topics (Part 1) | 6-8 |
+| Skill topics (Part 2) | 10-14 |
+| Component topics (Part 3) | 10-12 |
+| Build topics (Part 4) | 12-16 |
+| Capstones and challenges | 4-6 |
+
+Anchor them to the template: the signature visual takes the hardest idea, every
+"Think about it" shows its setup, every mini project gets a sequence strip plus
+a photo of the finished artifact, every Common Beginner Mistake gets an F3 pair,
+and any New Word naming a physical thing gets a thumbnail.
+
+### 7.5 House rules for artwork
+
+- **Source format is SVG** for anything drawn, so labels stay selectable and
+  correctable, it scales to print, and it can be made theme-aware later.
+  Photographs are raster; their labels are added as vector.
+- **Never generate accuracy-critical artwork.** A beautiful but wrong diagram
+  is worse than no diagram, because a young reader cannot tell. Technical
+  figures are drawn by a human, derived from CAD, or photographed.
+- **Palette**: the VoltForge identity - volt-blue, forge-orange, brushed
+  steel. One accent colour per figure carries the meaning (forge-orange =
+  look here / danger / the part that moves); everything else stays neutral.
+- **Every figure must survive greyscale.** Never encode meaning in colour
+  alone - use position, labels or hatching as well.
+- Labels are British English, sentence case, and kept as text, never
+  rasterised into the image.
 
 ## 8. Learn More Boxes
 
@@ -279,3 +353,84 @@ Topic 1.9), the procedure, and a pass/fail condition.
    for the hardest idea, a "Think about it" prompt at the topic's most
    counter-intuitive claim, and the buggy connection within the first 150
    words.
+6. Figure check (section 7): the topic meets its figure budget, every figure
+   has a type tag, a number, a caption and alt text, no Mermaid is doing a
+   spatial job, and F0 blocks number two or fewer. **A topic does not reach
+   v0.1 without its figure list specified** - retrofitting figures into
+   finished prose is the expensive path.
+
+## 13. Authoring for Three Outputs
+
+The book is written once in Markdown and published three ways: GitHub (the
+working preview), print PDF and EPUB, and an interactive HTML edition. Markdown
+stays the source; HTML is a build output (see `references/ref-001.md` section
+7 for the decision and its reasoning).
+
+That places one obligation on authoring: **the Markdown must be structured
+enough for a build step to turn it into components reliably.** The good news is
+that most of the conventions in this guide already do that - they were written
+for consistency, and consistency is what makes them parseable.
+
+### 13.1 The governing rule
+
+> A convention may only be adopted if it still reads well as plain Markdown.
+> Nothing is added to source purely to serve the HTML build.
+
+Every rule below is invisible-cost: it changes what you write, not how much.
+
+### 13.2 What already works (do not change it)
+
+| Convention | Becomes in HTML |
+| --- | --- |
+| `> **⚠️ SAFETY**` and the section 6 marker registry | Styled callouts that cannot be skimmed past |
+| `- [ ]` in Topic Checklist | Tickable boxes with saved progress |
+| `# New Words 📖` table + `glossary.md` | Hover and tap tooltips on first use |
+| `### Term` glossary entries | The tooltip source, alphabetically addressable |
+| "Topic N.M" written in prose | Auto-linked cross-reference - no new syntax needed |
+| ATX headings | Navigation, anchors and search index |
+
+The fixed callout markers are the single most valuable thing here. Vary them
+and the HTML build cannot tell a safety warning from a tip.
+
+### 13.3 What needs care
+
+- **"Think about it" resolution.** The paragraph *immediately after* the
+  prompt blockquote is the resolution, and the HTML build collapses it so the
+  reader genuinely pauses. Keep it to one paragraph, and never put anything
+  between the prompt and its answer.
+- **Review Questions need answers.** Without them there is nothing to reveal,
+  and a parent or mentor running a session has nothing to check against. Put
+  them at the end of the topic under `# Answers 🔑`, numbered to match. New
+  topics include them from v0.1.
+- **One idea per heading.** Headings become anchors and navigation entries, so
+  a heading covering two ideas produces a link that lies about its
+  destination.
+- **Tables stay real tables.** Never lay data out with spaces inside a code
+  fence; a pipe table becomes a responsive HTML table, a code fence does not.
+- **Code fences carry a language tag** (```text, ```mermaid). The build uses it
+  to decide what to render and what to leave alone.
+
+### 13.4 Raw HTML in source
+
+Permitted only where Markdown genuinely cannot express the layout - currently
+the F3 right-versus-wrong pairs and F7 comparison arrays of section 7. Keep it
+to a single wrapper element, never inside prose, and prefer a build shortcode
+once one exists. Everything else stays Markdown so the GitHub preview and the
+review diffs stay readable.
+
+### 13.5 Applying this to already-written topics
+
+These conventions arrived on 2026-08-06, after Part 1 and Topic 2.1 reached
+v0.2. Retro-fitting them everywhere at once would stall the review programme,
+so:
+
+- **New topics** follow them from v0.1.
+- **Topics still to be reviewed** pick them up during their existing review
+  pass - the figure list and the answers are added as backlog items rather
+  than as a separate sweep.
+- **Topics already at v0.2** carry the gap as recorded debt, cleared at v0.3
+  Prototype-tested. Record it in the part's book-wide backlog file rather than
+  silently reopening finished work.
+
+This is deliberate: a rule that forces thirty files to be reopened the day it
+is written is a rule that will be ignored.
