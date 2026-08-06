@@ -12,7 +12,7 @@ The full topic plan for VoltForge Gear — The Young Engineer's Handbook, with w
 
 | # | Topic | Status |
 | --- | --- | --- |
-| 0.0 | [How to Use This Handbook](Part-1-Engineering-Mindset/0.0-How-to-Use-This-Handbook.md) | 🟡 v0.1 |
+| 0.0 | [How to Use This Handbook](Part-1-Engineering-Mindset/0.0-How-to-Use-This-Handbook.md) | 🔵 v0.2 |
 
 ## Part 1 — Engineering Mindset
 
@@ -30,7 +30,7 @@ The full topic plan for VoltForge Gear — The Young Engineer's Handbook, with w
 | 1.8 | [Engineering Drawings](Part-1-Engineering-Mindset/1.8-Engineering-Drawings.md) | 🔵 v0.2 |
 | 1.9 | [The Engineering Design Process](Part-1-Engineering-Mindset/1.9-The-Engineering-Design-Process.md) | 🔵 v0.2 |
 | — | [Part 1 Capstone: First Engineering Challenge](Part-1-Engineering-Mindset/Part-1-Capstone-First-Engineering-Challenge.md) | 🔵 v0.2 |
-| — | [Part 1 Review Quiz](Part-1-Engineering-Mindset/Part-1-Review-Quiz.md) | 🟡 v0.1 |
+| — | [Part 1 Review Quiz](Part-1-Engineering-Mindset/Part-1-Review-Quiz.md) | 🔵 v0.2 |
 
 ## Part 2 — Workshop Skills
 
@@ -47,7 +47,7 @@ The full topic plan for VoltForge Gear — The Young Engineer's Handbook, with w
 | 2.7 | [Hand Tools and Fasteners](Part-2-Workshop-Skills/2.7-Hand-Tools-and-Fasteners.md) | 🔵 v0.2 |
 | 2.8 | [Cutting, Drilling and Finishing](Part-2-Workshop-Skills/2.8-Cutting-Drilling-and-Finishing.md) | 🔵 v0.2 |
 | 2.9 | [Soldering and Wire Connections](Part-2-Workshop-Skills/2.9-Soldering-and-Wire-Connections.md) | 🔵 v0.2 |
-| 2.10 | [Workshop Skills Challenge](Part-2-Workshop-Skills/2.10-Workshop-Skills-Challenge.md) | 🟡 v0.1 |
+| 2.10 | [Workshop Skills Challenge](Part-2-Workshop-Skills/2.10-Workshop-Skills-Challenge.md) | 🔵 v0.2 |
 
 ## Part 3 — Electronics and Vehicle Systems
 
@@ -98,7 +98,7 @@ The full topic plan for VoltForge Gear — The Young Engineer's Handbook, with w
 
 | Document | Status |
 | --- | --- |
-| [Glossary](glossary.md) | 🟡 v0.1 — seeded from Part 1, grows with each topic |
+| [Glossary](glossary.md) | 🔵 v0.2 — seeded from Part 1, grows with each topic |
 | [Bill of Materials](BOM.md) | ✍️ stub — grows with Part 4 |
 | [Cost Ledger](COST-LEDGER.md) | ✍️ stub — grows with real purchases |
 | [Tools](TOOLS.md) | ✍️ stub — grows with Part 2 |

@@ -122,10 +122,17 @@ when Part 2 goes through its review pass.
 
 ## Next Up (order per SUMMARY.md)
 
-1. ✅ Part 3 review pass - COMPLETE 2026-08-06 on `Part_3_review`
-2. ✅ Part 4 review pass - COMPLETE 2026-08-06 on the same branch
-3. 📋 Topic 5.1 - Maintenance, Repairs and Spare Parts (starts Part 5, not
+1. ✅ Part 3 review pass - COMPLETE 2026-08-06
+2. ✅ Part 4 review pass - COMPLETE 2026-08-06
+3. ✅ Reference docs fed from Parts 3-4 - COMPLETE 2026-08-06 (SAFETY, TOOLS,
+   BOM, COST-LEDGER, TROUBLESHOOTING all at v0.2)
+4. ✅ v0.1 stragglers - COMPLETE 2026-08-06. **Every written document in the
+   book is now at v0.2 Reviewed.** See
+   [review-reports/v0.1-stragglers-report.md](../review-reports/v0.1-stragglers-report.md).
+5. 📋 Topic 5.1 - Maintenance, Repairs and Spare Parts (starts Part 5, not
    yet written)
+6. 📋 Figures - 436 placeholders against 2 real figures, book-wide. The
+   largest remaining gap between manuscript and product.
 
 The full queue (through Topic 5.4) lives in SUMMARY.md - do not mirror it
 here; add a topic to "In Flight" only when its research pass starts.

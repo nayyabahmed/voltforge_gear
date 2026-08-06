@@ -2,8 +2,8 @@
 title: "Glossary"
 project: "VoltForge Gear — The Young Engineer's Handbook"
 scope: "Seeded from Topics 1.1-2.1, growing with each new topic (currently through Topic 4.10)"
-version: "0.1"
-status: "Draft (living document)"
+version: "0.2"
+status: "Reviewed (living document - covers every New Words table through Topic 4.10)"
 ---
 
 # Glossary
@@ -391,6 +391,16 @@ A thin flat border printed around the bottom edge of a model to give it more gri
 ### Brittle
 
 A material behaviour where failure happens with little visible bending or stretching.
+
+A brittle part gives no warning: it is fine, and then it is in two pieces.
+
+---
+
+### Brittleness
+
+The tendency of a material to break with little bending or stretching first.
+
+Brittleness is not always bad - a brittle material can be stiff and precise. It just means the part will snap rather than sag, so it has to be designed with that in mind.
 
 ---
 
