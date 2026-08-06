@@ -78,7 +78,7 @@ a glowing build plate.
 Map note: Ch 10 is drawn as a literal gateway - the only way onto the
 foothills path. Safety gates recur later; same goggle-arch motif.
 
-## Territory 3 - Electric Canyon (Part 3: RC Systems, Ch 20-29)
+## Territory 3 - Electric Canyon (Part 3: Electronics and Vehicle Systems, Ch 20-29)
 
 A canyon crackling with tame lightning; each stop is a component
 "outpost" with its part drawn large.

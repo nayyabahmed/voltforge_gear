@@ -1,7 +1,7 @@
 ---
 title: "Glossary"
 project: "VoltForge Gear — The Young Engineer's Handbook"
-scope: "Seeded from Topics 1.1-2.1, growing with each new topic (currently through Topic 2.9)"
+scope: "Seeded from Topics 1.1-2.1, growing with each new topic (currently through Topic 3.10)"
 version: "0.1"
 status: "Draft (living document)"
 ---
@@ -60,11 +60,27 @@ A measurement can be precise without being accurate.
 
 ---
 
+### Ackermann Geometry
+
+A steering layout that turns the inside wheel more sharply than the outside one.
+
+In a corner the inside wheel follows a tighter circle, so it has to point further round or it drags.
+
+---
+
 ### Actual Size
 
 The measured size of a real part.
 
 This may differ slightly from its nominal size.
+
+---
+
+### Actuator
+
+A device that produces controlled movement when it is told to.
+
+A servo is an actuator; a motor driving a wheel is one too.
 
 ---
 
@@ -90,11 +106,25 @@ Allowance = 1.0 mm total
 
 ---
 
+### Ampere
+
+The unit of electric current, written A.
+
+Often shortened to "amp".
+
+---
+
 ### Anisotropy
 
 A condition where a material behaves differently in different directions.
 
 3D printed parts are often anisotropic because they are built in layers.
+
+---
+
+### Antenna
+
+The part of a radio that sends or receives radio waves.
 
 ---
 
@@ -144,9 +174,31 @@ A force acting along the length of a shaft.
 
 ## B
 
+### Back EMF
+
+A voltage produced by a spinning motor that pushes back against the voltage driving it.
+
+The faster the motor spins, the more it pushes back - which is why a motor draws most current at the moment it starts.
+
+---
+
 ### Backing Board
 
 Scrap material placed under the work so a drill or knife breaks through into it instead of into the bench.
+
+---
+
+### Backlash
+
+The small amount of free movement between parts before they actually push each other.
+
+Turn a gear gently back and forth: the little bit of nothing before the next gear moves is backlash.
+
+---
+
+### Balance Charging
+
+Charging that watches each cell group in a pack and keeps them level with each other.
 
 ---
 
@@ -158,9 +210,49 @@ This can reduce accumulated positional error.
 
 ---
 
+### Battery
+
+A device that stores energy chemically and releases it as electrical energy.
+
+---
+
+### Battery Chemistry
+
+The materials and reactions a battery uses to store and release energy.
+
+LiPo and NiMH are two different chemistries, and they need different chargers and rules.
+
+---
+
+### Battery Eliminator Circuit (BEC)
+
+A circuit, usually inside the ESC, that supplies a steady low voltage to the receiver and servo.
+
+It "eliminates" the need for a second battery just for the electronics.
+
+---
+
+### Battery Pack
+
+One or more cells joined together and wrapped as a single usable power source.
+
+---
+
+### Battery Passport
+
+A written record of one pack: what it is, how it has been used, and what condition it is in.
+
+---
+
 ### Bearing
 
 A component that supports a rotating shaft while reducing friction.
+
+---
+
+### Bellcrank
+
+A pivoting lever that changes the direction motion travels in.
 
 ---
 
@@ -196,6 +288,12 @@ It is often shortened to **BOM**.
 
 ---
 
+### Binding
+
+Pairing a receiver with a transmitter so they only listen to each other.
+
+---
+
 ### Blind Hole
 
 A hole that stops inside the part instead of passing all the way through.
@@ -211,6 +309,12 @@ A raised pad around a hole or fixing point that adds material where the load goe
 ### Bottom Layers
 
 The solid layers that form the base surfaces of a print.
+
+---
+
+### Bottoming Out
+
+Suspension reaching the end of its travel with a hard thump.
 
 ---
 
@@ -231,6 +335,20 @@ A thin flat border printed around the bottom edge of a model to give it more gri
 ### Brittle
 
 A material behaviour where failure happens with little visible bending or stretching.
+
+---
+
+### Brownout
+
+A short dip in voltage that makes control electronics reset.
+
+If the receiver browns out mid-drive, the buggy stops obeying you until it restarts.
+
+---
+
+### Brush
+
+A sliding electrical contact that feeds current into a spinning brushed motor.
 
 ---
 
@@ -256,6 +374,12 @@ Anything bigger than the build volume has to be split into several parts.
 
 ---
 
+### Bump Steer
+
+Unwanted steering change caused by the suspension moving up and down.
+
+---
+
 ### Burr
 
 A rough or sharp edge left behind by cutting, drilling or another process.
@@ -263,6 +387,12 @@ A rough or sharp edge left behind by cutting, drilling or another process.
 ---
 
 ## C
+
+### C-Rating
+
+A claimed discharge rate for a battery, written as a multiple of its capacity.
+
+---
 
 ### CAD
 
@@ -294,6 +424,18 @@ Computer-aided manufacturing: software that plans how a machine will make the de
 
 ---
 
+### Camber
+
+The tilt of a wheel seen from the front of the buggy.
+
+---
+
+### Capacity
+
+How much electrical charge a battery holds, usually written in Ah or mAh.
+
+---
+
 ### Captive Nut
 
 A nut held in a shaped pocket so it cannot spin or fall out while the screw is tightened.
@@ -311,6 +453,14 @@ Something that creates a change.
 ### Cause and Effect
 
 A relationship where one event produces another.
+
+---
+
+### Cell
+
+One unit of a battery that stores chemical energy.
+
+A pack is made of cells, in the same way a chocolate bar is made of squares.
 
 ---
 
@@ -364,11 +514,33 @@ Chamfers often help guide parts together during assembly.
 
 ---
 
+### Channel
+
+One separate control route in a radio system, used for one job.
+
+Steering uses one channel; throttle uses another.
+
+---
+
+### Channel Reverse
+
+A setting that flips which way a channel responds.
+
+Use it when the servo moves the right way mechanically but the wrong way on screen.
+
+---
+
 ### Chassis
 
 The main structural frame of the buggy.
 
 It supports and connects the other systems.
+
+---
+
+### Circuit
+
+A connected loop that electric charge can travel around.
 
 ---
 
@@ -406,11 +578,39 @@ A hole made slightly larger than the fastener, so the fastener slides through in
 
 ---
 
+### Closed-Loop Control
+
+Control that checks the result and corrects itself.
+
+A servo does this constantly: it compares where it is with where it was told to be, and keeps moving until they match.
+
+---
+
 ### Cold Joint
 
 A solder joint that never got hot enough, so the solder sat on the metal instead of bonding to it.
 
 Cold joints look dull and lumpy, and often fail later once the buggy starts vibrating.
+
+---
+
+### Command Path
+
+The route the driver's instructions travel along to reach the part that acts on them.
+
+Your thumb, the transmitter, the receiver, the ESC, the motor - information all the way.
+
+---
+
+### Commutation
+
+Switching current through a motor's windings in the order needed to keep it turning.
+
+---
+
+### Commutator
+
+The segmented rotating contact that switches current inside a brushed motor.
 
 ---
 
@@ -488,9 +688,23 @@ geometric relationship in a sketch, such as parallel, equal or centred.
 
 ---
 
+### Contact Patch
+
+The small piece of tyre actually touching the ground.
+
+All your grip comes through four patches roughly the size of postage stamps.
+
+---
+
 ### Continuity
 
 An unbroken electrical path between two points.
+
+---
+
+### Continuous Current
+
+The current a component can carry all day under stated conditions.
 
 ---
 
@@ -563,7 +777,21 @@ It damages both the screw and the part, so always start a screw by turning it ba
 
 ---
 
+### Current
+
+How much electric charge flows past a point each second.
+
+---
+
 ## D
+
+### Damper
+
+A device that resists suspension movement and stops it bouncing.
+
+A spring alone would keep bouncing; the damper calms it down.
+
+---
 
 ### Datum
 
@@ -719,9 +947,29 @@ Typical parts include:
 
 ---
 
+### Droop
+
+How far a wheel can drop below its normal resting height.
+
+---
+
+### Dual Rate
+
+A setting that changes how much total movement a channel commands.
+
+---
+
 ### Ductile
 
 A material behaviour where noticeable bending or stretching happens before failure.
+
+---
+
+### Duty Cycle
+
+The fraction of each rapid switching cycle that is spent switched on.
+
+Half on and half off is a duty cycle of 50%.
 
 ---
 
@@ -746,6 +994,14 @@ The result of a cause.
 
 ---
 
+### Efficiency
+
+The share of energy put in that comes out as useful work.
+
+The rest usually leaves as heat.
+
+---
+
 ### Elastic Deformation
 
 A temporary change in shape that disappears after the load is removed.
@@ -758,6 +1014,14 @@ How well a material springs back towards its original shape once a load is remov
 
 ---
 
+### Electronic Speed Controller (ESC)
+
+The module that controls how much electrical power reaches the motor.
+
+It is the buggy's throttle: the receiver tells it what you want, and it feeds the motor to match.
+
+---
+
 ### Elephant's Foot
 
 Outward spreading of the first printed layer.
@@ -766,11 +1030,23 @@ It can make printed parts wider at the bottom.
 
 ---
 
+### Endpoint
+
+A set limit on how far a channel is allowed to move in one direction.
+
+---
+
 ### Energy
 
 The ability to do work or cause change.
 
 A battery stores electrical energy.
+
+---
+
+### Energy Path
+
+The route useful electrical energy takes to reach the part that does the work.
 
 ---
 
@@ -822,6 +1098,12 @@ An assembly view showing parts separated along their assembly direction.
 
 ---
 
+### Exponential
+
+A setting that changes how sensitive a control feels near its centre.
+
+---
+
 ### Extruder
 
 The motor mechanism in a 3D printer that grips the filament and pushes it into the hot end.
@@ -837,6 +1119,14 @@ This is a different idea from the printer's extruder, which pushes filament.
 ---
 
 ## F
+
+### Failsafe
+
+What the buggy is set to do if the radio signal is lost.
+
+A sensible failsafe cuts the throttle rather than leaving it where it was.
+
+---
 
 ### False Precision
 
@@ -857,6 +1147,12 @@ Any part whose job is to hold other parts together: a screw, nut, pin or clip.
 Failure caused by repeated loading.
 
 A part may fail from many small load cycles even if one cycle does not break it.
+
+---
+
+### Fault Finding
+
+Tracing a problem step by step to find its cause.
 
 ---
 
@@ -952,6 +1248,12 @@ A crack or complete break.
 
 ---
 
+### Frequency
+
+How many repeating cycles happen each second.
+
+---
+
 ### Friction
 
 A force that resists movement between surfaces.
@@ -992,6 +1294,14 @@ The list of simple move-and-extrude instructions a 3D printer follows, produced 
 
 ---
 
+### Gear Mesh
+
+How a pair of gear teeth sit together, including the clearance between them.
+
+Too tight binds and wears; too loose rattles and skips.
+
+---
+
 ### Gear Ratio
 
 A comparison between the sizes or tooth counts of connected gears.
@@ -1015,6 +1325,12 @@ The tyre's ability to transfer force to the ground without slipping.
 A number describing how coarse an abrasive is.
 
 Lower numbers are coarser, higher numbers are finer.
+
+---
+
+### Ground Clearance
+
+The smallest gap that matters between the buggy and the ground.
 
 ---
 
@@ -1217,6 +1533,14 @@ Because the kerf has width, you cut on the waste side of the line, not down the 
 
 ---
 
+### kV Rating
+
+Roughly how many revolutions per minute a motor turns for each volt applied, with no load.
+
+A higher kV motor spins faster but pulls harder on the battery.
+
+---
+
 ## L
 
 ### Layer Height
@@ -1245,6 +1569,14 @@ Movement along a path.
 
 ---
 
+### LiPo
+
+A rechargeable lithium-polymer battery, the type most used in radio-controlled models.
+
+LiPo packs hold a lot of energy for their weight, which is exactly why their safety rules are strict.
+
+---
+
 ### LiPo Bag
 
 A fire-resistant pouch that a rechargeable battery is charged inside.
@@ -1258,6 +1590,10 @@ make charging unattended safe.
 
 A force or combination of forces acting on a part.
 
+In electrical work the word has a second meaning: the component that turns
+electrical energy into something else. A motor is the buggy's biggest
+electrical load.
+
 ---
 
 ### Load Path
@@ -1269,6 +1605,14 @@ The route a load follows through a structure or machine.
 ### Locational Fit
 
 A fit used to position one part accurately.
+
+---
+
+### Low-Voltage Cut-Off
+
+An ESC setting that reduces power when the battery drops to a set voltage.
+
+It protects the pack from being drained past the point where it is damaged.
 
 ---
 
@@ -1385,6 +1729,12 @@ A device that converts electrical energy into rotation.
 
 ---
 
+### Multimeter
+
+An instrument for measuring electrical quantities such as voltage, current and resistance.
+
+---
+
 ## N
 
 ### Native File
@@ -1400,6 +1750,20 @@ Keep the native file: an exported STL cannot easily be edited back into a design
 An event that could have caused harm but did not.
 
 Near misses are free lessons and should be recorded.
+
+---
+
+### NiMH
+
+A rechargeable nickel-metal hydride battery, tougher and heavier than a LiPo.
+
+---
+
+### Nominal
+
+A convenient named value used to describe something, rather than its exact measured value.
+
+A "3.7 V" cell is named that way; the real voltage moves around as it charges and discharges.
 
 ---
 
@@ -1430,6 +1794,18 @@ A nut with a nylon ring inside that grips the thread and resists shaking loose.
 ---
 
 ## O
+
+### Ohm
+
+The unit of electrical resistance, written Ω.
+
+---
+
+### Ohm's Law
+
+The rule linking voltage, current and resistance: V = I × R.
+
+---
 
 ### Origin
 
@@ -1462,6 +1838,12 @@ Examples:
 - heat
 - information
 - wear
+
+---
+
+### Output Spline
+
+The toothed shaft on a servo that a horn clamps onto.
 
 ---
 
@@ -1529,6 +1911,12 @@ A unique identifier assigned to a part.
 
 ---
 
+### Peak Current
+
+The larger current a component can carry for a short time only.
+
+---
+
 ### Peer Review
 
 A review performed by another person.
@@ -1558,6 +1946,14 @@ A shape change that remains after the load is removed.
 ### Pilot Hole
 
 A smaller hole drilled first to guide a later, larger one.
+
+---
+
+### Pinion
+
+The small driving gear on the motor shaft.
+
+See Pinion Gear.
 
 ---
 
@@ -1598,6 +1994,9 @@ Loose wheel -> more wobble -> even looser wheel
 ### Power
 
 How quickly energy is transferred or work is done.
+
+In an electrical circuit, power = voltage × current (P = V × I), measured
+in watts.
 
 ---
 
@@ -1656,11 +2055,25 @@ A test showing whether an idea can work in principle.
 
 ---
 
+### Protocol
+
+The agreed format and rules two devices use to exchange information.
+
+---
+
 ### Prototype
 
 A practice or learning version of a design.
 
 Its purpose is to answer questions.
+
+---
+
+### Pulse-Width Modulation
+
+Controlling power by switching it on and off very fast and changing how long it stays on.
+
+The motor feels the average, so a longer "on" time means more power.
 
 ---
 
@@ -1727,6 +2140,14 @@ The difference between the largest and smallest values in a set.
 
 ---
 
+### Range Check
+
+A controlled test that the radio still works reliably at a stated distance.
+
+Do one before every session - it is how you find a radio problem in the garden instead of at speed.
+
+---
+
 ### Reaction Force
 
 A force produced in response to another force.
@@ -1736,6 +2157,12 @@ A force produced in response to another force.
 ### Reamer
 
 A tool that removes a small amount from an existing hole to bring it to its final size and finish.
+
+---
+
+### Receiver
+
+The module on the buggy that picks up radio commands from the transmitter.
 
 ---
 
@@ -1769,6 +2196,12 @@ Linking each requirement to the test or inspection used to check it.
 
 ---
 
+### Resistance
+
+How strongly something opposes electric current.
+
+---
+
 ### Resolution
 
 The smallest change a measuring tool can display or distinguish.
@@ -1799,6 +2232,12 @@ A thin supporting wall added to increase stiffness.
 
 ---
 
+### Ride Height
+
+Where the chassis sits when the buggy is resting normally.
+
+---
+
 ### Risk
 
 Something uncertain that could cause trouble.
@@ -1822,6 +2261,12 @@ The underlying reason a problem occurred.
 ### Rotational Motion
 
 Turning around a centre.
+
+---
+
+### Rotor
+
+The part of a motor that spins.
 
 ---
 
@@ -1911,6 +2356,22 @@ A screw designed to form or cut its own thread as it enters a suitable hole.
 
 ---
 
+### Sensored Motor
+
+A brushless motor with sensors that report where the rotor is.
+
+Knowing the rotor position lets the ESC start it smoothly from a standstill.
+
+---
+
+### Series Connection
+
+A connection in a single path, where cell voltages add together.
+
+Two 3.7 V cells in series give 7.4 V.
+
+---
+
 ### Service Loop
 
 A planned bit of spare wire left at a connection, so it can move or be repaired without pulling on the joint.
@@ -1929,6 +2390,26 @@ How easily a part can be:
 
 ---
 
+### Servo
+
+An actuator that moves to a commanded position and holds it.
+
+---
+
+### Servo Horn
+
+The arm or disc bolted to a servo's output spline.
+
+---
+
+### Servo Saver
+
+A part that gives way under a heavy steering knock so the servo does not.
+
+It is a deliberate weak link - cheaper to replace than a servo.
+
+---
+
 ### Shear
 
 A load that tries to slide one part of material past another.
@@ -1938,6 +2419,12 @@ A load that tries to slide one part of material past another.
 ### Shore Hardness
 
 A scale describing how resistant a soft or rubbery material is to being pressed in.
+
+---
+
+### Short Circuit
+
+An unintended low-resistance path that lets current rush through.
 
 ---
 
@@ -2007,15 +2494,65 @@ How quickly something moves.
 
 ---
 
+### Spring Rate
+
+How much extra force a spring needs for each further millimetre it squashes.
+
+---
+
+### Sprung Mass
+
+The part of the buggy's mass held up by the suspension.
+
+---
+
 ### Spur Gear
 
 The larger gear driven by the pinion.
 
 ---
 
+### Stall
+
+A condition where a motor is commanded to turn but cannot.
+
+---
+
+### Stall Current
+
+The large current drawn when an actuator is commanded to move but is held still.
+
+This is the worst case a wire, ESC or battery has to survive.
+
+---
+
+### State of Charge
+
+An estimate of how much charge is left in a battery.
+
+---
+
 ### Static Load
 
 A load that changes slowly or remains mostly steady.
+
+---
+
+### Stator
+
+The part of a motor that stays still.
+
+---
+
+### Steering Axis
+
+The line a wheel knuckle pivots around when you steer.
+
+---
+
+### Steering Throw
+
+How far the steering can move across its whole range.
 
 ---
 
@@ -2093,6 +2630,12 @@ Common causes include:
 
 ---
 
+### Sub-Trim
+
+A fine transmitter adjustment to a channel's neutral position.
+
+---
+
 ### Subsystem
 
 A smaller system inside a larger system.
@@ -2125,6 +2668,12 @@ It keeps the tyres pressed against the ground so the buggy stays controllable.
 
 ---
 
+### Suspension Travel
+
+How far a wheel can move up and down relative to the chassis.
+
+---
+
 ### Swept Volume
 
 The full space occupied by a part as it moves.
@@ -2134,6 +2683,12 @@ The full space occupied by a part as it moves.
 ### System
 
 A group of parts working together to perform one job.
+
+---
+
+### System Architecture
+
+A high-level view of a system's modules and how they connect.
 
 ---
 
@@ -2220,6 +2775,18 @@ A liquid applied to suitable threads to stop them shaking loose.
 
 ---
 
+### Throttle Calibration
+
+Teaching the ESC which receiver commands mean full forward, neutral and full reverse.
+
+---
+
+### Tie Rod
+
+A link that pushes and pulls between steering parts.
+
+---
+
 ### Tinning
 
 Putting a thin coat of solder on a soldering tip, or on the end of a wire, before joining.
@@ -2240,6 +2807,18 @@ It may include:
 - units
 - date
 - designer
+
+---
+
+### Toe-In
+
+Wheels set so their front edges point slightly towards each other.
+
+---
+
+### Toe-Out
+
+Wheels set so their front edges point slightly away from each other.
 
 ---
 
@@ -2329,9 +2908,23 @@ A fit near the boundary between clearance and interference.
 
 ---
 
+### Transmitter
+
+The handheld controller that sends your commands to the buggy by radio.
+
+---
+
 ### Travel Move
 
 A nozzle movement between places, where nothing should be printed.
+
+---
+
+### Trim
+
+A small adjustment that shifts a channel's neutral point.
+
+Use it when the buggy pulls slightly to one side while you are holding the steering straight.
 
 ---
 
@@ -2353,6 +2946,14 @@ Examples:
 - kilogram
 - second
 - degree
+
+---
+
+### Unsprung Mass
+
+The mass that moves with the wheel rather than being carried by the suspension.
+
+Wheels, tyres and hubs are unsprung; keeping them light helps the tyre follow the ground.
 
 ---
 
@@ -2408,6 +3009,12 @@ A solid drawing line showing an edge that can be seen.
 
 ---
 
+### Voltage
+
+The electrical push that drives charge around a circuit.
+
+---
+
 ## W
 
 ### Wall
@@ -2441,6 +3048,20 @@ Always cut on the waste side, so the kerf eats the scrap and not the part.
 
 ---
 
+### Watt
+
+The unit of power, written W.
+
+---
+
+### Watt-Hour
+
+A unit of energy, written Wh.
+
+It tells you how much energy a pack holds, which is more useful than capacity alone when comparing packs of different voltages.
+
+---
+
 ### Weight
 
 The force created when gravity pulls on mass.
@@ -2466,6 +3087,12 @@ Molten solder spreading across the metal and bonding to it, instead of balling u
 ### Wheelspin
 
 A condition where a driven tyre rotates faster than the vehicle moves.
+
+---
+
+### Winding
+
+A coil of wire in a motor that becomes a magnet when current flows through it.
 
 ---
 
