@@ -345,13 +345,43 @@ A recurring box, max 3 links, placed next to the relevant section:
 Approved sources: BBC Bitesize (KS2/KS3 science, maths, D&T), PhET simulations
 (phet.colorado.edu), Explain That Stuff (explainthatstuff.com), Tinkercad
 Learn (tinkercad.com/learn), Onshape Learning Centre, NASA/ESA kids resources,
-manufacturer knowledge bases (Prusa, Bambu) and official safety guidance.
-Verify a link exists before citing it; prefer "search X on site Y" over deep
-URLs likely to rot; avoid sales-heavy pages; say in half a line why the link
-is worth the reader's time. For Bitesize, use the UK national-curriculum
-wording as the search term ("mechanical systems", not "mechanisms";
-"fair testing", not "experiments") - curriculum terms are what the pages
-are organised around, and they match what the reader hears at school.
+Science Buddies (sciencebuddies.org), manufacturer documentation and knowledge
+bases, national standards and metrology bodies (NIST, BSI), and official
+safety and regulatory guidance (GOV.UK, fire services, Ofcom).
+
+"Manufacturer documentation" covers whoever actually makes the thing the topic
+teaches - Prusa and Bambu for printing, Spektrum, Futaba, Hobbywing, Tekno,
+Team Associated and ARRMA for RC equipment, Pololu, Maxon and KHK for
+components (added 2026-08-06 for Part 3, which could not be sourced from the
+original list). A topic about ESCs should cite ESC manufacturers; the
+alternative is a hobbyist forum, which is worse.
+
+Verify a link exists before citing it; avoid sales-heavy pages; say in half a
+line why the link is worth the reader's time. For Bitesize, use the UK
+national-curriculum wording as the search term ("mechanical systems", not
+"mechanisms"; "fair testing", not "experiments") - curriculum terms are what
+the pages are organised around, and they match what the reader hears at school.
+
+### 8.1 Deep links versus search terms (decision 2026-08-06)
+
+Search form - "search X on site Y" - remains the default, because it survives
+site rebuilds and teaches the reader to find things.
+
+**But a deep link is the right answer when the specific document IS the
+teaching.** Part 3 asks the reader to compare the handbook's reasoning with a
+real manufacturer's manual; a search term cannot carry them to the page that
+shows a failsafe procedure. So:
+
+- Use search form for general explainers, simulations and curriculum pages.
+- Use a deep link for a specific document the reader is meant to read - a
+  manual, a datasheet, a standard, a named activity.
+- **A rot-prone deep link keeps the URL and adds the search term**, rather than
+  choosing between them. Rot-prone means the path carries a build hash, a CMS
+  artefact or a version folder (`.../default/dwb9935bc5/Manuals/...`,
+  `/wp-content/uploads/2024/07/...`, `/sys_master/root/...`).
+- **A broken link is flagged, never silently deleted.** Record it in the part's
+  review report with a recommendation, and let the author decide on the
+  evidence. A missing citation is a bigger hole than a stale one.
 
 ## 9. Safety Callouts
 

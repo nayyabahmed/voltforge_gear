@@ -39,12 +39,23 @@ Read these before writing or editing any topic:
   follows), and `backlog/TRACKER.md` is the Part 1 status board, now closed -
   it records what was done, the conventions backfill and what remains.
   `backlog/part-2-book-wide.md` holds Part 2's status board and its
-  outstanding cross-topic sweeps.
+  outstanding cross-topic sweeps; `backlog/part-3-book-wide.md` and
+  `backlog/part-4-book-wide.md` do the same for Parts 3 and 4 - both now
+  closed, with their per-topic files deleted on completion. Part 3 arrived
+  already revised against the style guide, so its backlog was short and
+  weighted towards external references and the glossary; Part 4's was weighted
+  towards figure format, safety callout form and the glossary.
+
+  When a part's review finishes, its outcome is written up in
+  `review-reports/part-N-review-report.md` - what was audited, what changed
+  per topic, the link-verification table with anything flagged, and the debts
+  carried forward. `review-reports/part-3-review-report.md` is the first and
+  is the model for the rest; `part-4-review-report.md` follows it.
 
   **Completed per-topic backlogs are deleted, not archived.** Part 1's
-  `chapter-NN.md` / `capstone.md` / `book-wide.md` and Part 2's
-  `topic-2.N.md` files were removed on 2026-08-06 once every item in them
-  was ticked. Their full content, including the research notes recording what
+  `chapter-NN.md` / `capstone.md` / `book-wide.md`, Part 2's `topic-2.N.md`,
+  Part 3's `topic-3.N.md` and Part 4's `topic-4.N.md` files were removed on
+  2026-08-06 once every item in them was ticked. Their full content, including the research notes recording what
   was verified and corrected, is in git history - `git log --diff-filter=D
   --stat` finds them. Delete a per-topic backlog when its topic is done
   rather than leaving ticked files lying around.

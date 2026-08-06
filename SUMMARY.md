@@ -55,16 +55,16 @@ The full topic plan for VoltForge Gear — The Young Engineer's Handbook, with w
 
 | # | Topic | Status |
 | --- | --- | --- |
-| 3.1 | [Meet the RC Electronics](Part-3-Electronics-and-Vehicle-Systems/3.1-Meet-the-RC-Electronics.md) | 🟡 v0.1 |
-| 3.2 | [Voltage, Current, Resistance and Power](Part-3-Electronics-and-Vehicle-Systems/3.2-Voltage-Current-Resistance-and-Power.md) | 🟡 v0.1 |
-| 3.3 | [Batteries and Battery Safety](Part-3-Electronics-and-Vehicle-Systems/3.3-Batteries-and-Battery-Safety.md) | 🟡 v0.1 |
-| 3.4 | [Radio Transmitters and Receivers](Part-3-Electronics-and-Vehicle-Systems/3.4-Radio-Transmitters-and-Receivers.md) | 🟡 v0.1 |
-| 3.5 | [Steering Servos](Part-3-Electronics-and-Vehicle-Systems/3.5-Steering-Servos.md) | 🟡 v0.1 |
-| 3.6 | [Electronic Speed Controllers](Part-3-Electronics-and-Vehicle-Systems/3.6-Electronic-Speed-Controllers.md) | 🟡 v0.1 |
-| 3.7 | [Brushed and Brushless Motors](Part-3-Electronics-and-Vehicle-Systems/3.7-Brushed-and-Brushless-Motors.md) | 🟡 v0.1 |
-| 3.8 | [Gears and the Drivetrain](Part-3-Electronics-and-Vehicle-Systems/3.8-Gears-and-the-Drivetrain.md) | 🟡 v0.1 |
-| 3.9 | [Steering Systems](Part-3-Electronics-and-Vehicle-Systems/3.9-Steering-Systems.md) | 🟡 v0.1 |
-| 3.10 | [Suspension, Wheels and Grip](Part-3-Electronics-and-Vehicle-Systems/3.10-Suspension-Wheels-and-Grip.md) | 🟡 v0.1 |
+| 3.1 | [Meet the RC Electronics](Part-3-Electronics-and-Vehicle-Systems/3.1-Meet-the-RC-Electronics.md) | 🔵 v0.2 |
+| 3.2 | [Voltage, Current, Resistance and Power](Part-3-Electronics-and-Vehicle-Systems/3.2-Voltage-Current-Resistance-and-Power.md) | 🔵 v0.2 |
+| 3.3 | [Batteries and Battery Safety](Part-3-Electronics-and-Vehicle-Systems/3.3-Batteries-and-Battery-Safety.md) | 🔵 v0.2 |
+| 3.4 | [Radio Transmitters and Receivers](Part-3-Electronics-and-Vehicle-Systems/3.4-Radio-Transmitters-and-Receivers.md) | 🔵 v0.2 |
+| 3.5 | [Steering Servos](Part-3-Electronics-and-Vehicle-Systems/3.5-Steering-Servos.md) | 🔵 v0.2 |
+| 3.6 | [Electronic Speed Controllers](Part-3-Electronics-and-Vehicle-Systems/3.6-Electronic-Speed-Controllers.md) | 🔵 v0.2 |
+| 3.7 | [Brushed and Brushless Motors](Part-3-Electronics-and-Vehicle-Systems/3.7-Brushed-and-Brushless-Motors.md) | 🔵 v0.2 |
+| 3.8 | [Gears and the Drivetrain](Part-3-Electronics-and-Vehicle-Systems/3.8-Gears-and-the-Drivetrain.md) | 🔵 v0.2 |
+| 3.9 | [Steering Systems](Part-3-Electronics-and-Vehicle-Systems/3.9-Steering-Systems.md) | 🔵 v0.2 |
+| 3.10 | [Suspension, Wheels and Grip](Part-3-Electronics-and-Vehicle-Systems/3.10-Suspension-Wheels-and-Grip.md) | 🔵 v0.2 |
 
 ## Part 4 — Design and Build
 
@@ -72,16 +72,16 @@ The full topic plan for VoltForge Gear — The Young Engineer's Handbook, with w
 
 | # | Topic | Status |
 | --- | --- | --- |
-| 4.1 | [Build Strategy and Cost Plan](Part-4-Design-and-Build/4.1-Build-Strategy-and-Cost-Plan.md) | 🟡 v0.1 |
-| 4.2 | [Paper and Cardboard Layout](Part-4-Design-and-Build/4.2-Paper-and-Cardboard-Layout.md) | 🟡 v0.1 |
-| 4.3 | [Rolling Cardboard Chassis](Part-4-Design-and-Build/4.3-Rolling-Cardboard-Chassis.md) | 🟡 v0.1 |
-| 4.4 | [Low-Power Wire-Frame Car](Part-4-Design-and-Build/4.4-Low-Power-Wire-Frame-Car.md) | 🟡 v0.1 |
-| 4.5 | [Radio-Controlled Prototype](Part-4-Design-and-Build/4.5-Radio-Controlled-Prototype.md) | 🟡 v0.1 |
-| 4.6 | [Choosing and Measuring Donor Parts](Part-4-Design-and-Build/4.6-Choosing-and-Measuring-Donor-Parts.md) | 🟡 v0.1 |
-| 4.7 | [Modular Printed Chassis](Part-4-Design-and-Build/4.7-Modular-Printed-Chassis.md) | 🟡 v0.1 |
-| 4.8 | [Final Mechanical Assembly](Part-4-Design-and-Build/4.8-Final-Mechanical-Assembly.md) | 🟡 v0.1 |
-| 4.9 | [Electronics Installation](Part-4-Design-and-Build/4.9-Electronics-Installation.md) | 🟡 v0.1 |
-| 4.10 | [Testing, Debugging and Version 1](Part-4-Design-and-Build/4.10-Testing-Debugging-and-Version-1.md) | 🟡 v0.1 |
+| 4.1 | [Build Strategy and Cost Plan](Part-4-Design-and-Build/4.1-Build-Strategy-and-Cost-Plan.md) | 🔵 v0.2 |
+| 4.2 | [Paper and Cardboard Layout](Part-4-Design-and-Build/4.2-Paper-and-Cardboard-Layout.md) | 🔵 v0.2 |
+| 4.3 | [Rolling Cardboard Chassis](Part-4-Design-and-Build/4.3-Rolling-Cardboard-Chassis.md) | 🔵 v0.2 |
+| 4.4 | [Low-Power Wire-Frame Car](Part-4-Design-and-Build/4.4-Low-Power-Wire-Frame-Car.md) | 🔵 v0.2 |
+| 4.5 | [Radio-Controlled Prototype](Part-4-Design-and-Build/4.5-Radio-Controlled-Prototype.md) | 🔵 v0.2 |
+| 4.6 | [Choosing and Measuring Donor Parts](Part-4-Design-and-Build/4.6-Choosing-and-Measuring-Donor-Parts.md) | 🔵 v0.2 |
+| 4.7 | [Modular Printed Chassis](Part-4-Design-and-Build/4.7-Modular-Printed-Chassis.md) | 🔵 v0.2 |
+| 4.8 | [Final Mechanical Assembly](Part-4-Design-and-Build/4.8-Final-Mechanical-Assembly.md) | 🔵 v0.2 |
+| 4.9 | [Electronics Installation](Part-4-Design-and-Build/4.9-Electronics-Installation.md) | 🔵 v0.2 |
+| 4.10 | [Testing, Debugging and Version 1](Part-4-Design-and-Build/4.10-Testing-Debugging-and-Version-1.md) | 🔵 v0.2 |
 
 ## Part 5 — Advanced Topics
 
