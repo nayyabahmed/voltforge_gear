@@ -7,7 +7,9 @@ only when every Part 3 topic is swept.
 Legend: [T] textual, [C] context awareness, [V] visual aid, [E] external reference.
 
 Created 2026-08-06. Re-audited against the updated `STYLE-GUIDE.md`
-(section 13 conventions, 2026-08-06) the same day.
+(section 13 conventions, 2026-08-06) the same day. **Status: COMPLETE** - all
+ten topics reached v0.2 on 2026-08-06. The outcome is written up in
+[review-reports/part-3-review-report.md](../review-reports/part-3-review-report.md).
 
 ## How this backlog differs from Parts 1 and 2
 
@@ -55,31 +57,31 @@ Last updated: 2026-08-06
 
 | Topic | Backlog file | Research pass | Items applied | v0.2 bumped | Overall |
 | --- | --- | --- | --- | --- | --- |
-| 3.1 Meet the RC Electronics | ✅ created | 📋 | 📋 | 📋 | 📋 planned |
-| 3.2 Voltage, Current, Resistance and Power | ✅ created | 📋 | 📋 | 📋 | 📋 planned |
-| 3.3 Batteries and Battery Safety | ✅ created | 📋 | 📋 | 📋 | 📋 planned |
-| 3.4 Radio Transmitters and Receivers | ✅ created | 📋 | 📋 | 📋 | 📋 planned |
-| 3.5 Steering Servos | ✅ created | 📋 | 📋 | 📋 | 📋 planned |
-| 3.6 Electronic Speed Controllers | ✅ created | 📋 | 📋 | 📋 | 📋 planned |
-| 3.7 Brushed and Brushless Motors | ✅ created | 📋 | 📋 | 📋 | 📋 planned |
-| 3.8 Gears and the Drivetrain | ✅ created | 📋 | 📋 | 📋 | 📋 planned |
-| 3.9 Steering Systems | ✅ created | 📋 | 📋 | 📋 | 📋 planned |
-| 3.10 Suspension, Wheels and Grip | ✅ created | 📋 | 📋 | 📋 | 📋 planned |
-| Book-wide sweeps | ✅ this file | ➖ | 📋 | ➖ | 📋 planned |
+| 3.1 Meet the RC Electronics | ✅ deleted | ✅ | ✅ | ✅ | ✅ done |
+| 3.2 Voltage, Current, Resistance and Power | ✅ deleted | ✅ | ✅ | ✅ | ✅ done |
+| 3.3 Batteries and Battery Safety | ✅ deleted | ✅ | ✅ | ✅ | ✅ done |
+| 3.4 Radio Transmitters and Receivers | ✅ deleted | ✅ | ✅ | ✅ | ✅ done |
+| 3.5 Steering Servos | ✅ deleted | ✅ | ✅ | ✅ | ✅ done |
+| 3.6 Electronic Speed Controllers | ✅ deleted | ✅ | ✅ | ✅ | ✅ done |
+| 3.7 Brushed and Brushless Motors | ✅ deleted | ✅ | ✅ | ✅ | ✅ done |
+| 3.8 Gears and the Drivetrain | ✅ deleted | ✅ | ✅ | ✅ | ✅ done |
+| 3.9 Steering Systems | ✅ deleted | ✅ | ✅ | ✅ | ✅ done |
+| 3.10 Suspension, Wheels and Grip | ✅ deleted | ✅ | ✅ | ✅ | ✅ done |
+| Book-wide sweeps | ✅ this file | ➖ | ✅ | ➖ | ✅ done |
 
 ## Items to apply
 
-- [ ] [E] **Verify all 33 unique external links and flag every problem.** An
+- [x] [E] **Verify all 33 unique external links and flag every problem.** An
   automated reachability check on 2026-08-06 returned HTTP 200 for 30 of 33.
   The three exceptions and the two policy concerns are listed under "Link
   verification" below. Re-check each during the topic's research pass, confirm
   the page still says what the topic claims it says, and record the verdict.
   **Flag, do not delete.**
-- [ ] [E] **Add a search fallback to the 13 rot-prone PDF links.** Keep the
+- [x] [E] **Add a search fallback to the 13 rot-prone PDF links.** Keep the
   URL; append the site and search term that would find the document again.
   Affected: 3.3 (1), 3.4 (2), 3.5 (1), 3.6 (2 + 1 in Watch the build), 3.7 (1),
   3.8 (1), 3.9 (3), 3.10 (2, plus one repeat in Watch the build).
-- [ ] [E] **Extend `STYLE-GUIDE.md` section 8's approved-source list.** Part 3
+- [x] [E] **Extend `STYLE-GUIDE.md` section 8's approved-source list.** Part 3
   cites 19 domains; most are outside the list, which names only BBC Bitesize,
   PhET, Explain That Stuff, Tinkercad, Onshape, NASA/ESA and manufacturer
   knowledge bases (Prusa, Bambu - both 3D printing).
@@ -99,30 +101,32 @@ Last updated: 2026-08-06
   with the existing quality conditions (verify it exists, say why it is worth
   reading, avoid sales-heavy pages). Do this **before** the topic passes, so
   the passes work to a settled rule.
-- [ ] [C] **35 New Words are missing from `glossary.md`.** Part 3's glossary was
+- [x] [C] **35 New Words are missing from `glossary.md`.** Part 3's glossary was
   backfilled on 2026-08-06 from the pre-revision text; the revisions then added
   vocabulary. Exact per-topic lists are in the topic backlog files. 3.1 is the
   only topic fully covered.
-- [ ] [T] **Break markers are thin.** Eight topics carry a single
+- [x] [T] **Break markers are thin.** Eight topics carry a single
   `☕ Good place to pause` across 1,074-1,200 lines; 3.3 has two and 3.1 has
   three. The guide wants a seam roughly every 25-30 minutes of reading, which
   at this length is three or four. This is the cheapest change that improves
   the reading experience across the whole part.
-- [ ] [E] **One Learn More box per topic, and it sits at the very end.**
+- [x] [E] **One Learn More box per topic, and it sits at the very end.**
   Section 8 wants boxes "placed next to the relevant section". Every topic
   instead has a single `# Learn More` heading between Topic Checklist and
   Looking Ahead - a heading that is not in the section 3 template either.
   Split each into inline boxes next to the sections they serve. (The mid-topic
   `🎬 Watch the build` boxes are already correctly placed; only the Learn More
   block needs moving.)
-- [ ] [E] **Five topics have no BBC Bitesize entry: 3.2, 3.3, 3.4, 3.5, 3.6.**
+- [x] [E] **Five topics have no BBC Bitesize entry: 3.2, 3.3, 3.4, 3.5, 3.6.**
   The other five already cite it. Topic 3.2 is the strongest candidate in the
   whole book - voltage, current, resistance and power are core KS3 physics and
   the reader meets them at school under those exact words. Use
   national-curriculum wording as the search term, per section 8.
-- [ ] [T] **One bare link outside any box:** `3.2` line 536 drops a raw
-  PhET markdown link into prose. Fold it into a proper reference box.
-- [ ] [V] **Confirm each Mermaid block is a genuine flow.** Only 3.1 and 3.4
+- [x] [T] ~~**One bare link outside any box:** `3.2` line 536 drops a raw
+  PhET markdown link into prose.~~ **Withdrawn - false positive.** It is a
+  PhET entry in Activity 2's "You will need" list, which is where a materials
+  entry belongs. Left alone.
+- [x] [V] **Confirm each Mermaid block is a genuine flow.** Only 3.1 and 3.4
   use Mermaid, one block each, so this is a two-minute check rather than a
   sweep. Apply the section 7.1 test: if it shows what something looks like,
   where it is, or which way a force points, it is not Mermaid.

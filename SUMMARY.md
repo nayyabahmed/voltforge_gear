@@ -55,16 +55,16 @@ The full topic plan for VoltForge Gear — The Young Engineer's Handbook, with w
 
 | # | Topic | Status |
 | --- | --- | --- |
-| 3.1 | [Meet the RC Electronics](Part-3-Electronics-and-Vehicle-Systems/3.1-Meet-the-RC-Electronics.md) | 🟡 v0.1 |
-| 3.2 | [Voltage, Current, Resistance and Power](Part-3-Electronics-and-Vehicle-Systems/3.2-Voltage-Current-Resistance-and-Power.md) | 🟡 v0.1 |
-| 3.3 | [Batteries and Battery Safety](Part-3-Electronics-and-Vehicle-Systems/3.3-Batteries-and-Battery-Safety.md) | 🟡 v0.1 |
-| 3.4 | [Radio Transmitters and Receivers](Part-3-Electronics-and-Vehicle-Systems/3.4-Radio-Transmitters-and-Receivers.md) | 🟡 v0.1 |
-| 3.5 | [Steering Servos](Part-3-Electronics-and-Vehicle-Systems/3.5-Steering-Servos.md) | 🟡 v0.1 |
-| 3.6 | [Electronic Speed Controllers](Part-3-Electronics-and-Vehicle-Systems/3.6-Electronic-Speed-Controllers.md) | 🟡 v0.1 |
-| 3.7 | [Brushed and Brushless Motors](Part-3-Electronics-and-Vehicle-Systems/3.7-Brushed-and-Brushless-Motors.md) | 🟡 v0.1 |
-| 3.8 | [Gears and the Drivetrain](Part-3-Electronics-and-Vehicle-Systems/3.8-Gears-and-the-Drivetrain.md) | 🟡 v0.1 |
-| 3.9 | [Steering Systems](Part-3-Electronics-and-Vehicle-Systems/3.9-Steering-Systems.md) | 🟡 v0.1 |
-| 3.10 | [Suspension, Wheels and Grip](Part-3-Electronics-and-Vehicle-Systems/3.10-Suspension-Wheels-and-Grip.md) | 🟡 v0.1 |
+| 3.1 | [Meet the RC Electronics](Part-3-Electronics-and-Vehicle-Systems/3.1-Meet-the-RC-Electronics.md) | 🔵 v0.2 |
+| 3.2 | [Voltage, Current, Resistance and Power](Part-3-Electronics-and-Vehicle-Systems/3.2-Voltage-Current-Resistance-and-Power.md) | 🔵 v0.2 |
+| 3.3 | [Batteries and Battery Safety](Part-3-Electronics-and-Vehicle-Systems/3.3-Batteries-and-Battery-Safety.md) | 🔵 v0.2 |
+| 3.4 | [Radio Transmitters and Receivers](Part-3-Electronics-and-Vehicle-Systems/3.4-Radio-Transmitters-and-Receivers.md) | 🔵 v0.2 |
+| 3.5 | [Steering Servos](Part-3-Electronics-and-Vehicle-Systems/3.5-Steering-Servos.md) | 🔵 v0.2 |
+| 3.6 | [Electronic Speed Controllers](Part-3-Electronics-and-Vehicle-Systems/3.6-Electronic-Speed-Controllers.md) | 🔵 v0.2 |
+| 3.7 | [Brushed and Brushless Motors](Part-3-Electronics-and-Vehicle-Systems/3.7-Brushed-and-Brushless-Motors.md) | 🔵 v0.2 |
+| 3.8 | [Gears and the Drivetrain](Part-3-Electronics-and-Vehicle-Systems/3.8-Gears-and-the-Drivetrain.md) | 🔵 v0.2 |
+| 3.9 | [Steering Systems](Part-3-Electronics-and-Vehicle-Systems/3.9-Steering-Systems.md) | 🔵 v0.2 |
+| 3.10 | [Suspension, Wheels and Grip](Part-3-Electronics-and-Vehicle-Systems/3.10-Suspension-Wheels-and-Grip.md) | 🔵 v0.2 |
 
 ## Part 4 — Design and Build
 
