@@ -2,8 +2,8 @@
 title: "Part 1 Review Quiz"
 part: "Part 1 - Engineering Mindset"
 topic: quiz
-version: "0.1"
-status: "Draft"
+version: "0.2"
+status: "Reviewed"
 difficulty: Beginner
 estimated_time: "45-60 minutes, or split across two sittings"
 prerequisites:
@@ -58,7 +58,7 @@ Mark yourself honestly. "Nearly right" is not right, and spotting that is itself
 
 ---
 
-# Part A - Do You Know the Words? 📖
+# Part A - Do You Know the Words? 🗣️
 
 One sentence each, in your own words. Do not just recite the glossary - if you can only repeat it word for word, you may not have it yet.
 
@@ -129,9 +129,21 @@ These give you a situation. Say what you would do, and why.
 
 Reading a failure is the most useful skill in Part 1. Each of these describes something that went wrong. Say what you think happened and what you would check first.
 
-34. A printed bracket snapped cleanly across a flat face, and the break looks smooth and slightly shiny with visible lines running across it. What kind of failure is this, and what would you change?
+> **[F1 annotated photograph - Figure Q.2: two broken printed brackets photographed side by side against a plain background, both snapped across the same flat face, lit from a low angle so the surface texture reads clearly. The left break is smooth and slightly glossy with fine parallel lines running across it; the right break is rough, fibrous and torn, with material drawn out at the edges. Neither is labelled with its cause - the reader has to decide. A ruler in shot gives scale]**
+>
+> *Figure Q.2 - Two brackets, two different stories. Question 34 asks you to read the one on the left.*
+>
+> *Alt text: Two broken printed brackets compared, one with a smooth glossy break surface and one with a rough torn surface.*
 
-35. A bracket did not snap. Instead it slowly sagged over three weeks in a sunny window, until the part it was holding no longer lined up. What happened, and why did testing it on the day it was made not catch this?
+34. Look at the left-hand break in Figure Q.2. A printed bracket snapped cleanly across a flat face, and the break looks smooth and slightly shiny with visible lines running across it. What kind of failure is this, what would you change, and how does the right-hand break differ?
+
+> **[F5 force and motion overlay - Figure Q.3: the same printed bracket drawn twice in side view, holding a small weight on a shelf near a sunny window. Panel 1 is labelled "day 1" and the bracket is straight. Panel 2 is labelled "week 3" and the bracket has sagged into a shallow curve, the held part visibly out of line, with a dashed ghost of its day-1 position behind it. A small sun and a thermometer sit in the background of both panels. Constant downward load arrows are identical in both]**
+>
+> *Figure Q.3 - The load never changed and the bracket never snapped. Only time and warmth did the work.*
+>
+> *Alt text: A printed bracket under a constant load is straight on day one and visibly sagging three weeks later beside a sunny window.*
+
+35. A bracket did not snap. Instead it slowly sagged over three weeks in a sunny window, until the part it was holding no longer lined up, as Figure Q.3 shows. What happened, and why did testing it on the day it was made not catch this?
 
 36. Three spacers are each within `±0.2 mm` of their drawing, and every one passed inspection. Stacked together, the assembly is 0.6 mm too tall. Who is at fault, and what should have been done differently?
 
@@ -186,7 +198,7 @@ That last row is worth saying plainly. Question 39 asks you to do what an engine
 
 ---
 
-# When You Are Ready for Part 2 ✅
+# When You Are Ready for Part 2 🛫
 
 - [ ] I answered every question, in writing, without looking anything up.
 - [ ] I marked myself honestly, including the "nearly right" ones.
@@ -257,7 +269,7 @@ Each answer carries the topic to revisit if you got it wrong.
 
 ## Part D
 
-34. **(1.4)** A brittle failure along a layer line - the smooth face with lines running across it is the giveaway. The part was almost certainly printed in the wrong orientation for its load. Change the orientation so the layers run along the force, and consider a fillet if the break started at a corner.
+34. **(1.4)** A brittle failure along a layer line - the smooth face with lines running across it is the giveaway. The part was almost certainly printed in the wrong orientation for its load. Change the orientation so the layers run along the force, and consider a fillet if the break started at a corner. The right-hand break is the opposite story: rough, fibrous and torn, with material pulled out at the edges. That surface means the material stretched and deformed before it let go, so it was working the way it should - it was simply overloaded. A smooth break is usually a design mistake; a torn one is usually too much load.
 35. **(1.4)** Creep: slow permanent deformation under a steady load, made much worse by warmth. Testing on day one only shows the immediate response, and creep needs time and temperature. This is why the part brief has to state how long a load is carried and how hot it will get.
 36. **(1.6, 1.7)** Nobody is at fault - each part is within tolerance. This is tolerance stack-up, where several small errors point the same way and add. It should have been caught by a worst-case analysis before the parts were made, and the fix is either a tighter tolerance on the parts that matter or a design that does not stack three of them in a row.
 37. **(1.4)** Stress concentration and fatigue. The sharp corner crowds the stress into a small area, and repeated loading grows a crack from it a little at a time until the remaining material cannot hold. Add a fillet to that corner so the stress spreads.
