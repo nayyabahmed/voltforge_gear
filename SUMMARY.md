@@ -47,7 +47,7 @@ The full topic plan for VoltForge Gear — The Young Engineer's Handbook, with w
 | 2.7 | [Hand Tools and Fasteners](Part-2-Workshop-Skills/2.7-Hand-Tools-and-Fasteners.md) | 🔵 v0.2 |
 | 2.8 | [Cutting, Drilling and Finishing](Part-2-Workshop-Skills/2.8-Cutting-Drilling-and-Finishing.md) | 🔵 v0.2 |
 | 2.9 | [Soldering and Wire Connections](Part-2-Workshop-Skills/2.9-Soldering-and-Wire-Connections.md) | 🔵 v0.2 |
-| 2.10 | Workshop Skills Challenge | 📋 |
+| 2.10 | [Workshop Skills Challenge](Part-2-Workshop-Skills/2.10-Workshop-Skills-Challenge.md) | 🟡 v0.1 |
 
 ## Part 3 — Electronics and Vehicle Systems
 

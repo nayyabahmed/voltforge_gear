@@ -6,9 +6,9 @@ tick them here only when every Part 2 topic is swept.
 
 Legend: [T] textual, [C] context awareness, [V] visual aid, [E] external reference.
 
-Created 2026-08-06. Status: **ALL TOPICS DONE** - every written Part 2 topic
-(2.1-2.9) is at v0.2 Reviewed. Only the book-wide sweeps below remain, plus
-Topic 2.10 once it is authored.
+Created 2026-08-06. Status: **2.1-2.9 DONE** at v0.2 Reviewed. Topic 2.10 was authored
+2026-08-06 to the current conventions and awaits its own (cheap) review pass.
+The book-wide sweeps below also remain.
 
 ## Status board
 
@@ -32,11 +32,13 @@ Last updated: 2026-08-06
 | 2.7 Hand Tools and Fasteners | ✅ created | ✅ | ✅ | ✅ | ✅ already | ✅ | ✅ done (2026-08-06) |
 | 2.8 Cutting, Drilling and Finishing | ✅ created | ✅ | ✅ | ✅ | ✅ already | ✅ | ✅ done (2026-08-06) |
 | 2.9 Soldering and Wire Connections | ✅ created | ✅ | ✅ | ✅ | ✅ already | ✅ | ✅ done (2026-08-06) |
+| 2.10 Workshop Skills Challenge | 📋 to create | 📋 | 📋 | ✅ written to convention | ✅ capstone IS the project | 📋 | 📋 planned |
 | Book-wide sweeps | ✅ this file | ➖ | 📋 | ➖ | ➖ | ➖ | 📋 planned |
 
-Topic 2.10 (Workshop Skills Challenge) is not yet written, so it has no
-review row. It joins this board once it is authored - see
-[WRITING-TRACKER.md](WRITING-TRACKER.md).
+Topic 2.10 was authored on 2026-08-06, after the other nine had been
+reviewed, so it was written to the current conventions from the start:
+figure type tags, captions, alt text, an Answers section and the emoji
+registry. It still needs its own review pass, which should be cheap.
 
 ## How this backlog differs from Part 1's
 

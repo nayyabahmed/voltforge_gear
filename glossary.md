@@ -1,7 +1,7 @@
 ---
 title: "Glossary"
 project: "VoltForge Gear — The Young Engineer's Handbook"
-scope: "Seeded from Topics 1.1-2.1, growing with each new topic (currently through Topic 3.10)"
+scope: "Seeded from Topics 1.1-2.1, growing with each new topic (currently through Topic 3.10, plus Topic 2.10)"
 version: "0.1"
 status: "Draft (living document)"
 ---
@@ -358,6 +358,14 @@ Sudden sideways bending of a long, thin part under compression.
 
 ---
 
+### Build Log
+
+A running record of what was made, what went wrong and what was changed.
+
+A build log with no problems in it usually means nobody was paying attention.
+
+---
+
 ### Build Plate
 
 The flat surface a 3D print is built on, often heated to help the first layer stick.
@@ -699,6 +707,12 @@ All your grip comes through four patches roughly the size of postage stamps.
 ### Continuity
 
 An unbroken electrical path between two points.
+
+---
+
+### Continuity Test Lead
+
+A pair of soldered wires used to check whether an electrical path exists between two points.
 
 ---
 
@@ -1467,6 +1481,12 @@ The diameter of a circular opening.
 
 ---
 
+### Inspection Record
+
+A completed table of checks with real results, kept as evidence.
+
+---
+
 ### Installation Sequence
 
 The order in which parts are fitted during assembly.
@@ -1804,6 +1824,22 @@ The unit of electrical resistance, written Ω.
 ### Ohm's Law
 
 The rule linking voltage, current and resistance: V = I × R.
+
+---
+
+### One-Way Operation
+
+A step that cannot be undone, so it has to be checked before it is started.
+
+Cutting, drilling and sanding are all one-way: the material does not go back on.
+
+---
+
+### Operation Plan
+
+A written list of every stage of a build, in order, with the safety check for each one.
+
+Professionals write one before touching material, because the expensive mistakes are ordering mistakes.
 
 ---
 
@@ -2627,6 +2663,12 @@ Common causes include:
 - notches
 - cracks
 - sudden thickness changes
+
+---
+
+### Sub-Assembly
+
+A group of parts joined together that then becomes one part of a larger assembly.
 
 ---
 

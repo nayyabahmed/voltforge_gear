@@ -58,6 +58,7 @@ progress is tracked on the board in
 | 2.7 Hand Tools and Fasteners | ✅ | ✅ | ✅ | ✅ | v0.2 Reviewed 2026-08-06 |
 | 2.8 Cutting, Drilling and Finishing | ✅ | ✅ | ✅ | ✅ | v0.2 Reviewed 2026-08-06 |
 | 2.9 Soldering and Wire Connections | ✅ | ✅ | ✅ | ✅ | v0.2 Reviewed 2026-08-06 |
+| 2.10 Workshop Skills Challenge | ✅ capstone IS the project | ✅ | ✅ | ✅ | Authored 2026-08-06 at v0.1 |
 
 ## Outstanding Debts
 
@@ -73,10 +74,10 @@ when Part 2 goes through its review pass.
 
 ## Next Up (order per SUMMARY.md)
 
-1. 📋 Topic 2.10 - Workshop Skills Challenge (Part 2 capstone; the challenge
-   IS the project, so no separate mini project)
-2. 📋 Part 1 Review Quiz (small, could slot in any time)
-3. 📋 Topic 3.1 - Meet the RC Electronics (starts Part 3)
+1. 📋 Part 1 Review Quiz (small, could slot in any time)
+2. 📋 Part 3 review pass - ten topics landed and revised externally; they
+   need backlog files and a board, as Part 2 had
+3. 📋 Topic 4.1 - Build Strategy and Cost Plan (starts Part 4)
 
 The full queue (through Topic 5.4) lives in SUMMARY.md - do not mirror it
 here; add a topic to "In Flight" only when its research pass starts.
