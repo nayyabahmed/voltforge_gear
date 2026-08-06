@@ -84,57 +84,37 @@ Last updated: 2026-08-06
 at v0.2 "Reviewed" and all book-wide sweeps are done. The work was merged to
 `main` on 2026-07-22 via PR #4 (`review-chapter-5`, merge commit a97db2a).
 
-**Deferred to v0.3 (do not reopen at v0.2).** Two conventions arrived on
-2026-08-06, after every Part 1 topic reached v0.2: the figure system
-(STYLE-GUIDE section 7) and Review Question answers (section 13.3). A sweep on
-2026-08-06 measured the gap precisely.
+**Conventions backfill - DONE 2026-08-06.** The figure system (STYLE-GUIDE
+section 7) and Review Question answers (section 13.3) arrived after Part 1
+reached v0.2. Rather than defer them, they were applied directly at the
+reader's request. Part 1 stays at **v0.2** - this was authoring work, not a
+version gate.
 
-| Topic | Lines | Figures | Budget 6-8 | Mermaid | Review Qs | Answers |
-| --- | ---: | ---: | --- | ---: | ---: | --- |
-| 0.0 How to Use This Handbook | 430 | 0 | n/a, no technical content | 2 | 6 | none |
-| 1.1 What Are We Building? | 571 | 2 | short by 4-6 | 2 | 10 | none |
-| 1.2 Systems Thinking | 1,124 | 2 | short by 4-6 | 18 | 10 | none |
-| 1.3 How Machines Move | 1,481 | 6 | met | 8 | 18 | none |
-| 1.4 Forces and Why Parts Break | 1,577 | 10 | met | 4 | 25 | none |
-| 1.5 Measurement | 1,836 | 4 | short by 2-4 | 6 | 25 | none |
-| 1.6 Accuracy, Precision and Error | 1,469 | 4 | short by 2-4 | 1 | 25 | none |
-| 1.7 Tolerances and Fits | 1,931 | 6 | met | 1 | 30 | none |
-| 1.8 Engineering Drawings | 1,642 | 2 | short by 4-6 | 4 | 30 | none |
-| 1.9 The Engineering Design Process | 1,896 | 1 | short by 5-7 | 5 | 40 | none |
-| Part 1 Capstone | 1,436 | 2 | short by 2-4 | 3 | 25 | none |
+| Topic | Figures | Answers |
+| --- | ---: | ---: |
+| 0.0 How to Use This Handbook | n/a, no technical content | 6 |
+| 1.1 What Are We Building? | 6 | 10 |
+| 1.2 Systems Thinking | 6 | 10 |
+| 1.3 How Machines Move | 7 | 18 |
+| 1.4 Forces and Why Parts Break | 10 | 25 |
+| 1.5 Measurement | 8 | 25 |
+| 1.6 Accuracy, Precision and Error | 6 | 25 |
+| 1.7 Tolerances and Fits | 6 | 30 |
+| 1.8 Engineering Drawings | 6 | 30 |
+| 1.9 The Engineering Design Process | 6 | 40 |
+| Part 1 Capstone | 4 (capstone budget is 4-6) | 25 |
+| **Total** | **65** | **244** |
 
-**Three findings:**
+Every figure carries a type tag, a caption saying what to notice and alt
+text. Every topic's answer count matches its question count exactly. Figures
+use provisional letters (`Figure 1.5.A`) rather than numbers, because they
+were added across several passes - a single renumbering sweep should run once
+Part 1 is otherwise stable.
 
-1. **Figures: 39 against a budget of roughly 70.** The two worst are the two
-   that should be strongest - Topic 1.9 has one figure across 1,896 lines, and
-   Topic 1.8 *Engineering Drawings* has two, in what is the most inherently
-   visual subject in Part 1.
-2. **Answers: none, against 244 review questions.** This is the largest single
-   authoring job in the Part 1 debt.
-3. **Mermaid: mostly legitimate, and the sweep corrected the rule rather than
-   the topics.** The original two-per-topic cap flagged seven of eleven topics.
-   On inspection, Topics 1.2 and 1.9 use Mermaid heavily and correctly, because
-   flows, boundaries and cause-effect chains are literally their subject matter.
-   STYLE-GUIDE 7.1 was amended on 2026-08-06 to make the F0 rule about fitness
-   with count as a signal, not a hard limit. **The genuine misuse was fixed the
-   same day** and is now closed:
-   - **Topic 1.5: all six Mermaid blocks removed.** Four were spatial ideas
-     drawn as flowcharts (caliper jaws on a part, a battery's packaging
-     envelope, three measurement positions on a cylinder, and swept volume) and
-     became figures with captions and alt text. Two were bullet lists drawn as
-     boxes and became tables; the duplicated prose lists were deleted with
-     them. Measurement is an inherently spatial subject, so zero Mermaid is the
-     honest answer for this topic.
-   - **Topic 1.3: the support path became an F5 overlay.** A force path
-     travelling through physical structure cannot be boxes and arrows. It is
-     now one figure showing the motion path and the support path on the same
-     buggy outline, which serves the section better than the two separate
-     diagrams did. The other seven blocks are genuine flows and were kept.
-   - The new figures in 1.3 and 1.5 use provisional letters (`Figure 1.5.A`)
-     rather than numbers, because the older placeholders in those topics have
-     no numbers yet. The v0.3 pass should renumber all of them together.
-
-Recorded debt, cleared at v0.3 Prototype-tested - see `references/ref-002.md`.
+**Still outstanding for Part 1:** the Part 1 Review Quiz, never written and
+still shown as planned in `SUMMARY.md`. And the 65 figure briefs are
+specifications, not drawings - see `references/ref-002.md` for the production
+streams and REF-001 for why that is the book's critical path.
 
 This board is now closed. Part 2's review has not started and will get its
 own backlog files and board rows; see the Outstanding Debts section of

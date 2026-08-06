@@ -431,10 +431,11 @@ Include space for:
 - fingers
 - tools
 
-> **[Sketch: a receiver drawn as a solid outline, with a larger dashed
-> rectangle around it labelled "packaging envelope" - arrows out of one side
-> for the wires and plug, an upward arrow labelled "lift-out room for
-> fingers", and a small gap all round labelled "clearance"]**
+> **[Signature visual, F6 measured drawing - Figure 1.C.A: a receiver drawn as a solid outline, with a larger dashed rectangle around it labelled "packaging envelope" - arrows out of one side for the wires and plug, an upward arrow labelled "lift-out room for fingers", and a small gap all round labelled "clearance"]**
+>
+> *Figure 1.C.A - The component is the solid line. Everything you must design around it is the dashed one.*
+>
+> *Alt text: A component drawn in solid outline with a dashed packaging envelope around it, clearances labelled.*
 
 Sketch the envelope around the component.
 
@@ -449,6 +450,12 @@ Label:
 ---
 
 # Step 9 - Identify Interfaces
+
+> **[F5 force and motion overlay - Figure 1.C.C: the chosen component drawn in the centre with every interface marked by an arrow leaving it: the surface it bolts to, the fasteners, the cable that plugs in, the tool that must reach it, and the hand that installs it. Each arrow is labelled with what crosses that boundary - force, power, information or access]**
+>
+> *Figure 1.C.C - Every arrow is something the design has to accommodate. Missing one is how a part that fits still cannot be fitted.*
+>
+> *Alt text: A component with arrows marking each interface: mounting surface, fasteners, cable, tool access and hand access.*
 
 List everything the holder must connect to.
 
@@ -601,10 +608,11 @@ Possible holder concepts:
 
 Sketch each concept.
 
-> **[Sketch: five small labelled thumbnails side by side - Open Tray with
-> Strap, Clip-In Cage, Two-Piece Box, Foam-Pad Platform and Sliding Cassette
-> - each a quick line drawing showing how the component sits and how it comes
-> out]**
+> **[F7 comparison array - Figure 1.C.B: five small labelled thumbnails side by side - Open Tray with Strap, Clip-In Cage, Two-Piece Box, Foam-Pad Platform and Sliding Cassette - each a quick line drawing showing how the component sits and how it comes out]**
+>
+> *Figure 1.C.B - Three genuinely different concepts, so the choice is a comparison rather than a default.*
+>
+> *Alt text: Three concept sketches for the same mount, drawn side by side for comparison.*
 
 ---
 
@@ -744,6 +752,12 @@ A prototype is useful when its limitations are understood.
 ---
 
 # Step 18 - Test the Prototype
+
+> **[F3 right-versus-wrong array - Figure 1.C.D: two testing setups for the same cardboard mount. Left, unfair: the load applied by hand at a different angle each time, no measurement recorded, the part held loosely. Right, fair: the same weight applied at the same point each time, the part clamped identically, deflection measured against a fixed scale, and the reading written down]**
+>
+> *Figure 1.C.D - A test only means something if the only thing that changed between runs was the thing you were testing.*
+>
+> *Alt text: Two test setups compared, one applied by hand with no measurement and one controlled, clamped and recorded.*
 
 Create a written test plan.
 
@@ -1434,3 +1448,33 @@ We will learn:
 - practical prototyping
 
 The next stage turns engineering ideas into physical parts.
+
+---
+
+# Answers 🔑
+
+1. To take one small, real component all the way through the engineering design process - measure it, write requirements, generate and choose concepts, prototype, test, revise and document - so the whole cycle has been done once before the buggy build begins.
+2. Because the point is to practise the process, not to survive a hard design problem. A small component keeps every stage short enough to finish, so you experience the whole loop instead of getting stuck in the middle of one stage.
+3. Everything you have chosen to treat as part of your design problem - the component, its mounting, its connections and the space it needs. Everything else is the environment that supplies inputs and receives outputs.
+4. Because the component has to be installed, connected, reached and removed. The envelope adds room for wires and their bends, connectors and fingers, movement, fasteners, tool access and cooling.
+5. The critical dimensions - the ones that decide whether the part fits, functions and can be assembled. Mounting hole spacing and mating face sizes matter far more than a decorative curve.
+6. Because a single measurement can be wrong, and because the part may not be the same size everywhere. Repeating reveals both your own measuring variation and real variation in the part.
+7. A boundary where two parts meet and something passes between them - force, movement, power, information or access.
+8. Because requirements are what you judge the concepts *against*. Choosing first and writing requirements afterwards produces requirements that describe the concept you already liked.
+9. A requirement is what the design must achieve. A constraint is a limit you must work within - budget, build volume, tools, time.
+10. Because the first idea is rarely the best, and one idea is not a choice. Three real alternatives force you to consider genuinely different approaches before committing.
+11. To compare concepts consistently against weighted criteria, so the decision is made on stated reasoning rather than on which sketch looked nicest.
+12. Because both are things you might otherwise forget you were relying on. Written down, they can be checked, tested and revisited when something goes wrong.
+13. Layout, size, envelope, access, interface positions and whether things physically fit and can be reached.
+14. Anything about strength, stiffness, wear, heat resistance or how printed plastic will actually fail. Cardboard answers geometry questions, not material ones.
+15. Because deciding what counts as success *after* seeing the result invites you to move the target. Written first, the pass condition is honest.
+16. Being able to link every requirement to the evidence showing it was met, so nothing is quietly dropped between the requirement list and the finished part.
+17. Because if several things change at once and the result improves, you cannot tell which change did it - or whether one helped while another hurt.
+18. What was changed, why it was changed, what problem it was fixing, and what the result was when retested.
+19. Because a design that exists only in your head cannot be made by anyone else, checked by anyone else, or remembered accurately by you in three months. The drawing is what makes it communicable.
+20. To find problems while they are still cheap - before material is cut, filament is spent or the design is built on.
+21. It gets investigated. Find the root cause rather than the symptom, change one main thing, and retest. A failed prototype has done its job by failing cheaply.
+22. Because engineering is a team activity across time. The record is what lets somebody else - including your future self - understand, repair, reproduce or improve the design without redoing the work.
+23. How easily a part can be inspected, maintained, repaired or replaced once it is in service.
+24. Because the author knows what they meant, and therefore reads the drawing as they intended it rather than as it is written. A reader with no such knowledge finds the ambiguities.
+25. Measured dimensions of the real component, a defined envelope, written requirements and constraints, a chosen concept with recorded reasoning, and a tested prototype whose results are written down.
