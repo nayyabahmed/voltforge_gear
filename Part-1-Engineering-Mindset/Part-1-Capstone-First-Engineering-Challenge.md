@@ -610,9 +610,9 @@ Sketch each concept.
 
 > **[F7 comparison array - Figure 1.C.B: five small labelled thumbnails side by side - Open Tray with Strap, Clip-In Cage, Two-Piece Box, Foam-Pad Platform and Sliding Cassette - each a quick line drawing showing how the component sits and how it comes out]**
 >
-> *Figure 1.C.B - Three genuinely different concepts, so the choice is a comparison rather than a default.*
+> *Figure 1.C.B - Five genuinely different ways to hold the same component - and the differences are in how it comes out, not how it looks.*
 >
-> *Alt text: Three concept sketches for the same mount, drawn side by side for comparison.*
+> *Alt text: Five labelled concept thumbnails: open tray with strap, clip-in cage, two-piece box, foam-pad platform and sliding cassette.*
 
 ---
 
